@@ -1,19 +1,45 @@
 body {
-    font-family: 'Pt Root UI', Arial, Helvetica, sans-serif;
+  font-family: 'Pt Root UI', Arial, Helvetica, sans-serif;
+  background-color: #F7F7F1;
 }
 
 h1 {
-    font-weight: 700;
+  font-weight: 700;
+  margin-left: 40vw;
+  margin-top: 5vw;
 }
 
-h2 {
-    font-weight: 500;
+p > a {
+  text-decoration: none;
+  color: rgb(39, 39, 39);
 }
 
-h3 {
-    font-weight: 400;
+a:hover {
+  color: black;
 }
 
-h4 {
-    font-weight: 300;
+nav {
+  width: 60vw;
+  margin-top: 5vw;
+  margin-left: 5vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  background-color: #272727;
+  padding: 5px 10px;
+  margin-left: 40vw;
+  margin-top: 10vw;
+}
+
+.return {
+  color: #F7F7F1;
+  text-decoration: none;
+}
+
+.return:hover {
+  color: #e3e3db;
 }
