@@ -9,6 +9,7 @@ function createPage(template, filename){
 
 const htmlPages = [
   createPage('./src/index.html', './index.html'),
+  createPage('./src/promo.html', './promo.html'),
   createPage('./src/pages/about.html', './pages/about.html'),
   createPage('./src/pages/guides.html', './pages/guides.html'),
   createPage('./src/pages/articles.html', './pages/articles.html'),
