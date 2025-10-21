@@ -1,0 +1,56 @@
+h1 {
+  color: white;
+  font-size: 8rem;
+  font-weight: 400;
+}
+
+.tg-link {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+}
+
+.tg-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.prelaunch-nav {
+  width: 94.4vw;
+  margin-left: 2.778vw;
+  margin-top: 2.569vw;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+.prelaunch-sec-1 {
+  margin-top: 4.653vw;
+  margin-left: 2.778vw;
+  padding-bottom: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 94.4vw;
+  height: 48.6vw;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
+}
+
+.prelaunch-sec-1 h1 {
+  margin: 2vw 0 0 2vw;
+}
+.prelaunch-sec-1 div p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+}
+
+.prelaunch-sec-1 div {
+  display: flex;
+  margin:  0 2vw 0 2vw;
+  justify-content: space-between;
+}
