@@ -1,6 +1,13 @@
 @font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Onest-Regular.woff') format('woff'), 
+    font-family: 'Onest';
+    src: url('../fonts/Onest-Regular.woff') format('woff'),
          url('../fonts/Onest-Regular.woff2') format('woff2');
-    font-weight: 400; 
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Non-Bureau';
+    src: url('../fonts/Non-Bureau-Medium.woff') format('woff'),
+         url('../fonts/Non-Bureau-Medium.woff2') format('woff2');
+    font-weight: 500;
 }

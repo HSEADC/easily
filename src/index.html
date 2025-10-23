@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,39 +9,44 @@
   </head>
   <body>
     <header>
-      <nav class="prelaunch-nav">
-        <p class="logo">easily</p>
-        <button class="promo-btn"><a href="">промо</a></button>
-      </nav>
+      <div class="prelaunch-nav">
+        <a href="./pages/about.html" class="text_l prelaunch-nav-item">О нас</a>
+        <p class="title_h4 prelaunch-nav-item">easily</p>
+        <a href="./pages/articles/article1.html" class="text_l prelaunch-nav-item">Статья</a>
+      </div>
     </header>
     <main>
-      <section class="prelaunch-sec-1">
-        <h1>easily — помогаем<br>жить эту жизнь</h1>
-        <div>
-          <p>мы только начинаем, но ты можешь уже начать следить за нами в соц сетях</p>
-          <a class="tg-link" href="https://t.me/easilymedia">о нас в телеграме</a>
+      <section class="prelaunch-section">
+        <div class="prelaunch-container">
+          <h1 class="title_h1">Пока только учимся платить коммуналку — но совсем скоро поделимся инструкцией</h1>
+          <p class="text_l">Подпишись, чтобы не пропустить запуск и первые гайды о реальной взрослой жизни.</p>
+          <form id="my-form" action="https://formspree.io/f/xwprazpd" method="POST">
+            <div class="input-container">
+              <input class="text_m prelaunch-form-input" type="email" name="email" placeholder="easilymedia@mail.ru"/>
+              <button class="text_m prelaunch-form-btn" id="my-form-button">Подписаться</button>
+            </div>
+            <p class="text_m prelaunch-form-message" id="my-form-status"></p>
+          </form>
+          <div class="social-links">
+            <a href="https://vk.com/easilymedia" class="social-link"><img class="social-link-img" src="./images/vk_logo.svg" alt=""></a>
+            <a href="https://t.me/easilymedia" class="social-link"><img class="social-link-img" src="./images/tg_logo.svg" alt=""></a>
+          </div>
+
+          <div class="drag-drop-box"></div>
+          <img src="./images/char_character.svg" alt="" class="prelaunch-character">
+          <img src="./images/coin_character.svg" alt="" class="prelaunch-character">
+          <img src="./images/health_character.svg" alt="" class="prelaunch-character">
+          <img src="./images/round_character.svg" alt="" class="prelaunch-character">
+
+
+
+
         </div>
       </section>
     </main>
-    <footer>
-      <div>
-        <h2>стало интересно?</h2>
-        <p>заполняй форму</p>
-        <form id="my-form" action="https://formspree.io/f/xwprazpd" method="POST">
-          <label>Email:</label>
-          <input type="email" name="email" placeholder="easilymedia@mail.ru"/>
-          <button id="my-form-button">подписаться</button>
-          <p id="my-form-status"></p>
-        </form>
-      </div>
-      <div>
-        <form action="get">
-          <input type="email" autocomplete="on" name="mail" id="mail" placeholder="easily@gmail.com">
-          <button type="submit">отправить</button>
-        </form>
-      </div>
-    </footer>
-    <script>
+
+    <script src="./javascripts/drag_drop.js"></script>
+     <script>
       var form = document.getElementById("my-form");
 
       async function handleSubmit(event) {
@@ -52,23 +57,23 @@
           method: form.method,
           body: data,
           headers: {
-              'Accept': 'application/json'
+            'Accept': 'application/json'
           }
         }).then(response => {
           if (response.ok) {
-            status.innerHTML = "Thanks for your submission!";
+            status.innerHTML = "Спасибо!";
             form.reset()
           } else {
             response.json().then(data => {
               if (Object.hasOwn(data, 'errors')) {
                 status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
               } else {
-                status.innerHTML = "Oops! There was a problem submitting your form"
+                status.innerHTML = "Упс! Что-то пошло не так"
               }
             })
           }
         }).catch(error => {
-          status.innerHTML = "Oops! There was a problem submitting your form"
+          status.innerHTML = "Упс! Что-то пошло не так"
         });
       }
       form.addEventListener("submit", handleSubmit)
