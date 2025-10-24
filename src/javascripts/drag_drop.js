@@ -1,5 +1,3 @@
-"use strict";
-
 const dd_img = document.querySelectorAll(".prelaunch-character");
 
 dd_img.forEach(dragDrop)
