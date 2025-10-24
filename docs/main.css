@@ -257,5 +257,9 @@ p.prelaunch-nav-item {
   left: 33rem;
 }
 
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 780px) {}
+
 
 

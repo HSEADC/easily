@@ -1,6 +1,6 @@
 "use strict";
 
-const dd_img = document.querySelectorAll(".drag-drop-box, .prelaunch-character");
+const dd_img = document.querySelectorAll(".prelaunch-character");
 
 dd_img.forEach(dragDrop)
 
