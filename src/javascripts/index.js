@@ -1,2 +1,39 @@
 import '../stylesheets/style.css';
-console.log("hi");
+
+const dd_img = document.querySelectorAll(".prelaunch-character");
+
+dd_img.forEach(dragDrop)
+
+  function dragDrop(str) {
+  let grab = false;
+  let offsetX;
+  let offsetY;
+
+  str.addEventListener("mousedown", function (event) {
+    grab = true;
+
+    offsetX = event.clientX - str.getBoundingClientRect().left;
+    offsetY = event.clientY - str.getBoundingClientRect().top;
+
+    function onMouseMove(event) {
+      if (grab) {
+        let x = event.clientX - offsetX;
+        let y = event.clientY - offsetY;
+
+        str.style.left = x + "px";
+        str.style.top = y + "px";
+
+        console.log("cursor coordinates", event.clientX, event.clientY);
+        console.log("element coordinates", x, y);
+      }
+    }
+    function onMouseUp() {
+      grab = false;
+      document.removeEventListener("mousemove", onMouseMove);
+      document.removeEventListener("mouseup", onMouseUp);
+    }
+
+    document.addEventListener("mousemove", onMouseMove);
+    document.addEventListener("mouseup", onMouseUp);
+  });
+};

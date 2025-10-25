@@ -1,4 +1,19 @@
 @media screen and (max-width: 1280px) {}
 
-@media screen and (max-width: 780px) {}
+@media screen and (max-width: 780px) {
+
+  p.prelaunch-nav-item {
+    font-size: 28rem;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+  }
+
+  a.prelaunch-nav-item {
+    font-size: 18rem;
+    line-height: 130%;
+  }
+
+
+
+}
 
