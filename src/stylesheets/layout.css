@@ -94,10 +94,6 @@ p.prelaunch-nav-item {
   background-color: #0c0c0c;
 }
 
-/* .prelaunch-form-message {
-
-} */
-
 .social-links {
   display: flex;
   gap: 9rem;
@@ -149,4 +145,8 @@ p.prelaunch-nav-item {
   width: 129rem;
   top: 178rem;
   left: 33rem;
+}
+
+.prelaunch-character:hover {
+  rotate: 5deg;
 }
