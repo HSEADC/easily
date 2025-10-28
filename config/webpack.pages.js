@@ -18,7 +18,7 @@ const htmlPages = [
   createPage('./src/pages/dictionary.html', './pages/dictionary.html'),
   createPage('./src/pages/tests/test1.html', './pages/tests/test1.html'),
   createPage('./src/pages/404.html', './pages/404.html'),
-  createPage('./src/pages/articles/article1.html', './pages/articles/article1.html'),
+  createPage('./src/pages/articles/onlinepayments.html', './pages/articles/onlinepayments.html'),
   createPage('./src/pages/guides/guide1.html', './pages/guides/guide1.html')
 ];
 

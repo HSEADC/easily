@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: 'Onest';
+    src: url('../fonts/Onest-SemiBold.woff') format('woff'),
+         url('../fonts/Onest-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
     font-family: 'Non-Bureau';
     src: url('../fonts/Non-Bureau-Medium.woff') format('woff'),
          url('../fonts/Non-Bureau-Medium.woff2') format('woff2');

@@ -14,16 +14,16 @@
 }
 
 a.prelaunch-nav-item {
-  color: #696969;
+  color: var(--grey);
   transition: 0.5s ease;
 }
 
 a.prelaunch-nav-item:hover {
-  color: #141414;
+  color: var(--dark-grey);
 }
 
 p.prelaunch-nav-item {
-  color: #141414;
+  color: var(--dark-grey);
 }
 
 .prelaunch-section {
@@ -49,12 +49,12 @@ p.prelaunch-nav-item {
 .prelaunch-container h1 {
   max-width: 1014rem;
   text-align: center;
-  color: #141414;
+  color:  var(--dark-grey);
   margin-bottom: 34rem;
 }
 
 .prelaunch-container p {
-  color: #696969;
+  color: var(--grey);
   max-width: 674rem;
   text-align: center;
   margin-bottom: 44rem;
@@ -68,7 +68,7 @@ p.prelaunch-nav-item {
 .prelaunch-form-input {
   width: 358rem;
   height: 57rem;
-  background-color: #EEEEEE;
+  background-color: var(--light-grey);
   border: none;
   border-radius: 40rem;
   padding-left: 25rem;
@@ -77,21 +77,7 @@ p.prelaunch-nav-item {
 .prelaunch-form-btn {
   width: 170rem;
   height: 56rem;
-  background-color: #141414;
-  border: none;
-  border-radius: 40rem;
-  color: #fff;
   transition: 0.5s ease;
-}
-
-.prelaunch-form-btn:hover {
-  cursor: pointer;
-  background-color: #1F1F1F;
-  box-shadow: inset 4px 4px 4px 0 rgba(0, 0, 0, 0.65);
-}
-
-.prelaunch-form-btn:active {
-  background-color: #0c0c0c;
 }
 
 .social-links {
@@ -149,4 +135,226 @@ p.prelaunch-nav-item {
 
 .prelaunch-character:hover {
   rotate: 5deg;
+}
+
+/* ARTICLES */
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 64rem;
+  padding: 16rem 16rem 16rem 32rem;
+  width: 1360rem;
+  height: 95rem;
+  box-shadow: 1px 4px 9px 0 rgba(197, 197, 197, 0.25);
+  background-color: #fff;
+  margin-top: 40rem;
+  margin-bottom: 79rem;
+}
+
+.nav-container {
+  display: flex;
+  gap: 28rem;
+}
+
+.nav-container .text_l {
+  color: var(--grey);
+}
+
+.nav-container .text_l:hover {
+  color: var(--dark-grey);
+}
+
+.articles-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articles-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation a {
+  color: var(--dark-grey);
+}
+
+.nav-search-container {
+  display: flex;
+  gap: 8rem;
+}
+
+.search-input {
+  border-radius: 64rem;
+  padding: 20rem 16rem 20rem 44rem;
+  width: 500rem;
+  height: 63rem;
+  background-color: var(--light-grey);
+  border: none;
+  font-size: 18rem;
+  background-image: url(../images/search-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 20rem center;
+}
+
+.search-button {
+  padding: 20rem 40rem;
+  width: 133rem;
+  height: 63rem;
+}
+
+.articles-cover {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 80rem;
+}
+
+.articles-cover .title_h1 {
+  max-width: 569rem;
+  text-align: center;
+  margin-bottom: 40rem;
+}
+
+.articles-cover .text_l {
+  max-width: 668rem;
+  text-align: center;
+}
+
+.articles-cover img {
+  position: absolute;
+}
+
+.articles-cover img:first-of-type {
+  transform: rotate(-10deg);
+  top: 5rem;
+  left: 70rem;
+  width: 233rem;
+}
+
+.articles-cover img:last-of-type {
+  transform: rotate(18deg);
+  top: 5rem;
+  left: 1070rem;
+  width: 242rem;
+}
+
+.articles-categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16rem;
+  margin-bottom: 80rem;
+}
+
+.articles-category {
+  position: relative;
+  flex-basis: 30%;
+  border-radius: 28rem;
+  padding: 28rem;
+  width: 443rem;
+  height: 200rem;
+  box-shadow: 1rem 4rem 9rem 0 rgba(197, 197, 197, 0.25);
+  background-color: white;
+}
+
+.articles-category img {
+  position: absolute;
+}
+
+.articles-category .health-img {
+  transform: rotate(15deg);
+  top: 27rem;
+  left: 273rem;
+  width: 150rem;
+}
+
+.articles-category .finance-img {
+  top: 27rem;
+  left: 273rem;
+  width: 138rem;
+}
+
+.articles-category .routine-img {
+  transform: rotate(15deg);
+  top: 30rem;
+  left: 267rem;
+  width: 154rem;
+}
+
+.articles-category .career-img {
+  top: 32rem;
+  left: 280rem;
+  width: 134rem;
+}
+
+.articles-category .docs-img {
+  top: 31rem;
+  left: 293rem;
+  width: 122em;
+}
+
+.articles-category .lifestyle-img {
+  top: 40rem;
+  left: 273rem;
+  width: 123rem;
+}
+
+.articles-category .text_m {
+  max-width: 255rem;
+  color: var(--grey);
+}
+
+.articles-category .title_h5 {
+  margin-bottom: 16rem;
+}
+
+.latest-articles-container {
+  display: flex;
+  gap: 16rem;
+  margin-bottom: 77rem;
+}
+
+.latest-articles .title_h1 {
+  text-align: center;
+  margin-bottom: 32rem;
+}
+
+.latest-article {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+  border-radius: 28rem;
+  padding: 16rem;
+  width: 442rem;
+  height: 495rem;
+  box-shadow: 1rem 4rem 9rem 0 rgba(197, 197, 197, 0.25);
+  background-color: white;
+}
+
+.latest-article .text_m {
+  color: var(--grey);
+}
+
+.latest-article .text_l_semibold {
+  color: var(--dark-grey);
+}
+
+.article-tag {
+  border-radius: 24rem;
+  padding: 8rem 12rem;
+  height: 33rem;
+  position: absolute;
+  background-color: white;
+  top: 28rem;
+  left: 28rem;
 }
