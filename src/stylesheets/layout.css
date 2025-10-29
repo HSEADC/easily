@@ -363,3 +363,77 @@ p.prelaunch-nav-item {
   top: 28rem;
   left: 28rem;
 }
+
+/* PAGE 404  */
+
+.page-404-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40rem;
+}
+
+.page-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1360rem;
+  height: 710rem;
+  background-color: white;
+  margin-bottom: 40rem;
+  border-radius: 30rem;
+  position: relative;
+}
+
+.container-404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 58rem;
+}
+
+.main-img-404 {
+  width: 175rem;
+}
+
+.number-4 {
+  color: var(--dark-grey);
+  font-family: 'Non-Bureau', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 250rem;
+}
+
+.page-404 .title_h2 {
+  color: var(--dark-grey);
+  margin-bottom: 16rem;
+}
+
+.page-404 .text_l {
+  color: var(--grey);
+  margin-bottom: 40rem;
+  max-width: 652rem;
+  text-align: center;
+}
+
+.page-404 .button {
+  width: 254rem;
+  height: 60rem;
+  color: white;
+}
+
+.img-404:first-of-type {
+  position: absolute;
+  width: 151rem;
+  top: 262rem;
+  left: 37rem;
+  transform: rotate(10deg);
+}
+
+.img-404:last-of-type {
+  position: absolute;
+  width: 237rem;
+  top: 407rem;
+  left: 1022rem;
+  transform: rotate(30deg);
+}
