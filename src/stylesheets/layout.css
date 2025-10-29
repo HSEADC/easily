@@ -41,7 +41,6 @@ p.prelaunch-nav-item {
   flex-direction: column;
   align-items: center;
   border-radius: 36rem;
-  box-shadow: 1px 4px 6px 0 rgba(197, 197, 197, 0.25);
   margin-bottom: 41rem;
   padding-top: 64rem;
 }
@@ -147,7 +146,6 @@ p.prelaunch-nav-item {
   padding: 16rem 16rem 16rem 32rem;
   width: 1360rem;
   height: 95rem;
-  box-shadow: 1px 4px 9px 0 rgba(197, 197, 197, 0.25);
   background-color: #fff;
   margin-top: 40rem;
   margin-bottom: 79rem;
@@ -266,7 +264,6 @@ p.prelaunch-nav-item {
   padding: 28rem;
   width: 443rem;
   height: 200rem;
-  box-shadow: 1rem 4rem 9rem 0 rgba(197, 197, 197, 0.25);
   background-color: white;
 }
 
@@ -342,7 +339,6 @@ p.prelaunch-nav-item {
   padding: 16rem;
   width: 442rem;
   height: 495rem;
-  box-shadow: 1rem 4rem 9rem 0 rgba(197, 197, 197, 0.25);
   background-color: white;
 }
 
@@ -436,4 +432,101 @@ p.prelaunch-nav-item {
   top: 407rem;
   left: 1022rem;
   transform: rotate(30deg);
+}
+
+/* ABOUT US */
+
+.about {
+  background: linear-gradient(138deg, #f4efff 0%, #ffeeed 100%);
+}
+
+.about-main {
+  margin-top: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.heading-container .title_h1 {
+  max-width: 1088rem;
+  text-align: center;
+}
+
+.heading-container .text_l {
+  color: var(--grey);
+  text-align: center;
+  max-width: 476rem;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 120rem;
+  gap: 40rem;
+}
+
+.creators-portraits img{
+  height: 227rem;
+}
+
+.creators-portraits img:nth-of-type(1), .creators-portraits img:nth-of-type(2) {
+  margin-right: -50rem;
+}
+
+.creators-portraits {
+  margin-bottom: 40rem;
+}
+
+.social-links-container {
+  display: flex;
+  gap: 16rem;
+  margin-bottom: 80rem;
+}
+
+.social-links-container a {
+  color: var(--dark-grey);
+}
+
+.social-link-block {
+  padding: 28rem;
+  width: 443rem;
+  height: 354rem;
+  background-color: white;
+  border-radius: 28rem;
+  display: flex;
+  flex-direction: column;
+  gap: 16rem;
+}
+
+.social-link-block img {
+  width: 150rem;
+}
+
+.creators-portraits ~ .title_h3 {
+  max-width: 1039rem;
+  text-align: center;
+  margin-bottom: 80rem;
+}
+
+.about-character {
+  position: absolute;
+  z-index: -1;
+}
+
+.about-character:nth-of-type(1) {
+  width: 543rem;
+  top: 107rem;
+  left: -200rem;
+  transform: rotate(5deg);
+}
+
+.about-character:nth-of-type(2) {
+  width: 486rem;
+  top: 580rem;
+  left: 1020rem;
+  transform: rotate(15deg);
 }

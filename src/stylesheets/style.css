@@ -2,9 +2,5 @@
 @import 'fonts.css';
 @import 'main.css';
 @import 'layout.css';
+@import 'articles.css';
 @import 'adaptive.css';
-
-/* pages */
-
-@import 'about.css';
-@import 'articles.css'

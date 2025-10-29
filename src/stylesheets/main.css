@@ -14,8 +14,12 @@ html {
 }
 
 body {
-  background-color: var(--light-grey);
+  background: linear-gradient(138deg, #f4efff 0%, #ffeeed 100%);
   overflow-x: hidden;
+}
+
+.finance-page {
+  background: linear-gradient(138deg, #fff9ef 0%, #fff2ed 100%);
 }
 
 .title_h1 {
