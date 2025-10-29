@@ -1,17 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About us</title>
+  <title>О нас</title>
   <link rel="stylesheet" href="../stylesheets/style.css">
 </head>
-<body>
-  <header>
-    <nav>
-      <p><a href="../promo.html">Главная</a></p>
+<body class="about">
+  <header class="articles-header">
+    <img src="../images/round_character.svg" alt="" class="about-character">
+    <img src="../images/char_character.svg" alt="" class="about-character">
+    <div class="navigation">
+      <a href="../index.html" class="nav-item title_h4">easily</a>
+      <!-- desktop nav -->
+      <div class="nav-container desktop-nav">
+        <a href="./about.html" class="nav-item text_l">О нас</a>
+        <a href="./articles.html" class="nav-item text_l_semibold">Статьи</a>
+        <a href="./404.html" class="nav-item text_l">Тесты</a>
+        <a href="./404.html" class="nav-item text_l">Словарь</a>
+      </div>
+
+      <div class="nav-search-container desktop-search">
+        <input type="text" class="search-input" placeholder="Поиск">
+        <button class="button search-button text_m">Найти</button>
+      </div>
+      <!-- mobile nav -->
+      <div class="mobile-nav">
+        <button class="search-button-mobile" id="searchBtnMobile"></button>
+        <div class="hamburger" id="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+    </div>
+
+    <nav class="dropdown-menu" id="dropdownMenu">
+      <div class="mobile-nav-items">
+        <a href="./404.html" class="nav-item text_l">О нас</a>
+        <a href="./articles.html" class="nav-item text_l_semibold">Статьи</a>
+        <a href="./404.html" class="nav-item text_l">Тесты</a>
+        <a href="./404.html" class="nav-item text_l">Словарь</a>
+      </div>
+
+      <div class="social-links">
+          <a target="_blank" href="https://vk.com/easilymedia" class="social-link"><img class="social-link-img" src="../images/vk_logo.svg" alt=""></a>
+          <a target="_blank" href="https://t.me/easilymedia" class="social-link"><img class="social-link-img" src="../images/tg_logo.svg" alt=""></a>
+      </div>
     </nav>
-    <h1>О нас</h1>
+
+    <div class="dropdown-search" id="dropdownSearch">
+      <div class="mobile-search-container">
+        <input type="text" placeholder="Поиск">
+        <button class="button search-button text_m">Найти</button>
+      </div>
+    </div>
   </header>
+
+  <main class="about-main">
+    <div class="heading-container">
+      <h1 class="title_h1">Easily — медиа про первые шаги во взрослой жизни</h1>
+      <p class="text_l">Наша цель — чтобы быт перестал вас пугать, а жизнь стала более осознанной</p>
+    </div>
+    <div class="creators-portraits">
+      <img src="../images/masha.png" alt="">
+      <img src="../images/eva.png" alt="">
+      <img src="../images/tisha.png" alt="">
+    </div>
+    <h3 class="title_h3">Мы — команда, которая учится взрослеть вместе с вами. И да, мы тоже когда‑то не знали, как платить налоги и зачем нужен этот загадочный ИНН</h3>
+    <div class="social-links-container">
+      <a target="_blank" href="https://t.me/easilymedia">
+        <div class="social-link-block">
+          <img src="../images/tg_blue.svg" alt="">
+          <h2 class="title_h2">Мы в Telegram</h2>
+          <p class="text_m">Подписывайся — там ещё больше интерактивов, обсуждений и советов.</p>
+        </div>
+      </a>
+      <a target="_blank" href="https://vk.com/easilymedia">
+        <div class="social-link-block">
+          <img src="../images/vk_blue.svg" alt="">
+          <h2 class="title_h2">Мы в ВК</h2>
+          <p class="text_m">Подписывайся — следи за обновлениями, делись опытом и участвуй в обсуждениях. </p>
+        </div>
+      </a>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-form">
+        <h4 class="title_h4">Узнавайте о новых статьях первыми!</h4>
+        <p class="text_m footer-text-m">Здесь ты найдёшь всё о том, как жить эту жизнь</p>
+        <form id="my-form" action="https://formspree.io/f/xwprazpd" method="POST">
+            <div class="input-container">
+              <input class="text_m prelaunch-form-input" type="email" name="email" placeholder="easilymedia@mail.ru"/>
+              <button class="button text_m prelaunch-form-btn" id="my-form-button">Подписаться</button>
+            </div>
+            <p class="text_m prelaunch-form-message" id="my-form-status"></p>
+          </form>
+        <div class="social-links">
+            <a href="https://vk.com/easilymedia" class="social-link"><img class="social-link-img" src="../images/vk_logo.svg" alt=""></a>
+            <a href="https://t.me/easilymedia" class="social-link"><img class="social-link-img" src="../images/tg_logo.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="footer-creators">
+        <p class="text_l_semibold">Создательницы</p>
+        <div class="footer-creators-container">
+          <p class="text_m">Мария Шишова</p>
+          <p class="text_m">Наталия Ковалева</p>
+          <p class="text_m">Эвелина Алиева</p>
+        </div>
+      </div>
+      <img src="../images/career_character.svg" alt="" class="footer-img">
+      <img src="../images/round_character.svg" alt="" class="footer-img">
+      <img src="../images/docs_character.svg" alt="" class="footer-img">
+    </div>
+
+  </footer>
+   <script>
+      var form = document.getElementById("my-form");
+
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            'Accept': 'application/json'
+          }
+        }).then(response => {
+          if (response.ok) {
+            status.innerHTML = "Спасибо!";
+            form.reset()
+          } else {
+            response.json().then(data => {
+              if (Object.hasOwn(data, 'errors')) {
+                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+              } else {
+                status.innerHTML = "Упс! Что-то пошло не так"
+              }
+            })
+          }
+        }).catch(error => {
+          status.innerHTML = "Упс! Что-то пошло не так"
+        });
+      }
+      form.addEventListener("submit", handleSubmit)
+    </script>
 </body>
 </html>
