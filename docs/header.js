@@ -1,1 +1,1 @@
-document.getElementById("hamburger"),document.getElementById("dropdownMenu"),document.getElementById("dropdownSearch"),document.getElementById("searchBtnMobile");
+document.getElementById("hamburger"),document.getElementById("dropdownMenu"),document.getElementById("dropdownSearch"),document.getElementById("searchBtnMobile"),console.log("script reached");

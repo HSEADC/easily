@@ -1,3 +1,5 @@
+console.log('script reached');
+
 const dd_img = document.querySelectorAll(".dd-character");
 
 dd_img.forEach(dragDrop)
