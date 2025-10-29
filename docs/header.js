@@ -1,1 +1,1 @@
-document.getElementById("hamburger"),document.getElementById("dropdownMenu"),document.getElementById("dropdownSearch"),document.getElementById("searchBtnMobile"),console.log("script reached");
+(()=>{var e=document.getElementById("hamburger"),t=document.getElementById("dropdownMenu");document.getElementById("dropdownSearch"),document.getElementById("searchBtnMobile"),console.log("script reached"),e.addEventListener("click",function(){e.classList.toggle("is-active"),t.classList.toggle("active")})})();
