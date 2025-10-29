@@ -93,6 +93,10 @@
     font-size: calc(1vw / 3.7);
   }
 
+  .space-hidden {
+    display: block;
+  }
+
   .prelaunch-nav {
     gap: 40rem;
     margin-bottom: 23rem;
@@ -630,4 +634,93 @@
     width: 100rem;
   }
 
+  /* PROMO  */
+
+  .promo-heading-section .title_h1 {
+    margin-top: 109rem;
+    margin-bottom: 150rem;
+  }
+
+  .promo-heading-section .title_h2 {
+    font-size: 28rem;
+  }
+
+  .promo-img:nth-of-type(1) {
+    width: 83rem;
+    top: 0;
+    transform: rotate(-30deg);
+  }
+  .promo-img:nth-of-type(2) {
+    width: 172rem;
+    top: 206rem;
+    left: 231rem;
+    transform: rotate(5deg);
+  }
+  .promo-img:nth-of-type(3) {
+    width: 113rem;
+    top: 1666rem;
+    left: 94rem;
+  }
+
+  .help-container {
+    flex-direction: column;
+    width: 344rem;
+  }
+
+  .help-item {
+    width: 344rem;
+    height: 381rem;
+  }
+
+  .help-item img {
+    width: 312rem;
+  }
+
+  .promo-cards-section .title_h3 {
+    font-size: 24rem;
+    max-width: 324rem;
+    line-height: 120%;
+    font-family: 'Onest' Arial, Helvetica, sans-serif;
+  }
+
+  .promo-cards-section{
+    width: 344rem;
+    height: 1278rem;
+  }
+
+  .promo-cards {
+    flex-direction: column;
+    gap: 10rem;
+  }
+
+  .promo-card {
+    position: static;
+  }
+
+  .promo-form-section .title_h2 {
+   font-size: 28rem;
+  }
+
+  .promo-form-section .text_m {
+    text-align: center;
+    max-width: 264rem;
+  }
+
+  .promo-form-section form .prelaunch-form-input {
+    width: 312rem;
+    height: 56rem;
+    margin-bottom: 0;
+  }
+
+  .promo-form-section form .button {
+    color: white;
+    height: 56rem;
+    margin-bottom: 0;
+  }
+  .promo-form-section {
+    margin-bottom: 0;
+  }
+  .promo-form-section .input-container {
+    margin-bottom: 0;
+  }
 }

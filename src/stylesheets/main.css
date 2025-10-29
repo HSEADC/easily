@@ -18,6 +18,10 @@ body {
   overflow-x: hidden;
 }
 
+.space-hidden {
+  display: none;
+}
+
 .finance-page {
   background: linear-gradient(138deg, #fff9ef 0%, #fff2ed 100%);
 }
