@@ -10,70 +10,102 @@
   <header class="articles-header">
     <div class="navigation">
       <a href="../index.html" class="nav-item title_h4">easily</a>
-      <div class="nav-container">
-        <a href="" class="nav-item text_l">О нас</a>
-        <a href="" class="nav-item text_l_semibold">Статьи</a>
-        <a href="" class="nav-item text_l">Тесты</a>
-        <a href="" class="nav-item text_l">Словарь</a>
+      <!-- desktop nav -->
+      <div class="nav-container desktop-nav">
+        <a href="./404.html" class="nav-item text_l">О нас</a>
+        <a href="./articles.html" class="nav-item text_l_semibold">Статьи</a>
+        <a href="./404.html" class="nav-item text_l">Тесты</a>
+        <a href="./404.html" class="nav-item text_l">Словарь</a>
       </div>
-      <div class="nav-search-container">
+
+      <div class="nav-search-container desktop-search">
         <input type="text" class="search-input" placeholder="Поиск">
         <button class="button search-button text_m">Найти</button>
       </div>
+      <!-- mobile nav -->
+      <div class="mobile-nav">
+        <button class="search-button-mobile" id="searchBtnMobile"></button>
+        <div class="hamburger" id="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </div>
     </div>
-    <h1>Статьи</h1>
+
+    <nav class="dropdown-menu" id="dropdownMenu">
+      <div class="mobile-nav-items">
+        <a href="./404.html" class="nav-item text_l">О нас</a>
+        <a href="./articles.html" class="nav-item text_l_semibold">Статьи</a>
+        <a href="./404.html" class="nav-item text_l">Тесты</a>
+        <a href="./404.html" class="nav-item text_l">Словарь</a>
+      </div>
+
+      <div class="social-links">
+          <a href="https://vk.com/easilymedia" class="social-link"><img class="social-link-img" src="../images/vk_logo.svg" alt=""></a>
+          <a href="https://t.me/easilymedia" class="social-link"><img class="social-link-img" src="../images/tg_logo.svg" alt=""></a>
+      </div>
+    </nav>
+
+    <div class="dropdown-search" id="dropdownSearch">
+      <div class="mobile-search-container">
+        <input type="text" placeholder="Поиск">
+        <button class="button search-button text_m">Найти</button>
+      </div>
+    </div>
   </header>
+
   <main class="articles-wrapper">
     <section class="articles-cover">
       <img src="../images/coin_character.svg" alt="">
         <h1 class="title_h1">Полезные статьи о взрослой жизни</h1>
-        <p class="text_l">Разбираемся вместе, как устроена взрослая жизнь и делимся полезными советами о деньгах, работе и бумажках без скуки и умничанья</p>
+        <p class="text_l">Разбираемся вместе, как устроена взрослая жизнь и делимся полезными советами о деньгах, работе и бумажках без скуки и занудства</p>
       <img src="../images/health_character.svg" alt="">
     </section>
     <section class="articles-categories">
-      <a href="" class="articles-category-link">
+      <a href="./404.html" class="articles-category-link">
         <div class="articles-category">
           <p class="title_h5">Здоровье</p>
-          <p class="text_m">Учимся заботиться о себе — от записи к врачу до того, как не перепутать витамины и таблетки от головы</p>
+          <p class="text_m">Учимся заботиться о себе — от записи к врачу до того, как не перепутать витамины и таблетки от головы</p>
           <img src="../images/health_character.svg" alt="" class="health-img">
         </div>
       </a>
-      <a href="" class="articles-category-link">
+      <a href="./404.html" class="articles-category-link">
         <div class="articles-category">
           <p class="title_h5">Финансы</p>
-          <p class="text_m">Разбираемся, куда уходят деньги, как не запутаться в налогах и всё‑таки что‑нибудь отложить</p>
+          <p class="text_m">Разбираемся, куда уходят деньги, ка кне запутаться в налогах и всё-таки что-нибудь отложить</p>
           <img src="../images/coin_character.svg" alt="" class="finance-img">
         </div>
       </a>
 
-      <a href="" class="articles-category-link">
+      <a href="./404.html" class="articles-category-link">
         <div class="articles-category">
           <p class="title_h5">Быт</p>
-          <p class="text_m">Всё про быт и мелкие задачи, которые почему‑то всегда сваливаются на голову одновременно</p>
+          <p class="text_m">Всё про быт и мелкие задачи, которые почему-то всегда сваливаются на голову одновременно</p>
           <img src="../images/hand_character.svg" alt="" class="routine-img">
         </div>
       </a>
 
-        <a href="" class="articles-category-link">
+        <a href="./404.html" class="articles-category-link">
           <div class="articles-category">
           <p class="title_h5">Карьера</p>
-          <p class="text_m">Разбираемся, как найти своё любимое дело, не сгореть на работе и при этом как‑то успевать жить</p>
+          <p class="text_m">Разбираемся, как найти любимое дело, не выгореть на работе и при этом как-то успевать жизнь</p>
           <img src="../images/char_character.svg" alt="" class="career-img">
         </div>
         </a>
 
-        <a href="" class="articles-category-link">
+        <a href="./404.html" class="articles-category-link">
           <div class="articles-category">
           <p class="title_h5">Документы</p>
-          <p class="text_m">Всё про справки, заявления и другие важные штуки, которые обычно вызывают лёгкую панику</p>
+          <p class="text_m">Всё про справки, заявления и другие важные штуки, которые обычно вызывают лёгкую панику</p>
           <img src="../images/docs_character.svg" alt="" class="docs-img">
         </div>
         </a>
 
-        <a href="" class="articles-category-link">
+        <a href="./404.html" class="articles-category-link">
           <div class="articles-category">
           <p class="title_h5">Лайфстайл</p>
-          <p class="text_m">Учимся высыпаться, отдыхать, не чувствовать вину за день без дел и кайфовать от жизни<p>
+          <p class="text_m">Учимся высыпаться, отдыхать, кайфовать от жизни и не испытывать вину за день без дел<p>
           <img src="../images/round_character.svg" alt="" class="lifestyle-img">
         </div>
         </a>
@@ -82,7 +114,7 @@
     <section class="latest-articles">
       <h1 class="title_h1">Что почитать сейчас</h1>
       <div class="latest-articles-container">
-        <a href="" class="latest-article-link">
+        <a href="./404.html" class="latest-article-link">
           <div class="latest-article">
           <div class="article-tag">
             <p class="text_s">Здоровье</p>
@@ -93,7 +125,7 @@
         </div>
         </a>
 
-        <a href="" class="latest-article-link">
+        <a href="./404.html" class="latest-article-link">
           <div class="latest-article">
           <div class="article-tag">
             <p class="text_s">Документы</p>
@@ -104,7 +136,7 @@
         </div>
         </a>
 
-        <a href="" class="latest-article-link">
+        <a href="./404.html" class="latest-article-link">
           <div class="latest-article">
           <div class="article-tag">
             <p class="text_s">Финансы</p>
@@ -183,7 +215,6 @@
       }
       form.addEventListener("submit", handleSubmit)
     </script>
-
 
 </body>
 </html>

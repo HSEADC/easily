@@ -25,6 +25,14 @@ body {
   letter-spacing: 0.02em;
 }
 
+.title_h2 {
+  font-family: 'Non-Bureau', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 56rem;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+}
+
 .title_h4 {
   font-family: 'Non-Bureau', Arial, Helvetica, sans-serif;
   line-height: 100%;

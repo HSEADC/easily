@@ -3,7 +3,11 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const htmlPages = require('./webpack.pages.js');
 
 module.exports = {
-  entry: "./src/javascripts/index.js",
+  entry: {
+    index: './src/javascripts/index.js',
+    interaction:  './src/javascripts/dragdrop.js',
+    header: './src/javascripts/header.js',
+  },
   output: {
     path: path.resolve('.', "docs"),
     filename: "[name].js",
