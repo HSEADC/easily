@@ -1,3 +1,4 @@
+import '../stylesheets/style.css';
 console.log('script reached');
 
 const dd_img = document.querySelectorAll(".dd-character");

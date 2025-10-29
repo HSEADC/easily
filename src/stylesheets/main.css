@@ -10,6 +10,7 @@
 
 html {
   font-size: calc(1vw / 14.4);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -31,6 +32,12 @@ body {
   font-size: 56rem;
   line-height: 100%;
   letter-spacing: 0.02em;
+}
+
+.title_h3 {
+  font-family: 'Non-Bureau', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 44rem;
 }
 
 .title_h4 {
