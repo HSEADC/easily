@@ -723,4 +723,8 @@
   .promo-form-section .input-container {
     margin-bottom: 0;
   }
+
+  a.promo-nav-item {
+    font-size: 28rem;
+  }
 }

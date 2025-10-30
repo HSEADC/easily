@@ -132,10 +132,6 @@ p.prelaunch-nav-item {
   left: 33rem;
 }
 
-.dd-character:hover {
-  rotate: 5deg;
-}
-
 /* ARTICLES */
 
 .navigation {
@@ -708,4 +704,17 @@ p.prelaunch-nav-item {
 
 .promo-form-section .button {
   color: white;
+}
+
+a.promo-nav-item {
+  color: var(--dark-grey);
+}
+
+.footer-img, .hover-img {
+  transition: 0.5s ease;
+}
+
+.footer-img:hover, .hover-img:hover {
+  scale: 1.1;
+  transform: rotate(2deg);
 }
