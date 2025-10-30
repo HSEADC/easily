@@ -10,8 +10,8 @@ console.log('script reached');
 if (hamburger) {
   hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('is-active');
-  dropdownMenu.classList.toggle('active');
-  navigation.classList.toggle('opened');
+  // dropdownMenu.classList.toggle('active');
+  // navigation.classList.toggle('opened');
 });
 }
 

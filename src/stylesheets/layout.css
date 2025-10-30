@@ -705,3 +705,7 @@ p.prelaunch-nav-item {
   align-items: center;
   justify-content: center;
 }
+
+.promo-form-section .button {
+  color: white;
+}
