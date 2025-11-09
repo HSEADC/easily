@@ -26,33 +26,28 @@ p.prelaunch-nav-item {
   color: var(--dark-grey);
 }
 
-.prelaunch-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.prelaunch-main {
+  max-height: 792rem;
+  overflow: hidden;
 }
 
-.prelaunch-container {
-  position: relative;
-  width: 1362rem;
-  height: 636rem;
-  background-color: #fff;
+.prelaunch-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  border-radius: 36rem;
-  margin-bottom: 41rem;
+  padding: 41rem;
   padding-top: 64rem;
 }
 
-.prelaunch-container h1 {
+.prelaunch-section h1 {
   max-width: 1014rem;
   text-align: center;
   color:  var(--dark-grey);
   margin-bottom: 34rem;
 }
 
-.prelaunch-container p {
+.prelaunch-section p {
   color: var(--grey);
   max-width: 674rem;
   text-align: center;
@@ -67,7 +62,7 @@ p.prelaunch-nav-item {
 .prelaunch-form-input {
   width: 358rem;
   height: 57rem;
-  background-color: var(--light-grey);
+  background-color: white;
   border: none;
   border-radius: 40rem;
   padding-left: 25rem;
@@ -95,6 +90,7 @@ p.prelaunch-nav-item {
 
 .dd-character {
   position: absolute;
+  z-index: 100;
 }
 
 .drag-drop-box {
@@ -106,30 +102,42 @@ p.prelaunch-nav-item {
 }
 
 .dd-character:nth-of-type(1) {
-  width: 126rem;
-  rotate: -25deg;
-  top: 83rem;
-  left: 1166rem;
+  display: none;
 }
 
 .dd-character:nth-of-type(2) {
-  width: 210rem;
-  rotate: -13deg;
-  top: 352rem;
-  left: 119rem;
+  width: 253rem;
+  height: 263rem;
+  transform: rotate(-13deg);
+  top: 275rem;
+  left: 99rem;
+  background-image: url(../images/coin_character.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .dd-character:nth-of-type(3) {
-  width: 284rem;
-  rotate: 13deg;
-  top: 281rem;
-  left: 982rem;
+  width: 484rem;
+  height: 484rem;
+  transform: rotate(13deg);
+  top: 250rem;
+  left: 1010rem;
+  background-image: url(../images/health_character.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .dd-character:nth-of-type(4) {
-  width: 129rem;
-  top: 178rem;
-  left: 33rem;
+  width: 6.024vw;
+  height: 6.024vw;
+  top: 6rem;
+  left: 1200rem;
+  background-image: url(../images/round_character.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 /* ARTICLES */

@@ -369,6 +369,9 @@ p.prelaunch-nav-item {
   rotate: -13deg;
   top: 352rem;
   left: 119rem;
+  background-image: url(images/8443e9a308724ff35baf.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .dd-character:nth-of-type(3) {

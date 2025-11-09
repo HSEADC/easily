@@ -23,9 +23,6 @@ dd_img.forEach(dragDrop)
 
         str.style.left = x + "px";
         str.style.top = y + "px";
-
-        console.log("cursor coordinates", event.clientX, event.clientY);
-        console.log("element coordinates", x, y);
       }
     }
     function onMouseUp() {
