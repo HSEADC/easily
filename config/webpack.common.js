@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     index: './src/javascripts/index.js',
     header: './src/javascripts/header.js',
+    styleguide: './src/javascripts/styleguide.js'
   },
   output: {
     path: path.resolve('.', "docs"),
