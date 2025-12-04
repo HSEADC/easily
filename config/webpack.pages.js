@@ -11,12 +11,11 @@ const htmlPages = [
   createPage('./src/index.html', './index.html'),
   createPage('./src/promo.html', './promo.html'),
   createPage('./src/pages/about.html', './pages/about.html'),
-  createPage('./src/pages/articles.html', './pages/articles.html'),
-  createPage('./src/pages/tests.html', './pages/tests.html'),
-  createPage('./src/pages/dictionary.html', './pages/dictionary.html'),
-  createPage('./src/pages/tests/test1.html', './pages/tests/test1.html'),
-  createPage('./src/pages/404.html', './pages/404.html'),
-  createPage('./src/pages/articles/onlinepayments.html', './pages/articles/onlinepayments.html')
+  createPage('./src/pages/articles/articles.html', './pages/articles/articles.html'),
+  createPage('./src/pages/guides/guides.html', './pages/guides/guides.html'),
+  createPage('./src/pages/dictionary/dictionary.html', './pages/dictionary/dictionary.html'),
+  createPage('./src/pages/errors/404.html', './pages/errors/404.html'),
+  createPage('./src/pages/articles/finance/onlinepayments.html', './pages/articles/finance/onlinepayments.html')
 ];
 
 module.exports = htmlPages;

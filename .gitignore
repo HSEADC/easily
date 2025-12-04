@@ -2,6 +2,7 @@
 .thumbs
 yarn-error.log
 /node_modules
+dev_build/
 /dev_build/*.html
 /dev_build/*.css
 /dev_build/*.js

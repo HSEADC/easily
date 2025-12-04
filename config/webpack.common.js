@@ -5,7 +5,6 @@ const htmlPages = require('./webpack.pages.js');
 module.exports = {
   entry: {
     index: './src/javascripts/index.js',
-    interaction:  './src/javascripts/dragdrop.js',
     header: './src/javascripts/header.js',
   },
   output: {
