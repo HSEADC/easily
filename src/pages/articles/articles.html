@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easily — статьи о взрослой жизни</title>
+    <meta name="title" content="Easily — статьи о взрослой жизни" />
+    <meta name="description" content="Здесь можно найти ответы на бытовые и жизненные вопросы на самые разные темы: от оформления больничного до финансовой грамотности." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hseadc.github.io/easily/pages/articles/articles.html" />
+    <meta property="og:title" content="Easily — статьи о взрослой жизни" />
+    <meta property="og:description" content="Здесь можно найти ответы на бытовые и жизненные вопросы на самые разные темы: от оформления больничного до финансовой грамотности." />
+    <meta property="og:image" content="https://raw.githubusercontent.com/HSEADC/easily/refs/heads/fixes/src/images/meta_cover.webp" />
+
+    <!-- X (Twitter) -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://hseadc.github.io/easily/pages/articles/articles.html" />
+    <meta property="twitter:title" content="Easily — статьи о взрослой жизни" />
+    <meta property="twitter:description" content="Здесь можно найти ответы на бытовые и жизненные вопросы на самые разные темы: от оформления больничного до финансовой грамотности." />
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/HSEADC/easily/refs/heads/fixes/src/images/x_cover.webp" />
+
+    <link rel="shortcut icon" href="../../images/favicon.svg" type="image/x-icon">
+</head>
+<body>
+  <header class="articles-header">
+    <div class="navigation">
+      <a href="../../index.html" class="nav-item title_h4">easily</a>
+      <!-- desktop nav -->
+      <div class="nav-container desktop-nav">
+        <a href="../about.html" class="nav-item text_l">О нас</a>
+        <a href="./articles.html" class="nav-item text_l_semibold">Статьи</a>
+        <a href="../guides/guides.html" class="nav-item text_l">гайды</a>
+        <a href="../dictionary/dictionary.html" class="nav-item text_l">Словарь</a>
+      </div>
+
+      <div class="nav-search-container desktop-search">
+        <input type="text" class="search-input" placeholder="Поиск">
+        <button class="button search-button text_m">Найти</button>
+      </div>
+      <!-- mobile nav -->
+      <div class="mobile-nav">
+        <button class="search-button-mobile" id="searchBtnMobile"></button>
+        <div class="hamburger" id="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+    </div>
+
+    <nav class="dropdown-menu" id="dropdownMenu">
+      <div class="mobile-nav-items">
+        <a href="../about.html" class="nav-item text_l">О нас</a>
+        <a href="./articles.html" class="nav-item text_l_semibold">Статьи</a>
+        <a href="../guides/guides.html" class="nav-item text_l">гайды</a>
+        <a href="../dictionary/dictionary.html" class="nav-item text_l">Словарь</a>
+      </div>
+
+      <div class="social-links">
+          <a href="https://vk.com/easilymedia" class="social-link" target="_blank"><img class="social-link-img" src="../../images/vk_logo.svg" alt=""></a>
+          <a href="https://t.me/easilymedia" class="social-link" target="_blank"><img class="social-link-img" src="../../images/tg_logo.svg" alt=""></a>
+      </div>
+    </nav>
+
+    <div class="dropdown-search" id="dropdownSearch">
+      <div class="mobile-search-container">
+        <input type="text" placeholder="Поиск">
+        <button class="button search-button text_m">Найти</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="articles-wrapper">
+    <section class="articles-cover">
+      <img src="../../images/coin_character.svg" alt="" class="hover-img">
+        <h1 class="title_h1">Полезные статьи о взрослой жизни</h1>
+        <p class="text_l">Разбираемся вместе, как устроена взрослая жизнь и делимся полезными советами о деньгах, работе и бумажках без скуки и занудства</p>
+      <img src="../../images/health_character.svg" alt="" class="hover-img">
+    </section>
+    <section class="articles-categories">
+      <a href="./health/health.html" class="articles-category-link">
+        <div class="articles-category">
+          <p class="title_h5">Здоровье</p>
+          <p class="text_m">Учимся заботиться о себе — от записи к врачу до того, как не перепутать витамины и таблетки от головы</p>
+          <img src="../../images/health_character.svg" alt="" class="health-img">
+        </div>
+      </a>
+      <a href="./finance/finance.html" class="articles-category-link">
+        <div class="articles-category">
+          <p class="title_h5">Финансы</p>
+          <p class="text_m">Разбираемся, куда уходят деньги, ка кне запутаться в налогах и всё-таки что-нибудь отложить</p>
+          <img src="../../images/coin_character.svg" alt="" class="finance-img">
+        </div>
+      </a>
+
+      <a href="./home/home.html" class="articles-category-link">
+        <div class="articles-category">
+          <p class="title_h5">Быт</p>
+          <p class="text_m">Всё про быт и мелкие задачи, которые почему-то всегда сваливаются на голову одновременно</p>
+          <img src="../../images/hand_character.svg" alt="" class="routine-img">
+        </div>
+      </a>
+
+        <a href="./career/career.html" class="articles-category-link">
+          <div class="articles-category">
+          <p class="title_h5">Карьера</p>
+          <p class="text_m">Разбираемся, как найти любимое дело, не выгореть на работе и при этом как-то успевать жизнь</p>
+          <img src="../../images/char_character.svg" alt="" class="career-img">
+        </div>
+        </a>
+
+        <a href="./documents/documents.html" class="articles-category-link">
+          <div class="articles-category">
+          <p class="title_h5">Документы</p>
+          <p class="text_m">Всё про справки, заявления и другие важные штуки, которые обычно вызывают лёгкую панику</p>
+          <img src="../../images/docs_character.svg" alt="" class="docs-img">
+        </div>
+        </a>
+
+        <a href="./lifestyle/lifestyle.html" class="articles-category-link">
+          <div class="articles-category">
+          <p class="title_h5">Лайфстайл</p>
+          <p class="text_m">Учимся высыпаться, отдыхать, кайфовать от жизни и не испытывать вину за день без дел<p>
+          <img src="../../images/round_character.svg" alt="" class="lifestyle-img">
+        </div>
+        </a>
+
+    </section>
+    <section class="latest-articles">
+      <h1 class="title_h1">Что почитать сейчас</h1>
+      <div class="latest-articles-container">
+        <a href="../errors/404.html" class="latest-article-link">
+          <div class="latest-article">
+          <div class="article-cover-tag">
+            <p class="text_s">Здоровье</p>
+          </div>
+          <img src="../../images/articles _covers/magnesium_cover.webp" alt="">
+          <p class="text_l_semibold">Магний без мифов: как пить и не навредить</p>
+          <p class="text_m">Зачем он нужен, как понять, что организму действительно не хватает магния, и почему важно не назначать себе добавки «на всякий случай».</p>
+        </div>
+        </a>
+
+        <a href="../errors/404.html" class="latest-article-link">
+          <div class="latest-article">
+          <div class="article-cover-tag">
+            <p class="text_s">Документы</p>
+          </div>
+          <img src="../../images/articles _covers/recover_document_cover.webp" alt="">
+          <p class="text_l_semibold">Как восстановить потерянный документ</p>
+          <p class="text_m">Потеряли паспорт или СНИЛС? Рассказываем, куда идти и какие бумаги готовить, чтобы всё вернуть без стресса.</p>
+        </div>
+        </a>
+
+        <a href="../articles/finance/onlinepayments.html" class="latest-article-link">
+          <div class="latest-article">
+          <div class="article-cover-tag">
+            <p class="text_s">Финансы</p>
+          </div>
+          <img src="../../images/articles _covers/payments_cover.webp" alt="">
+          <p class="text_l_semibold">А это точно не развод? Проверяем интернет-покупки перед оплатой</p>
+          <p class="text_m">Разбираемся, как отличить фейковый сайт, не попасть на уловки и безопасно оплачивать онлайн.</p>
+        </div>
+        </a>
+
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-form">
+        <h4 class="title_h4">Узнавайте о новых статьях первыми!</h4>
+        <p class="text_m footer-text-m">Здесь ты найдёшь всё о том, как жить эту жизнь</p>
+        <form id="my-form" action="https://formspree.io/f/xwprazpd" method="POST">
+            <div class="input-container">
+              <input class="text_m prelaunch-form-input" type="email" name="email" placeholder="easilymedia@mail.ru"/>
+              <button class="button text_m prelaunch-form-btn" id="my-form-button">Подписаться</button>
+            </div>
+            <p class="text_m prelaunch-form-message" id="my-form-status"></p>
+          </form>
+        <div class="social-links">
+            <a href="https://vk.com/easilymedia" class="social-link" target="_blank"><img class="social-link-img" src="../../images/vk_logo.svg" alt=""></a>
+            <a href="https://t.me/easilymedia" class="social-link" target="_blank"><img class="social-link-img" src="../../images/tg_logo.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="footer-creators">
+        <p class="text_l_semibold">Создательницы</p>
+        <div class="footer-creators-container">
+          <p class="text_m">Мария Шишова</p>
+          <p class="text_m">Наталия Ковалева</p>
+          <p class="text_m">Эвелина Алиева</p>
+        </div>
+      </div>
+      <img src="../../images/career_character.svg" alt="" class="footer-img">
+      <img src="../../images/round_character.svg" alt="" class="footer-img">
+      <img src="../../images/docs_character.svg" alt="" class="footer-img">
+    </div>
+
+  </footer>
+
+
+   <script>
+      var form = document.getElementById("my-form");
+
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            'Accept': 'application/json'
+          }
+        }).then(response => {
+          if (response.ok) {
+            status.innerHTML = "Спасибо!";
+            form.reset()
+          } else {
+            response.json().then(data => {
+              if (Object.hasOwn(data, 'errors')) {
+                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+              } else {
+                status.innerHTML = "Упс! Что-то пошло не так"
+              }
+            })
+          }
+        }).catch(error => {
+          status.innerHTML = "Упс! Что-то пошло не так"
+        });
+      }
+      form.addEventListener("submit", handleSubmit)
+    </script>
+
+</body>
+</html>

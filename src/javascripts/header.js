@@ -5,7 +5,6 @@ const dropdownSearch = document.getElementById('dropdownSearch');
 const searchBtnMobile = document.getElementById('searchBtnMobile');
 const navigation = document.getElementById('navigation');
 
-console.log('script reached');
 
 if (hamburger) {
   hamburger.addEventListener('click', () => {

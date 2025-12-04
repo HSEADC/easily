@@ -8,17 +8,17 @@
   p.prelaunch-nav-item {
     line-height: 100%;
   }
-  .prelaunch-container {
+  .prelaunch-section {
     width: 949rem;
     height: 1205rem;
     margin-bottom: 40rem;
     padding-top: 278rem;
   }
-  .prelaunch-container h1 {
+  .prelaunch-section h1 {
     max-width: 809rem;
     margin-bottom: 45rem;
   }
-   .prelaunch-container p {
+   .prelaunch-section p {
     margin-bottom: 60rem;
     max-width: 523rem;
    }
@@ -37,17 +37,22 @@
     gap: 8rem;
   }
   .dd-character:nth-of-type(1) {
-    width: 125.6rem;
-    height: 125.6rem;
-    rotate: 23deg;
-    top: 47rem;
-    left: 708rem;
+    display: block;
+    width: 127rem;
+    height: 127rem;
+    transform: rotate(23deg);
+    top: 156rem;
+    left: 726rem;
+    background-image: url(../images/career_character.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
   }
   .dd-character:nth-of-type(2) {
-    width: 173rem;
-    height: 180rem;
-    top: 33rem;
-    left: 37rem;
+    width: 167rem;
+    height: 173rem;
+    top: 134rem;
+    left: 86rem;
   }
   .dd-character:nth-of-type(3) {
     width: 246rem;
