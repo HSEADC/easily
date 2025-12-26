@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -48,19 +48,22 @@ table {
 }
 a {
 	text-decoration: none;
+	color: inherit;
 }
-@font-face {
-    font-family: 'Onest';
-    src: url(fonts/c7bf26c56da7c42da6bf.woff) format('woff'),
-         url(fonts/f160dbadba4f367f46cf.woff2) format('woff2');
-    font-weight: 400;
+button {
+	border: none;
+	padding: 0;
+	padding-block: 0;
+	padding-inline: 0;
 }
 
+input {
+	border: none;
+}
 @font-face {
-    font-family: 'Onest';
-    src: url(fonts/3900249b3654582e4450.woff) format('woff'),
-         url(fonts/5651fdc8de9674860c8c.woff2) format('woff2');
-    font-weight: 600;
+    font-family: 'Non-Bureau';
+    src: url(fonts/edc1ebe482d07508642a.otf);
+    font-weight: 400;
 }
 
 @font-face {
@@ -69,14 +72,35 @@ a {
          url(fonts/727842eef1c59f8bcd89.woff2) format('woff2');
     font-weight: 500;
 }
+:root {
+  /* brand base colours */
+
+  --base-0: #F5EEFD;
+  --base-100: #EADDFB;
+  --base-200: #D4B8F6;
+  --base-300: #BF96F2;
+  --base-400: #AA6FED;
+  --base-500: #9648E7;
+  --base-600: #7D2DC2;
+  --base-700: #622096;
+  --base-800: #451468;
+  --base-900: #2C0943;
+  --base-950: #1D042D;
+
+  /* radius */
+
+  --radius-xs: 4rem;
+  --radius-sm: 8rem;
+  --radius-md: 12rem;
+  --radius-lg: 16rem;
+  --radius-xl: 20rem;
+  --radius-xxl: 24rem;
+  --radius-2xl: 28rem;
+  --radius-3xl: 32rem;
+  --radius-4xl: 40rem;
+}
 * {
   box-sizing: border-box;
-}
-
-:root {
-  --dark-grey: #141414;
-  --grey: #696969;
-  --light-grey: #EEEEEE;
 }
 
 html {
@@ -84,18 +108,209 @@ html {
   scroll-behavior: smooth;
 }
 
-.title_h1 {
-  font-family: 'Non-Bureau', Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 68rem;
-  line-height: 100%;
-  letter-spacing: 0.02em;
+body {
+  background-color: var(--base-0);
+  overflow-x: hidden;
+  font-family: 'Non-Bureau';
 }
 
-.title_h2 {
-  font-family: 'Non-Bureau', Arial, Helvetica, sans-serif;
+.title_h1 {
+  font-weight: 500;
+  font-size: 76rem;
+  line-height: 80rem;
+  color: var(--base-0);
+}
+
+.h2_medium {
   font-weight: 500;
   font-size: 56rem;
-  line-height: 100%;
-  letter-spacing: 0.02em;
+  line-height: 56rem;
+}
+
+.title_h3 {
+  font-weight: 500;
+  font-size: 48rem;
+  line-height: 48rem;
+}
+
+.title_h4 {
+  font-weight: 500;
+  font-size: 40rem;
+  line-height: 40rem;
+}
+
+.title_h5 {
+  font-weight: 500;
+  font-size: 32rem;
+  line-height: 32rem;
+}
+
+.text_m {
+  font-weight: 400;
+  font-size: 20rem;
+  line-height: 26rem;
+}
+
+.text_s {
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 16rem;
+}
+
+.text_l {
+  font-weight: 400;
+  font-size: 24rem;
+  line-height: 32rem;
+}
+body {
+  color: var(--base-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 800rem;
+  background-color: var(--base-500);
+  padding: 24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset -20px -20px 50px 0 rgba(212, 184, 246, 0.6), inset 20px 20px 50px 0 rgba(212, 184, 246, 0.6);
+  margin-bottom: 128rem;
+}
+
+header .title_h1 {
+  max-width: 416rem;
+  text-align: center;
+}
+
+.mapgraph {
+  width: 80%;
+  height: 70%;
+  position: absolute;
+  animation: bg 25s ease infinite;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@keyframes bg {
+  0%{background-image: url(images/d305f453079241ed4141.svg);}
+  15%{background-image: url(images/d305f453079241ed4141.svg);}
+  20%{background-image: url(images/3675605bf7eb59aa55ff.svg);}
+  35%{background-image: url(images/3675605bf7eb59aa55ff.svg);}
+  40%{background-image: url(images/4adcfde2b1bb6bcf6acc.svg);}
+  55%{background-image: url(images/4adcfde2b1bb6bcf6acc.svg);}
+  60%{background-image: url(images/6a01ce54bcaccf60721f.svg);}
+  75%{background-image: url(images/6a01ce54bcaccf60721f.svg);}
+  80%{background-image: url(images/c5a152328b3eab0265c7.svg);}
+  95%{background-image: url(images/c5a152328b3eab0265c7.svg);}
+  100%{background-image: url(images/d305f453079241ed4141.svg);}
+}
+
+main {
+  display: flex;
+  width: 1296rem;
+  justify-content: space-between;
+
+}
+
+nav {
+  height: 328rem;
+  background-color: var(--base-0);
+  box-shadow: inset -5rem -5rem 20rem 0 var(--base-500), inset 5rem 5rem 20rem 0 var(--base-500);
+  width: 227rem;
+  position: sticky;
+  width: 227rem;
+  padding: 28rem;
+  color: var(--base-500);
+  border-radius: var(--radius-2xl);
+  top: 45rem;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16rem;
+}
+
+nav a {
+ transition: all .3s;
+}
+
+.a_menu_item:hover {
+  color: var(--base-200);
+}
+
+.title_h3 {
+  color: var(--base-500);
+  max-width: 916rem;
+}
+
+.intro {
+  max-width: 855rem;
+  display: flex;
+  flex-direction: column;
+  gap: 40rem;
+}
+
+.intro-text-block {
+  display: flex;
+  gap: 36rem;
+}
+
+.intro-text {
+  color: var(--base-500);
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.intro-text:first-of-type {
+  max-width: 448rem;
+}
+
+.intro-text:last-of-type {
+  max-width: 371rem;
+}
+
+.intro-character {
+  display: flex;
+  flex-direction: column;
+  gap: 16rem;
+}
+
+.intro-character img {
+  width: 100%;
+}
+
+.intro-mission {
+  max-width: 855rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20rem;
+}
+
+.intro-values {
+  display: flex;
+  flex-direction: column;
+  gap: 16rem;
+}
+
+.values-cards {
+  display: flex;
+  gap: 24rem;
+}
+
+.value-card {
+  padding: 28rem;
+  border-radius: var(--radius-2xl);
+  box-shadow: inset -5rem -5rem 20rem 0 rgba(150, 72, 231, 0.6), inset 5rem 5rem 20rem 0 rgba(150, 72, 231, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 24rem;
 }
