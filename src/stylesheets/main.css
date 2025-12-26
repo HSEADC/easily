@@ -50,6 +50,12 @@ body {
   line-height: 26rem;
 }
 
+.text_m-medium {
+  font-weight: 500;
+  font-size: 20rem;
+  line-height: 20rem;
+}
+
 .text_s {
   font-weight: 400;
   font-size: 16rem;
