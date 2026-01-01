@@ -250,10 +250,11 @@ main {
   display: flex;
   width: 1296rem;
   justify-content: space-between;
+  margin-bottom: 128rem;
 }
 
 .style-nav {
-  height: 328rem;
+  height: 235rem;
   box-shadow: inset -5rem -5rem 20rem 0 var(--base-500),
     inset 5rem 5rem 20rem 0 var(--base-500);
   background: var(--base-0);
@@ -284,8 +285,14 @@ nav a {
   max-width: 916rem;
 }
 
-.intro {
+.contents {
   max-width: 855rem;
+  display: flex;
+  flex-direction: column;
+  gap: 40rem;
+}
+
+.intro {
   display: flex;
   flex-direction: column;
   gap: 40rem;
@@ -656,7 +663,6 @@ nav a {
 .graph-blocks {
   display: flex;
   gap: 24rem;
-  margin-bottom: 128rem;
 }
 footer {
   width: 100%;
@@ -759,6 +765,14 @@ footer {
     width: 696rem;
   }
 
+  .logo-example, .main-palette, .category-palette, .graph-blocks {
+    width: 696rem;
+  }
+
+  .text-block p {
+    max-width: 333rem;
+  }
+
   .logo-example-block {
     height: 359rem;
   }
@@ -774,6 +788,14 @@ footer {
   .typo-example,
   .graph-block-1 {
     width: 696rem;
+  }
+
+  .logo-text-block p {
+    max-width: 333rem;
+  }
+
+  .logo-vars-category div {
+    max-width: 333rem;
   }
 }
 
