@@ -188,7 +188,7 @@ header {
   box-shadow: inset -20rem -20rem 50rem 0 rgba(212, 184, 246, 0.6),
     inset 20rem 20rem 50rem 0 rgba(212, 184, 246, 0.6);
   margin-bottom: 128rem;
-  background-image: url(images/9c310798372179b98711.svg);
+  background-image: url(images/596fec85f468bd6d9543.svg);
   background-position: center;
   background-size: 120%;
   background-repeat: no-repeat;
@@ -204,7 +204,7 @@ header .title_h1 {
   height: 70%;
   position: absolute;
   /* animation: bg 25s ease infinite; */
-  background-image: url(images/d305f453079241ed4141.svg);
+  background-image: url(images/9860eaeda8f8894864b9.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -212,37 +212,37 @@ header .title_h1 {
 
 @keyframes bg {
   0% {
-    background-image: url(images/d305f453079241ed4141.svg);
+    background-image: url(images/9860eaeda8f8894864b9.svg);
   }
   15% {
-    background-image: url(images/d305f453079241ed4141.svg);
+    background-image: url(images/9860eaeda8f8894864b9.svg);
   }
   20% {
-    background-image: url(images/3675605bf7eb59aa55ff.svg);
+    background-image: url(images/c7ca8fe4973fc9342e87.svg);
   }
   35% {
-    background-image: url(images/3675605bf7eb59aa55ff.svg);
+    background-image: url(images/c7ca8fe4973fc9342e87.svg);
   }
   40% {
-    background-image: url(images/4adcfde2b1bb6bcf6acc.svg);
+    background-image: url(images/ee8c5637fedcc8b6cc1c.svg);
   }
   55% {
-    background-image: url(images/4adcfde2b1bb6bcf6acc.svg);
+    background-image: url(images/ee8c5637fedcc8b6cc1c.svg);
   }
   60% {
-    background-image: url(images/6a01ce54bcaccf60721f.svg);
+    background-image: url(images/1213d3a61b79c845f166.svg);
   }
   75% {
-    background-image: url(images/6a01ce54bcaccf60721f.svg);
+    background-image: url(images/1213d3a61b79c845f166.svg);
   }
   80% {
-    background-image: url(images/c5a152328b3eab0265c7.svg);
+    background-image: url(images/8aaa47371712e819a4ae.svg);
   }
   95% {
-    background-image: url(images/c5a152328b3eab0265c7.svg);
+    background-image: url(images/8aaa47371712e819a4ae.svg);
   }
   100% {
-    background-image: url(images/d305f453079241ed4141.svg);
+    background-image: url(images/9860eaeda8f8894864b9.svg);
   }
 }
 
@@ -250,10 +250,11 @@ main {
   display: flex;
   width: 1296rem;
   justify-content: space-between;
+  margin-bottom: 128rem;
 }
 
 .style-nav {
-  height: 328rem;
+  height: 235rem;
   box-shadow: inset -5rem -5rem 20rem 0 var(--base-500),
     inset 5rem 5rem 20rem 0 var(--base-500);
   background: var(--base-0);
@@ -284,8 +285,14 @@ nav a {
   max-width: 916rem;
 }
 
-.intro {
+.contents {
   max-width: 855rem;
+  display: flex;
+  flex-direction: column;
+  gap: 40rem;
+}
+
+.intro {
   display: flex;
   flex-direction: column;
   gap: 40rem;
@@ -631,7 +638,7 @@ nav a {
 .graph-block-1 {
   width: 855rem;
   height: 328rem;
-  background-image: url(images/8e96fff9bb33e92419b8.svg);
+  background-image: url(images/597603aed34698d344dd.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -639,7 +646,7 @@ nav a {
 .graph-block-2 {
   width: 415rem;
   height: 470rem;
-  background-image: url(images/351ab9273bb127ee790f.svg);
+  background-image: url(images/ee11ad86ef33ca57c24d.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -656,7 +663,6 @@ nav a {
 .graph-blocks {
   display: flex;
   gap: 24rem;
-  margin-bottom: 128rem;
 }
 footer {
   width: 100%;
@@ -665,7 +671,7 @@ footer {
   background: var(--base-500);
   height: 416rem;
   padding: 64rem 0rem 32rem;
-  background-image: url(images/9c310798372179b98711.svg);
+  background-image: url(images/596fec85f468bd6d9543.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -759,6 +765,14 @@ footer {
     width: 696rem;
   }
 
+  .logo-example, .main-palette, .category-palette, .graph-blocks {
+    width: 696rem;
+  }
+
+  .text-block p {
+    max-width: 333rem;
+  }
+
   .logo-example-block {
     height: 359rem;
   }
@@ -774,6 +788,14 @@ footer {
   .typo-example,
   .graph-block-1 {
     width: 696rem;
+  }
+
+  .logo-text-block p {
+    max-width: 333rem;
+  }
+
+  .logo-vars-category div {
+    max-width: 333rem;
   }
 }
 
@@ -890,7 +912,7 @@ footer {
   .graph-block-1 {
     width: 351rem;
     height: 416rem;
-    background-image: url(images/22769f66698010bf485e.svg);
+    background-image: url(images/c163e8ed305939283449.svg);
   }
   .graph-block-2,
   .graph-block-3 {
