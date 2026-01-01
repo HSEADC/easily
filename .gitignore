@@ -13,4 +13,6 @@ dev_build/
 /dev_build/*.svg
 /dev_build/*/*.*
 
+tasks.md
+
 desktop.ini

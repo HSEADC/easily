@@ -1,0 +1,26 @@
+.m_nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 32rem;
+}
+
+.m_footer-content {
+  display: flex;
+  width: 1298rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.m_header-content {
+  display: flex;
+  width: 1286rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.m_desktop-nav {
+  display: flex;
+  gap: 20rem;
+}

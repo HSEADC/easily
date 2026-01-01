@@ -1,5 +1,11 @@
 @import 'reset.css';
 @import 'fonts.css';
+@import 'variables.css';
+
+@import 'components/atoms.css';
+@import 'components/organisms.css';
+@import 'components/molecules.css';
+
 @import 'main.css';
 @import 'layout.css';
 @import 'articles.css';
