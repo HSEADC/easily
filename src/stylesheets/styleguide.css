@@ -600,7 +600,10 @@ footer {
     width: 696rem;
   }
 
-  .logo-example, .main-palette, .category-palette, .graph-blocks {
+  .logo-example,
+  .main-palette,
+  .category-palette,
+  .graph-blocks {
     width: 696rem;
   }
 
