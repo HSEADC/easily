@@ -183,11 +183,27 @@ function showResult(resultTable) {
   testBlock.innerHTML = '';
   testResults.classList.add('test_final_count');
 
-
-  testResults.innerHTML = `Ты отлично справляешься с задачами, связанными с ${skill} и ${skill}! Обрати внимание на ${skill} — там есть над чем поработать. Мы подобрали для тебя статьи, которые помогут закрыть этот пробел`
-
-
   testBlock.append(testResults);
+
+  // testResults.innerHTML = `Ты отлично справляешься с задачами, связанными с ${skill} и ${skill}! Обрати внимание на ${skill} — там есть над чем поработать. Мы подобрали для тебя статьи, которые помогут закрыть этот пробел`
+  const result = resultCount.career + resultCount.documents + resultCount.finance + resultCount.health + resultCount.home + resultCount.lifestyle;
+  console.log(result <= 8);
+
+    if (result <= 4) {
+      testResults.innerHTML = 'В решении задач взрослой жизни ты еще новичок!';
+      console.log('новичок');
+    }
+    else if (result <= 8) {
+      testResults.innerHTML = 'Ты довольно уверенно решаешь задачи взрослой жизни!';
+      console.log('уверенно');
+    }
+    else {
+      testResults.innerHTML = 'В решении задач взрослой жизни ты настоящий профи!';
+      console.log('профи');
+    }
+
+  console.log(document.querySelector('.test_final_count'));
+  console.log(resultCount);
 
 
 }
