@@ -8,8 +8,7 @@ module.exports = {
     header: './src/javascripts/header.js',
     articles: './src/javascripts/articles.js',
     styleguide: './src/javascripts/styleguide.js',
-    skilltest: './src/skillset.js',
-    chart: './src/chart.js'
+    skilltest: './src/skilltest.js'
   },
   output: {
     path: path.resolve('.', "docs"),

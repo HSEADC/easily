@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80rem;
+}
+
+.o_articles_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20rem;
+  max-width: 1260rem;
+}
+
+.o_article_card {
+  width: 300rem;
+  height: 200rem;
+  background-size: cover;
+  border-radius: 40rem;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 18rem 20rem;
+  justify-content: space-between;
+}
+
+.a_tag {
+  width: fit-content;
+}
+
+.a_text_m {
+  max-width: 230rem;
+}

@@ -1,0 +1,9 @@
+.c_test_answers_block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 776rem;
+  height: 220rem;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-top: 32rem;
+}

@@ -1,0 +1,9 @@
+.question_num {
+  font-size: 24rem;
+}
+
+.test_question, .test_answer_text, .test_final_count {
+  font-size: 22rem;
+  margin: 10rem 0;
+  max-width: 200rem;
+}
