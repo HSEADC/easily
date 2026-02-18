@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     index: './src/javascripts/index.js',
     header: './src/javascripts/header.js',
+    articles: './src/javascripts/articles.js',
     styleguide: './src/javascripts/styleguide.js',
     skilltest: './src/skillset.js',
     chart: './src/chart.js'
