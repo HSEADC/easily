@@ -1,0 +1,27 @@
+:root {
+  /* brand base colours */
+
+  --base-0: #F5EEFD;
+  --base-100: #EADDFB;
+  --base-200: #D4B8F6;
+  --base-300: #BF96F2;
+  --base-400: #AA6FED;
+  --base-500: #9648E7;
+  --base-600: #7D2DC2;
+  --base-700: #622096;
+  --base-800: #451468;
+  --base-900: #2C0943;
+  --base-950: #1D042D;
+
+  /* radius */
+
+  --radius-xs: 4rem;
+  --radius-sm: 8rem;
+  --radius-md: 12rem;
+  --radius-lg: 16rem;
+  --radius-xl: 20rem;
+  --radius-xxl: 24rem;
+  --radius-2xl: 28rem;
+  --radius-3xl: 32rem;
+  --radius-4xl: 40rem;
+}

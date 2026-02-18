@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.getElementById("hamburger");document.getElementById("dropdownMenu"),document.getElementById("dropdownSearch"),document.getElementById("searchBtnMobile"),document.getElementById("navigation"),e&&e.addEventListener("click",function(){e.classList.toggle("is-active")})})();

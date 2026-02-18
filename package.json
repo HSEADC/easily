@@ -1,7 +1,7 @@
 {
-  "name": "media",
+  "name": "easily",
   "version": "1.0.0",
-  "author": "Isle",
+  "author": "Maria, Natalia, Eva",
   "license": "MIT",
   "scripts": {
     "start": "webpack serve --open --config config/webpack.dev.js",
