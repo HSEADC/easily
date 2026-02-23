@@ -3,7 +3,6 @@ main {
   justify-content: center;
   align-items: center;
   padding-top: 80rem;
-  flex-direction: column;
 }
 
 .o_articles_wrapper {
@@ -24,10 +23,10 @@ main {
   justify-content: space-between;
 }
 
-.a_text_m {
-  max-width: 230rem;
+.a_tag {
+  width: fit-content;
 }
 
-.c_filter_tags {
-  margin-bottom: 40rem;
+.a_text_m {
+  max-width: 230rem;
 }

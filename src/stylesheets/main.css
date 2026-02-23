@@ -38,13 +38,13 @@ body {
   line-height: 40rem;
 }
 
-.title_h5 {
+.title_h5, .a_title_h5 {
   font-weight: 500;
   font-size: 32rem;
   line-height: 32rem;
 }
 
-.text_m {
+.text_m, .a_text_m {
   font-weight: 400;
   font-size: 20rem;
   line-height: 26rem;

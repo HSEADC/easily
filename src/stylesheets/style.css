@@ -5,8 +5,8 @@
 @import 'components/atoms.css';
 @import 'components/organisms.css';
 @import 'components/molecules.css';
+@import 'components/collections.css';
 
 @import 'main.css';
 @import 'layout.css';
-@import 'articles.css';
 @import 'adaptive.css';

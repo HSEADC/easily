@@ -6,7 +6,9 @@ module.exports = {
   entry: {
     index: './src/javascripts/index.js',
     header: './src/javascripts/header.js',
-    styleguide: './src/javascripts/styleguide.js'
+    articles: './src/javascripts/articles.js',
+    styleguide: './src/javascripts/styleguide.js',
+    skilltest: './src/skilltest.js'
   },
   output: {
     path: path.resolve('.', "docs"),
@@ -53,5 +55,5 @@ module.exports = {
   plugins: [
     ...htmlPages,
     new MiniCssExtractPlugin(),
-  ],
+  ]
 };
