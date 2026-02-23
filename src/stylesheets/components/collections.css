@@ -7,3 +7,8 @@
   align-content: space-between;
   margin-top: 32rem;
 }
+
+.c_filter_tags {
+  display: flex;
+  gap: 16rem;
+}

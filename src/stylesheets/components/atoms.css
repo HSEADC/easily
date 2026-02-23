@@ -96,10 +96,15 @@
 
 .a_tag {
   padding: 8rem 12rem;
+  width: fit-content;
   border-radius: var(--radius-4xl);
   background-color: var(--base-100);
   color: var(--base-500);
   box-shadow: inset -2px -2px 8px 0 var(--base-300), inset 2px 2px 8px 0 var(--base-300);
+}
+
+.a_tag:hover {
+  cursor: pointer;
 }
 
 .a_input {
