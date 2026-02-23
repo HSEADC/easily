@@ -24,3 +24,14 @@
   display: flex;
   gap: 20rem;
 }
+
+.m_result_chart_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 467rem;
+  height: 447rem;
+  background-image: url(../../images/test_chart_background.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
