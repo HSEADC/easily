@@ -11,7 +11,7 @@ function createPage(template, filename, chunks){
 const htmlPages = [
   createPage('./src/index.html', './index.html', ['index', 'skilltest', 'chart']),
   createPage('./src/pages/about.html', './pages/about.html', ['index']),
-  createPage('./src/pages/articles/articles.html', './pages/articles/articles.html', ['index', 'articles']),
+  createPage('./src/pages/articles/articles.html', './pages/articles/articles.html', ['index', 'articles', 'urlfilter']),
   createPage('./src/pages/guides/guides.html', './pages/guides/guides.html', ['index']),
   createPage('./src/pages/dictionary/dictionary.html', './pages/dictionary/dictionary.html', ['index']),
   createPage('./src/pages/errors/404.html', './pages/errors/404.html', ['index']),

@@ -1,7 +1,7 @@
 'use strict';
 
 function generateRadarChart(resultCount, width, height) {
-  const categories = ['health', 'career', 'home', 'documents', 'lifestyle', 'finance'];
+  const categories = ['health', 'career', 'home', 'docs', 'life', 'finance'];
 
   const centerX = width / 2;
   const centerY = height / 2;

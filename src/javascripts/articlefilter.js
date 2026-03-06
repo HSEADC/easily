@@ -1,24 +1,32 @@
 'use strict';
 
-function articlesFilter() {
-  const docTag = document.getElementById('docs');
-  const finTag = document.getElementById('finance');
-  const healTag = document.getElementById('health');
-  const lifeTag = document.getElementById('life');
-  const carTag = document.getElementById('career');
-  const homeTag = document.getElementById('home');
+export const categories = ['docs', 'finance', 'health', 'life', 'career', 'home'];
+export const activecats = [];
+const docTag = document.getElementById('docs');
+const finTag = document.getElementById('finance');
+const healTag = document.getElementById('health');
+const lifeTag = document.getElementById('life');
+const carTag = document.getElementById('career');
+const homeTag = document.getElementById('home');
+const articles = document.querySelector('.o_articles_wrapper');
 
-  const articles = document.querySelector('.o_articles_wrapper');
-  const categories = ['docs', 'finance', 'health', 'life', 'career', 'home'];
+function articlesFilter() {
+
   const elements = {};
 
   categories.forEach(cat => {
     elements[cat] = articles.querySelectorAll('.' + cat);
   });
 
-  const activecats = [];
+  docTag.addEventListener('click', () => toggleCat('docs', docTag));
+  finTag.addEventListener('click', () => toggleCat('finance', finTag));
+  healTag.addEventListener('click', () => toggleCat('health', healTag));
+  lifeTag.addEventListener('click', () => toggleCat('life', lifeTag));
+  carTag.addEventListener('click', () => toggleCat('career', carTag));
+  homeTag.addEventListener('click', () => toggleCat('home', homeTag));
+}
 
-  function toggleCat(category, btn) {
+function toggleCat(category, btn) {
     if (activecats.includes(category)) {
       btn.classList.remove('a_tag_active');
       const index = activecats.indexOf(category);
@@ -38,12 +46,4 @@ function articlesFilter() {
     })
   }
 
-  docTag.addEventListener('click', () => toggleCat('docs', docTag));
-  finTag.addEventListener('click', () => toggleCat('finance', finTag));
-  healTag.addEventListener('click', () => toggleCat('health', healTag));
-  lifeTag.addEventListener('click', () => toggleCat('life', lifeTag));
-  carTag.addEventListener('click', () => toggleCat('career', carTag));
-  homeTag.addEventListener('click', () => toggleCat('home', homeTag));
-}
-
-export {articlesFilter};
+export {articlesFilter, updateFilter};

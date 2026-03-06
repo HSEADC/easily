@@ -7,8 +7,8 @@ const resultCount = {
   health: 0,
   career: 0,
   home: 0,
-  documents: 0,
-  lifestyle: 0,
+  docs: 0,
+  life: 0,
   finance: 0,
 };
 const answers = document.querySelectorAll('.a_test_answer');
@@ -71,18 +71,19 @@ function showResult() {
   const resultChart = document.createElement('div');
 
   // testResults.innerHTML = `Ты отлично справляешься с задачами, связанными с ${skill} и ${skill}! Обрати внимание на ${skill} — там есть над чем поработать. Мы подобрали для тебя статьи, которые помогут закрыть этот пробел`
-  const result = resultCount.career + resultCount.documents + resultCount.finance + resultCount.health + resultCount.home + resultCount.lifestyle;
+  const result = resultCount.career + resultCount.docs + resultCount.finance + resultCount.health + resultCount.home + resultCount.life;
   console.log(result, resultCount);
 
+  const link = generateLink(resultCount);
 
   if (result <= 12) {
-    testResults.innerHTML = 'В решении задач взрослой жизни ты еще новичок!';
+    testResults.innerHTML = `В решении задач взрослой жизни ты еще новичок! почитай статьи по <a href="${link}">ссылке</a>`;
   }
   else if (result <= 24) {
-    testResults.innerHTML = 'Ты довольно уверенно решаешь задачи взрослой жизни!';
+    testResults.innerHTML = `Ты довольно уверенно решаешь задачи взрослой жизни! почитай статьи по <a href="${link}">ссылке</a>`;
   }
   else {
-    testResults.innerHTML = 'В решении задач взрослой жизни ты настоящий профи!';
+    testResults.innerHTML = `В решении задач взрослой жизни ты настоящий профи! почитай статьи по <a href="${link}">ссылке</a>`;
   }
 
   testBlock.style.cssText = 'display: flex; flex-direction:column; gap: 36rem';
@@ -90,6 +91,14 @@ function showResult() {
   resultChart.innerHTML = generateRadarChart(resultCount, 570, 570);
   testBlock.append(resultChartWrapper);
   resultChartWrapper.append(resultChart);
+}
+
+function generateLink(obj) {
+  const params = new URLSearchParams();
+  Object.entries(obj).forEach(([category, score]) => {
+    params.append(category, score);
+  });
+  return `/pages/articles/articles.html?${params.toString()}`;
 }
 
 export {initTest, chooseAnswer}
