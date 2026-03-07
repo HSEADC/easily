@@ -39,14 +39,17 @@ main {
 .a_tag_active {
   display: flex;
   justify-content: space-between;
+  gap: 4rem;
+  align-items: center;
 }
 
 .a_tag_active > .q_tag_cross {
   display: inline-block;
-  width: 15rem;
-  height: 15rem;
-  background-image: url(images/b018363cc29478e03297.svg);
+  width: 12rem;
+  height: 12rem;
+  background-image: url(images/6f2962949b819e00ed55.svg);
   background-repeat: no-repeat;
+  background-size: contain;
 }
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126

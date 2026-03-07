@@ -1,7 +1,7 @@
-@import "reset.css";
-@import "fonts.css";
-@import "variables.css";
-@import "main.css";
+@import "../../stylesheets/reset.css";
+@import "../../stylesheets/fonts.css";
+@import "../../stylesheets/variables.css";
+@import "../../stylesheets/main.css";
 
 body {
   color: var(--base-500);
@@ -23,7 +23,7 @@ header {
   box-shadow: inset -20rem -20rem 50rem 0 rgba(212, 184, 246, 0.6),
     inset 20rem 20rem 50rem 0 rgba(212, 184, 246, 0.6);
   margin-bottom: 128rem;
-  background-image: url(../images/bg_pattern.svg);
+  background-image: url(../../images/bg_pattern.svg);
   background-position: center;
   background-size: 120%;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@ header .title_h1 {
   height: 70%;
   position: absolute;
   /* animation: bg 25s ease infinite; */
-  background-image: url(../images/styleguide/MapGraphic.svg);
+  background-image: url(../../images/styleguide/MapGraphic.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -47,37 +47,37 @@ header .title_h1 {
 
 @keyframes bg {
   0% {
-    background-image: url(../images/styleguide/MapGraphic.svg);
+    background-image: url(../../images/styleguide/MapGraphic.svg);
   }
   15% {
-    background-image: url(../images/styleguide/MapGraphic.svg);
+    background-image: url(../../images/styleguide/MapGraphic.svg);
   }
   20% {
-    background-image: url(../images/styleguide/MapGraphic2.svg);
+    background-image: url(../../images/styleguide/MapGraphic2.svg);
   }
   35% {
-    background-image: url(../images/styleguide/MapGraphic2.svg);
+    background-image: url(../../images/styleguide/MapGraphic2.svg);
   }
   40% {
-    background-image: url(../images/styleguide/MapGraphic3.svg);
+    background-image: url(../../images/styleguide/MapGraphic3.svg);
   }
   55% {
-    background-image: url(../images/styleguide/MapGraphic3.svg);
+    background-image: url(../../images/styleguide/MapGraphic3.svg);
   }
   60% {
-    background-image: url(../images/styleguide/MapGraphic4.svg);
+    background-image: url(../../images/styleguide/MapGraphic4.svg);
   }
   75% {
-    background-image: url(../images/styleguide/MapGraphic4.svg);
+    background-image: url(../../images/styleguide/MapGraphic4.svg);
   }
   80% {
-    background-image: url(../images/styleguide/MapGraphic5.svg);
+    background-image: url(../../images/styleguide/MapGraphic5.svg);
   }
   95% {
-    background-image: url(../images/styleguide/MapGraphic5.svg);
+    background-image: url(../../images/styleguide/MapGraphic5.svg);
   }
   100% {
-    background-image: url(../images/styleguide/MapGraphic.svg);
+    background-image: url(../../images/styleguide/MapGraphic.svg);
   }
 }
 
@@ -273,7 +273,7 @@ nav a {
 
 .logo-example-block {
   width: 100%;
-  background-image: url(../images/styleguide/LogoDemo.png);
+  background-image: url(../../images/styleguide/LogoDemo.png);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -473,7 +473,7 @@ nav a {
 .graph-block-1 {
   width: 855rem;
   height: 328rem;
-  background-image: url(../images/styleguide/graph-block-1.svg);
+  background-image: url(../../images/styleguide/graph-block-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -481,7 +481,7 @@ nav a {
 .graph-block-2 {
   width: 415rem;
   height: 470rem;
-  background-image: url(../images/styleguide/graph-block-2.svg);
+  background-image: url(../../images/styleguide/graph-block-2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -489,7 +489,7 @@ nav a {
 .graph-block-3 {
   width: 415rem;
   height: 470rem;
-  background-image: url(../images/styleguide/graph-block-3.png);
+  background-image: url(../../images/styleguide/graph-block-3.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -506,7 +506,7 @@ footer {
   background: var(--base-500);
   height: 416rem;
   padding: 64rem 0rem 32rem;
-  background-image: url(../images/bg_pattern.svg);
+  background-image: url(../../images/bg_pattern.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -750,7 +750,7 @@ footer {
   .graph-block-1 {
     width: 351rem;
     height: 416rem;
-    background-image: url(../images/styleguide/graph-block-1-1.svg);
+    background-image: url(../../images/styleguide/graph-block-1-1.svg);
   }
   .graph-block-2,
   .graph-block-3 {

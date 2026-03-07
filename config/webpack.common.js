@@ -4,12 +4,12 @@ const htmlPages = require('./webpack.pages.js');
 
 module.exports = {
   entry: {
-    index: './src/javascripts/index.js',
-    header: './src/javascripts/header.js',
-    articles: './src/javascripts/articles.js',
-    styleguide: './src/javascripts/styleguide.js',
+    index: './src/index.js',
+    // header: './src/javascripts/header.js',
+    articles: './src/pages/articles/articles.js',
+    styleguide: './src/pages/styleguide/styleguide.js',
     skilltest: './src/skilltest.js',
-    urlfilter: './src/javascripts/urlfilter.js'
+    // urlfilter: './src/javascripts/urlfilter.js'
   },
   output: {
     path: path.resolve('.', "docs"),

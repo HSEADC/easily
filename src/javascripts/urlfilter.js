@@ -1,7 +1,3 @@
-// import { categories, activecats, updateFilter } from "./articlefilter";
-
-//   console.log('hi');
-
 //   const params = new URLSearchParams(window.location.search);
 //   const lowScoreCategories = [];
 

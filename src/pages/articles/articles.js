@@ -1,7 +1,6 @@
 'use strict';
-import '../pages/articles/articles.css';
-import '../stylesheets/style.css';
-import { updateFilter } from './articlefilter';
+import './articles.css';
+import '../../stylesheets/style.css';
 
 const tags = document.querySelectorAll('.a_tag');
 const articleCards = document.querySelectorAll('.o_article_card');

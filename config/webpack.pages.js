@@ -11,7 +11,7 @@ function createPage(template, filename, chunks){
 const htmlPages = [
   createPage('./src/index.html', './index.html', ['index', 'skilltest', 'chart']),
   createPage('./src/pages/about.html', './pages/about.html', ['index']),
-  createPage('./src/pages/articles/articles.html', './pages/articles/articles.html', ['index', 'articles', 'urlfilter']),
+  createPage('./src/pages/articles/articles.html', './pages/articles/articles.html', ['index', 'articles']),
   createPage('./src/pages/guides/guides.html', './pages/guides/guides.html', ['index']),
   createPage('./src/pages/dictionary/dictionary.html', './pages/dictionary/dictionary.html', ['index']),
   createPage('./src/pages/errors/404.html', './pages/errors/404.html', ['index']),
@@ -22,7 +22,7 @@ const htmlPages = [
   createPage('./src/pages/articles/finance/finance.html', './pages/articles/finance/finance.html', ['index']),
   createPage('./src/pages/articles/documents/documents.html', './pages/articles/documents/documents.html', ['index']),
   createPage('./src/pages/articles/career/career.html', './pages/articles/career/career.html', ['index']),
-  createPage('./src/pages/styleguide.html', './pages/styleguide.html', ['styleguide'])
+  createPage('./src/pages/styleguide/styleguide.html', './pages/styleguide/styleguide.html', ['styleguide'])
 ];
 
 module.exports = htmlPages;
