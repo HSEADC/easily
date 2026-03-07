@@ -6,22 +6,22 @@ main {
   flex-direction: column;
 }
 
-.o_articles_wrapper {
+.c_articles_wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 20rem;
-  max-width: 1260rem;
+  gap: 24rem;
+  max-width: 1296rem;
 }
 
 .o_article_card {
-  width: 300rem;
+  width: 306rem;
   height: 200rem;
-  background-size: cover;
   border-radius: 40rem;
   display: flex;
   flex-direction: column-reverse;
   padding: 18rem 20rem;
   justify-content: space-between;
+  background-color: var(--base-100);
 }
 
 .a_text_m {
@@ -30,6 +30,23 @@ main {
 
 .c_filter_tags {
   margin-bottom: 40rem;
+}
+
+.q_tag_cross {
+  display: none;
+}
+
+.a_tag_active {
+  display: flex;
+  justify-content: space-between;
+}
+
+.a_tag_active > .q_tag_cross {
+  display: inline-block;
+  width: 15rem;
+  height: 15rem;
+  background-image: url(images/b018363cc29478e03297.svg);
+  background-repeat: no-repeat;
 }
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126

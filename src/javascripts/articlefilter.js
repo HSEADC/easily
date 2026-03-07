@@ -1,7 +1,7 @@
 'use strict';
 
-export const categories = ['docs', 'finance', 'health', 'life', 'career', 'home'];
-export const activecats = [];
+const categories = ['docs', 'finance', 'health', 'life', 'career', 'home'];
+const activecats = [];
 const docTag = document.getElementById('docs');
 const finTag = document.getElementById('finance');
 const healTag = document.getElementById('health');
@@ -10,10 +10,9 @@ const carTag = document.getElementById('career');
 const homeTag = document.getElementById('home');
 const articles = document.querySelector('.o_articles_wrapper');
 
+const elements = {};
+
 function articlesFilter() {
-
-  const elements = {};
-
   categories.forEach(cat => {
     elements[cat] = articles.querySelectorAll('.' + cat);
   });

@@ -1,67 +1,53 @@
 'use strict';
-// import { createElement } from 'react';
-import '../stylesheets/articles.css';
+import '../pages/articles/articles.css';
 import '../stylesheets/style.css';
-import Airtable from "airtable";
-import { articlesFilter } from './articlefilter';
+import { updateFilter } from './articlefilter';
 
-const dataBaseToken = 'patZz9uJed4z2DRAw.ba85865766a68a75c0637826f86227a55a503cac8fa61551b14684976e22af54'
+const tags = document.querySelectorAll('.a_tag');
+const articleCards = document.querySelectorAll('.o_article_card');
 
-Airtable.configure({
-    endpointUrl: 'https://api.airtable.com',
-    apiKey: dataBaseToken
-});
-var base = Airtable.base('apppkoPTUn5uEsuIu');
+initFilters();
 
-let content
-getArticleData().then(data => {
-  content = data;
-  createArticlesCards(data);
+function initFilters() {
   articlesFilter();
-});
-
-function getArticleData() {
-  return new Promise((resolve, reject) => {
-    const content = [];
-
-    base('articles cards').select({
-      maxRecords: 50
-    }).firstPage()
-    .then((result) => {
-      result.forEach(record => {
-        content.push({
-          id: record.id,
-          title: record.fields['title'],
-          tag: record.fields['tag'],
-          URL: record.fields['URL'],
-          img: record.fields['img'],
-          tagname: record.fields['tagname']
-        })
-      })
-      resolve(content);
-    })
-  })
 }
 
-function createArticlesCards(content) {
-  content.forEach(line => {
-    let { title, tag, URL, img, tagname } = line;
+function articlesFilter() {
+  tags.forEach(tag => {
+    tag.addEventListener('click', () => {
+      tag.classList.toggle('a_tag_active');
+      updateVisibleCards();
+    });
+  });
+}
 
-    const articleCardHeader = document.createElement('p');
-    articleCardHeader.classList.add('a_text_m');
-    articleCardHeader.innerText = title;
+function updateVisibleCards() {
+  const activeTags = document.querySelectorAll('.a_tag_active');
+  const taglist = [];
 
-    const articleCardTag = document.createElement('div');
-    articleCardTag.classList.add('text_s', 'a_tag');
-    articleCardTag.innerText = tag;
+  activeTags.forEach(tag => {
+    taglist.push(tag.id);
+  });
 
-    const articleCard = document.createElement('a');
-    articleCard.classList.add('o_article_card', `${tagname}`);
-    articleCard.href = URL;
-    articleCard.style.background = '#DADAFB';
+  if(taglist.length > 0) {
+      articleCards.forEach(card => {
+      card.style.display = 'none';
+    });
 
-    articleCard.append(articleCardHeader);
-    articleCard.append(articleCardTag);
-    document.querySelector('.o_articles_wrapper').append(articleCard)
+    taglist.forEach(tag => {
+      articleCards.forEach(card => {
+        if(card.classList.contains(tag)) {
+          card.style.display = 'flex';
+        }
+      })
+    });
+  } else {
+    showAllCards();
+  }
+}
+
+function showAllCards() {
+  articleCards.forEach(card => {
+    card.style.display = 'flex';
   });
 }
