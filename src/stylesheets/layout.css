@@ -35,7 +35,6 @@
   line-height: 100%;
   text-align: center;
   color: var(--base-200);
-
 }
 
 @keyframes float {
@@ -90,29 +89,7 @@
   animation: float2 6s ease-in-out infinite;
 }
 
-.index-float-q p {
-  position: absolute;
-}
 
-.index-float-q:nth-of-type(1) p {
-  top: 48rem;
-  left: 52rem;
-}
-
-.index-float-q:nth-of-type(2) p {
-  top: 61rem;
-  left: 40rem;
-}
-
-.index-float-q:nth-of-type(3) p {
-  top: 79rem;
-  left: 20rem;
-}
-
-.index-float-q:nth-of-type(4) p {
-  top: 65rem;
-  left: 32rem;
-}
 
 .index-hero-content {
   position: relative;
@@ -137,245 +114,6 @@
 .index-about-section .h2_medium {
   color: var(--base-500);
   text-align: center;
-}
-
-.index-about-section {
-  width: 1296rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 40rem;
-}
-
-.index-about-cards {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.index-about-card {
-  display: flex;
-  flex-direction: column;
-  border-radius: 28rem;
-  padding: 28rem;
-  width: 415rem;
-  height: 292rem;
-
-  justify-content: flex-end;
-  gap: 16rem;
-  overflow: hidden;
-}
-
-.index-about-card:nth-of-type(1) {
-  color: var(--base-100);
-  background-color: var(--base-500);
-  box-shadow: inset -5rem -5rem 20rem 0 var(--base-100),
-    inset 5rem 5rem 20rem 0 var(--base-100);
-  background-image: url(../images/bg_pattern.svg),
-    url(../images/index-graph-1.svg);
-  background-position: center, 165% -26%;
-  background-repeat: no-repeat;
-  background-size: 150%, 105%;
-}
-
-.index-about-card:nth-of-type(3) {
-  color: var(--base-100);
-  background-color: var(--base-500);
-  box-shadow: inset -5rem -5rem 20rem 0 var(--base-100),
-    inset 5rem 5rem 20rem 0 var(--base-100);
-  background-image: url(../images/bg_pattern.svg),
-    url(../images/index-graph-2.svg);
-  background-position: center, 80% 4%;
-  background-repeat: no-repeat;
-  background-size: 150%, 120%;
-}
-
-.index-about-card:nth-of-type(2) {
-  color: var(--base-500);
-  background-color: var(--base-0);
-  box-shadow: inset -5rem -5rem 20rem 0 rgba(150, 72, 231, 0.6),
-    inset 5rem 5rem 20rem 0 rgba(150, 72, 231, 0.6);
-  background-image: url(../images/bg_pattern_2.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 150%;
-}
-
-.index-text-block {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 24rem;
-  width: 1296rem;
-  height: 464rem;
-  border-radius: 40rem;
-  color: var(--base-0);
-  background-color: var(--base-500);
-  box-shadow: inset -10rem -10rem 40rem 0 rgba(212, 184, 246, 0.6),
-    inset 10rem 10rem 40rem 0 rgba(212, 184, 246, 0.6);
-  background-image: url(../images/bg_pattern.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.index-text-block .h2_medium {
-  text-align: center;
-}
-
-.index-text-block .text_m {
-  max-width: 600rem;
-  text-align: center;
-}
-
-.release-tag {
-  color: var(--base-500);
-  box-shadow: inset -2rem -2rem 8rem 0 var(--base-300),
-    inset 2rem 2rem 8rem 0 var(--base-300);
-  border-radius: 40rem;
-  padding: 8rem 12rem;
-  width: 66rem;
-  height: 32rem;
-  transform: rotate(10deg);
-  background-color: var(--base-100);
-  position: absolute;
-  top: 277rem;
-  left: 689rem;
-}
-
-.index-articles-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 40rem;
-  width: 1296rem;
-}
-
-.index-aticles-cards {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.index-article-card {
-  width: 416rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.index-article-card .img-container {
-  border-radius: var(--radius-2xl);
-  width: 416rem;
-  height: 460rem;
-  box-shadow: inset -10rem -10rem 30rem 0 var(--base-100),
-    inset 10rem 10rem 30rem 0 var(--base-100);
-  margin-bottom: 12rem;
-}
-
-.index-article-card .title_h5 {
-  margin-top: 20rem;
-  color: var(--base-500);
-}
-
-.index-article-card:nth-of-type(1) .img-container {
-  background-image: url(../images/articles_covers/magnesium.webp);
-  background-repeat: no-repeat;
-  background-size: 100%;
-    background-position: center;
-}
-
-.index-article-card:nth-of-type(2) .img-container {
-  background-image: url(../images/articles_covers/documents.webp);
-  background-size: 100%;
-    background-position: center;
-}
-
-.index-article-card:nth-of-type(3) .img-container {
-  background-image: url(../images/articles_covers/shopping.webp);
-  background-repeat: no-repeat;
-  background-size: 100%;
-    background-position: center;
-}
-
-.index-subscribe-section {
-  background-color: var(--base-500);
-  box-shadow: inset -10rem -10rem 40rem 0 rgba(212, 184, 246, 0.6),
-    inset 10rem 10rem 40rem 0 rgba(212, 184, 246, 0.6);
-  width: 1296rem;
-  height: 412rem;
-  border-radius: var(--radius-4xl);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 80rem 0rem;
-  gap: 28rem;
-  margin-bottom: 80rem;
-  background-image: url(../images/bg_pattern.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.index-subscribe-section .title_h3 {
-  color: var(--base-0);
-  text-align: center;
-  max-width: 600rem;
-}
-
-.index-input-container {
-  display: flex;
-  flex-direction: column;
-  gap: 8rem;
-}
-
-.index-input-container .a_input,
-.a_primary_btn_v2 {
-  width: 430rem;
-}
-
-.social-links {
-  display: flex;
-  gap: 8rem;
-}
-
-.social-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: var(--base-0);
-  gap: 16rem;
-}
-
-.footer-logo-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 16rem;
-  color: var(--base-0);
-}
-
-.footer-logo-container p:first-of-type {
-  font-size: 84rem;
-  font-weight: 500;
-  line-height: 100%;
-}
-
-.footer-logo-container .text_m {
-  text-align: center;
-}
-
-.creators {
-  color: var(--base-0);
-  display: flex;
-  flex-direction: column;
-  align-items: end;
 }
 
 /* ARTICLES */
@@ -639,7 +377,7 @@
 
 .number-4 {
   color: var(--dark-grey);
-  font-family: "Non-Bureau", Arial, Helvetica, sans-serif;
+  font-family: "TTCommons", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 250rem;
 }

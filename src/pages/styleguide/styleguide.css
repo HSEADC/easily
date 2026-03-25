@@ -1,7 +1,4 @@
-@import "../../stylesheets/reset.css";
-@import "../../stylesheets/fonts.css";
-@import "../../stylesheets/variables.css";
-@import "../../stylesheets/main.css";
+@import "../../stylesheets/style.css";
 
 body {
   color: var(--base-500);

@@ -1,3 +1,56 @@
+.A_button {
+  border-radius: 32rem;
+  padding: 12rem 20rem 10rem;
+  background-color: var(--base-500);
+  font-weight: 400;
+  font-size: 16rem;
+  color: var(--wb-0);
+  transition: all 0.3s ease;
+}
+
+.A_button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 12rem 0 rgba(143, 88, 250, 0.6);
+}
+
+.A_button:active {
+  background-color: var(--base-600);
+}
+
+.A_close_button {
+  width: 44rem;
+  height: 44rem;
+  border-radius: 8rem;
+  background-color: var(--wb-50);
+  background-image: url(../../images/close_icon_black.svg);
+  background-size: 20rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+}
+
+.A_close_button:hover, .A_close_button:active {
+  cursor: pointer;
+  background-color: var(--wb-900);
+  background-image: url(../../images/close_icon_white.svg);
+}
+
+.a_question_answer {
+  border-radius: 16rem;
+  padding: 16rem;
+  background-color: var(--wb-50);
+}
+
+@media (min-width: 540px) {
+  .A_button {
+    font-size: 20rem;
+  }
+}
+
+
+/* ################################################################## */
+/* old styles */
+
 .a_btn_primary {
   box-shadow: inset -4rem -4rem 12rem 0 rgba(234, 221, 251, 0.6), inset 4rem 4rem 12rem 0 rgba(234, 221, 251, 0.6);
   border-radius: 40rem;
@@ -159,21 +212,6 @@
   background: rgba(234, 221, 251, 0.5);
 }
 
-.a_burger-icon {
-  border-radius: var(--radius-4xl);
-  background-color: var(--base-100);
-  width: 60rem;
-  height: 60rem;
-  gap: 4rem;
-  display: none;
-}
-
-.a_burger-icon span {
-  background-color: var(--base-600);
-  border-radius: var(--radius-xs);
-  width: 24rem;
-  height: 2rem;
-}
 .a_search-mob-icon {
   border-radius: var(--radius-4xl);
   background-color: var(--base-100);
@@ -182,10 +220,4 @@
   display: none;
   justify-content: center;
   align-items: center;
-}
-
-.a_text_m {
-  line-height: 100%;
-  font-size: 20rem;
-  font-weight: 500;
 }
