@@ -26,10 +26,27 @@
     font-weight: 700;
 }
 
+/* m */
 .text_l__medium {
   font-weight: 500;
   font-size: 24rem;
   line-height: 100%;
+}
+
+/* d */
+.text_m__medium {
+  font-weight: 500;
+  font-size: 20rem;
+}
+
+.text_s {
+  font-weight: 400;
+  font-size: 16rem;
+}
+
+.title_h4 {
+  font-weight: 500;
+  font-size: 40rem;
 }
 
 @media (min-width: 540px) {
@@ -59,12 +76,6 @@
   line-height: 48rem;
 }
 
-.title_h4 {
-  font-weight: 500;
-  font-size: 40rem;
-  line-height: 40rem;
-}
-
 .title_h5, .a_title_h5 {
   font-weight: 500;
   font-size: 32rem;
@@ -81,12 +92,6 @@
   font-weight: 500;
   font-size: 20rem;
   line-height: 20rem;
-}
-
-.text_s {
-  font-weight: 400;
-  font-size: 16rem;
-  line-height: 16rem;
 }
 
 .text_l {

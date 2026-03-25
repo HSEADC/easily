@@ -5,6 +5,19 @@
   justify-content: center;
 }
 
+.O_question_block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32rem;
+  border-radius: 24rem;
+  padding: 64rem 40rem 40rem;
+  background-color: var(--wb-0);
+  width: 856rem;
+  height: 500rem;
+}
+
 /* ################ */
 
 .o_footer {
