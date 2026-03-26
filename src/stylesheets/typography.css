@@ -68,3 +68,10 @@
   font-size: 48rem;
   line-height: 83%;
 }
+
+.title_h1 {
+  font-weight: 600;
+  font-size: 76rem;
+  line-height: 100%;
+  text-align: center;
+}

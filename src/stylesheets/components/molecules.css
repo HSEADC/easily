@@ -39,7 +39,8 @@
   border-radius: 24rem;
   padding: 16rem;
   width: 416rem;
-  height: 372rem;
+  height: 396rem;
+  background-color: var(--wb-50);
 }
 
 

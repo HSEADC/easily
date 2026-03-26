@@ -1,0 +1,44 @@
+.O_main {
+  gap: 96rem;
+  margin-top: 96rem;
+}
+
+.title_h1 {
+  color: var(--base-500);
+  max-width: 1440rem;
+}
+
+.O_guides_block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 48rem;
+}
+
+.O_guides_list {
+  display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 24rem;
+padding: 0rem 72rem;
+width: 1440rem;
+}
+
+.guide_card_img {
+  border-radius: 20rem;
+  width: 384rem;
+  height: 260rem;
+  overflow: hidden;
+}
+
+.guide_card_img img {
+  width: 107%;
+  box-shadow: inset 8px 8px 40px 0 rgba(233, 75, 152, 0.6), inset -8px -8px 40px 0 rgba(233, 75, 152, 0.6);
+}
+
+.doc_img {
+  margin-top: -120rem;
+}

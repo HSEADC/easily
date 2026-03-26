@@ -6,6 +6,7 @@
 @import 'components/organisms.css';
 @import 'components/molecules.css';
 @import 'components/collections.css';
+@import 'components/wrappers.css';
 
 @import 'main.css';
 @import 'layout.css';

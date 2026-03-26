@@ -145,8 +145,8 @@
 
 .A_input {
   border-radius: 16rem;
-  padding: 20rem 16rem 20rem 20rem;
-  background-color: var(--wb-0);
+  padding: 20rem 16rem 20rem 40rem;
+  background-color: var(--wb-50);
   color: var(--wb-900);
   font-size: 16rem;
   width: 430rem;
@@ -178,6 +178,7 @@
 
 .A_tab_health {
   background-color: var(--base-health-100);
+  color: var(--base-health-500);
 }
 
 .A_tab_health:hover, .A_tab_health:active {
@@ -186,6 +187,7 @@
 
 .A_tab_finance {
   background-color: var(--base-finance-100);
+  color: var(--base-finance-500);
 }
 
 .A_tab_finance:hover, .A_tab_finance:active {
@@ -194,6 +196,7 @@
 
 .A_tab_chores {
   background-color: var(--base-chores-100);
+  color: var(--base-chores-500);
 }
 
 .A_tab_chores:hover, .A_tab_chores:active {
@@ -202,6 +205,7 @@
 
 .A_tab_documents {
   background-color: var(--base-documents-100);
+  color: var(--base-documents-500);
 }
 
 .A_tab_documents:hover, .A_tab_documents:active {
@@ -210,6 +214,7 @@
 
 .A_tab_lifestyle {
   background-color: var(--base-lifestyle-100);
+  color: var(--base-lifestyle-500);
 }
 
 .A_tab_lifestyle:hover, .A_tab_lifestyle:active {
@@ -218,6 +223,7 @@
 
 .A_tab_career {
   background-color: var(--base-career-100);
+  color: var(--base-career-500);
 }
 
 .A_tab_career:hover, .A_tab_career:active {
@@ -225,10 +231,42 @@
 }
 
 
+/* ############### */
 
+.A_tag {
+  border-radius: 24rem;
+  padding: 6rem 8rem 4rem;
+}
 
+.A_tag_health {
+  background-color: var(--base-health-100);
+  color: var(--base-health-500);
+}
 
+.A_tag_finance {
+  background-color: var(--base-finance-100);
+  color: var(--base-finance-500);
+}
 
+.A_tag_chores {
+  background-color: var(--base-chores-100);
+  color: var(--base-chores-500);
+}
+
+.A_tag_documents {
+  background-color: var(--base-documents-100);
+  color: var(--base-documents-500);
+}
+
+.A_tag_lifestyle {
+  background-color: var(--base-lifestyle-100);
+  color: var(--base-lifestyle-500);
+}
+
+.A_tag_career {
+  background-color: var(--base-career-100);
+  color: var(--base-career-500);
+}
 
 
 
@@ -332,18 +370,7 @@
   color: var(--base-200);
 }
 
-.a_tag {
-  padding: 8rem 12rem;
-  width: fit-content;
-  border-radius: var(--radius-4xl);
-  background-color: var(--base-100);
-  color: var(--base-500);
-  box-shadow: inset -2px -2px 8px 0 var(--base-300), inset 2px 2px 8px 0 var(--base-300);
-}
 
-.a_tag:hover {
-  cursor: pointer;
-}
 
 .a_social-icon {
   width: 48rem;

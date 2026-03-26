@@ -12,7 +12,7 @@ const htmlPages = [
   createPage('./src/index.html', './index.html', ['index', 'skilltest', 'chart']),
   createPage('./src/pages/about.html', './pages/about.html'),
   createPage('./src/pages/articles/articles.html', './pages/articles/articles.html', ['articles']),
-  createPage('./src/pages/guides/guides.html', './pages/guides/guides.html'),
+  createPage('./src/pages/guides/guides.html', './pages/guides/guides.html', ['guides']),
   createPage('./src/pages/dictionary/dictionary.html', './pages/dictionary/dictionary.html'),
   createPage('./src/pages/articles/lifestyle/lifestyle.html', './pages/articles/lifestyle/lifestyle.html'),
   createPage('./src/pages/articles/home/home.html', './pages/articles/home/home.html'),
