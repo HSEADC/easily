@@ -7,7 +7,7 @@
 
 .O_question_block {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   gap: 32rem;

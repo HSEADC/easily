@@ -11,7 +11,7 @@ const resultCount = {
   life: 0,
   finance: 0,
 };
-const answers = document.querySelectorAll('.a_test_answer');
+const answers = document.querySelectorAll('.A_question_answer');
 
 answers.forEach(item => {
   item.addEventListener('click', () => {
@@ -20,8 +20,8 @@ answers.forEach(item => {
 });
 
 function initTest(test) {
-  const questionNum = document.querySelector('.a_question_num');
-  const questionText = document.querySelector('.a_test_question');
+  const questionNum = document.querySelector('.A_question_step');
+  const questionText = document.querySelector('.A_question_title');
 
   questionNum.innerHTML = `вопрос ${currentStage + 1} из ${test.length}`;
   questionText.innerHTML = test[currentStage].question;
@@ -59,11 +59,11 @@ function updateStage(test) {
 }
 
 function showResult() {
-  const testBlock = document.querySelector('.skillstest');
+  const testBlock = document.querySelector('.O_question_block');
   testBlock.innerHTML = '';
 
   const testResults = document.createElement('p');
-  testResults.classList.add('a_test_question');
+  testResults.classList.add('text_m');
 
   const resultChartWrapper = document.createElement('div');
   resultChartWrapper.classList.add('m_result_chart_wrapper');
@@ -74,16 +74,14 @@ function showResult() {
   const result = resultCount.career + resultCount.docs + resultCount.finance + resultCount.health + resultCount.home + resultCount.life;
   console.log(result, resultCount);
 
-  const link = generateLink(resultCount);
-
   if (result <= 12) {
-    testResults.innerHTML = `В решении задач взрослой жизни ты еще новичок! почитай статьи по <a href="${link}">ссылке</a>`;
+    testResults.innerHTML = ``;
   }
   else if (result <= 24) {
-    testResults.innerHTML = `Ты довольно уверенно решаешь задачи взрослой жизни! почитай статьи по <a href="${link}">ссылке</a>`;
+    testResults.innerHTML = ``;
   }
   else {
-    testResults.innerHTML = `В решении задач взрослой жизни ты настоящий профи! почитай статьи по <a href="${link}">ссылке</a>`;
+    testResults.innerHTML = ``;
   }
 
   testBlock.style.cssText = 'display: flex; flex-direction:column; gap: 36rem';
@@ -91,14 +89,6 @@ function showResult() {
   resultChart.innerHTML = generateRadarChart(resultCount, 570, 570);
   testBlock.append(resultChartWrapper);
   resultChartWrapper.append(resultChart);
-}
-
-function generateLink(obj) {
-  const params = new URLSearchParams();
-  Object.entries(obj).forEach(([category, score]) => {
-    params.append(category, score);
-  });
-  return `/pages/articles/articles.html?${params.toString()}`;
 }
 
 export {initTest, chooseAnswer}

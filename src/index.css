@@ -1,3 +1,20 @@
+/*
+    переписать адаптивы
+*/
+.O_question_block {
+  position: relative;
+}
+
+.A_close_button {
+  position: absolute;
+  top: 20rem;
+  left: 792rem;
+}
+
+
+
+/* ############################################################### */
+
 .index-float-q {
   display: grid;
   grid-template-areas: 'stack';

@@ -3,7 +3,7 @@
 }
 
 html {
-  font-size: calc(100vw / 375);
+  font-size: calc(100vw / 1440);
   scroll-behavior: smooth;
 }
 
@@ -13,19 +13,18 @@ body {
 }
 
 /* tablets */
-@media (min-width: 540px) {
+@media (max-width: 1024px) {
   html {
     font-size: calc(100vw / 768);
   }
 }
 
-/* desktops */
-@media (min-width: 1024px) {
+/* mobile */
+@media (max-width: 768px) {
   html {
-    font-size: calc(100vw / 1440);
+    font-size: calc(100vw / 468);
   }
 }
-
 /* large screens */
 @media (min-width: 1920px) {
   html {
