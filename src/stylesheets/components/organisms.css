@@ -16,6 +16,30 @@
   background-color: var(--wb-0);
   width: 856rem;
   height: 500rem;
+  backdrop-filter: blur(20rem);
+  -webkit-backdrop-filter: blur(20rem);
+}
+
+.O_test_result {
+  display: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 32rem;
+  width: 856rem;
+  height: 500rem;
+  backdrop-filter: blur(20rem);
+  -webkit-backdrop-filter: blur(20rem);
+}
+
+.O_tab_section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+  width: 476rem;
+  height: 306rem;
 }
 
 /* ################ */

@@ -58,37 +58,75 @@ function updateStage(test) {
   }
 }
 
+function getRecommendations(resultCount) {
+  const priorityOrder = ['finance', 'home', 'health', 'life', 'docs', 'career'];
+  const weakCategories = Object.entries(resultCount).filter(([category, score]) => score <= 4).map(([category, score]) => ({ category, score }));
+
+  weakCategories.sort((a, b) => {
+    if (a.score !== b.score) {
+      return a.score - b.score;
+    }
+    return priorityOrder.indexOf(a.category) - priorityOrder.indexOf(b.category);
+  });
+
+  const topRecommendations = weakCategories.slice(0, 3);
+
+  return topRecommendations.map(item => item.category);
+}
+
+function getCatName(category) {
+    const names = {
+      finance: ['Финансы', 'разберёшься, как планировать расходы и не терять деньги на мелочах.'],
+      home: ['Быт', 'базовые вещи, которые делают жизнь удобнее и спокойнее.'],
+      health: ['Здоровье', 'поймёшь, как заботиться о себе и когда действительно стоит идти к врачу.'],
+      life: ['Лайфстайл', 'здесь можно навести порядок в повседневных привычках и рутине.'],
+      docs: ['Документы', 'разберёшься в бумагах, чтобы не путаться и не терять время.'],
+      career: ['Карьера', 'поймёшь, как искать работу, расти в профессии и не выгорать.']
+    };
+    return [names[category][0], names[category][1]];
+  };
+
 function showResult() {
+  const resetBtn = document.querySelector('.reset_test');
   const testBlock = document.querySelector('.O_question_block');
-  testBlock.innerHTML = '';
+  const resultContent = document.querySelector('.O_test_result');
+  const resultChart = document.querySelector('.M_map');
 
-  const testResults = document.createElement('p');
-  testResults.classList.add('text_m');
+  // resetBtn.addEventListener('click', () => {
+  //   testBlock.style.display = 'flex';
+  //   resultContent.style.display = 'none';
+  //   initTest(test);
+  // });
 
-  const resultChartWrapper = document.createElement('div');
-  resultChartWrapper.classList.add('m_result_chart_wrapper');
+  testBlock.style.display = 'none';
+  resultContent.style.display = 'flex';
 
-  const resultChart = document.createElement('div');
+  const recs = getRecommendations(resultCount);
 
-  // testResults.innerHTML = `Ты отлично справляешься с задачами, связанными с ${skill} и ${skill}! Обрати внимание на ${skill} — там есть над чем поработать. Мы подобрали для тебя статьи, которые помогут закрыть этот пробел`
+  // testBlock.style.cssText = 'flex-direction: row; gap: 28rem;';
+
+  // resultContent.innerHTML = `
+  //   <h5 class='title_h5'>Ну что, смотрим правде в&nbsp;глаза? Мы&nbsp;посчитали баллы — вот&nbsp;как&nbsp;сейчас выглядит твоя&nbsp;карта</h5>
+  //   <div class='O_tab_section'>
+  //     <div class='M_tab_group'>
+  //       <button class='A_button'>Что это значит?</button>
+  //       <button class='A_button'>Рекомендации</button>
+  //     </div>
+  //     <p class='text_m'>По карте видно, где навыки пока проседают. Начни с этих категорий — так будет проще и быстрее подтянуть базу.
+
+  //       Рекомендуем начать с:
+  //       <ul class='result_recs_list'>
+  //         <li class='text_m'><span class='${recs[0]}_span text_m'>${getCatName(recs[0])[0]}</span> — ${getCatName(recs[0])[1]}</li>
+  //         <li class='text_m'><span class='${recs[1]}_span text_m''>${getCatName(recs[1])[0]}</span> — ${getCatName(recs[0])[1]}</li>
+  //         <li class='text_m'><span class='${recs[2]}_span text_m''>${getCatName(recs[2])[0]}</span> — ${getCatName(recs[0])[1]}</li>
+  //       </ul>
+  //      </p>
+  //   </div>
+  // `;
+
   const result = resultCount.career + resultCount.docs + resultCount.finance + resultCount.health + resultCount.home + resultCount.life;
   console.log(result, resultCount);
-
-  if (result <= 12) {
-    testResults.innerHTML = ``;
-  }
-  else if (result <= 24) {
-    testResults.innerHTML = ``;
-  }
-  else {
-    testResults.innerHTML = ``;
-  }
-
-  testBlock.style.cssText = 'display: flex; flex-direction:column; gap: 36rem';
-  testBlock.append(testResults);
-  resultChart.innerHTML = generateRadarChart(resultCount, 570, 570);
-  testBlock.append(resultChartWrapper);
-  resultChartWrapper.append(resultChart);
+  resultChart.innerHTML = generateRadarChart(resultCount, 382, 428);
 }
 
 export {initTest, chooseAnswer}

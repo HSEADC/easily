@@ -16,6 +16,34 @@
   gap: 12rem;
 }
 
+.M_tab_group {
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.M_map {
+  width: 405rem;
+  height: 453rem;
+  background: url(../../images/map_bg.svg) no-repeat center / 70%;
+}
+
+.M_guide_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+  border-radius: 24rem;
+  padding: 16rem;
+  width: 416rem;
+  height: 372rem;
+}
+
+
+
 /* older styles */
 /* ###################################### */
 

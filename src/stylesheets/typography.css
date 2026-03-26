@@ -26,10 +26,9 @@
     font-weight: 700;
 }
 
-
-.text_l_medium {
-  font-weight: 500;
-  font-size: 24rem;
+.text_s {
+  font-weight: 400;
+  font-size: 16rem;
   line-height: 100%;
 }
 
@@ -37,7 +36,6 @@
   font-weight: 400;
   font-size: 20rem;
   line-height: 100%;
-  color: var(--wb-900);
 }
 
 .text_m_medium {
@@ -46,15 +44,9 @@
   line-height: 100%;
 }
 
-.text_s {
-  font-weight: 400;
-  font-size: 16rem;
-  line-height: 100%;
-}
-
-.title_h4 {
+.text_l_medium {
   font-weight: 500;
-  font-size: 40rem;
+  font-size: 24rem;
   line-height: 100%;
 }
 
@@ -63,4 +55,16 @@
   font-size: 32rem;
   line-height: 100%;
   color: var(--wb-900);
+}
+
+.title_h4 {
+  font-weight: 500;
+  font-size: 40rem;
+  line-height: 100%;
+}
+
+.title_h3 {
+  font-weight: 500;
+  font-size: 48rem;
+  line-height: 83%;
 }

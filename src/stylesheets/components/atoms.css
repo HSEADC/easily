@@ -167,6 +167,72 @@
   background-position: 16rem center;
 }
 
+.A_tab_categorie {
+  border-radius: 16rem;
+  padding: 16rem 20rem;
+}
+
+.A_tab_categorie:hover {
+  cursor: pointer;
+}
+
+.A_tab_health {
+  background-color: var(--base-health-100);
+}
+
+.A_tab_health:hover, .A_tab_health:active {
+  background-color: var(--base-health-200);
+}
+
+.A_tab_finance {
+  background-color: var(--base-finance-100);
+}
+
+.A_tab_finance:hover, .A_tab_finance:active {
+  background-color: var(--base-finance-200);
+}
+
+.A_tab_chores {
+  background-color: var(--base-chores-100);
+}
+
+.A_tab_chores:hover, .A_tab_chores:active {
+  background-color: var(--base-chores-200);
+}
+
+.A_tab_documents {
+  background-color: var(--base-documents-100);
+}
+
+.A_tab_documents:hover, .A_tab_documents:active {
+  background-color: var(--base-documents-200);
+}
+
+.A_tab_lifestyle {
+  background-color: var(--base-lifestyle-100);
+}
+
+.A_tab_lifestyle:hover, .A_tab_lifestyle:active {
+  background-color: var(--base-lifestyle-200);
+}
+
+.A_tab_career {
+  background-color: var(--base-career-100);
+}
+
+.A_tab_career:hover, .A_tab_career:active {
+  background-color: var(--base-career-200);
+}
+
+
+
+
+
+
+
+
+
+
 /* ################################################################## */
 /* old styles */
 

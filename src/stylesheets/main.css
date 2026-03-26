@@ -22,9 +22,10 @@ body {
 /* mobile */
 @media (max-width: 768px) {
   html {
-    font-size: calc(100vw / 468);
-  }
+    font-size: calc(100vw / 375);
+   }
 }
+
 /* large screens */
 @media (min-width: 1920px) {
   html {

@@ -71,15 +71,6 @@ function generateRadarChart(resultCount, width, height) {
         fill-opacity="0.3"
         filter="url(#inset-glow)"
       />
-
-      <g stroke="rgba(234, 221, 251, 0.2)" stroke-width="1">
-        ${categories.map((_, index) => {
-          const angle = index * angleStep - Math.PI / 2;
-          const x = centerX + maxRadius * Math.cos(angle);
-          const y = centerY + maxRadius * Math.sin(angle);
-          return `<line x1="${centerX}" y1="${centerY}" x2="${x}" y2="${y}" />`;
-        }).join('')}
-      </g>
     </svg>
   `;
 }

@@ -1,17 +1,17 @@
 :root {
   /* palette */
 
-  --base-0: #F5EEFD;
-  --base-100: #EADDFB;
-  --base-200: #D4B8F6;
-  --base-300: #BF96F2;
-  --base-400: #AA6FED;
-  --base-500: #9648E7;
-  --base-600: #7D2DC2;
-  --base-700: #622096;
-  --base-800: #451468;
-  --base-900: #2C0943;
-  --base-950: #1D042D;
+	--base-50: #faf1ff;
+	--base-100: #e2d1ff;
+	--base-200: #caafff;
+	--base-300: #b48dff;
+	--base-400: #9e6cff;
+	--base-500: #8f58fa;
+	--base-600: #6f3bca;
+	--base-700: #562f9d;
+	--base-800: #3e256f;
+	--base-900: #271a46;
+	--base-950: #130d23;
 
   --wb-0: #FFFFFF;
   --wb-50: #F5F5F5;

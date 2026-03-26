@@ -11,7 +11,41 @@
   left: 792rem;
 }
 
+.result_recs_list {
+  list-style-type: disc;
+  margin-left: 15rem;
+}
 
+.W_map {
+  border-radius: 12rem;
+  width: 520rem;
+  height: 614rem;
+  background-color: var(--base-500);
+}
+
+.finance_span {
+  color: var(--base-finance-500);
+}
+
+.life_span {
+  color: var(--base-lifestyle-500);
+}
+
+.home_span {
+  color: var(--base-chores-500);
+}
+
+.docs_span {
+  color: var(--base-documents-500);
+}
+
+.health_span {
+  color: var(--base-health-500);
+}
+
+.career_span {
+  color: var(--base-career-500);
+}
 
 /* ############################################################### */
 
