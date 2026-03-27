@@ -298,3 +298,19 @@
   background-color: var(--base-career-100);
   color: var(--base-career-500);
 }
+
+.A_search_icon {
+  background-color: var(--wb-50);
+  border-radius: 8rem;
+  width: 44rem;
+  height: 44rem;
+  background-image: url(../../images/icons/search.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .A_button {
+    font-size: 18rem;
+  }
+}

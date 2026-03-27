@@ -99,3 +99,43 @@
   align-items: center;
   flex-direction: column;
 }
+
+.O_mobile_menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .O_menu {
+    margin-top: 20rem;
+  }
+  .O_mobile_menu {
+    width: 100%;
+    display: flex;
+    padding: 0rem 16rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .O_modal {
+    background-color: var(--wb-0);
+  }
+  .O_question_block {
+    padding: 0;
+    width: 343rem;
+    height: 494rem;
+  }
+  .O_test_result {
+    flex-direction: column;
+    padding: 0;
+    padding-top: 64rem;
+    width: 91.45vw;
+    border-radius: 0;
+  }
+  .O_test_result_content {
+    width: 91.45vw;
+  }
+  .O_tab_section {
+    width: 91.45vw;
+  }
+
+
+}

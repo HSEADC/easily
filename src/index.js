@@ -9,8 +9,8 @@ const openModalBtn = document.querySelector('.open_modal');
 const closeModal = document.querySelectorAll('.A_close_button');
 const modalWindow = document.querySelector('.O_modal');
 const background = document.querySelector('.O_index_body');
-const testBlock = document.querySelector('.O_question_block');
-const resultBlock = document.querySelector('.O_test_result');
+// const testBlock = document.querySelector('.O_question_block');
+// const resultBlock = document.querySelector('.O_test_result');
 
 openModalBtn.addEventListener('click', () => {
   modalWindow.style.display = 'flex';

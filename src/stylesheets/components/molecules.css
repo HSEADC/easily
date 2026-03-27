@@ -98,3 +98,20 @@
   display: flex;
   gap: 16rem;
 }
+
+.M_mobile_menu_items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+@media (max-width: 768px) {
+  .M_navigation_menu, .O_menu .A_input_search {
+    display: none;
+  }
+  .M_answer_options {
+    width: 343rem;
+  }
+}
