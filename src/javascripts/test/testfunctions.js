@@ -76,11 +76,16 @@ function showResult() {
   if (careerBadge) careerBadge.innerText = `${resultCount.career}/6`;
 
   if (resultChart) {
-    resultChart.innerHTML = generateRadarChart(resultCount, 382, 438);
+    resultChart.innerHTML = generateRadarChart(resultCount, 460, 527);
+  }
+
+  const firstTab = document.querySelector('.A_button_tab');
+  if (firstTab) {
+    firstTab.click();
   }
 
   const recs = getRecommendations(resultCount);
-  console.log('Рекомендации:', recs);
+  console.log(recs);
 
 }
 

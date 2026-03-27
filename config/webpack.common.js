@@ -9,7 +9,8 @@ module.exports = {
     styleguide: './src/pages/styleguide/styleguide.js',
     skilltest: './src/skilltest.js',
     errors: './src/pages/errors/errors.js',
-    guides: './src/pages/guides/guides.js'
+    guides: './src/pages/guides/guides.js',
+    filter: './src/javascripts/filter.js'
   },
   output: {
     path: path.resolve('.', "docs"),

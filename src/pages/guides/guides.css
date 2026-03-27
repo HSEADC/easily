@@ -27,6 +27,54 @@ padding: 0rem 72rem;
 width: 1440rem;
 }
 
+.guide_finance {
+  box-shadow: inset 20px 20px 40px 0 var(--base-finance-300), inset -20px -20px 40px 0 var(--base-finance-300);
+  background-image: url(../../images/guides/finance_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 25%;
+}
+
+.guide_lifestyle {
+  box-shadow: inset 8px 8px 40px 0 var(--base-lifestyle-300), inset -8px -8px 40px 0 var(--base-lifestyle-300);
+  background-image: url(../../images/guides/lifestyle_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.guide_career {
+  box-shadow: inset 8px 8px 40px 0 var(--base-career-300), inset -8px -8px 40px 0 var(--base-career-300);
+  background-image: url(../../images/guides/career_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.guide_health {
+  box-shadow: inset 8px 8px 40px 0 var(--base-health-300), inset -8px -8px 40px 0 var(--base-health-300);
+  background-image: url(../../images/guides/health_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.guide_chores {
+  box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
+  background-image: url(../../images/guides/chores_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.guide_documents {
+  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
+  background-image: url(../../images/guides/docs_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .guide_card_img {
   border-radius: 20rem;
   width: 384rem;
