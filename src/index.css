@@ -55,6 +55,10 @@
   color: var(--base-career-500);
 }
 
+.guide_span {
+  color: var(--base-500);
+}
+
 .tab_content {
   display: none;
   align-items: flex-start;

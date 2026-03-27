@@ -1,1 +1,0 @@
-(()=>{"use strict";document.querySelectorAll(".A_button_tab"),document.querySelectorAll("tab_content")})();

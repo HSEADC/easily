@@ -67,6 +67,7 @@ function showResult() {
   const healthBadge = document.querySelector('.A_badge_health');
   const lifestyleBadge = document.querySelector('.A_badge_lifestyle');
   const careerBadge = document.querySelector('.A_badge_career');
+  const recsParagraph = document.querySelector('.recomendations');
 
   if (financeBadge) financeBadge.innerText = `${resultCount.finance}/6`;
   if (documentsBadge) documentsBadge.innerText = `${resultCount.docs}/6`;
@@ -87,7 +88,53 @@ function showResult() {
   const recs = getRecommendations(resultCount);
   console.log(recs);
 
+  const totalScore = resultCount.health + resultCount.career + resultCount.home + resultCount.docs + resultCount.life + resultCount.finance;
+
+  if (totalScore === 0) {
+    recsParagraph.innerHTML = `
+    Нам не удалось построить твою карту, потому что во всех категориях пока по 0 баллов. Не переживай: это не ошибка и не провал! Скорее всего, ты только начинаешь разбираться во взрослой жизни, и это нормальный результат сейчас — никто не рождается с готовыми знаниями.
+
+    А пока мы советуем тебе начать с базовых тем:
+    <ul class="result_recs_list">
+      <li><a href="./pages/articles/articles.html"><span class="finance_span">Финансы</span></a> — разберёшься, как не терять деньги и держать их под контролем.</li>
+      <li><a href="./pages/articles/articles.html"><span class="home_span">Быт</span></a> — простые вещи, которые делают повседневную жизнь заметно легче.</li>
+      <li><a href="./pages/articles/articles.html"><span class="health_span">Здоровье</span></a> — база, без которой сложно чувствовать себя стабильно.</li>
+    </ul>`;
+  }
+  else if (totalScore === 36) {
+    recsParagraph.innerHTML = `
+      Ого, у тебя максимальные баллы во всех категориях!
+      Карта получилась идеальной формы — ромб, к которому мы и стремимся.
+      Похоже, ты уже хорошо ориентируешься в базовых вопросах взрослой жизни. Но если хочется копнуть глубже или освежить знания, загляни в наши <a href="./pages/guides/guides.html"><span class="text_l_medium">гайды</span></a> — там мы собрали короткие и полезные материалы на разные темы.`;
+  }
+
+  else {
+    recsParagraph.innerHTML = `
+      По карте видно, где навыки пока проседают. Начни с этих категорий — так будет проще и быстрее подтянуть базу.
+
+      Рекомендуем начать с:
+
+      <ul class="result_recs_list">
+      <li><a href="./pages/articles/articles.html"><span class="${recs[0]}_span text_m_medium">${getCatName(recs[0])[0]}</span> — ${getCatName(recs[0])[1]}</a></li>
+      <li><a href="./pages/articles/articles.html"><span class="${recs[1]}_span text_m_medium">${getCatName(recs[1])[0]}</span> — ${getCatName(recs[1])[1]}</a></li>
+      <li><a href="./pages/articles/articles.html"><span class="${recs[2]}_span text_m_medium">${getCatName(recs[2])[0]}</span> — ${getCatName(recs[2])[1]}</a></li>
+    </ul>
+    `
+  }
+
 }
+
+function getCatName(category) {
+    const names = {
+      finance: ['Финансы', 'разберёшься, как планировать расходы и не терять деньги на мелочах.'],
+      home: ['Быт', 'базовые вещи, которые делают жизнь удобнее и спокойнее.'],
+      health: ['Здоровье', 'поймёшь, как заботиться о себе и когда действительно стоит идти к врачу.'],
+      life: ['Лайфстайл', 'здесь можно навести порядок в повседневных привычках и рутине.'],
+      docs: ['Документы', 'разберёшься в бумагах, чтобы не путаться и не терять время.'],
+      career: ['Карьера', 'поймёшь, как искать работу, расти в профессии и не выгорать.']
+    };
+    return [names[category][0], names[category][1]];
+};
 
 function resetTest() {
   currentStage = 0;
