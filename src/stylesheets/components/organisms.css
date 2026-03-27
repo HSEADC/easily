@@ -69,34 +69,33 @@
   height: 51rem;
 }
 
-/* ################ */
-
-.o_footer {
-  display: flex;
-  padding: 32rem 72rem;
-  width: 100%;
-  height: 204rem;
-  background-color: var(--base-500);
-  box-shadow: inset -10rem -10rem 40rem 0 rgba(212, 184, 246, 0.6), inset 10rem 10rem 40rem 0 rgba(212, 184, 246, 0.6);
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../images/bg_pattern.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.o_header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.o_main {
+.O_map {
+  width: 36vw;
+  height: 81vh;
+  border-radius: 12rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  gap: 128rem;
+  align-items: center;
+  background-color: var(--base-500);
+}
+
+.O_modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.O_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

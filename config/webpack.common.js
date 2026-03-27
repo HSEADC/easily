@@ -10,7 +10,8 @@ module.exports = {
     skilltest: './src/skilltest.js',
     errors: './src/pages/errors/errors.js',
     guides: './src/pages/guides/guides.js',
-    filter: './src/javascripts/filter.js'
+    filter: './src/javascripts/filter.js',
+    dropdown: './src/javascripts/dropdown.js'
   },
   output: {
     path: path.resolve('.', "docs"),

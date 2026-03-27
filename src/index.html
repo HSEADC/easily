@@ -23,23 +23,34 @@
     <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
   </head>
 
-  <body class="W_index_body">
-    <header class="W_header">
+  <body class="O_index_body">
+    <header class="O_header">
       <div class="O_menu">
           <div class="M_navigation_menu">
-            <a href="index.html">
-              <img src="./images/logo.svg" alt="logo">
-            </a>
-            <div class="M_menu_dropdown">Меню</div>
+              <a href="index.html">
+                <img src="./images/logo.svg" alt="logo">
+              </a>
+              <div class="M_dropdown_menu">
+                <div class="A_menu_button">
+                  <p class="text_m">Меню</p>
+                  <img src="./images/icons/dropdown.svg" alt="">
+                </div>
+                <nav class="M_nav_items">
+                  <a href="#" class="text_s A_menu_item_header">О нас</a>
+                  <a href="#" class="text_s A_menu_item_header">Статьи</a>
+                  <a href="./pages/guides/guides.html" class="text_s A_menu_item_header">Гайды</a>
+                  <a href="#" class="text_s A_menu_item_header">Словарь</a>
+                </nav>
+              </div>
           </div>
         <input type="text" class="A_input A_input_search" placeholder="Поиск">
       </div>
     </header>
     <main class="O_main">
       <section class="O_main_container">
-          <h2 class="title_h2_medium">Привет, на&nbsp;связи easily!<br>Тут&nbsp;про&nbsp;взрослую жизнь — без&nbsp;лишнего шума, сложных слов и&nbsp;паники</h2>
+          <h2 class="title_h2">Привет, на&nbsp;связи easily!<br>Тут&nbsp;про&nbsp;взрослую жизнь — без&nbsp;лишнего шума, сложных слов и&nbsp;паники</h2>
           <button class="A_button A_button_dark open_modal">Проверить свои навыки</button>
-          <section class="W_modal">
+          <section class="O_modal">
             <section class="O_question_block">
               <button class="A_close_button"></button>
               <div class="M_question_header">
@@ -55,7 +66,8 @@
             </section>
 
             <section class="O_test_result">
-              <div class="W_map">
+              <button class="A_close_button"></button>
+              <div class="O_map">
                 <div class="M_map">
                     <p class="chart_caption text_m_medium">финансы</p>
                     <p class="chart_caption text_m_medium">быт</p>
@@ -76,7 +88,7 @@
                 </div>
                 <div class="tab_content">
                   <p class="text_m">Каждый луч показывает, как&nbsp;ты&nbsp;ориентируешься в&nbsp;одной из&nbsp;шести сфер. Баллы отражают твой текущий уровень: 0&nbsp;— если&nbsp;опыта почти нет, 6&nbsp;— если&nbsp;в&nbsp;теме чувствуешь себя уверенно. По&nbsp;карте можно быстро понять, где&nbsp;ты&nbsp;уже справляешься сам, а&nbsp;где&nbsp;ещё&nbsp;есть чему научиться.</p>
-                  <div class="C_category_scores">
+                  <div class="M_category_scores">
                     <div class="M_category_score">
                       <p class="text_m">Финансы:</p>
                       <div class="A_badge A_badge_finance"></div>

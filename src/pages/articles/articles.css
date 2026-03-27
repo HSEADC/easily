@@ -47,7 +47,4 @@ main {
   display: inline-block;
   width: 12rem;
   height: 12rem;
-  background-image: url(../../images/tag-close.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }

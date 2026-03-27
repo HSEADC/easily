@@ -142,8 +142,13 @@
   left: 11rem;
 }
 
-.title_h2_medium {
+.title_h2 {
   text-align: center;
   color: var(--base-50);
   max-width: 932rem;
+}
+
+.O_test_result .A_close_button {
+  top: 20rem;
+  left: 1071rem;
 }

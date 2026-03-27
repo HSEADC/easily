@@ -1,4 +1,3 @@
-/* d */
 .M_answer_options {
   display: flex;
   flex-wrap: wrap;
@@ -53,43 +52,49 @@
   align-items: center;
 }
 
-/* older styles */
-/* ###################################### */
-
-.m_nav {
+.M_navigation_menu {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 32rem;
-}
-
-.m_footer-content {
-  display: flex;
-  width: 1298rem;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.m_header-content {
-  display: flex;
-  width: 1286rem;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.m_desktop-nav {
-  display: flex;
   gap: 20rem;
 }
 
-.m_result_chart_wrapper {
-  display: flex;
-  justify-content: center;
+.M_nav_items {
+  display: none;
   align-items: center;
-  width: 467rem;
-  height: 447rem;
-  background-image: url(../../images/test_chart_background.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8rem;
+  border-radius: 16rem;
+  padding: 16rem 0rem;
+  width: 116rem;
+  background-color: var(--wb-50);
+}
+
+.M_nav_items.active {
+  display: flex;
+  margin-bottom: -124rem;
+  z-index: 1000;
+}
+
+.M_dropdown_menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.M_category_scores {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.M_filter_tags {
+  display: flex;
+  gap: 16rem;
 }
