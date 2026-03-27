@@ -1,17 +1,25 @@
 'use strict';
 
-function generateRadarChart(resultCount, width, height) {
-  const categories = ['health', 'career', 'home', 'docs', 'life', 'finance'];
+function generateRadarChart(resultCount, width = 382, height = 438) {
+  const categories = ['finance', 'home', 'health', 'life', 'docs', 'career'];
+  const centerX = width / 2;   // 191
+  const centerY = height / 2;  // 219
 
-  const centerX = width / 2;
-  const centerY = height / 2;
-  const maxRadius = Math.min(width, height) * 0.4;
-  const angleStep = (Math.PI * 2) / categories.length;
+  const maxRadius = Math.min(width, height) * 0.42;
 
-  const points = categories.map((cat, index) => {
-    const value = resultCount[cat] || 0;
-    const radius = (value / 6) * maxRadius;
-    const angle = index * angleStep - Math.PI / 2;
+  const angles = {
+    finance: -Math.PI / 2,
+    home: -Math.PI / 2 + Math.PI / 3,
+    health: -Math.PI / 2 + 2 * Math.PI / 3,
+    life: -Math.PI / 2 + Math.PI,
+    docs: -Math.PI / 2 + 4 * Math.PI / 3,
+    career: -Math.PI / 2 + 5 * Math.PI / 3
+  };
+
+  const points = categories.map(cat => {
+    const value = (resultCount[cat] || 0) / 6;
+    const radius = maxRadius * value;
+    const angle = angles[cat];
 
     return {
       x: centerX + radius * Math.cos(angle),
@@ -20,6 +28,7 @@ function generateRadarChart(resultCount, width, height) {
   });
 
   const cornerRadius = Math.min(width, height) * 0.02;
+
   const pathData = roundCorners(points, cornerRadius);
 
   const allX = points.map(p => p.x);
@@ -119,9 +128,6 @@ function roundCorners(points, radius) {
 
   path += 'Z';
   return path;
-  }
+}
 
-// const svgDesktop = generateRadarChart(resultCount, 500, 500);
-// const svgMobile = generateRadarChart(resultCount, 300, 300);
-
-export {generateRadarChart}
+export { generateRadarChart };

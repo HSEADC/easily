@@ -1,5 +1,6 @@
 'use strict';
-import { initTest, chooseAnswer } from './javascripts/test/testfunctions';
+// import { initTest, chooseAnswer } from './javascripts/test/testfunctions';
+import { startTest } from "./javascripts/test/testfunctions";
 
 const test = [
   {
@@ -271,5 +272,6 @@ const test = [
   },
 ];
 
-initTest(test);
-chooseAnswer(test);
+// initTest(test);
+// chooseAnswer(test);
+startTest(test);

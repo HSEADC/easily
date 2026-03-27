@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 96rem;
 }
 
 .O_question_block {
@@ -26,10 +27,17 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 32rem;
-  width: 856rem;
-  height: 500rem;
+  width: 78.8vw;
+  height: 48.2vw;
   backdrop-filter: blur(20rem);
   -webkit-backdrop-filter: blur(20rem);
+}
+
+.O_test_result_content {
+  width: 33vw;
+  display: flex;
+  flex-direction: column;
+  gap: 32rem;
 }
 
 .O_tab_section {

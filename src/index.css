@@ -1,6 +1,3 @@
-/*
-    переписать адаптивы
-*/
 .O_question_block {
   position: relative;
 }
@@ -14,13 +11,6 @@
 .result_recs_list {
   list-style-type: disc;
   margin-left: 15rem;
-}
-
-.W_map {
-  border-radius: 12rem;
-  width: 520rem;
-  height: 614rem;
-  background-color: var(--base-500);
 }
 
 .finance_span {
@@ -47,6 +37,81 @@
   color: var(--base-career-500);
 }
 
+.tab_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+  width: 22.6vw;
+}
+
+.radar_block {
+  position: relative;
+  width: 405px;
+  height: 453px;
+  background-image: url(./images/map_bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.radar-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.radar-shape svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.chart_caption {
+  position: absolute;
+  color: var(--wb-0);
+}
+
+.chart_caption:nth-of-type(1) {
+  top: 55rem;
+  left: 226rem;
+}
+
+.chart_caption:nth-of-type(2) {
+  top: 172rem;
+  left: 477rem;
+}
+
+.chart_caption:nth-of-type(3) {
+  top: 434rem;
+  left: 431rem;
+}
+
+.chart_caption:nth-of-type(4) {
+  top: 538rem;
+  left: 219rem;
+}
+
+.chart_caption:nth-of-type(5) {
+  top: 434rem;
+  left: 11rem;
+}
+
+.chart_caption:nth-of-type(6) {
+  top: 166rem;
+  left: 11rem;
+}
+
+/* ############################################################### */
+/* ############################################################### */
 /* ############################################################### */
 
 .index-float-q {

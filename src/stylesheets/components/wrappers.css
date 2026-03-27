@@ -4,3 +4,14 @@
   align-items: center;
   flex-direction: column;
 }
+
+.W_map {
+  width: 36vw;
+  height: 42.6vw;
+  border-radius: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--base-500);
+}
