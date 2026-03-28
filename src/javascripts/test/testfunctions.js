@@ -77,7 +77,7 @@ function showResult() {
   if (careerBadge) careerBadge.innerText = `${resultCount.career}/6`;
 
   if (resultChart) {
-    resultChart.innerHTML = generateRadarChart(resultCount, 460, 527);
+    resultChart.innerHTML = generateRadarChart(resultCount, 520, 614);
   }
 
   const firstTab = document.querySelector('.A_button_tab');
