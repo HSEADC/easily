@@ -13,5 +13,9 @@ dev_build/
 /dev_build/*.svg
 /dev_build/*/*.*
 
-desktop.ini
 tasks.md
+trash.js
+desktop.ini
+guidesclass.js
+chart.js
+footer.html

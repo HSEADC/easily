@@ -1,5 +1,5 @@
 @import 'reset.css';
-@import 'fonts.css';
+@import 'typography.css';
 @import 'variables.css';
 
 @import 'components/atoms.css';
@@ -7,6 +7,4 @@
 @import 'components/molecules.css';
 
 @import 'main.css';
-@import 'layout.css';
-@import 'articles.css';
 @import 'adaptive.css';

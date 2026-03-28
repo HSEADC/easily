@@ -4,9 +4,14 @@ const htmlPages = require('./webpack.pages.js');
 
 module.exports = {
   entry: {
-    index: './src/javascripts/index.js',
-    header: './src/javascripts/header.js',
-    styleguide: './src/javascripts/styleguide.js'
+    index: './src/index.js',
+    articles: './src/pages/articles/articles.js',
+    styleguide: './src/pages/styleguide/styleguide.js',
+    skilltest: './src/skilltest.js',
+    errors: './src/pages/errors/errors.js',
+    guides: './src/pages/guides/guides.js',
+    filter: './src/javascripts/filter.js',
+    dropdown: './src/javascripts/dropdown.js'
   },
   output: {
     path: path.resolve('.', "docs"),
@@ -53,5 +58,5 @@ module.exports = {
   plugins: [
     ...htmlPages,
     new MiniCssExtractPlugin(),
-  ],
+  ]
 };

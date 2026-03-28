@@ -1,19 +1,107 @@
 :root {
-  /* brand base colours */
+  /* palette */
 
-  --base-0: #F5EEFD;
-  --base-100: #EADDFB;
-  --base-200: #D4B8F6;
-  --base-300: #BF96F2;
-  --base-400: #AA6FED;
-  --base-500: #9648E7;
-  --base-600: #7D2DC2;
-  --base-700: #622096;
-  --base-800: #451468;
-  --base-900: #2C0943;
-  --base-950: #1D042D;
+	--base-50: #faf1ff;
+	--base-100: #e2d1ff;
+	--base-200: #caafff;
+	--base-300: #b48dff;
+	--base-400: #9e6cff;
+	--base-500: #8f58fa;
+	--base-600: #6f3bca;
+	--base-700: #562f9d;
+	--base-800: #3e256f;
+	--base-900: #271a46;
+	--base-950: #130d23;
 
-  /* radius */
+  --wb-0: #FFFFFF;
+  --wb-50: #F5F5F5;
+  --wb-100: #EBEBEB;
+  --wb-200: #D6D6D6;
+  --wb-300: #C2C2C2;
+  --wb-400: #ADADAD;
+  --wb-500: #999999;
+  --wb-600: #7B7B7B;
+  --wb-700: #5E5E5E;
+  --wb-800: #404040;
+  --wb-850: #313131;
+  --wb-900: #232323;
+  --wb-950: #141414;
+  --wb-1000: #050505;
+
+	--base-finance-50: #fffdea;
+	--base-finance-100: #fff7c5;
+	--base-finance-200: #fff085;
+	--base-finance-300: #ffe146;
+	--base-finance-400: #ffcf1b;
+	--base-finance-500: #ffae00;
+	--base-finance-600: #e28400;
+	--base-finance-700: #bb5c02;
+	--base-finance-800: #984708;
+	--base-finance-900: #7c3a0b;
+	--base-finance-950: #481d00;
+
+	--base-chores-50: #fdf2f8;
+	--base-chores-100: #fce7f3;
+	--base-chores-200: #fad0e8;
+	--base-chores-300: #f9b8db;
+	--base-chores-400: #f274b5;
+	--base-chores-500: #e94b98;
+	--base-chores-600: #d82a76;
+	--base-chores-700: #bb1b5c;
+	--base-chores-800: #9b194c;
+	--base-chores-900: #811a43;
+	--base-chores-950: #4f0824;
+
+	--base-health-50: #f3faeb;
+	--base-health-100: #e2f4d3;
+	--base-health-200: #c8ebab;
+	--base-health-300: #a9de82;
+	--base-health-400: #83ca51;
+	--base-health-500: #64b032;
+	--base-health-600: #4b8c24;
+	--base-health-700: #3b6b20;
+	--base-health-800: #31561e;
+	--base-health-900: #2c491e;
+	--base-health-950: #14280b;
+
+	--base-lifestyle-50: #f0f9ff;
+	--base-lifestyle-100: #dff1ff;
+	--base-lifestyle-200: #b8e4ff;
+	--base-lifestyle-300: #82d3ff;
+	--base-lifestyle-400: #33b9fd;
+	--base-lifestyle-500: #09a0ee;
+	--base-lifestyle-600: #007fcc;
+	--base-lifestyle-700: #0065a5;
+	--base-lifestyle-800: #045688;
+	--base-lifestyle-900: #0a4870;
+	--base-lifestyle-950: #062d4b;
+
+	--base-career-50: #fef4f2;
+	--base-career-100: #ffe5e1;
+	--base-career-200: #ffcfc8;
+	--base-career-300: #ffafa2;
+	--base-career-400: #fc8370;
+	--base-career-500: #f4583f;
+	--base-career-600: #e13b21;
+	--base-career-700: #be2e17;
+	--base-career-800: #9d2917;
+	--base-career-900: #82281a;
+	--base-career-950: #471108;
+
+	--base-documents-50: #ededfd;
+	--base-documents-100: #dadbfa;
+	--base-documents-200: #b6b7f5;
+	--base-documents-300: #9193f1;
+	--base-documents-400: #6d6fec;
+	--base-documents-500: #484be7;
+	--base-documents-600: #3a3cba;
+	--base-documents-700: #2c2d8d;
+	--base-documents-800: #1d1f60;
+	--base-documents-900: #0f1033;
+	--base-documents-950: #08081c;
+
+
+  /* radiuses */
 
   --radius-xs: 4rem;
   --radius-sm: 8rem;
@@ -24,4 +112,5 @@
   --radius-2xl: 28rem;
   --radius-3xl: 32rem;
   --radius-4xl: 40rem;
+
 }

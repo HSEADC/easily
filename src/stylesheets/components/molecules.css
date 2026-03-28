@@ -1,26 +1,117 @@
-.m_nav {
+.M_answer_options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8rem;
+  max-width: 776rem;
+}
+
+.M_question_header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+}
+
+.M_tab_group {
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.M_map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.M_guide_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+  border-radius: 24rem;
+  padding: 16rem;
+  width: 416rem;
+  height: 396rem;
+  background-color: var(--wb-50);
+}
+
+.M_category_score {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.M_navigation_menu {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 32rem;
-}
-
-.m_footer-content {
-  display: flex;
-  width: 1298rem;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.m_header-content {
-  display: flex;
-  width: 1286rem;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.m_desktop-nav {
-  display: flex;
   gap: 20rem;
+}
+
+.M_nav_items {
+  display: none;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8rem;
+  border-radius: 16rem;
+  padding: 16rem 0rem;
+  width: 116rem;
+  background-color: var(--wb-50);
+}
+
+.M_nav_items.active {
+  display: flex;
+  margin-bottom: -124rem;
+  z-index: 1000;
+}
+
+.M_dropdown_menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.M_category_scores {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.M_filter_tags {
+  display: flex;
+  gap: 16rem;
+}
+
+.M_mobile_menu_items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+@media (max-width: 768px) {
+  .M_navigation_menu, .O_menu .A_input_search {
+    display: none;
+  }
+  .M_answer_options {
+    width: 100%;
+  }
 }
