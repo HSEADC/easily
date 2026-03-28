@@ -103,7 +103,7 @@
 .A_close_button {
   position: absolute;
   top: 5%;
-  left: 85%;
+  left: 90%;
 }
 
 .result_recs_list {
@@ -276,10 +276,15 @@
   .O_test_result_content .A_button_accent {
     margin-bottom: 40px;
   }
+  .A_close_button {
+    position: absolute;
+    top: 5%;
+    left: 85%;
+  }
   .O_test_result .A_close_button {
     top: 3%;
     left: 91%;
-}
+  }
 }
 
 @media (max-width: 768px) {
