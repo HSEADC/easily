@@ -93,6 +93,88 @@
   margin-top: -120rem;
 }
 
+.O_guide_body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32rem;
+  border-radius: 24rem;
+  padding: 40rem;
+  width: 74.722vw;
+  background-image: url(../../images/bg_chores.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.chores_guide {
+  background-color: var(--base-chores-50);
+}
+
+.chores_guide h1,
+.chores_guide p,
+.chores_guide h3,
+.chores_guide li,
+.chores_guide a {
+  color: var(--base-chores-500);
+  max-width: 996rem;
+}
+
+.chores_guide h5 {
+  color: var(--base-chores-50);
+  max-width: 964rem;
+}
+
+.M_guide_summary_container {
+  border-radius: 12rem;
+  padding: 16rem;
+  box-shadow: inset -2px -2px 16px 0 rgba(253, 242, 248, 0.6), inset 2px 2px 16px 0 rgba(253, 242, 248, 0.6);
+  background: var(--base-chores-500);
+}
+
+.chores_guide a {
+  text-decoration: underline;
+}
+
+.chores_guide ul {
+  list-style-type: disc;
+  margin-left: 20rem;
+}
+
+.guide_cover {
+  width: 69.167vw;
+  height: 31.944vw;
+  border-radius: 12rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.chores_1_guide {
+  background-image: url(../../images/guides/chores_1.png);
+}
+
+.chores_cover {
+  box-shadow: inset -10rem -10rem 40rem 0 rgba(253, 242, 248, 0.6), inset 10rem 10rem 40rem 0 rgba(253, 242, 248, 0.6);
+}
+
+.M_guide_intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32rem;
+}
+
+.M_guide_content_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+}
+
 @media (max-width: 768px) {
   .O_main {
     margin-top: 80rem;
