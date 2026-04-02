@@ -360,4 +360,8 @@
     border-radius: 12rem;
     padding: 16rem 12rem 12rem;
   }
+  .A_input {
+    width: 343rem;
+    padding: 20rem 16rem 20rem 20rem;
+  }
 }

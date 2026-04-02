@@ -163,4 +163,26 @@
     width: 91.4vw;
     height: 368rem;
   }
+  .M_nav_items.active {
+    margin-bottom: -131rem;
+  }
+  .M_footer_menu {
+    flex-direction: row;
+    order: 1;
+  }
+  .M_subscription {
+    order: 2;
+    gap: 28rem;
+    align-items: center;
+  }
+  .M_subscription_form {
+    flex-direction: column;
+  }
+  .M_subscription_form .A_button {
+    width: 100%;
+  }
+  .M_social_media_block {
+    order: 3;
+    gap: 16rem;
+  }
 }

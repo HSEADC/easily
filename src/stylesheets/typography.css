@@ -92,8 +92,12 @@
   .title_h3 {
     font-size: 20rem;
   }
+  .title_h5 {
+    font-weight: 600;
+    font-size: 28rem;
+  }
   .text_m, .text_m_medium, .text_l_medium {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18rem;
     line-height: 111%;
   }

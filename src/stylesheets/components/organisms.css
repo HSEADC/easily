@@ -53,4 +53,10 @@
     align-items: center;
     justify-content: space-between;
   }
+  .O_footer {
+    flex-direction: column;
+    gap: 40rem;
+    padding: 56rem 16rem;
+    margin-bottom: 56rem;
+  }
 }

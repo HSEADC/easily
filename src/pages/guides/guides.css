@@ -21,8 +21,8 @@
 .O_guides_list {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   gap: 24rem;
   padding: 0rem 72rem;
@@ -103,5 +103,8 @@
   }
   .O_guides_list {
     padding: 0rem 16rem;
+  }
+  .guide_card_img {
+    width: 311rem;
   }
 }
