@@ -6,15 +6,15 @@
   margin-bottom: 96rem;
 }
 
-
 .O_menu {
   margin-top: 40rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  width: 90vw;
   height: 51rem;
+  width: 100%;
+  padding: 0 72rem;
 }
 
 .O_header {
@@ -40,13 +40,16 @@
 }
 
 @media (max-width: 768px) {
+  .O_main {
+    margin-bottom: 80rem;
+  }
   .O_menu {
     margin-top: 20rem;
+    padding: 0 16rem;
   }
   .O_mobile_menu {
     width: 100%;
     display: flex;
-    padding: 0rem 16rem;
     align-items: center;
     justify-content: space-between;
   }

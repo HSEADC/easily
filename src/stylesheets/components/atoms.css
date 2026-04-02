@@ -356,4 +356,8 @@
   .A_button {
     font-size: 18rem;
   }
+  .A_tab_categorie {
+    border-radius: 12rem;
+    padding: 16rem 12rem 12rem;
+  }
 }

@@ -21,6 +21,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .M_map {
@@ -153,5 +154,13 @@
   }
   .M_answer_options {
     width: 100%;
+  }
+  .M_tab_group {
+    width: 94vw;
+    justify-content: center;
+  }
+  .M_guide_card {
+    width: 91.4vw;
+    height: 368rem;
   }
 }
