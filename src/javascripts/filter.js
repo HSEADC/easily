@@ -3,9 +3,9 @@
 const tags = document.querySelectorAll(".A_tab_categorie");
 const contentCards = document.querySelectorAll(".W_content_card");
 
-Filter();
+filter();
 
-function Filter() {
+function filter() {
   tags.forEach(tag => {
     tag.addEventListener("click", () => {
       tag.classList.toggle("A_tab_active");
@@ -21,6 +21,15 @@ function updateVisibleCards() {
   activeTags.forEach(tag => {
     taglist.push(tag.id);
   });
+
+  if (taglist.length === 6) {
+    contentCards.forEach(card => {
+      card.style.display = "flex";
+    });
+    tags.forEach(tag => {
+      tag.classList.remove('A_tab_active')
+    });
+  }
 
   if (taglist.length > 0) {
     contentCards.forEach(card => {
@@ -44,5 +53,3 @@ function showAllCards() {
     card.style.display = "flex";
   });
 }
-
-console.log('code reached');

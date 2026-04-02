@@ -215,7 +215,7 @@
   color: var(--base-health-500);
 }
 
-.A_tab_health:hover, .A_tab_health:active {
+.A_tab_health:hover, .A_tab_health.A_tab_active {
   background-color: var(--base-health-200);
 }
 
@@ -224,7 +224,7 @@
   color: var(--base-finance-500);
 }
 
-.A_tab_finance:hover, .A_tab_finance:active {
+.A_tab_finance:hover, .A_tab_finance.A_tab_active {
   background-color: var(--base-finance-200);
 }
 
@@ -233,7 +233,7 @@
   color: var(--base-chores-500);
 }
 
-.A_tab_chores:hover, .A_tab_chores:active {
+.A_tab_chores:hover, .A_tab_chores.A_tab_active {
   background-color: var(--base-chores-200);
 }
 
@@ -242,7 +242,7 @@
   color: var(--base-documents-500);
 }
 
-.A_tab_documents:hover, .A_tab_documents:active {
+.A_tab_documents:hover, .A_tab_documents.A_tab_active {
   background-color: var(--base-documents-200);
 }
 
@@ -251,7 +251,7 @@
   color: var(--base-lifestyle-500);
 }
 
-.A_tab_lifestyle:hover, .A_tab_lifestyle:active {
+.A_tab_lifestyle:hover, .A_tab_lifestyle.A_tab_active {
   background-color: var(--base-lifestyle-200);
 }
 
@@ -260,7 +260,7 @@
   color: var(--base-career-500);
 }
 
-.A_tab_career:hover, .A_tab_career:active {
+.A_tab_career:hover, .A_tab_career.A_tab_active {
   background-color: var(--base-career-200);
 }
 
