@@ -30,7 +30,6 @@
 
 .O_footer {
   width: 100%;
-  height: 242rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -57,6 +56,5 @@
     flex-direction: column;
     gap: 40rem;
     padding: 56rem 16rem;
-    margin-bottom: 56rem;
   }
 }

@@ -177,8 +177,9 @@
 
 @media (max-width: 768px) {
   .O_main {
-    margin-top: 80rem;
+    padding-top: 80rem;
     gap: 80rem;
+    margin: 0 auto;
   }
   .title_h1 {
     max-width: 95vw;
@@ -188,5 +189,20 @@
   }
   .guide_card_img {
     width: 311rem;
+  }
+  .O_guide_body {
+    width: 100%;
+  }
+  .guide_cover {
+    width: 80vw;
+  }
+  .title_h1 {
+    text-align: left;
+  }
+  .O_guide_body {
+    padding: 40rem 16rem;
+  }
+  .title_h5 {
+    font-size: 20rem;
   }
 }
