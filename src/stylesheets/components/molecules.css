@@ -148,6 +148,33 @@
   gap: 8rem;
 }
 
+/* GUIDES */
+
+.M_guide_intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32rem;
+}
+
+.M_guide_content_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+}
+
+.M_guide_summary_container {
+  border-radius: 12rem;
+  padding: 16rem;
+  box-shadow: inset -2px -2px 16px 0 rgba(253, 242, 248, 0.6), inset 2px 2px 16px 0 rgba(253, 242, 248, 0.6);
+  background: var(--base-chores-500);
+}
+
+/* END OF THE GUIDES */
+
 @media (max-width: 768px) {
   .M_navigation_menu, .O_menu .A_input_search {
     display: none;

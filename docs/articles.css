@@ -197,6 +197,7 @@ input {
 @media (max-width: 768px) {
   .title_h1 {
     font-size: 28rem;
+    max-width: 95vw;
   }
   .title_h2 {
     font-size: 24rem;
@@ -742,9 +743,51 @@ input {
   border-top: 1px solid var(--wb-50);
 }
 
+/* GUIDES */
+
+.O_guide_body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32rem;
+  border-radius: 24rem;
+  padding: 40rem;
+  width: 74.722vw;
+  background-image: url(images/232cbb634b5d038d7953.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.O_guides_block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 48rem;
+  flex-wrap: wrap;
+}
+
+.O_guides_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24rem;
+  padding: 0rem 72rem;
+  width: 100%;
+}
+
+/* END OF THE GUIDES */
+
 @media (max-width: 768px) {
   .O_main {
-    margin-bottom: 80rem;
+    padding-top: 80rem;
+    gap: 80rem;
+    margin: 0 auto;
   }
   .O_menu {
     margin-top: 20rem;
@@ -760,6 +803,13 @@ input {
     flex-direction: column;
     gap: 40rem;
     padding: 56rem 16rem;
+  }
+  .O_guides_list {
+    padding: 0rem 16rem;
+  }
+  .O_guide_body {
+    width: 100%;
+    padding: 40rem 16rem;
   }
 }
 .M_answer_options {
@@ -911,6 +961,33 @@ input {
   flex-direction: row;
   gap: 8rem;
 }
+
+/* GUIDES */
+
+.M_guide_intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32rem;
+}
+
+.M_guide_content_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+}
+
+.M_guide_summary_container {
+  border-radius: 12rem;
+  padding: 16rem;
+  box-shadow: inset -2px -2px 16px 0 rgba(253, 242, 248, 0.6), inset 2px 2px 16px 0 rgba(253, 242, 248, 0.6);
+  background: var(--base-chores-500);
+}
+
+/* END OF THE GUIDES */
 
 @media (max-width: 768px) {
   .M_navigation_menu, .O_menu .A_input_search {
