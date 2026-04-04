@@ -33,19 +33,6 @@
   align-items: center;
 }
 
-.M_guide_card {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 12rem;
-  border-radius: 24rem;
-  padding: 16rem;
-  width: 416rem;
-  height: 396rem;
-  background-color: var(--wb-50);
-}
-
 .M_category_score {
   display: flex;
   gap: 4rem;
@@ -150,6 +137,19 @@
 
 /* GUIDES */
 
+.M_guide_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+  border-radius: 24rem;
+  padding: 16rem;
+  width: 416rem;
+  height: 396rem;
+  background-color: var(--wb-50);
+}
+
 .M_guide_intro {
   display: flex;
   align-items: flex-start;
@@ -174,6 +174,27 @@
 }
 
 /* END OF THE GUIDES */
+
+/* ARTICLES */
+
+.M_article_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+  width: 416rem;
+  height: 386rem;
+}
+
+.M_articles_list {
+  display: flex;
+  gap: 24rem;
+  padding: 0rem 72rem;
+  flex-wrap: wrap;
+}
+
+/* END OF THE ARTICLES */
 
 @media (max-width: 768px) {
   .M_navigation_menu, .O_menu .A_input_search {

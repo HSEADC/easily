@@ -78,6 +78,28 @@
 
 /* END OF THE GUIDES */
 
+/* ARTICLES */
+
+.O_articles_block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 48rem;
+  flex-wrap: wrap;
+}
+
+.O_articles_collection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+}
+
+/* END OF THE ARTICLES */
+
 @media (max-width: 768px) {
   .O_main {
     padding-top: 80rem;

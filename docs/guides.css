@@ -733,6 +733,28 @@ input {
 
 /* END OF THE GUIDES */
 
+/* ARTICLES */
+
+.O_articles_block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 48rem;
+  flex-wrap: wrap;
+}
+
+.O_articles_collection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+}
+
+/* END OF THE ARTICLES */
+
 @media (max-width: 768px) {
   .O_main {
     padding-top: 80rem;
@@ -795,19 +817,6 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.M_guide_card {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 12rem;
-  border-radius: 24rem;
-  padding: 16rem;
-  width: 416rem;
-  height: 396rem;
-  background-color: var(--wb-50);
 }
 
 .M_category_score {
@@ -914,6 +923,19 @@ input {
 
 /* GUIDES */
 
+.M_guide_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+  border-radius: 24rem;
+  padding: 16rem;
+  width: 416rem;
+  height: 396rem;
+  background-color: var(--wb-50);
+}
+
 .M_guide_intro {
   display: flex;
   align-items: flex-start;
@@ -938,6 +960,27 @@ input {
 }
 
 /* END OF THE GUIDES */
+
+/* ARTICLES */
+
+.M_article_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+  width: 416rem;
+  height: 386rem;
+}
+
+.M_articles_list {
+  display: flex;
+  gap: 24rem;
+  padding: 0rem 72rem;
+  flex-wrap: wrap;
+}
+
+/* END OF THE ARTICLES */
 
 @media (max-width: 768px) {
   .M_navigation_menu, .O_menu .A_input_search {
@@ -1028,49 +1071,32 @@ body {
 .guide_finance {
   box-shadow: inset 20px 20px 40px 0 var(--base-finance-300), inset -20px -20px 40px 0 var(--base-finance-300);
   background-image: url(images/68c666033bb930605776.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center 25%;
 }
 
 .guide_lifestyle {
   box-shadow: inset 8px 8px 40px 0 var(--base-lifestyle-300), inset -8px -8px 40px 0 var(--base-lifestyle-300);
   background-image: url(images/a9c3986ba8f5c374fc3b.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .guide_career {
   box-shadow: inset 8px 8px 40px 0 var(--base-career-300), inset -8px -8px 40px 0 var(--base-career-300);
   background-image: url(images/f64e050fb6d778f1c7e3.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .guide_health {
   box-shadow: inset 8px 8px 40px 0 var(--base-health-300), inset -8px -8px 40px 0 var(--base-health-300);
   background-image: url(images/315c61a1cceda6fb21db.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .guide_chores {
   box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
   background-image: url(images/143368629959a16b18cf.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .guide_documents {
   box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
   background-image: url(images/486f751f3a30a9395785.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .guide_card_img {
@@ -1078,11 +1104,9 @@ body {
   width: 384rem;
   height: 260rem;
   overflow: hidden;
-}
-
-.guide_card_img img {
-  width: 107%;
-  box-shadow: inset 8px 8px 40px 0 rgba(233, 75, 152, 0.6), inset -8px -8px 40px 0 rgba(233, 75, 152, 0.6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .doc_img {
