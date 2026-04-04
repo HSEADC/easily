@@ -22,4 +22,12 @@
   background-position: center;
 }
 
-/* @media (max-width: 768px) {} */
+@media (max-width: 768px) {
+  .title_h1 {
+    max-width: 341rem;
+  }
+  .O_main {
+    gap: 60rem;
+    margin-top: 60rem;
+  }
+}

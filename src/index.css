@@ -287,6 +287,9 @@
 }
 
 @media (max-width: 768px) {
+  .O_main {
+    margin: 0 auto;
+  }
   .O_modal {
     background-color: var(--wb-0);
   }

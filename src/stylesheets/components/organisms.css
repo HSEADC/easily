@@ -102,8 +102,8 @@
 
 @media (max-width: 768px) {
   .O_main {
-    gap: 80rem;
-    margin: 0 auto;
+    gap: 60rem;
+    margin-top: 60rem;
     padding: 0 16rem;
   }
   .O_menu {
@@ -127,5 +127,8 @@
   .O_guide_body {
     width: 100%;
     padding: 40rem 16rem;
+  }
+  .O_articles_collection {
+    width: 100%;
   }
 }

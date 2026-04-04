@@ -204,7 +204,7 @@
     width: 100%;
   }
   .M_tab_group {
-    width: 94vw;
+    width: 93vw;
     justify-content: center;
   }
   .M_guide_card {
@@ -232,5 +232,11 @@
   .M_social_media_block {
     order: 3;
     gap: 16rem;
+  }
+  .M_articles_list {
+    padding: 0;
+  }
+  .M_article_card {
+    width: 100%;
   }
 }
