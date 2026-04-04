@@ -110,4 +110,8 @@
   .title_h5 {
     font-size: 20rem;
   }
+  .O_main {
+    margin-top: 0;
+    gap: 60rem;
+  }
 }

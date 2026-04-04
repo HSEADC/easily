@@ -18,7 +18,6 @@
   gap: 20rem;
 }
 
-
 .O_question_block, .O_test_result {
   align-items: flex-start;
   justify-content: flex-start;
@@ -359,5 +358,8 @@
     position: absolute;
     top: 89%;
     left: 84%;
+  }
+  .O_main {
+    padding-top: 0;
   }
 }
