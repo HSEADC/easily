@@ -8,6 +8,10 @@
   max-width: 1440rem;
 }
 
+.guides_main_page.title_h1 {
+  text-align: center;
+}
+
 .guide_finance {
   box-shadow: inset 20px 20px 40px 0 var(--base-finance-300), inset -20px -20px 40px 0 var(--base-finance-300);
   background-image: url(../../images/guides/finance_1.png);
