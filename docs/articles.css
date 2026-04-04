@@ -1,82 +1,3 @@
-.O_main {
-  gap: 96rem;
-  margin-top: 96rem;
-}
-
-.title_h1 {
-  color: var(--base-500);
-  max-width: 1440rem;
-}
-
-.title_h4 {
-  color: var(--base-500);
-}
-
-.article_card_img {
-  border-radius: 20rem;
-  width: 100%;
-  height: 260rem;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.article_finance {
-  box-shadow: inset 8px 8px 40px 0 rgba(255, 174, 0, 0.6), inset -8px -8px 40px 0 rgba(255, 174, 0, 0.6);
-  background-image: url(images/e3c4b22a02b4ffbf8640.png);
-  background-position: center 25%;
-}
-
-.article_lifestyle {
-  box-shadow: inset 8px 8px 40px 0 var(--base-lifestyle-300), inset -8px -8px 40px 0 var(--base-lifestyle-300);
-  /* background-image: url(../../images/articles/lifestyle_1.png); */
-}
-
-.article_career {
-  box-shadow: inset 8px 8px 40px 0 var(--base-career-300), inset -8px -8px 40px 0 var(--base-career-300);
-  background-image: url(images/e7f48217d9639f1c636e.png);
-}
-
-.article_health {
-  box-shadow: inset 8px 8px 40px 0 var(--base-health-300), inset -8px -8px 40px 0 var(--base-health-300);
-  /* background-image: url(../../images/articles/health_1.png); */
-}
-
-.article_chores {
-  box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
-  background-image: url(images/78946bfedb943cc5690c.png);
-}
-
-.article_documents {
-  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
-  background-image: url(images/1dee47a68c56f522d8bf.png);
-}
-
-.article_documents_2 {
-  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
-  background-image: url(images/fbd2ea78c3144887ce55.png);
-}
-
-.article_documents_3 {
-  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
-  background-image: url(images/efe33b0e51413faf1475.png);
-}
-
-.article_documents_4 {
-  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
-  background-image: url(images/4412d6462dbdd8c6b9d8.png);
-}
-
-.article_chores_2 {
-  box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
-  background-image: url(images/8cebc6484c11a49203c8.png);
-}
-
-.article_chores_3 {
-  box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
-  background-image: url(images/8bc3c82c44c0d3be37a7.png);
-}
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -233,6 +154,9 @@ input {
   }
   .title_h3 {
     font-size: 20rem;
+  }
+  .title_h4 {
+    font-size: 24rem;
   }
   .title_h5 {
     font-weight: 600;
@@ -836,9 +760,9 @@ input {
 
 @media (max-width: 768px) {
   .O_main {
-    padding-top: 80rem;
-    gap: 80rem;
-    margin: 0 auto;
+    gap: 60rem;
+    margin-top: 60rem;
+    padding: 0 16rem;
   }
   .O_menu {
     margin-top: 20rem;
@@ -861,6 +785,9 @@ input {
   .O_guide_body {
     width: 100%;
     padding: 40rem 16rem;
+  }
+  .O_articles_collection {
+    width: 100%;
   }
 }
 .M_answer_options {
@@ -1069,7 +996,7 @@ input {
     width: 100%;
   }
   .M_tab_group {
-    width: 94vw;
+    width: 93vw;
     justify-content: center;
   }
   .M_guide_card {
@@ -1097,6 +1024,12 @@ input {
   .M_social_media_block {
     order: 3;
     gap: 16rem;
+  }
+  .M_articles_list {
+    padding: 0;
+  }
+  .M_article_card {
+    width: 100%;
   }
 }
 * {
@@ -1137,3 +1070,91 @@ body {
   }
 }
 
+.O_main {
+  gap: 96rem;
+  margin-top: 96rem;
+}
+
+.title_h1 {
+  color: var(--base-500);
+  max-width: 1440rem;
+}
+
+.title_h4 {
+  color: var(--base-500);
+}
+
+.article_card_img {
+  border-radius: 20rem;
+  width: 100%;
+  height: 260rem;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .title_h1 {
+    max-width: 341rem;
+  }
+  .O_main {
+    gap: 60rem;
+    margin-top: 60rem;
+  }
+}
+.article_finance {
+  box-shadow: inset 8px 8px 40px 0 rgba(255, 174, 0, 0.6), inset -8px -8px 40px 0 rgba(255, 174, 0, 0.6);
+  background-image: url(images/e3c4b22a02b4ffbf8640.png);
+  background-position: center 25%;
+}
+
+.article_lifestyle {
+  box-shadow: inset 8px 8px 40px 0 var(--base-lifestyle-300), inset -8px -8px 40px 0 var(--base-lifestyle-300);
+  /* background-image: url(../../images/articles/lifestyle_1.png); */
+}
+
+.article_career {
+  box-shadow: inset 8px 8px 40px 0 var(--base-career-300), inset -8px -8px 40px 0 var(--base-career-300);
+  background-image: url(images/e7f48217d9639f1c636e.png);
+}
+
+.article_health {
+  box-shadow: inset 8px 8px 40px 0 var(--base-health-300), inset -8px -8px 40px 0 var(--base-health-300);
+  /* background-image: url(../../images/articles/health_1.png); */
+}
+
+.article_chores {
+  box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
+  background-image: url(images/78946bfedb943cc5690c.png);
+}
+
+.article_documents {
+  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
+  background-image: url(images/1dee47a68c56f522d8bf.png);
+}
+
+.article_documents_2 {
+  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
+  background-image: url(images/fbd2ea78c3144887ce55.png);
+}
+
+.article_documents_3 {
+  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
+  background-image: url(images/efe33b0e51413faf1475.png);
+}
+
+.article_documents_4 {
+  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
+  background-image: url(images/4412d6462dbdd8c6b9d8.png);
+}
+
+.article_chores_2 {
+  box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
+  background-image: url(images/8cebc6484c11a49203c8.png);
+}
+
+.article_chores_3 {
+  box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
+  background-image: url(images/8bc3c82c44c0d3be37a7.png);
+}

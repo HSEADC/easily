@@ -155,6 +155,9 @@ input {
   .title_h3 {
     font-size: 20rem;
   }
+  .title_h4 {
+    font-size: 24rem;
+  }
   .title_h5 {
     font-weight: 600;
     font-size: 28rem;
@@ -757,9 +760,9 @@ input {
 
 @media (max-width: 768px) {
   .O_main {
-    padding-top: 80rem;
-    gap: 80rem;
-    margin: 0 auto;
+    gap: 60rem;
+    margin-top: 60rem;
+    padding: 0 16rem;
   }
   .O_menu {
     margin-top: 20rem;
@@ -782,6 +785,9 @@ input {
   .O_guide_body {
     width: 100%;
     padding: 40rem 16rem;
+  }
+  .O_articles_collection {
+    width: 100%;
   }
 }
 .M_answer_options {
@@ -990,7 +996,7 @@ input {
     width: 100%;
   }
   .M_tab_group {
-    width: 94vw;
+    width: 93vw;
     justify-content: center;
   }
   .M_guide_card {
@@ -1018,6 +1024,12 @@ input {
   .M_social_media_block {
     order: 3;
     gap: 16rem;
+  }
+  .M_articles_list {
+    padding: 0;
+  }
+  .M_article_card {
+    width: 100%;
   }
 }
 * {
