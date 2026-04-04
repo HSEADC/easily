@@ -115,7 +115,7 @@
     font-size: 20rem;
   }
   .O_main {
-    margin-top: 0;
     gap: 60rem;
+    margin-top: 60rem;
   }
 }
