@@ -22,6 +22,30 @@
   background-position: center;
 }
 
+.M_guide_summary_container.chores {
+  background: var(--base-chores-500);
+}
+
+.M_guide_summary_container.documents {
+  background: var(--base-documents-500);
+}
+
+.M_guide_summary_container.lifestyle {
+  background: var(--base-lifestyle-500);
+}
+
+.M_guide_summary_container.finance {
+  background: var(--base-finance-500);
+}
+
+.M_guide_summary_container.health {
+  background: var(--base-health-500);
+}
+
+.M_guide_summary_container.career {
+  background: var(--base-career-500);
+}
+
 .doc_img {
   margin-top: -120rem;
 }
@@ -59,8 +83,78 @@
   max-width: 996rem;
 }
 
+.documents_guide h1,
+.documents_guide p,
+.documents_guide h3,
+.documents_guide li,
+.documents_guide a {
+  color: var(--base-documents-500);
+  max-width: 996rem;
+}
+
+.lyfestyle_guide h1,
+.lyfestyle_guide p,
+.lyfestyle_guide h3,
+.lyfestyle_guide li,
+.lyfestyle_guide a {
+  color: var(--base-lyfestyle-500);
+  max-width: 996rem;
+}
+
+.career_guide h1,
+.career_guide p,
+.career_guide h3,
+.career_guide li,
+.career_guide a {
+  color: var(--base-career-500);
+  max-width: 996rem;
+}
+
+.finance_guide h1,
+.finance_guide p,
+.finance_guide h3,
+.finance_guide li,
+.finance_guide a {
+  color: var(--base-finance-500);
+  max-width: 996rem;
+}
+
+.health_guide h1,
+.health_guide p,
+.health_guide h3,
+.health_guide li,
+.health_guide a {
+  color: var(--base-health-500);
+  max-width: 996rem;
+}
+
 .chores_guide h5 {
   color: var(--base-chores-50);
+  max-width: 964rem;
+}
+
+.documents_guide h5 {
+  color: var(--base-documents-50);
+  max-width: 964rem;
+}
+
+.finance_guide h5 {
+  color: var(--base-finance-50);
+  max-width: 964rem;
+}
+
+.career_guide h5 {
+  color: var(--base-career-50);
+  max-width: 964rem;
+}
+
+.health_guide h5 {
+  color: var(--base-health-50);
+  max-width: 964rem;
+}
+
+.lifestyle_guide h5 {
+  color: var(--base-lifestyle-50);
   max-width: 964rem;
 }
 
@@ -70,6 +164,11 @@
 
 .O_guide_body ul {
   list-style-type: disc;
+  margin-left: 20rem;
+}
+
+.O_guide_body ol {
+  list-style-type: decimal;
   margin-left: 20rem;
 }
 
