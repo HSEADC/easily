@@ -709,7 +709,7 @@ input {
   width: 74.722vw;
   background-image: url(images/232cbb634b5d038d7953.svg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 90%;
   background-position: center;
 }
 
@@ -961,8 +961,12 @@ input {
 .M_guide_summary_container {
   border-radius: 12rem;
   padding: 16rem;
-  box-shadow: inset -2px -2px 16px 0 rgba(253, 242, 248, 0.6), inset 2px 2px 16px 0 rgba(253, 242, 248, 0.6);
-  background: var(--base-chores-500);
+}
+
+.M_guide_header {
+  display: flex;
+  flex-direction: column;
+  gap: 12rem;
 }
 
 /* END OF THE GUIDES */
