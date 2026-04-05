@@ -24,6 +24,9 @@ function updateVisibleCards() {
   });
 
   if (taglist.length === 6) {
+    articlesHeaders.forEach(header => {
+      header.style.display = 'block';
+    });
     contentCards.forEach(card => {
       card.style.display = "flex";
     });
@@ -56,9 +59,6 @@ function updateVisibleCards() {
 function showAllCards() {
   contentCards.forEach(card => {
     card.style.display = "flex";
-  });
-  articlesHeaders.forEach(header => {
-    header.style.display = 'block';
   });
 }
 

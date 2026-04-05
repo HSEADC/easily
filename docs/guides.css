@@ -937,7 +937,7 @@ input {
   gap: 12rem;
   border-radius: 24rem;
   padding: 16rem;
-  width: 416rem;
+  width: 410rem;
   height: 396rem;
   background-color: var(--wb-50);
 }
@@ -975,7 +975,7 @@ input {
   justify-content: flex-start;
   flex-direction: column;
   gap: 12rem;
-  width: 416rem;
+  width: 410rem;
   height: 386rem;
 }
 
@@ -1117,7 +1117,7 @@ body {
 
 .guide_card_img {
   border-radius: 20rem;
-  width: 384rem;
+  width: 378rem;
   height: 260rem;
   overflow: hidden;
   background-repeat: no-repeat;
