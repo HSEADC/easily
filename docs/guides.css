@@ -942,14 +942,6 @@ input {
   background-color: var(--wb-50);
 }
 
-.M_guide_intro {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 32rem;
-}
-
 .M_guide_content_container {
   display: flex;
   align-items: flex-start;
@@ -966,6 +958,7 @@ input {
 .M_guide_header {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 12rem;
 }
 
@@ -1034,6 +1027,9 @@ input {
   }
   .M_article_card {
     width: 100%;
+  }
+  .M_guide_header {
+    gap: 20rem;
   }
 }
 * {
@@ -1257,6 +1253,10 @@ body {
   background-position: center;
 }
 
+.guide_description {
+  margin-top: 20rem;
+}
+
 .chores_cover {
   box-shadow: inset -10rem -10rem 40rem 0 rgba(253, 242, 248, 0.6), inset 10rem 10rem 40rem 0 rgba(253, 242, 248, 0.6);
 }
@@ -1297,6 +1297,9 @@ body {
   .O_main {
     gap: 60rem;
     margin-top: 60rem;
+  }
+  .guide_description {
+    margin-top: 0;
   }
 }
 .guide_finance {
