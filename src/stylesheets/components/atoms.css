@@ -9,43 +9,72 @@
 .A_button:hover {
   cursor: pointer;
 }
-
-.A_button_accent {
+/* .A_button_accent {
   color: var(--wb-0);
   background-color: var(--base-500);
 }
-
 .A_button_accent:hover {
   box-shadow: 0 0 12rem 0 rgba(143, 88, 250, 0.6);
 }
-
 .A_button_accent:active {
   background-color: var(--base-600);
 }
-
 .A_button_dark {
   background-color: var(--wb-900);
   color: var(--wb-0);
 }
-
 .A_button_dark:hover {
   background-color: var(--wb-950);
 }
-
 .A_button_dark:active {
   background-color: var(--wb-1000);
 }
-
 .A_button_light {
   background-color: var(--wb-50);
   color: var(--wb-1000);
 }
-
 .A_button_light:hover {
   background-color: var(--wb-100);
 }
-
 .A_button_light:active {
+  background-color: var(--wb-200);
+} */
+.A_button.accent {
+  color: var(--wb-0);
+  background-color: var(--base-500);
+}
+
+.A_button.accent:hover {
+  box-shadow: 0 0 12rem 0 rgba(143, 88, 250, 0.6);
+}
+
+.A_button.accent:active {
+  background-color: var(--base-600);
+}
+
+.A_button.dark {
+  background-color: var(--wb-900);
+  color: var(--wb-0);
+}
+
+.A_button.dark:hover {
+  background-color: var(--wb-950);
+}
+
+.A_button.dark:active {
+  background-color: var(--wb-1000);
+}
+
+.A_button.light {
+  background-color: var(--wb-50);
+  color: var(--wb-1000);
+}
+
+.A_button.light:hover {
+  background-color: var(--wb-100);
+}
+
+.A_button.light:active {
   background-color: var(--wb-200);
 }
 

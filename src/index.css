@@ -152,7 +152,11 @@
 }
 
 .A_button_tab.active {
-  /* стили для активного таба */
+  background-color: var(--wb-1000);
+  color: var(--wb-0);
+}
+
+.A_button.tab.active {
   background-color: var(--wb-1000);
   color: var(--wb-0);
 }
