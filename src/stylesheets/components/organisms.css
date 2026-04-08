@@ -106,7 +106,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 48rem;
+  width: 100%;
+}
+
+.O_glossary_collection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+  width: 100%;
+  padding: 0rem 72rem;
 }
 
 /* END OF THE DICTIONARY */

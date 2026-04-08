@@ -172,6 +172,34 @@
 
 /* END OF THE GUIDES */
 
+/* DICTIONARY */
+
+.M_glossary_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 410rem;
+  height: 356rem;
+  position: relative;
+}
+
+.M_glossary_preview {
+  margin-top: -36rem;
+  height: 96rem;
+  border-radius: 24rem;
+  background-color: var(--wb-50);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8rem;
+  padding: 16rem;
+}
+
+/* END OF THE DICTIONARY */
+
 /* ARTICLES */
 
 .M_article_card {
@@ -238,5 +266,8 @@
   }
   .M_guide_header {
     gap: 20rem;
+  }
+  .M_glossary_preview {
+    height: 92rem;
   }
 }
