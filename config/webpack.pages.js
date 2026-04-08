@@ -18,7 +18,7 @@ const htmlPages = [
   createPage('./src/pages/guides/guides_pages/guide_1.html', './pages/guides/guides_pages/guide_1.html', ['guides', 'dropdown']),
   createPage('./src/pages/guides/guides_pages/guide_2.html', './pages/guides/guides_pages/guide_2.html', ['guides', 'dropdown']),
 
-  createPage('./src/pages/dictionary/dictionary.html', './pages/dictionary/dictionary.html'),
+  createPage('./src/pages/dictionary/dictionary.html', './pages/dictionary/dictionary.html', ['dictionary', 'dropdown', 'filter']),
 
   createPage('./src/pages/styleguide/styleguide.html', './pages/styleguide/styleguide.html', ['styleguide']),
 

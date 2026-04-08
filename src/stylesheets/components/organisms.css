@@ -100,6 +100,17 @@
 
 /* END OF THE ARTICLES */
 
+/* DICTIONARY */
+
+.O_glossary_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48rem;
+}
+
+/* END OF THE DICTIONARY */
+
 @media (max-width: 768px) {
   .O_main {
     gap: 60rem;
