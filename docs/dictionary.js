@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelectorAll(".M_glossary_card").forEach(function(e){e.addEventListener("click",function(t){t.preventDefault(),e.classList.toggle("active")})})})();
