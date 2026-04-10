@@ -21,6 +21,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .M_map {
@@ -30,19 +31,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.M_guide_card {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 12rem;
-  border-radius: 24rem;
-  padding: 16rem;
-  width: 416rem;
-  height: 396rem;
-  background-color: var(--wb-50);
 }
 
 .M_category_score {
@@ -107,11 +95,179 @@
   gap: 8rem;
 }
 
+.M_subscription {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32rem;
+}
+
+.M_subscriptionblock {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+}
+
+.M_subscription_form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+.M_footer_menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.M_social_media {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+/* GUIDES */
+
+.M_guide_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+  border-radius: 24rem;
+  padding: 16rem;
+  width: 410rem;
+  height: 396rem;
+  background-color: var(--wb-50);
+}
+
+.M_guide_content_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+}
+
+.M_guide_summary_container {
+  border-radius: 12rem;
+  padding: 16rem;
+}
+
+.M_guide_header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12rem;
+}
+
+/* END OF THE GUIDES */
+
+/* DICTIONARY */
+
+.M_glossary_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 410rem;
+  height: 356rem;
+  position: relative;
+}
+
+.M_glossary_preview {
+  margin-top: -36rem;
+  height: 96rem;
+  border-radius: 24rem;
+  background-color: var(--wb-50);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8rem;
+  padding: 16rem;
+}
+
+/* END OF THE DICTIONARY */
+
+/* ARTICLES */
+
+.M_article_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+  width: 410rem;
+  height: 386rem;
+}
+
+.M_articles_list {
+  display: flex;
+  gap: 24rem;
+  padding: 0rem 72rem;
+  flex-wrap: wrap;
+}
+
+/* END OF THE ARTICLES */
+
 @media (max-width: 768px) {
   .M_navigation_menu, .O_menu .A_input_search {
     display: none;
   }
   .M_answer_options {
     width: 100%;
+  }
+  .M_tab_group {
+    width: 93vw;
+    justify-content: center;
+  }
+  .M_guide_card {
+    width: 91.4vw;
+    height: 368rem;
+  }
+  .M_nav_items.active {
+    margin-bottom: -131rem;
+  }
+  .M_footer_menu {
+    flex-direction: row;
+    order: 1;
+  }
+  .M_subscription {
+    order: 2;
+    gap: 28rem;
+    align-items: center;
+  }
+  .M_subscription_form {
+    flex-direction: column;
+  }
+  .M_subscription_form .A_button {
+    width: 100%;
+  }
+  .M_social_media_block {
+    order: 3;
+    gap: 16rem;
+  }
+  .M_articles_list {
+    padding: 0;
+  }
+  .M_article_card {
+    width: 100%;
+  }
+  .M_guide_header {
+    gap: 20rem;
+  }
+  .M_glossary_preview {
+    height: 92rem;
   }
 }

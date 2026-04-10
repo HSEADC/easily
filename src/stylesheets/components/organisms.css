@@ -6,15 +6,15 @@
   margin-bottom: 96rem;
 }
 
-
 .O_menu {
   margin-top: 40rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  width: 90vw;
   height: 51rem;
+  width: 100%;
+  padding: 0 72rem;
 }
 
 .O_header {
@@ -28,15 +28,130 @@
   display: none;
 }
 
+.O_footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 40rem 72rem;
+  border-top: 1px solid var(--wb-50);
+}
+
+/* GUIDES */
+
+.O_guide_body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32rem;
+  border-radius: 24rem;
+  padding: 40rem;
+  width: 74.722vw;
+  background-image: url(../../images/bg_chores.svg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+}
+
+.O_guides_block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 48rem;
+  flex-wrap: wrap;
+}
+
+.O_guides_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24rem;
+  padding: 0rem 72rem;
+  width: 100%;
+}
+
+/* END OF THE GUIDES */
+
+/* ARTICLES */
+
+.O_articles_block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 48rem;
+  flex-wrap: wrap;
+}
+
+.O_articles_collection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+}
+
+/* END OF THE ARTICLES */
+
+/* DICTIONARY */
+
+.O_glossary_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 48rem;
+  width: 100%;
+}
+
+.O_glossary_collection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+  width: 100%;
+  padding: 0rem 72rem;
+}
+
+/* END OF THE DICTIONARY */
+
 @media (max-width: 768px) {
+  .O_main {
+    gap: 60rem;
+    margin-top: 60rem;
+    padding: 0 16rem;
+  }
   .O_menu {
     margin-top: 20rem;
+    padding: 0 16rem;
   }
   .O_mobile_menu {
     width: 100%;
     display: flex;
-    padding: 0rem 16rem;
     align-items: center;
     justify-content: space-between;
+  }
+  .O_footer {
+    flex-direction: column;
+    gap: 40rem;
+    padding: 56rem 16rem;
+  }
+  .O_guides_list {
+    padding: 0rem 16rem;
+  }
+  .O_guide_body {
+    width: 100%;
+    padding: 40rem 16rem;
+  }
+  .O_articles_collection {
+    width: 100%;
   }
 }

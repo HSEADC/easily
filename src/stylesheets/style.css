@@ -5,6 +5,6 @@
 @import 'components/atoms.css';
 @import 'components/organisms.css';
 @import 'components/molecules.css';
+@import 'components/collections.css';
 
 @import 'main.css';
-@import 'adaptive.css';

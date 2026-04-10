@@ -8,85 +8,225 @@
   max-width: 1440rem;
 }
 
-.O_guides_block {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 48rem;
-}
-
-.O_guides_list {
-  display: flex;
-flex-wrap: wrap;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 24rem;
-padding: 0rem 72rem;
-width: 1440rem;
-}
-
-.guide_finance {
-  box-shadow: inset 20px 20px 40px 0 var(--base-finance-300), inset -20px -20px 40px 0 var(--base-finance-300);
-  background-image: url(../../images/guides/finance_1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 25%;
-}
-
-.guide_lifestyle {
-  box-shadow: inset 8px 8px 40px 0 var(--base-lifestyle-300), inset -8px -8px 40px 0 var(--base-lifestyle-300);
-  background-image: url(../../images/guides/lifestyle_1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.guide_career {
-  box-shadow: inset 8px 8px 40px 0 var(--base-career-300), inset -8px -8px 40px 0 var(--base-career-300);
-  background-image: url(../../images/guides/career_1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.guide_health {
-  box-shadow: inset 8px 8px 40px 0 var(--base-health-300), inset -8px -8px 40px 0 var(--base-health-300);
-  background-image: url(../../images/guides/health_1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.guide_chores {
-  box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
-  background-image: url(../../images/guides/chores_1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.guide_documents {
-  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
-  background-image: url(../../images/guides/docs_1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.guides_main_page.title_h1 {
+  text-align: center;
 }
 
 .guide_card_img {
   border-radius: 20rem;
-  width: 384rem;
+  width: 378rem;
   height: 260rem;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.guide_card_img img {
-  width: 107%;
-  box-shadow: inset 8px 8px 40px 0 rgba(233, 75, 152, 0.6), inset -8px -8px 40px 0 rgba(233, 75, 152, 0.6);
+.M_guide_summary_container.chores {
+  background: var(--base-chores-500);
+}
+
+.M_guide_summary_container.documents {
+  background: var(--base-documents-500);
+}
+
+.M_guide_summary_container.lifestyle {
+  background: var(--base-lifestyle-500);
+}
+
+.M_guide_summary_container.finance {
+  background: var(--base-finance-500);
+}
+
+.M_guide_summary_container.health {
+  background: var(--base-health-500);
+}
+
+.M_guide_summary_container.career {
+  background: var(--base-career-500);
 }
 
 .doc_img {
   margin-top: -120rem;
+}
+
+.chores_guide {
+  background-color: var(--base-chores-50);
+}
+
+.documents_guide {
+  background-color: var(--base-documents-50);
+}
+
+.lifestyle_guide {
+  background-color: var(--base-lifestyle-50);
+}
+
+.finance_guide {
+  background-color: var(--base-finance-50);
+}
+
+.career_guide {
+  background-color: var(--base-career-50);
+}
+
+.health_guide {
+  background-color: var(--base-health-50);
+}
+
+.chores_guide h1,
+.chores_guide p,
+.chores_guide h3,
+.chores_guide li,
+.chores_guide a {
+  color: var(--base-chores-500);
+  max-width: 996rem;
+}
+
+.documents_guide h1,
+.documents_guide p,
+.documents_guide h3,
+.documents_guide li,
+.documents_guide a {
+  color: var(--base-documents-500);
+  max-width: 996rem;
+}
+
+.lyfestyle_guide h1,
+.lyfestyle_guide p,
+.lyfestyle_guide h3,
+.lyfestyle_guide li,
+.lyfestyle_guide a {
+  color: var(--base-lyfestyle-500);
+  max-width: 996rem;
+}
+
+.career_guide h1,
+.career_guide p,
+.career_guide h3,
+.career_guide li,
+.career_guide a {
+  color: var(--base-career-500);
+  max-width: 996rem;
+}
+
+.finance_guide h1,
+.finance_guide p,
+.finance_guide h3,
+.finance_guide li,
+.finance_guide a {
+  color: var(--base-finance-500);
+  max-width: 996rem;
+}
+
+.health_guide h1,
+.health_guide p,
+.health_guide h3,
+.health_guide li,
+.health_guide a {
+  color: var(--base-health-500);
+  max-width: 996rem;
+}
+
+.chores_guide h5 {
+  color: var(--base-chores-50);
+  max-width: 964rem;
+}
+
+.documents_guide h5 {
+  color: var(--base-documents-50);
+  max-width: 964rem;
+}
+
+.finance_guide h5 {
+  color: var(--base-finance-50);
+  max-width: 964rem;
+}
+
+.career_guide h5 {
+  color: var(--base-career-50);
+  max-width: 964rem;
+}
+
+.health_guide h5 {
+  color: var(--base-health-50);
+  max-width: 964rem;
+}
+
+.lifestyle_guide h5 {
+  color: var(--base-lifestyle-50);
+  max-width: 964rem;
+}
+
+.O_guide_body a {
+  text-decoration: underline;
+}
+
+.O_guide_body ul {
+  list-style-type: disc;
+  margin-left: 20rem;
+}
+
+.O_guide_body ol {
+  list-style-type: decimal;
+  margin-left: 20rem;
+}
+
+.guide_cover {
+  width: 69.167vw;
+  height: 31.944vw;
+  border-radius: 12rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.guide_description {
+  margin-top: 20rem;
+}
+
+.chores_cover {
+  box-shadow: inset -10rem -10rem 40rem 0 rgba(253, 242, 248, 0.6), inset 10rem 10rem 40rem 0 rgba(253, 242, 248, 0.6);
+}
+
+.documents_cover {
+  box-shadow: inset -10rem -10rem 40rem 0 rgba(237, 237, 253, 0.6), inset 10rem 10rem 40rem 0 rgba(237, 237, 253, 0.6);
+}
+
+.lifestyle_cover {
+  box-shadow: inset -10px -10px 40px 0 rgba(240, 249, 255, 0.6), inset 10px 10px 40px 0 rgba(240, 249, 255, 0.6);
+}
+
+.career_cover {
+  box-shadow: inset -10px -10px 40px 0 rgba(254, 244, 242, 0.6), inset 10px 10px 40px 0 rgba(254, 244, 242, 0.6);
+}
+
+.health_cover {
+  box-shadow: inset -10px -10px 40px 0 rgba(243, 250, 235, 0.6), inset 10px 10px 40px 0 rgba(243, 250, 235, 0.6);
+}
+
+.finance_cover {
+  box-shadow: inset -10px -10px 40px 0  rgba(255, 253, 234, 0.6), inset 10px 10px 40px 0  rgba(255, 253, 234, 0.6);
+}
+
+@media (max-width: 768px) {
+  .guide_card_img {
+    width: 311rem;
+  }
+  .guide_cover {
+    width: 80vw;
+  }
+  .title_h1 {
+    text-align: left;
+  }
+  .title_h5 {
+    font-size: 20rem;
+  }
+  .O_main {
+    gap: 60rem;
+    margin-top: 60rem;
+  }
+  .guide_description {
+    margin-top: 0;
+  }
 }

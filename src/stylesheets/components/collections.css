@@ -1,0 +1,12 @@
+/* DICTIONARY */
+
+.C_glossary_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24rem;
+}
+
+/* END OF THE DICTIONARY */
