@@ -80,7 +80,7 @@ function showResult() {
     resultChart.innerHTML = generateRadarChart(resultCount, 520, 614);
   }
 
-  const firstTab = document.querySelector('.A_button_tab');
+  const firstTab = document.querySelector('.A_button.tab');
   if (firstTab) {
     firstTab.click();
   }
