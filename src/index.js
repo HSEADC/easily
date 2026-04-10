@@ -40,7 +40,7 @@ function closeModalWindow() {
 
 // tabs //
 
-const tabs = document.querySelectorAll('.A_button_tab');
+const tabs = document.querySelectorAll('.A_button.tab');
 const tabsContent = document.querySelectorAll('.tab_content');
 
 if (tabs.length && tabsContent.length) {
