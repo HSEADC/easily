@@ -1,5 +1,6 @@
 .W_search_container {
   display: flex;
+  flex-direction: column;
   gap: 8rem;
 }
 
@@ -15,7 +16,7 @@
   display: none;
   flex-direction: column;
   gap: 8rem;
-  background-color: var(--wb-200);
+  background-color: var(--wb-0);
   border-radius: 20rem;
 }
 

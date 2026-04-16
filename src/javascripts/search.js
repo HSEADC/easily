@@ -26,19 +26,20 @@ function initSearch() {
 function handleSearchInput (articles, input) {
   const value = input.value.toLowerCase();
   const searchResults = document.querySelector('.C_search_results');
-  if (value.lenght < 2) {
-    searchResults.style.display = 'none';
-  }
   const results = articles.filter(article => article.title.includes(value) || article.description.includes(value));
 
   if (results > 0) {
-    renderSearchResults (results, searchResults, value);
-  } else {
     searchResults.style.display = 'none';
+  }
+
+  if (value.length < 3) {
+    searchResults.style.display = 'none';
+  } else {
+    renderSearchResults(results, searchResults, value);
   }
 }
 
-function renderSearchResults (results, searchResults, value) {
+function renderSearchResults(results, searchResults, value) {
   searchResults.innerHTML = '';
   searchResults.style.display = 'flex';
 
@@ -51,9 +52,9 @@ function renderSearchResults (results, searchResults, value) {
     header.classList.add('title_h5');
     header.innerText = res.title;
 
-    const descr = document.createElement('h5');
-    descr.classList.add('title_h5');
-    descr.innerText = res.desciption;
+    const descr = document.createElement('p');
+    descr.classList.add('text_s');
+    descr.innerText = res.description;
 
     item.appendChild(header);
     item.appendChild(descr);
