@@ -4,11 +4,11 @@ import './covers.css';
 
 'use strict';
 
-const cards = document.querySelectorAll('.M_glossary_card');
+const cards = document.querySelectorAll('.W_content_card');
 
 cards.forEach(card => {
-  card.addEventListener('click', (e) => {
+  card.addEventListener('click', function(e) {
     e.preventDefault();
-    card.classList.toggle('active')
+    card.classList.toggle('flipped');
   })
 });
