@@ -1,1 +1,1 @@
-(()=>{"use strict";document.querySelectorAll(".M_glossary_card").forEach(function(e){e.addEventListener("click",function(t){t.preventDefault(),e.classList.toggle("active")})})})();
+(()=>{"use strict";document.querySelectorAll(".W_content_card").forEach(function(e){e.addEventListener("click",function(t){t.preventDefault(),e.classList.toggle("flipped")})})})();
