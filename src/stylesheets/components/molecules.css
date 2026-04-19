@@ -219,6 +219,29 @@
   flex-wrap: wrap;
 }
 
+.M_article_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 286rem;
+}
+
+.M_article_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+  width: 966rem;;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20rem;
+}
+
 /* END OF THE ARTICLES */
 
 @media (max-width: 768px) {

@@ -53,3 +53,15 @@
   box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
   background-image: url(../../images/articles/chores_3.png);
 }
+
+.A_article_block_img#article_1_1 {
+  background-image: url(../../images/articles/article_1_1.png);
+}
+
+.A_article_block_img#article_1_2 {
+  background-image: url(../../images/articles/article_1_2.png);
+}
+
+.A_article_block_img#article_1_3 {
+  background-image: url(../../images/articles/article_1_3.png);
+}
