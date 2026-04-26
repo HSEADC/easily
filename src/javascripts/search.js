@@ -1,21 +1,19 @@
-console.log('test');
+const articles = [
+  {
+    title: 'что делать с батарейками',
+    description: 'гайд про быт',
+    url: 'https://hseadc.github.io/easily/pages/guides/guides_pages/guide_1.html'
+  },
+  {
+    title: 'как получить права',
+    description: 'гайд про документы',
+    url: 'https://hseadc.github.io/easily/pages/guides/guides_pages/guide_2.html'
+  }
+];
 
-initSearch();
+initSearch(articles);
 
-function initSearch() {
-  const articles = [
-    {
-      title: 'что делать с батарейками',
-      description: 'гайд про быт',
-      url: 'https://hseadc.github.io/easily/pages/guides/guides_pages/guide_1.html'
-    },
-    {
-      title: 'как получить права',
-      description: 'гайд про документы',
-      url: 'https://hseadc.github.io/easily/pages/guides/guides_pages/guide_2.html'
-    }
-  ];
-
+function initSearch(articles) {
   const input = document.querySelector('.A_input_search');
 
   input.addEventListener('input', () => {
