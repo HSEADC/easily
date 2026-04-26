@@ -1,4 +1,16 @@
+.W_content_card {
+  display: block;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease-in-out;
+}
 
+.W_content_card.flipped {
+  transform: rotateY(180deg);
+}
+
+.W_content_card.flipped .card_front {
+  display: none;
+}
 
 .O_main {
   gap: 96rem;
@@ -22,6 +34,10 @@
 }
 .M_glossary_card.active {
   animation: flip-vertical-right 0.3s ease;
+}
+
+a.docs p {
+  color: var(--base-documents-500);
 }
 
 @-webkit-keyframes flip-vertical-right {

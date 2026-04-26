@@ -22,6 +22,162 @@
   background-position: center;
 }
 
+.career_article {
+  background-color: var(--base-career-500);
+}
+
+.career_article p, .career_article h1{
+  color: var(--base-career-500);
+}
+
+.W_article_wrapper.career h2, .W_article_wrapper.career li {
+  color: var(--base-career-500);
+}
+
+.article_header h1 {
+  text-align: left;
+}
+
+.career_article .text_s {
+  color: var(--base-career-400);
+}
+
+.article_main {
+  gap: 20rem;
+}
+
+.A_article_block_img {
+  border-radius: 12rem;
+  width: 966rem;
+  height: 460rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.A_article_block_img.career {
+  box-shadow: inset -8px -8px 40px 0 rgba(244, 88, 63, 0.6), inset 8px 8px 40px 0 rgba(244, 88, 63, 0.6);
+}
+
+.W_article_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 48rem;
+  border-radius: 24rem;
+  padding: 40rem;
+  width: 1380rem;
+  max-width: 1380rem;
+}
+
+.M_author_info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+}
+
+.M_author_block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+.M_author_block img {
+  border-radius: 50rem;
+}
+
+.M_author_name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.M_share_block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12rem;
+}
+
+.share_icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10rem;
+}
+
+.article_header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+  max-width: 968rem;
+}
+
+.M_article_tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+.W_article_wrapper.career {
+  background-color: var(--base-career-50);
+}
+.W_article_wrapper.health {
+  background-color: var(--base-health-50);
+}
+.W_article_wrapper.finance {
+  background-color: var(--base-finance-50);
+}
+.W_article_wrapper.lifestyle {
+  background-color: var(--base-lifestyle-50);
+}
+.W_article_wrapper.documents {
+  background-color: var(--base-documents-50);
+}
+.W_article_wrapper.chores {
+  background-color: var(--base-chores-50);
+}
+
+.M_article_info {
+  width: 284rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 36rem;
+}
+
+.M_article_menu.career a {
+  color: var(--base-career-400);
+}
+
+.M_article_menu.career a:hover {
+  cursor: pointer;
+  color: var(--base-career-500);
+}
+
+.M_article_menu.career a.active {
+  cursor: pointer;
+  color: var(--base-career-500);
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 20rem;
+}
+
 @media (max-width: 768px) {
   .title_h1 {
     max-width: 341rem;
