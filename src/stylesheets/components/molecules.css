@@ -73,6 +73,14 @@
   z-index: 1000;
 }
 
+.dropdown_icon {
+  transition: ease 0.3s;
+}
+
+.dropdown_icon.active {
+  transform: rotate(180deg);
+}
+
 .M_dropdown_menu {
   display: flex;
   justify-content: flex-start;
