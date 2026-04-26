@@ -1,11 +1,11 @@
 const articles = [
   {
-    title: 'что делать с батарейками',
+    title: 'Что делать с батарейками',
     description: 'гайд про быт',
     url: 'https://hseadc.github.io/easily/pages/guides/guides_pages/guide_1.html'
   },
   {
-    title: 'как получить права',
+    title: 'Как получить права',
     description: 'гайд про документы',
     url: 'https://hseadc.github.io/easily/pages/guides/guides_pages/guide_2.html'
   }
@@ -24,13 +24,13 @@ function initSearch(articles) {
 function handleSearchInput (articles, input) {
   const value = input.value.toLowerCase();
   const searchResults = document.querySelector('.C_search_results');
-  const results = articles.filter(article => article.title.includes(value) || article.description.includes(value));
+  const results = articles.filter(article => article.title.toLowerCase().includes(value) || article.description.toLowerCase().includes(value));
 
   if (results > 0) {
     searchResults.style.display = 'none';
   }
 
-  if (value.length < 3) {
+  if (value.length < 2) {
     searchResults.style.display = 'none';
   } else {
     renderSearchResults(results, searchResults, value);
@@ -46,8 +46,8 @@ function renderSearchResults(results, searchResults, value) {
     item.classList.add('.M_search_result');
     item.href = res.url;
 
-    const header = document.createElement('h5');
-    header.classList.add('title_h5');
+    const header = document.createElement('p');
+    header.classList.add('text_l_medium');
     header.innerText = res.title;
 
     const descr = document.createElement('p');
@@ -58,5 +58,4 @@ function renderSearchResults(results, searchResults, value) {
     item.appendChild(descr);
     searchResults.appendChild(item);
   });
-
 }

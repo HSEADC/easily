@@ -4,22 +4,6 @@
   gap: 8rem;
 }
 
-.search_button[disabled] {
-  filter: grayscale(1);
-}
-
-.search_button[disabled]:hover {
-  box-shadow: none;
-}
-
-.C_search_results {
-  display: none;
-  flex-direction: column;
-  gap: 8rem;
-  background-color: var(--wb-0);
-  border-radius: 20rem;
-}
-
 .O_main {
   gap: 96rem;
   margin-top: 96rem;

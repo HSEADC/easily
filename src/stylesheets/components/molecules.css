@@ -1,3 +1,11 @@
+.M_search_result {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 4rem;
+}
+
 .M_answer_options {
   display: flex;
   flex-wrap: wrap;
@@ -42,7 +50,7 @@
 
 .M_navigation_menu {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
   gap: 20rem;
@@ -62,7 +70,6 @@
 
 .M_nav_items.active {
   display: flex;
-  margin-bottom: -124rem;
   z-index: 1000;
 }
 
@@ -72,6 +79,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 4rem;
+  margin-top: 6rem;
 }
 
 .M_category_scores {

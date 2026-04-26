@@ -1,1 +1,0 @@
-(()=>{"use strict";document.querySelectorAll(".W_content_card").forEach(function(e){e.addEventListener("click",function(t){t.preventDefault(),e.classList.toggle("flipped")})})})();

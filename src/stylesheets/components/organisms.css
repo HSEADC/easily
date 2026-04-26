@@ -9,7 +9,7 @@
 .O_menu {
   margin-top: 40rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   flex-direction: row;
   height: 51rem;

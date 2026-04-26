@@ -1,3 +1,19 @@
+/* SEARCH */
+
+.C_search_results {
+  display: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8rem;
+  border-radius: 16rem;
+  padding: 12rem;
+  width: 430rem;
+  background-color: var(--wb-50);
+}
+
+/* END OF SEARCH */
+
 /* DICTIONARY */
 
 .C_glossary_list {
