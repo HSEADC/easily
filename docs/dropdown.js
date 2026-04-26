@@ -1,0 +1,1 @@
+(()=>{"use strict";var t=document.querySelectorAll(".A_menu_button"),e=document.querySelectorAll(".M_nav_items"),c=document.querySelectorAll(".dropdown_icon");t.forEach(function(t){t.addEventListener("click",function(){e.forEach(function(t){t.classList.toggle("active")}),c.forEach(function(t){t.classList.toggle("active")})})})})();
