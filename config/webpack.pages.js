@@ -15,8 +15,8 @@ const htmlPages = [
   createPage('./src/pages/articles/articles_pages/probation.html', './pages/articles/articles_pages/probation.html', ['articles', 'dropdown', 'search']),
 
   createPage('./src/pages/guides/guides.html', './pages/guides/guides.html', ['guides', 'filter', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/guide_1.html', './pages/guides/guides_pages/guide_1.html', ['guides', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/guide_2.html', './pages/guides/guides_pages/guide_2.html', ['guides', 'dropdown', 'search']),
+  createPage('./src/pages/guides/guides_pages/batteries.html', './pages/guides/guides_pages/batteries.html', ['guides', 'dropdown', 'search']),
+  createPage('./src/pages/guides/guides_pages/driver-license.html', './pages/guides/guides_pages/driver-license.html', ['guides', 'dropdown', 'search']),
 
   createPage('./src/pages/dictionary/dictionary.html', './pages/dictionary/dictionary.html', ['dictionary', 'dropdown', 'filter', 'search']),
 
