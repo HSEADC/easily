@@ -1,5 +1,4 @@
 .W_content_card {
-
   display: block;
   transform-style: preserve-3d;
   transition: .6s .1s;
@@ -10,14 +9,11 @@
   display: none;
 }
 
-.card_front, .card_back {
-  height: 356rem;
-}
-
 .docs .card_back {
   border-radius: 24rem;
   padding: 16rem;
   width: 416rem;
+  height: 356rem;
   justify-content: flex-end;
   background-color: var(--base-documents-100);
 }
