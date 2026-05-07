@@ -22,9 +22,9 @@ const htmlPages = [
 
   createPage('./src/pages/styleguide/styleguide.html', './pages/styleguide/styleguide.html', ['styleguide']),
 
-  createPage('./src/pages/errors/404.html', './404.html', ['errors']),
-  createPage('./src/pages/errors/500.html', './500.html', ['errors']),
-  createPage('./src/pages/errors/505.html', './505.html', ['errors'])
+  createPage('./src/pages/errors/404.html', './404.html', ['main', 'errors']),
+  createPage('./src/pages/errors/500.html', './500.html', ['main', 'errors']),
+  createPage('./src/pages/errors/505.html', './505.html', ['main', 'errors'])
 ];
 
 module.exports = htmlPages;
