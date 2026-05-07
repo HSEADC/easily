@@ -178,6 +178,10 @@ ol {
   margin-left: 20rem;
 }
 
+.O_question_block.career {
+  background-color: var(--base-career-500);
+}
+
 @media (max-width: 768px) {
   .title_h1 {
     max-width: 341rem;
