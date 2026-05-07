@@ -9,16 +9,16 @@ function createPage(template, filename, chunks){
 }
 
 const htmlPages = [
-  createPage('./src/index.html', './index.html', ['index', 'skilltest', 'chart', 'dropdown', 'search']),
+  createPage('./src/index.html', './index.html', ['main', 'index', 'skilltest', 'chart', 'dropdown', 'search']),
 
-  createPage('./src/pages/articles/articles.html', './pages/articles/articles.html', ['articles', 'filter', 'dropdown', 'search']),
-  createPage('./src/pages/articles/articles_pages/probation.html', './pages/articles/articles_pages/probation.html', ['articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles.html', './pages/articles/articles.html', ['main', 'articles', 'filter', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/probation.html', './pages/articles/articles_pages/probation.html', ['main', 'articles', 'dropdown', 'search']),
 
-  createPage('./src/pages/guides/guides.html', './pages/guides/guides.html', ['guides', 'filter', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/batteries.html', './pages/guides/guides_pages/batteries.html', ['guides', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/driver-license.html', './pages/guides/guides_pages/driver-license.html', ['guides', 'dropdown', 'search']),
+  createPage('./src/pages/guides/guides.html', './pages/guides/guides.html', ['main', 'guides', 'filter', 'dropdown', 'search']),
+  createPage('./src/pages/guides/guides_pages/batteries.html', './pages/guides/guides_pages/batteries.html', ['main', 'guides', 'dropdown', 'search']),
+  createPage('./src/pages/guides/guides_pages/driver-license.html', './pages/guides/guides_pages/driver-license.html', ['main', 'guides', 'dropdown', 'search']),
 
-  createPage('./src/pages/dictionary/dictionary.html', './pages/dictionary/dictionary.html', ['dictionary', 'dropdown', 'filter', 'search']),
+  createPage('./src/pages/dictionary/dictionary.html', './pages/dictionary/dictionary.html', ['main', 'dictionary', 'dropdown', 'filter', 'search']),
 
   createPage('./src/pages/styleguide/styleguide.html', './pages/styleguide/styleguide.html', ['styleguide']),
 

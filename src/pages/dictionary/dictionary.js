@@ -1,4 +1,3 @@
-import '../../stylesheets/style.css';
 import './dictionary.css';
 import './covers.css';
 
