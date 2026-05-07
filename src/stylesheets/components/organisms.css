@@ -98,6 +98,18 @@
   gap: 20rem;
 }
 
+.O_question_block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+  border-radius: 24rem;
+  padding: 40rem;
+  width: 966rem;
+  height: 240rem;
+}
+
 /* END OF THE ARTICLES */
 
 /* DICTIONARY */
@@ -120,6 +132,7 @@
   width: 100%;
   padding: 0rem 72rem;
 }
+
 
 /* END OF THE DICTIONARY */
 

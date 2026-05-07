@@ -4,6 +4,7 @@ const htmlPages = require('./webpack.pages.js');
 
 module.exports = {
   entry: {
+    main: './src/javascripts/main.js',
     index: './src/index.js',
     articles: './src/pages/articles/articles.js',
     styleguide: './src/pages/styleguide/styleguide.js',

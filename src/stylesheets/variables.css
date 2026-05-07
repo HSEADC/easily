@@ -1,6 +1,9 @@
 :root {
   /* palette */
 
+  --base-success: #00E116;
+	--base-error: #FF413B;
+
 	--base-50: #faf1ff;
 	--base-100: #e2d1ff;
 	--base-200: #caafff;
@@ -99,18 +102,5 @@
 	--base-documents-800: #1d1f60;
 	--base-documents-900: #0f1033;
 	--base-documents-950: #08081c;
-
-
-  /* radiuses */
-
-  --radius-xs: 4rem;
-  --radius-sm: 8rem;
-  --radius-md: 12rem;
-  --radius-lg: 16rem;
-  --radius-xl: 20rem;
-  --radius-xxl: 24rem;
-  --radius-2xl: 28rem;
-  --radius-3xl: 32rem;
-  --radius-4xl: 40rem;
 
 }
