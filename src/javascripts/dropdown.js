@@ -18,3 +18,9 @@ document.addEventListener('click', (e) => {
     closeMenu();
   }
 });
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeMenu();
+  }
+});
