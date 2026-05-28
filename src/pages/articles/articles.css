@@ -264,4 +264,29 @@ ol {
     gap: 60rem;
     margin-top: 60rem;
   }
+  .W_article_wrapper {
+    width: 90.4vw;
+    padding: 20rem 16rem;
+    flex-direction: column;
+    gap: 28rem;
+  }
+  .A_article_block_img,
+  .O_question_block {
+    width: 92.9vw;
+  }
+  .M_article_menu {
+    display: none;
+  }
+  .C_answer_options {
+    flex-direction: column;
+  }
+  .article_main {
+    gap: 20rem;
+  }
+  .article_header {
+    order: 1;
+  }
+  .M_article_info {
+    order: 2;
+  }
 }

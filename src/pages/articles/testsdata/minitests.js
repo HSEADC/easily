@@ -5,7 +5,7 @@ export const miniTests = {
       {
         text: 'Где обязательно должно быть прописано условие об&nbsp;испытательном сроке?',
         answers: [
-          { text: 'В устном обещании работодателя при собеседовании', isCorrect: false },
+          { text: 'В устном обещании работодателя при&nbsp;собеседовании', isCorrect: false },
           { text: 'В правилах внутреннего трудового распорядка', isCorrect: false },
           { text: 'В трудовом договоре', isCorrect: true }
         ]
@@ -21,9 +21,9 @@ export const miniTests = {
       {
         text: 'Вы работаете на&nbsp;испытательном сроке и&nbsp;заболели. Что&nbsp;будет с&nbsp;испытательным сроком?',
         answers: [
-          { text: 'Вас могут уволить по причине болезни', isCorrect: false },
-          { text: 'Срок испытания продлится на количество дней болезни', isCorrect: true },
-          { text: 'Ничего не изменится', isCorrect: false }
+          { text: 'Вас могут уволить по&nbsp;причине болезни', isCorrect: false },
+          { text: 'Срок испытания продлится на&nbsp;количество дней болезни', isCorrect: true },
+          { text: 'Ничего не&nbsp;изменится', isCorrect: false }
         ]
       }
     ]

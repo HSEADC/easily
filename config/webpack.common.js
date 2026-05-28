@@ -1,6 +1,22 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const htmlPages = require('./webpack.pages.js');
+const SitemapPlugin = require('sitemap-webpack-plugin').default;
+const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin');
+
+const paths = [
+  '/index.html',
+  '/404.html',
+  '/500.html',
+  '/505.html',
+  '/pages/articles/articles.html',
+  '/pages/articles/articles_pages/probation.html',
+  '/pages/guides/guides.html',
+  '/pages/guides/guides_pages/batteries.html',
+  '/pages/guides/guides_pages/driver-license.html',
+  '/pages/dictionary/dictionary.html',
+  '/pages/styleguide/styleguide.html'
+]
 
 module.exports = {
   entry: {
@@ -61,5 +77,12 @@ module.exports = {
   plugins: [
     ...htmlPages,
     new MiniCssExtractPlugin(),
+    new SitemapPlugin({ base: 'https://hseadc.github.io/easily/', paths }),
+    new HtmlWebpackPartialsPlugin({
+      path: path.join(__dirname, '../src/partials/footer.html'),
+      location: 'footerPartial',
+      template_filename: '*',
+      priority: 'replace'
+    })
   ]
 };
