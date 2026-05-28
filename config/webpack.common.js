@@ -1,6 +1,21 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const htmlPages = require('./webpack.pages.js');
+const SitemapPlugin = require('sitemap-webpack-plugin').default;
+
+const paths = [
+  '/index.html',
+  '/pages/articles/articles.html',
+  '/pages/articles/articles_pages/probation.html',
+  '/pages/guides/guides.html',
+  '/pages/guides/guides_pages/batteries.html',
+  '/pages/guides/guides_pages/driver-license.html',
+  '/pages/dictionary/dictionary.html',
+  '/pages/styleguide/styleguide.html',
+  '/404.html',
+  '/500.html',
+  '/505.html'
+]
 
 module.exports = {
   entry: {
