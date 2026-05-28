@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const htmlPages = require('./webpack.pages.js');
 const SitemapPlugin = require('sitemap-webpack-plugin').default;
 const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin');
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const paths = [
   '/index.html',
@@ -77,12 +78,20 @@ module.exports = {
   plugins: [
     ...htmlPages,
     new MiniCssExtractPlugin(),
-    new SitemapPlugin({ base: 'https://hseadc.github.io/easily/', paths }),
+    new SitemapPlugin({ base: 'http://easily.adc.ac/', paths }),
     new HtmlWebpackPartialsPlugin({
       path: path.join(__dirname, '../src/partials/footer.html'),
       location: 'footerPartial',
       template_filename: '*',
       priority: 'replace'
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, '../src/share/CNAME'),
+          to: path.resolve(__dirname, '../docs')
+        }
+      ]
     })
   ]
 };
