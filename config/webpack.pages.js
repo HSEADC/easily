@@ -27,16 +27,29 @@ const htmlPages = [
   createPage('./src/pages/articles/articles_pages/kak-podgotovitsya-k-zashchite-diploma-i-ne-posedet-za-mesyac-do.html', './pages/articles/articles_pages/kak-podgotovitsya-k-zashchite-diploma-i-ne-posedet-za-mesyac-do.html', ['main', 'articles', 'dropdown', 'search']),
   createPage('./src/pages/articles/articles_pages/rabota-i-uchyoba-odnovremenno.html', './pages/articles/articles_pages/rabota-i-uchyoba-odnovremenno.html', ['main', 'articles', 'dropdown', 'search']),
   createPage('./src/pages/articles/articles_pages/kak-splanirovat-pervuyu-poezdku-za-granicu.html', './pages/articles/articles_pages/kak-splanirovat-pervuyu-poezdku-za-granicu.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/kak-ne-poteryat-dengi-na-kartah-i-obmennikah-v-drugoj-strane.html', './pages/articles/articles_pages/kak-ne-poteryat-dengi-na-kartah-i-obmennikah-v-drugoj-strane.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/prosrochennaya-viza-i-poteryannyj-zagranpasport.html', './pages/articles/articles_pages/prosrochennaya-viza-i-poteryannyj-zagranpasport.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/kak-ustroen-chernyj-rynok-dokumentov.html', './pages/articles/articles_pages/kak-ustroen-chernyj-rynok-dokumentov.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/chto-proiskhodit-s-vashimi-dannymi-esli-telefon-ukrali.html', './pages/articles/articles_pages/chto-proiskhodit-s-vashimi-dannymi-esli-telefon-ukrali.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/kvest-po-vosstanovleniyu-pasporta.html', './pages/articles/articles_pages/kvest-po-vosstanovleniyu-pasporta.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/pochemu-nas-uvolnyayut-yuridicheskie-i-psihologicheskie-prichiny.html', './pages/articles/articles_pages/pochemu-nas-uvolnyayut-yuridicheskie-i-psihologicheskie-prichiny.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/chto-takoe-vyhodnoe-posobie-i-kto-ego-poluchaet.html', './pages/articles/articles_pages/chto-takoe-vyhodnoe-posobie-i-kto-ego-poluchaet.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/sokrashchenie-likvidaciya-po-sobstvennomu.html', './pages/articles/articles_pages/sokrashchenie-likvidaciya-po-sobstvennomu.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika.html', './pages/articles/articles_pages/kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/pochemu-sobstvenniki-ne-vozvrashchayut-depozit-5-samyh-chastyh-skhem.html', './pages/articles/articles_pages/pochemu-sobstvenniki-ne-vozvrashchayut-depozit-5-samyh-chastyh-skhem.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/chto-takoe-dogovor-najma.html', './pages/articles/articles_pages/chto-takoe-dogovor-najma.html', ['main', 'articles', 'dropdown', 'search']),
+
   createPage('./src/pages/articles/articles_pages/page.html', './pages/articles/articles_pages/page.html', ['main', 'articles', 'dropdown', 'search']),
   createPage('./src/pages/articles/articles_pages/page.html', './pages/articles/articles_pages/page.html', ['main', 'articles', 'dropdown', 'search']),
   createPage('./src/pages/articles/articles_pages/page.html', './pages/articles/articles_pages/page.html', ['main', 'articles', 'dropdown', 'search']),
-
-
-
-
-
-
-
+  createPage('./src/pages/articles/articles_pages/page.html', './pages/articles/articles_pages/page.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/page.html', './pages/articles/articles_pages/page.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/page.html', './pages/articles/articles_pages/page.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/page.html', './pages/articles/articles_pages/page.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/page.html', './pages/articles/articles_pages/page.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/page.html', './pages/articles/articles_pages/page.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/page.html', './pages/articles/articles_pages/page.html', ['main', 'articles', 'dropdown', 'search']),
+  createPage('./src/pages/articles/articles_pages/page.html', './pages/articles/articles_pages/page.html', ['main', 'articles', 'dropdown', 'search']),
 
 
 
