@@ -86,6 +86,12 @@ module.exports = {
       priority: 'replace'
     }),
     new HtmlWebpackPartialsPlugin({
+      path: path.join(__dirname, '../src/partials/header.html'),
+      location: 'headerPartial',
+      template_filename: '*',
+      priority: 'replace'
+    }),
+    new HtmlWebpackPartialsPlugin({
       path: path.join(__dirname, '../src/partials/analitics.html'),
       location: 'analitics',
       template_filename: '*',
