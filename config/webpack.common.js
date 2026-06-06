@@ -14,6 +14,25 @@ const paths = [
   '/pages/articles/articles.html',
   '/pages/articles/articles_pages/probation.html',
   '/pages/articles/articles_pages/kvartira-v-novom-gorode.html',
+  '/pages/articles/articles_pages/pochemu-rabotodateli-ne-lyubyat-novichkov.html',
+  '/pages/articles/articles_pages/kak-ustroena-adaptaciya-na-pervoj-rabote.html',
+  '/pages/articles/articles_pages/ispytatelnyj-srok-ne-daj-sebya-obmanut.html',
+  '/pages/articles/articles_pages/pervaya-mashina-kak-ne-popast-na-dengi.html',
+  '/pages/articles/articles_pages/pochemu-novichki-za-rulem-chashche-popadayut-v-dtp.html',
+  '/pages/articles/articles_pages/strahovka-nalog-to-obyazatelnye-platezhi-avtovladelca.html',
+
+  '/pages/articles/articles_pages/page.html',
+
+  '/pages/articles/articles_pages/page.html',
+  '/pages/articles/articles_pages/page.html',
+  '/pages/articles/articles_pages/page.html',
+  '/pages/articles/articles_pages/page.html',
+  '/pages/articles/articles_pages/page.html',
+  '/pages/articles/articles_pages/page.html',
+  '/pages/articles/articles_pages/page.html',
+  '/pages/articles/articles_pages/page.html',
+
+
 
   '/pages/guides/guides.html',
   '/pages/guides/guides_pages/batteries.html',
