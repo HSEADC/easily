@@ -1,6 +1,19 @@
 <!doctype html>
 <html lang="ru">
   <head>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=109474752', 'ym');
+
+    ym(109474752, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/109474752" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Easily — гайды по взрослой жизни</title>
@@ -37,59 +50,51 @@
   <script defer src="../../main.js"></script><script defer src="../../dictionary.js"></script><script defer src="../../filter.js"></script><script defer src="../../dropdown.js"></script><script defer src="../../search.js"></script><link href="../../main.css" rel="stylesheet"><link href="../../dictionary.css" rel="stylesheet"></head>
   <body>
     <header class="O_header">
-      <div class="O_menu">
+    <div class="O_menu">
         <div class="M_navigation_menu">
-          <a href="../../index.html">
-            <img src="../../images/0144c690ffd17ca568a1.svg" alt="logo" />
-          </a>
-          <div class="M_dropdown_menu">
-            <div class="A_menu_button">
-              <p class="text_m">Меню</p>
-              <img src="../../images/01958ceec8d5faf96916.svg" alt="" />
+            <a href="https://easily.adc.ac/">
+              <img src="/images/logo.svg" alt="logo">
+            </a>
+            <div class="M_dropdown_menu">
+              <div class="A_menu_button">
+                <p class="text_m">Меню</p>
+                <img src="/images/icons/dropdown.svg" alt="" class="dropdown_icon">
+              </div>
+              <nav class="M_nav_items">
+                <a href="/pages/articles/articles.html" class="text_s A_menu_item_header">Статьи</a>
+                <a href="/pages/guides/guides.html" class="text_s A_menu_item_header">Гайды</a>
+                <a href="/pages/dictionary/dictionary.html" class="text_s A_menu_item_header">Словарь</a>
+              </nav>
             </div>
-            <nav class="M_nav_items">
-              <a href="#" class="text_s A_menu_item_header">О нас</a>
-              <a
-                href="../articles/articles.html"
-                class="text_s A_menu_item_header"
-                >Статьи</a
-              >
-              <a href="./guides.html" class="text_s A_menu_item_header"
-                >Гайды</a
-              >
-              <a href="#" class="text_s A_menu_item_header">Словарь</a>
-            </nav>
-          </div>
         </div>
         <div class="O_mobile_menu">
-          <a href="../../index.html">
-            <img src="../../images/0144c690ffd17ca568a1.svg" alt="logo" />
+          <a href="https://easily.adc.ac/">
+            <img src="/images/logo.svg" alt="logo">
           </a>
           <div class="M_mobile_menu_items">
             <div class="A_search_icon"></div>
             <div class="M_dropdown_menu">
               <div class="A_menu_button">
                 <p class="text_m">Меню</p>
-                <img src="../../images/01958ceec8d5faf96916.svg" alt="" />
+                <img src="/images/icons/dropdown.svg" alt="" class="dropdown_icon">
               </div>
               <nav class="M_nav_items">
-                <a href="#" class="text_s A_menu_item_header">О нас</a>
-                <a
-                  href="../articles/articles.html"
-                  class="text_s A_menu_item_header"
-                  >Статьи</a
-                >
-                <a href="./guides.html" class="text_s A_menu_item_header"
-                  >Гайды</a
-                >
-                <a href="#" class="text_s A_menu_item_header">Словарь</a>
+                <a href="/pages/articles/articles.html" class="text_s A_menu_item_header">Статьи</a>
+                <a href="/pages/guides/guides.html" class="text_s A_menu_item_header">Гайды</a>
+                <a href="/pages/dictionary/dictionary.html" class="text_s A_menu_item_header">Словарь</a>
               </nav>
             </div>
           </div>
         </div>
-        <input type="text" class="A_input A_input_search" placeholder="Поиск" />
-      </div>
-    </header>
+
+        <div class="W_search_container">
+          <input type="text" class="A_input A_input_search" placeholder="Поиск">
+          <div class="C_search_results"></div>
+        </div>
+
+    </div>
+  </header>
+
     <main class="O_main">
       <h1 class="title_h1 dictionary_main">
         Термины взрослой жизни, которые&nbsp;никто не&nbsp;объяснил

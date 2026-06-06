@@ -9,10 +9,9 @@ function createPage(template, filename, chunks){
 }
 
 const htmlPages = [
-  createPage('./src/index.html', './index.html', ['main', 'index', 'skilltest', 'chart', 'dropdown', 'search']),
+  createPage('./src/index.html', './index.html', ['main', 'index', 'skilltest', 'chart', 'dropdown', 'searchReact']),
 
   createPage('./src/pages/articles/articles.html', './pages/articles/articles.html', ['main', 'articles', 'filter', 'dropdown', 'search']),
-  createPage('./src/pages/articles/articles_pages/probation.html', './pages/articles/articles_pages/probation.html', ['main', 'articles', 'dropdown', 'search']),
   createPage('./src/pages/articles/articles_pages/kvartira-v-novom-gorode.html', './pages/articles/articles_pages/kvartira-v-novom-gorode.html', ['main', 'articles', 'dropdown', 'search']),
   createPage('./src/pages/articles/articles_pages/pochemu-rabotodateli-ne-lyubyat-novichkov.html', './pages/articles/articles_pages/pochemu-rabotodateli-ne-lyubyat-novichkov.html', ['main', 'articles', 'dropdown', 'search']),
   createPage('./src/pages/articles/articles_pages/kak-ustroena-adaptaciya-na-pervoj-rabote.html', './pages/articles/articles_pages/kak-ustroena-adaptaciya-na-pervoj-rabote.html', ['main', 'articles', 'dropdown', 'search']),
@@ -65,22 +64,6 @@ const htmlPages = [
   createPage('./src/pages/guides/guides_pages/kak-vyzhit-v-poliklinike.html', './pages/guides/guides_pages/kak-vyzhit-v-poliklinike.html', ['main', 'guides', 'dropdown', 'search']),
   createPage('./src/pages/guides/guides_pages/kak-razobratsya-v-receptah-i-ne-kupit-lishnego-v-apteke.html', './pages/guides/guides_pages/kak-razobratsya-v-receptah-i-ne-kupit-lishnego-v-apteke.html', ['main', 'guides', 'dropdown', 'search']),
   createPage('./src/pages/guides/guides_pages/kak-ne-sdohnut-ot-allergii-v-sezon.html', './pages/guides/guides_pages/kak-ne-sdohnut-ot-allergii-v-sezon.html', ['main', 'guides', 'dropdown', 'search']),
-
-  createPage('./src/pages/guides/guides_pages/p.html', './pages/guides/guides_pages/p.html', ['main', 'guides', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/p.html', './pages/guides/guides_pages/p.html', ['main', 'guides', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/p.html', './pages/guides/guides_pages/p.html', ['main', 'guides', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/p.html', './pages/guides/guides_pages/p.html', ['main', 'guides', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/p.html', './pages/guides/guides_pages/p.html', ['main', 'guides', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/p.html', './pages/guides/guides_pages/p.html', ['main', 'guides', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/p.html', './pages/guides/guides_pages/p.html', ['main', 'guides', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/p.html', './pages/guides/guides_pages/p.html', ['main', 'guides', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/p.html', './pages/guides/guides_pages/p.html', ['main', 'guides', 'dropdown', 'search']),
-  createPage('./src/pages/guides/guides_pages/p.html', './pages/guides/guides_pages/p.html', ['main', 'guides', 'dropdown', 'search']),
-
-
-
-
-
 
   createPage('./src/pages/dictionary/dictionary.html', './pages/dictionary/dictionary.html', ['main', 'dictionary', 'dropdown', 'filter', 'search']),
 

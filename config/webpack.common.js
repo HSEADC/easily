@@ -66,11 +66,6 @@ const paths = [
   '/pages/guides/guides_pages/kak-razobratsya-v-receptah-i-ne-kupit-lishnego-v-apteke.html',
   '/pages/guides/guides_pages/kak-ne-sdohnut-ot-allergii-v-sezon.html',
 
-  '/pages/guides/guides_pages/page.html',
-  '/pages/guides/guides_pages/page.html',
-  '/pages/guides/guides_pages/page.html',
-  '/pages/guides/guides_pages/page.html',
-
   '/pages/dictionary/dictionary.html',
   '/pages/styleguide/styleguide.html'
 ]
