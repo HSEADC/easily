@@ -1,7 +1,8 @@
 import './guides.css';
 import './guides_covers.css';
-
 import { guidesData } from './guidesData.js';
+
+const loadMoreBtn = document.getElementById('loadMore');
 
 class GuideCard {
   constructor ({ title, category, link, parent }) {
@@ -40,19 +41,47 @@ class GuideCard {
   }
 }
 
+let currentCount = 8;
+const step = 8;
+let allCards = [];
+
 const guidesContainer = document.querySelector('.C_guides_list');
 
-if (guidesContainer) {
-  guidesData.forEach(guide => {
+function renderGuides(step) {
+  const guidesToShow = guidesData.slice(0, step);
+
+  guidesContainer.innerHTML = '';
+
+  guidesToShow.forEach(guide => {
     const card = new GuideCard({
       title: guide.title,
       category: guide.category,
-      imageSrc: guide.imageSrc,
+      // imageSrc: guide.imageSrc,
       link: guide.link,
       parent: guidesContainer
     });
     card.createCard();
   });
+
+  if (step >= guidesData.length && loadMoreBtn) {
+    loadMoreBtn.style.display = 'none';
+  }
+}
+
+function loadMore() {
+  currentCount += step;
+  if (currentCount > guidesData.length) {
+    currentCount = guidesData.length;
+  }
+  renderGuides(currentCount);
+}
+
+if (guidesContainer) {
+  renderGuides(currentCount);
+
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', loadMore);
+  }
 } else {
-  console.error('Контейнер для карточек гайдов не найден');
+  console.error('Контейнер .C_guides_list не найден');
 }
