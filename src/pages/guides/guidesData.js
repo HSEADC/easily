@@ -49,207 +49,105 @@ export const guidesData = [
     link: '/pages/guides/guides_pages/kak-ne-sdohnut-ot-allergii-v-sezon.html'
   },
   {
-    title: 't',
-    category: 'docs',
+    title: 'Как пережить больничный без потери денег и нервов',
+    category: 'career',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-perezhit-bolnichnyj-bez-poteri-deneg-i-nervov.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как подготовиться к приему врача, чтобы не забыть спросить важное',
+    category: 'health',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-podgotovitsya-k-priemu-vracha-chtoby-ne-zabyt-sprosit-vazhnoe.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как понять, что у тебя депрессия (и куда идти)',
+    category: 'health',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-ponyat-chto-u-tebya-depressiya.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как превратить фриланс в постоянный доход (и не сойти с ума)',
+    category: 'career',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-prevratit-frilans-v-postoyannyj-dohod.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как пробиться в креатив, если у тебя нет ни работы, ни портфолио, ни связей',
+    category: 'career',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-probitsya-v-kreativ.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как пройти ассессмент и не вылететь на первом же тесте',
+    category: 'career',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-projti-assessment-i-ne-vyletet-na-pervom-zhe-teste.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как пройти диспансеризацию: от записи до результатов',
+    category: 'health',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-projti-dispanserizaciyu-ot-zapisi-do-rezultatov.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как пройти собеседование, если трясутся коленки',
+    category: 'career',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-projti-sobesedovanie-esli-tryasutsya-kolenki.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как пройти стажировку и получить оффер',
+    category: 'career',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-projti-stazhirovku-i-poluchit-offer.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как просить обратную связь, если боишься критики',
+    category: 'career',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-prosit-obratnuyu-svyaz.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как разобраться в рецептах и не купить лишнего в аптеке',
+    category: 'health',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-razobratsya-v-receptah-i-ne-kupit-lishnego-v-apteke.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как вести переговоры с клиентом или партнером',
+    category: 'career',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-vesti-peregovory-s-klientom-ili-partnerom.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как вести себя в первый месяц на новой работе',
+    category: 'career',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-vesti-sebya-v-pervyj-mesyac-na-novoj-rabote.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как выбрать врача и не ошибиться',
+    category: 'health',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-vybrat-vracha-i-ne-oshibitsya.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Как выжить в поликлинике: лайфхаки по записи, талонам и очередям',
+    category: 'health',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/kak-vyzhit-v-poliklinike.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Первая помощь при распространенных ситуациях',
+    category: 'health',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/pervaya-pomoshch-pri-rasprostranennyh-situaciyah.html'
   },
   {
-    title: 't',
-    category: 'c',
+    title: 'Увольнение по собственному желанию: как уйти красиво, чтобы не жалеть',
+    category: 'career',
     // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
-  },
-  {
-    title: 't',
-    category: 'c',
-    // imageSrc: '../../images/home_1.png',
-    link: '/pages/guides/guides_pages/p.html'
+    link: '/pages/guides/guides_pages/uvolnenie-po-sobstvennomu-zhelaniyu.html'
   },
 ]
