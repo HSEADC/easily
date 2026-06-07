@@ -4,10 +4,10 @@ import './guides_covers.css';
 import { guidesData } from './guidesData.js';
 
 class GuideCard {
-  constructor ({ title, category, imageSrc, link, parent }) {
+  constructor ({ title, category, link, parent }) {
     this.title = title;
     this.category = category;
-    this.imageSrc = imageSrc;
+    // this.imageSrc = imageSrc;
     this.link = link;
     this.parent = parent;
   }

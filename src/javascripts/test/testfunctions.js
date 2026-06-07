@@ -62,7 +62,7 @@ function showResult() {
   resultBlock.style.display = 'flex';
 
   const financeBadge = document.querySelector('.A_badge_finance');
-  const documentsBadge = document.querySelector('.A_badge_documents');
+  const docsBadge = document.querySelector('.A_badge_docs');
   const homeBadge = document.querySelector('.A_badge_home');
   const healthBadge = document.querySelector('.A_badge_health');
   const lifestyleBadge = document.querySelector('.A_badge_lifestyle');
@@ -70,7 +70,7 @@ function showResult() {
   const recsParagraph = document.querySelector('.recomendations');
 
   if (financeBadge) financeBadge.innerText = `${resultCount.finance}/6`;
-  if (documentsBadge) documentsBadge.innerText = `${resultCount.docs}/6`;
+  if (docsBadge) docsBadge.innerText = `${resultCount.docs}/6`;
   if (homeBadge) homeBadge.innerText = `${resultCount.home}/6`;
   if (healthBadge) healthBadge.innerText = `${resultCount.health}/6`;
   if (lifestyleBadge) lifestyleBadge.innerText = `${resultCount.life}/6`;

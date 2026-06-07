@@ -24,8 +24,8 @@
   background-image: url(../../images/guides/home_1.png);
 }
 
-.guide_documents {
-  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
+.guide_docs {
+  box-shadow: inset 8px 8px 40px 0 var(--base-docs-300), inset -8px -8px 40px 0 var(--base-docs-300);
   background-image: url(../../images/guides/docs_1.png);
 }
 
@@ -33,6 +33,6 @@
   background-image: url(../../images/guides/home_1.png);
 }
 
-.documents_1_guide {
+.docs_1_guide {
   background-image: url(../../images/guides/docs_1.png);
 }
