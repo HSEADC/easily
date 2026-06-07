@@ -82,7 +82,6 @@ module.exports = {
     dictionary: './src/pages/dictionary/dictionary.js',
     filter: './src/javascripts/filter.js',
     dropdown: './src/javascripts/dropdown.js',
-    search: './src/javascripts/search.js',
     searchReact: './src/javascripts/searchReact.jsx'
   },
   output: {
