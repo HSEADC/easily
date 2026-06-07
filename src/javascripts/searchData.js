@@ -254,16 +254,57 @@ export const articles = [
     description: 'descr',
     url: 'https://easily.adc.ac/pages/articles/articles_pages/probation.html'
   },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
+  {
+    title: 'Тайм-менеджмент для тех, кто ненавидит планировать',
+    description: 'Планирование «по часам» — это ловушка. Мы не роботы, и жизнь — не табличка в Excel. Рассказываем про живые системы, которые реально работают',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/tajm-menedzhment-dlya-tekh-kto-nenavidit-planirovat.html'
+  },
+  {
+    title: 'Как внедрить полезную привычку и не бросить через неделю',
+    description: 'По шагам разберем, как внедрить привычку так, чтобы она прижилась',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-vnedrit-poleznuyu-privychku.html'
+  },
+  {
+    title: 'Как найти хобби, если кажется, что ничего не нравится',
+    description: 'Хобби это круто! Рассказываем как найти хобби и не париться из-за того что ничего не нравится',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-najti-hobbi.html'
+  },
+  {
+    title: 'Как выстраивать режим, когда работаешь из дома',
+    description: 'Удаленка поначалу кажется жизнью в раю, но очень просто потерять границу между рабочим днем и временем для отдыха. Этот гайд поможет выстроить режим, когда твой дом превратился в офис',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/rezhim-kogda-rabotaesh-iz-doma.html'
+  },
+  {
+    title: 'Как пользоваться Notion/Trello/любым планером без фанатизма',
+    description: 'Планеры — это инструменты. Они должны упрощать вам жизнь, а не создавать новую работу по ведению «системы». Если вы тратите больше времени на оформление задач, чем на их выполнение, вы делаете что-то не так',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-polzovatsya-lyubym-planerom-bez-fanatizma.html'
+  },
+  {
+    title: 'Как пережить расставание и не разрушить свою жизнь',
+    description: 'Этот гайд — не про «забудь и живи дальше». Это про то, как пройти через ад, не потеряв себя и не наломав дров, о которых потом будешь жалеть.',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-perezhit-rasstavanie.html'
+  },
+  {
+    title: 'Как завести друзей во взрослом возрасте',
+    description: 'Завести друзей во взрослом возрасте можно. Это будет странно, неловко, иногда похоже на свидание. Но это реально. И вот пошаговая инструкция.',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/druzya-vo-vzroslom-vozraste.html'
+  },
+  {
+    title: 'Как перестать зависать в телефоне перед сном',
+    description: 'Телефоны созданы так, чтобы вы зависали. Каждый раз, когда вы обновляете ленту, вы получаете маленькую дозу дофамина — и рука сама тянется сделать это снова. Рассказываем, как вырваться из этого круга, не выкидывая смартфон в окно.',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/perestat-zavisat-v-telefone-pered-snom.html'
+  },
+  {
+    title: 'Рецепты выживания для тех, кто ненавидит готовить',
+    description: 'Чтобы не голодать и не травиться, не нужно любить готовку. Это гайд для тех, кто не хочет становиться шеф-поваром, а хочет просто есть.',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/recepty-vyzhivaniya.html'
+  },
+  {
+    title: 'Как перестать стесняться себя и начать жить спокойно',
+    description: 'Мы не про «полюби себя любой ценой». Не про аффирмации перед зеркалом. Не про «ты прекрасна, просто поверь». Потому что это не работает, когда вы стоите перед зеркалом и видите не то, что хотите. Помогаем перестать тратить энергию на то, чтобы казаться',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/perestat-stesnyatsya-sebya.html'
+  },
+
   // {
   //   title: 'title',
   //   description: 'descr',

@@ -65,6 +65,16 @@ const paths = [
   '/pages/guides/guides_pages/kak-vyzhit-v-poliklinike.html',
   '/pages/guides/guides_pages/kak-razobratsya-v-receptah-i-ne-kupit-lishnego-v-apteke.html',
   '/pages/guides/guides_pages/kak-ne-sdohnut-ot-allergii-v-sezon.html',
+  '/pages/guides/guides_pages/tajm-menedzhment-dlya-tekh-kto-nenavidit-planirovat.html',
+  '/pages/guides/guides_pages/kak-vnedrit-poleznuyu-privychku.html',
+  '/pages/guides/guides_pages/kak-najti-hobbi.html',
+  '/pages/guides/guides_pages/rezhim-kogda-rabotaesh-iz-doma.html',
+  '/pages/guides/guides_pages/kak-polzovatsya-lyubym-planerom-bez-fanatizma.html',
+  '/pages/guides/guides_pages/kak-perezhit-rasstavanie.html',
+  '/pages/guides/guides_pages/druzya-vo-vzroslom-vozraste.html',
+  '/pages/guides/guides_pages/perestat-zavisat-v-telefone-pered-snom.html',
+  '/pages/guides/guides_pages/recepty-vyzhivaniya.html',
+  '/pages/guides/guides_pages/perestat-stesnyatsya-sebya.html',
 
   '/pages/dictionary/dictionary.html',
   '/pages/styleguide/styleguide.html'

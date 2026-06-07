@@ -150,4 +150,64 @@ export const guidesData = [
     // imageSrc: '../../images/home_1.png',
     link: '/pages/guides/guides_pages/uvolnenie-po-sobstvennomu-zhelaniyu.html'
   },
+  {
+    title: 'Тайм-менеджмент для тех, кто ненавидит планировать',
+    category: 'lifestyle',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/tajm-menedzhment-dlya-tekh-kto-nenavidit-planirovat.html'
+  },
+  {
+    title: 'Как внедрить полезную привычку и не бросить через неделю',
+    category: 'lifestyle',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/kak-vnedrit-poleznuyu-privychku.html'
+  },
+  {
+    title: 'Как найти хобби, если кажется, что ничего не нравится',
+    category: 'lifestyle',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/kak-najti-hobbi.html'
+  },
+  {
+    title: 'Как выстраивать режим, когда работаешь из дома',
+    category: 'lifestyle',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/rezhim-kogda-rabotaesh-iz-doma.html'
+  },
+    {
+    title: 'Как пользоваться Notion/Trello/любым планером без фанатизма',
+    category: 'lifestyle',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/kak-polzovatsya-lyubym-planerom-bez-fanatizma.html'
+  },
+  {
+    title: 'Как пережить расставание и не разрушить свою жизнь',
+    category: 'lifestyle',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/kak-perezhit-rasstavanie.html'
+  },
+  {
+    title: 'Как завести друзей во взрослом возрасте',
+    category: 'lifestyle',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/druzya-vo-vzroslom-vozraste.html'
+  },
+  {
+    title: 'Как перестать зависать в телефоне перед сном',
+    category: 'lifestyle',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/perestat-zavisat-v-telefone-pered-snom.html'
+  },
+    {
+    title: 'Рецепты выживания для тех, кто ненавидит готовить',
+    category: 'lifestyle',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/recepty-vyzhivaniya.html'
+  },
+  {
+    title: 'Как перестать стесняться себя и начать жить спокойно',
+    category: 'lifestyle',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/perestat-stesnyatsya-sebya.html'
+  }
 ]
