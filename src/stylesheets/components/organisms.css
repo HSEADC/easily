@@ -6,6 +6,12 @@
   margin-bottom: 96rem;
 }
 
+.O_search_container {
+  z-index: 1000;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
 .O_menu {
   margin-top: 40rem;
   display: flex;
