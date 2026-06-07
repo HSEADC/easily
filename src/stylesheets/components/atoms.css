@@ -177,9 +177,9 @@
   color: var(--base-documents-500);
 }
 
-.A_badge_chores {
-  background-color: var(--base-chores-100);
-  color: var(--base-chores-500);
+.A_badge_home {
+  background-color: var(--base-home-100);
+  color: var(--base-home-500);
 }
 
 .A_badge_health {
@@ -257,13 +257,13 @@
   background-color: var(--base-finance-200);
 }
 
-.A_tab_chores {
-  background-color: var(--base-chores-100);
-  color: var(--base-chores-500);
+.A_tab_home {
+  background-color: var(--base-home-100);
+  color: var(--base-home-500);
 }
 
-.A_tab_chores:hover, .A_tab_chores.A_tab_active {
-  background-color: var(--base-chores-200);
+.A_tab_home:hover, .A_tab_home.A_tab_active {
+  background-color: var(--base-home-200);
 }
 
 .A_tab_documents {
@@ -308,9 +308,9 @@
   color: var(--base-finance-500);
 }
 
-.A_tag_chores {
-  background-color: var(--base-chores-100);
-  color: var(--base-chores-500);
+.A_tag_home {
+  background-color: var(--base-home-100);
+  color: var(--base-home-500);
 }
 
 .A_tag_documents {

@@ -63,7 +63,7 @@ function showResult() {
 
   const financeBadge = document.querySelector('.A_badge_finance');
   const documentsBadge = document.querySelector('.A_badge_documents');
-  const choresBadge = document.querySelector('.A_badge_chores');
+  const homeBadge = document.querySelector('.A_badge_home');
   const healthBadge = document.querySelector('.A_badge_health');
   const lifestyleBadge = document.querySelector('.A_badge_lifestyle');
   const careerBadge = document.querySelector('.A_badge_career');
@@ -71,7 +71,7 @@ function showResult() {
 
   if (financeBadge) financeBadge.innerText = `${resultCount.finance}/6`;
   if (documentsBadge) documentsBadge.innerText = `${resultCount.docs}/6`;
-  if (choresBadge) choresBadge.innerText = `${resultCount.home}/6`;
+  if (homeBadge) homeBadge.innerText = `${resultCount.home}/6`;
   if (healthBadge) healthBadge.innerText = `${resultCount.health}/6`;
   if (lifestyleBadge) lifestyleBadge.innerText = `${resultCount.life}/6`;
   if (careerBadge) careerBadge.innerText = `${resultCount.career}/6`;

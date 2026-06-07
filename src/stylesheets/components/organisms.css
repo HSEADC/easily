@@ -55,7 +55,7 @@
   border-radius: 24rem;
   padding: 40rem;
   width: 74.722vw;
-  background-image: url(../../images/bg_chores.svg);
+  background-image: url(../../images/bg_home.svg);
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: center;
@@ -71,16 +71,6 @@
   flex-wrap: wrap;
 }
 
-.O_guides_list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 24rem;
-  padding: 0rem 72rem;
-  width: 100%;
-}
 
 /* END OF THE GUIDES */
 

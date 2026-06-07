@@ -19,9 +19,9 @@
   /* background-image: url(../../images/articles/health_1.png); */
 }
 
-.article_chores {
-  box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
-  background-image: url(../../images/articles/chores_1.png);
+.article_home {
+  box-shadow: inset 8px 8px 40px 0 var(--base-home-300), inset -8px -8px 40px 0 var(--base-home-300);
+  background-image: url(../../images/articles/home_1.png);
 }
 
 .article_documents {
@@ -44,14 +44,14 @@
   background-image: url(../../images/articles/docs_4.png);
 }
 
-.article_chores_2 {
-  box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
-  background-image: url(../../images/articles/chores_2.png);
+.article_home_2 {
+  box-shadow: inset 8px 8px 40px 0 var(--base-home-300), inset -8px -8px 40px 0 var(--base-home-300);
+  background-image: url(../../images/articles/home_2.png);
 }
 
-.article_chores_3 {
-  box-shadow: inset 8px 8px 40px 0 var(--base-chores-300), inset -8px -8px 40px 0 var(--base-chores-300);
-  background-image: url(../../images/articles/chores_3.png);
+.article_home_3 {
+  box-shadow: inset 8px 8px 40px 0 var(--base-home-300), inset -8px -8px 40px 0 var(--base-home-300);
+  background-image: url(../../images/articles/home_3.png);
 }
 
 .A_article_block_img#article_1_1 {

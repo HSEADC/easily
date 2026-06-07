@@ -26,3 +26,19 @@
 }
 
 /* END OF THE DICTIONARY */
+
+/* GUIDES */
+
+
+.C_guides_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24rem;
+  padding: 0rem 72rem;
+  width: 100%;
+}
+
+/* END OF GUIDES */

@@ -146,8 +146,8 @@
 .W_article_wrapper.documents {
   background-color: var(--base-documents-50);
 }
-.W_article_wrapper.chores {
-  background-color: var(--base-chores-50);
+.W_article_wrapper.home {
+  background-color: var(--base-home-50);
 }
 
 .M_article_info {
