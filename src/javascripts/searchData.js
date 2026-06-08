@@ -404,105 +404,99 @@ export const articles = [
     description: 'Мы не про «полюби себя любой ценой». Не про аффирмации перед зеркалом. Не про «ты прекрасна, просто поверь». Потому что это не работает, когда вы стоите перед зеркалом и видите не то, что хотите. Помогаем перестать тратить энергию на то, чтобы казаться',
     url: 'https://easily.adc.ac/pages/guides/guides_pages/perestat-stesnyatsya-sebya.html'
   },
-
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
-  // {
-  //   title: 'title',
-  //   description: 'descr',
-  //   url: 'url'
-  // },
+  {
+    title: 'Как вести бюджет, если ненавидишь таблицы ',
+    description: 'Есть способы вести бюджет, которые не требуют дисциплины, не занимают время и не вызывают желание разбить ноутбук',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-vesti-byudzhet.html'
+  },
+  {
+    title: 'Как пользоваться кредиткой без процентов',
+    description: 'Банки не заинтересованы, чтобы вы пользовались картой бесплатно. Они зарабатывают на тех, кто не до конца понял правила. Этот гайд — про правила. Без них кредитка превращается из помощника в долговую яму',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/kreditka-bez-procentov.html'
+  },
+  {
+    title: 'Как не попасть на мошенников в интернете',
+    description: 'В 2026 году мошенничество в интернете — это целая индустрия с психологами, сценаристами и даже технологиями искусственного интеллекта',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/moshenniki-v-internete.html'
+  },
+  {
+    title: 'Как читать выписку по карте и находить лишние списания',
+    description: 'В этом гайде — как читать выписку, чтобы не пропускать лишние списания, и что делать, если нашли странное',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/chitaem-vypisku-po-karte.html'
+  },
+  {
+    title: 'Как начать откладывать, если в конце месяца всегда ноль',
+    description: 'Делимся секретом как эффективно пополнять сбережения',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-nachat-otkladyvat.html'
+  },
+  {
+    title: 'Как выбрать банк для первой дебетовой карты',
+    description: 'В этом гайде — на что смотреть, какие вопросы задавать и как не попасть в ловушку «бесплатно, но не совсем',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/pervaya-debetovaya-karta.html'
+  },
+  {
+    title: 'Как безопасно оплачивать коммуналку онлайн (чтобы не кинули)',
+    description: 'Как не перепутать настоящую платежку с липовой и не подарить свои деньги чужим дядям',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/oplachivaem-kommunalku-onlajn.html'
+  },
+  {
+    title: 'Как экономить на бытовой химии (и не отравиться)',
+    description: 'Когда в магазине выбираешь средство для уборки, глаза разбегаются. Отдельно для стекол, для плиты, для унитаза, для пола, для ковра, для посуды, для духовки. Помогаем разобраться',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/bytovaya-himiya.html'
+  },
+  {
+    title: 'Как пережить зиму в квартире: советы по теплу и счетам',
+    description: 'В этом гайде — что реально работает, не требует космических вложений и поможет вам не проклинать зиму в феврале',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/zima-v-kvartire.html'
+  },
+  {
+    title: 'Как завести питомца, если ты живешь один (реалии vs мечты)',
+    description: 'Завести питомца, когда ты один, — это не «милота», а второй человек в доме. Который зависит от тебя полностью. Цуль этого гайда не отговорить, а предупредить и помочь не наломать дров',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/zavesti-pitomca.html'
+  },
+  {
+    title: 'Как сдать квартиру, если ты собственник',
+    description: 'Сдать квартиру — не проблема. Проблема — сдать её так, чтобы потом не жалеть. Этот гайд — про то, как не совершить 80% ошибок новичков и спать спокойно',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/sdacha-kvartiry-v-arendu.html'
+  },
+  {
+    title: 'Как получить загранпаспорт в 2026',
+    description: 'В 2026 году получить загранпаспорт стало и проще, и сложнее одновременно. Появились новые правила для детей, у некоторых стран — требования только к биометрическим паспортам, а сроки оформления зависят от того, где вы живёте и как подаете',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/poluchenie-zagranpasporta.html'
+  },
+  {
+    title: 'Как поменять паспорт в 20 и 45',
+    description: 'В 20 и 45 лет паспорт становится недействительным не в день рождения, а через 90 дней после. Но эти 90 дней — не «ещё успею», а «уже надо». Давайте разбираться, как не попасть в просрочку, не стоять в очередях и не платить лишнего',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/zamena-pasporta.html'
+  },
+  {
+    title: 'Как оформить ИНН, если ты фрилансер',
+    description: 'Без ИНН нормально работать не получится. Компании не смогут официально платить тебе по договору. А если ты не платишь налоги — налоговая сама найдет тебя по переводам на карту. Так что лучше сделать всё легально и спать спокойно',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/oformlenie-inn.html'
+  },
+  {
+    title: 'Как получить справку 2-НДФЛ',
+    description: 'Этот документ — как паспорт твоих доходов. Он показывает, сколько ты заработал за год и сколько налогов с тебя удержали',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/poluchenie-spravki-2-ndfl.html'
+  },
+  {
+    title: 'Как оформить временную регистрацию при переезде',
+    description: 'Без временной регистрации тебя могут оштрафовать, не прикрепить к поликлинике и даже не взять на работу',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/oformlenie-vremennoj-registracii.html'
+  },
+  {
+    title: 'Как восстановить СНИЛС, если потерял',
+    description: 'Этот гайд — про то, как за 10 минут получить новый документ с твоим СНИЛС и забыть об этой проблеме навсегда',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/vosstanovlenie-snils.html'
+  },
+  {
+    title: 'Как собрать документы на налоговый вычет',
+    description: 'Этот гайд — про то, какие документы реально нужны, какие можно не собирать и как не запутаться в новой системе',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/dokumenty-na-nalogovyj-vychet.html'
+  },
+  {
+    title: 'Как проверить договор на типичные ловушки (без юриста)',
+    description: 'Этот гайд — про то, как за 10 минут найти в любом договоре места, которые могут тебя поиметь. Без юридического образования',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/proverka-dogovora.html'
+  }
 ];

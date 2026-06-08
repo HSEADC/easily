@@ -209,5 +209,119 @@ export const guidesData = [
     category: 'lifestyle',
     // imageSrc: '../../images/home_1.png',
     link: '/pages/guides/guides_pages/perestat-stesnyatsya-sebya.html'
+  },
+  {
+    title: 'Как вести бюджет, если ненавидишь таблицы',
+    category: 'finance',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/kak-vesti-byudzhet.html'
+  },
+  {
+    title: 'Как пользоваться кредиткой без процентов',
+    category: 'finance',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/kreditka-bez-procentov.html'
+  },
+  {
+    title: 'Как не попасть на мошенников в интернете',
+    category: 'finance',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/moshenniki-v-internete.html'
+  },
+  {
+    title: 'Как читать выписку по карте и находить лишние списания',
+    category: 'finance',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/chitaem-vypisku-po-karte.html'
+  },
+  {
+    title: 'Как начать откладывать, если в конце месяца всегда ноль',
+    category: 'finance',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/kak-nachat-otkladyvat.html'
+  },
+  {
+    title: 'Как выбрать банк для первой дебетовой карты',
+    category: 'finance',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/pervaya-debetovaya-karta.html'
+  },
+  {
+    title: 'Как безопасно оплачивать коммуналку онлайн (чтобы не кинули)',
+    category: 'home',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/oplachivaem-kommunalku-onlajn.html'
+  },
+  {
+    title: 'Как экономить на бытовой химии (и не отравиться)',
+    category: 'home',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/bytovaya-himiya.html'
+  },
+  {
+    title: 'Как пережить зиму в квартире: советы по теплу и счетам',
+    category: 'home',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/zima-v-kvartire.html'
+  },
+  {
+    title: 'Как завести питомца, если ты живешь один (реалии vs мечты)',
+    category: 'home',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/zavesti-pitomca.html'
+  },
+  {
+    title: 'Как сдать квартиру, если ты собственник',
+    category: 'home',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/sdacha-kvartiry-v-arendu.html'
+  },
+  {
+    title: 'Как получить загранпаспорт в 2026',
+    category: 'docs',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/poluchenie-zagranpasporta.html'
+  },
+  {
+    title: 'Как поменять паспорт в 20 и 45',
+    category: 'docs',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/zamena-pasporta.html'
+  },
+  {
+    title: 'Как оформить ИНН, если ты фрилансер',
+    category: 'docs',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/oformlenie-inn.html'
+  },
+  {
+    title: 'Как получить справку 2-НДФЛ (и зачем она вообще нужна)',
+    category: 'docs',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/poluchenie-spravki-2-ndfl.html'
+  },
+  {
+    title: 'Как оформить временную регистрацию при переезде',
+    category: 'docs',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/oformlenie-vremennoj-registracii.html'
+  },
+  {
+    title: 'Как восстановить СНИЛС, если потерял',
+    category: 'docs',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/vosstanovlenie-snils.html'
+  },
+  {
+    title: 'Как собрать документы на вычет',
+    category: 'docs',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/dokumenty-na-nalogovyj-vychet.html'
+  },
+  {
+    title: 'Как проверить договор на типичные ловушки (без юриста)',
+    category: 'docs',
+    // imageSrc: '../../images/home_1.png',
+    link: '/pages/guides/guides_pages/proverka-dogovora.html'
   }
 ]
