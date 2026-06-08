@@ -143,8 +143,8 @@
 .W_article_wrapper.lifestyle {
   background-color: var(--base-lifestyle-50);
 }
-.W_article_wrapper.documents {
-  background-color: var(--base-documents-50);
+.W_article_wrapper.docs {
+  background-color: var(--base-docs-50);
 }
 .W_article_wrapper.home {
   background-color: var(--base-home-50);
