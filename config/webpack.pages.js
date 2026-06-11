@@ -154,7 +154,7 @@ const htmlPages = [
 
   createPage('./src/pages/guides/guides.html',
     './pages/guides/guides.html',
-    ['main', 'guides', 'filter', 'dropdown', 'searchReact']),
+    ['main', 'guides', 'dropdown', 'searchReact', 'guidesReact']),
   createPage('./src/pages/guides/guides_pages/batteries.html',
     './pages/guides/guides_pages/batteries.html',
     ['main', 'guides', 'dropdown', 'searchReact']),

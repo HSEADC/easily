@@ -36,8 +36,8 @@
   background: var(--base-docs-500);
 }
 
-.M_guide_summary_container.lifestyle {
-  background: var(--base-lifestyle-500);
+.M_guide_summary_container.life {
+  background: var(--base-life-500);
 }
 
 .M_guide_summary_container.finance {
@@ -64,8 +64,8 @@
   background-color: var(--base-docs-50);
 }
 
-.lifestyle_guide {
-  background-color: var(--base-lifestyle-50);
+.life_guide {
+  background-color: var(--base-life-50);
 }
 
 .finance_guide {
@@ -159,8 +159,8 @@
   max-width: 964rem;
 }
 
-.lifestyle_guide h5 {
-  color: var(--base-lifestyle-50);
+.life_guide h5 {
+  color: var(--base-life-50);
   max-width: 964rem;
 }
 
@@ -199,7 +199,7 @@
   box-shadow: inset -10rem -10rem 40rem 0 rgba(237, 237, 253, 0.6), inset 10rem 10rem 40rem 0 rgba(237, 237, 253, 0.6);
 }
 
-.lifestyle_cover {
+.life_cover {
   box-shadow: inset -10px -10px 40px 0 rgba(240, 249, 255, 0.6), inset 10px 10px 40px 0 rgba(240, 249, 255, 0.6);
 }
 

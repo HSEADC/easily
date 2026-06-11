@@ -131,7 +131,8 @@ module.exports = {
     dictionary: './src/pages/dictionary/dictionary.js',
     filter: './src/javascripts/filter.js',
     dropdown: './src/javascripts/dropdown.js',
-    searchReact: './src/javascripts/searchReact.jsx'
+    searchReact: './src/javascripts/searchReact.jsx',
+    guidesReact: './src/javascripts/guidesReact.jsx'
   },
   output: {
     path: path.resolve('.', "docs"),

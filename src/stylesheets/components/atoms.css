@@ -187,9 +187,9 @@
   color: var(--base-health-500);
 }
 
-.A_badge_lifestyle {
-  background-color: var(--base-lifestyle-100);
-  color: var(--base-lifestyle-500);
+.A_badge_life {
+  background-color: var(--base-life-100);
+  color: var(--base-life-500);
 }
 
 .A_badge_career {
@@ -275,13 +275,13 @@
   background-color: var(--base-docs-200);
 }
 
-.A_tab_lifestyle {
-  background-color: var(--base-lifestyle-100);
-  color: var(--base-lifestyle-500);
+.A_tab_life {
+  background-color: var(--base-life-100);
+  color: var(--base-life-500);
 }
 
-.A_tab_lifestyle:hover, .A_tab_lifestyle.A_tab_active {
-  background-color: var(--base-lifestyle-200);
+.A_tab_life:hover, .A_tab_life.A_tab_active {
+  background-color: var(--base-life-200);
 }
 
 .A_tab_career {
@@ -318,9 +318,9 @@
   color: var(--base-docs-500);
 }
 
-.A_tag_lifestyle {
-  background-color: var(--base-lifestyle-100);
-  color: var(--base-lifestyle-500);
+.A_tag_life {
+  background-color: var(--base-life-100);
+  color: var(--base-life-500);
 }
 
 .A_tag_career {

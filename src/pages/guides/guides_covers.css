@@ -4,9 +4,9 @@
   background-position: center 25%;
 }
 
-.guide_lifestyle {
-  box-shadow: inset 8px 8px 40px 0 var(--base-lifestyle-300), inset -8px -8px 40px 0 var(--base-lifestyle-300);
-  background-image: url(../../images/guides/lifestyle_1.png);
+.guide_life {
+  box-shadow: inset 8px 8px 40px 0 var(--base-life-300), inset -8px -8px 40px 0 var(--base-life-300);
+  background-image: url(../../images/guides/life_1.png);
 }
 
 .guide_career {
