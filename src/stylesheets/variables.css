@@ -43,17 +43,17 @@
 	--base-finance-900: #7c3a0b;
 	--base-finance-950: #481d00;
 
-	--base-chores-50: #fdf2f8;
-	--base-chores-100: #fce7f3;
-	--base-chores-200: #fad0e8;
-	--base-chores-300: #f9b8db;
-	--base-chores-400: #f274b5;
-	--base-chores-500: #e94b98;
-	--base-chores-600: #d82a76;
-	--base-chores-700: #bb1b5c;
-	--base-chores-800: #9b194c;
-	--base-chores-900: #811a43;
-	--base-chores-950: #4f0824;
+	--base-home-50: #fdf2f8;
+	--base-home-100: #fce7f3;
+	--base-home-200: #fad0e8;
+	--base-home-300: #f9b8db;
+	--base-home-400: #f274b5;
+	--base-home-500: #e94b98;
+	--base-home-600: #d82a76;
+	--base-home-700: #bb1b5c;
+	--base-home-800: #9b194c;
+	--base-home-900: #811a43;
+	--base-home-950: #4f0824;
 
 	--base-health-50: #f3faeb;
 	--base-health-100: #e2f4d3;
@@ -67,17 +67,17 @@
 	--base-health-900: #2c491e;
 	--base-health-950: #14280b;
 
-	--base-lifestyle-50: #f0f9ff;
-	--base-lifestyle-100: #dff1ff;
-	--base-lifestyle-200: #b8e4ff;
-	--base-lifestyle-300: #82d3ff;
-	--base-lifestyle-400: #33b9fd;
-	--base-lifestyle-500: #09a0ee;
-	--base-lifestyle-600: #007fcc;
-	--base-lifestyle-700: #0065a5;
-	--base-lifestyle-800: #045688;
-	--base-lifestyle-900: #0a4870;
-	--base-lifestyle-950: #062d4b;
+	--base-life-50: #f0f9ff;
+	--base-life-100: #dff1ff;
+	--base-life-200: #b8e4ff;
+	--base-life-300: #82d3ff;
+	--base-life-400: #33b9fd;
+	--base-life-500: #09a0ee;
+	--base-life-600: #007fcc;
+	--base-life-700: #0065a5;
+	--base-life-800: #045688;
+	--base-life-900: #0a4870;
+	--base-life-950: #062d4b;
 
 	--base-career-50: #fef4f2;
 	--base-career-100: #ffe5e1;
@@ -91,16 +91,16 @@
 	--base-career-900: #82281a;
 	--base-career-950: #471108;
 
-	--base-documents-50: #ededfd;
-	--base-documents-100: #dadbfa;
-	--base-documents-200: #b6b7f5;
-	--base-documents-300: #9193f1;
-	--base-documents-400: #6d6fec;
-	--base-documents-500: #484be7;
-	--base-documents-600: #3a3cba;
-	--base-documents-700: #2c2d8d;
-	--base-documents-800: #1d1f60;
-	--base-documents-900: #0f1033;
-	--base-documents-950: #08081c;
+	--base-docs-50: #ededfd;
+	--base-docs-100: #dadbfa;
+	--base-docs-200: #b6b7f5;
+	--base-docs-300: #9193f1;
+	--base-docs-400: #6d6fec;
+	--base-docs-500: #484be7;
+	--base-docs-600: #3a3cba;
+	--base-docs-700: #2c2d8d;
+	--base-docs-800: #1d1f60;
+	--base-docs-900: #0f1033;
+	--base-docs-950: #08081c;
 
 }

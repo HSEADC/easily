@@ -15,7 +15,7 @@
   width: 416rem;
   height: 356rem;
   justify-content: flex-end;
-  background-color: var(--base-documents-100);
+  background-color: var(--base-docs-100);
 }
 
 .W_content_card.flipped {
@@ -52,5 +52,5 @@
 }
 
 a.docs p {
-  color: var(--base-documents-500);
+  color: var(--base-docs-500);
 }

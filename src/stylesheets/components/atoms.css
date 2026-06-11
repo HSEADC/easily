@@ -172,14 +172,14 @@
   color: var(--base-finance-500);
 }
 
-.A_badge_documents {
-  background-color: var(--base-documents-100);
-  color: var(--base-documents-500);
+.A_badge_docs {
+  background-color: var(--base-docs-100);
+  color: var(--base-docs-500);
 }
 
-.A_badge_chores {
-  background-color: var(--base-chores-100);
-  color: var(--base-chores-500);
+.A_badge_home {
+  background-color: var(--base-home-100);
+  color: var(--base-home-500);
 }
 
 .A_badge_health {
@@ -187,9 +187,9 @@
   color: var(--base-health-500);
 }
 
-.A_badge_lifestyle {
-  background-color: var(--base-lifestyle-100);
-  color: var(--base-lifestyle-500);
+.A_badge_life {
+  background-color: var(--base-life-100);
+  color: var(--base-life-500);
 }
 
 .A_badge_career {
@@ -228,6 +228,7 @@
   background-image: url(../../images/icons/search.svg);
   background-repeat: no-repeat;
   background-position: 16rem center;
+  margin-top: 6rem;
 }
 
 .A_tab_categorie {
@@ -257,31 +258,31 @@
   background-color: var(--base-finance-200);
 }
 
-.A_tab_chores {
-  background-color: var(--base-chores-100);
-  color: var(--base-chores-500);
+.A_tab_home {
+  background-color: var(--base-home-100);
+  color: var(--base-home-500);
 }
 
-.A_tab_chores:hover, .A_tab_chores.A_tab_active {
-  background-color: var(--base-chores-200);
+.A_tab_home:hover, .A_tab_home.A_tab_active {
+  background-color: var(--base-home-200);
 }
 
-.A_tab_documents {
-  background-color: var(--base-documents-100);
-  color: var(--base-documents-500);
+.A_tab_docs {
+  background-color: var(--base-docs-100);
+  color: var(--base-docs-500);
 }
 
-.A_tab_documents:hover, .A_tab_documents.A_tab_active {
-  background-color: var(--base-documents-200);
+.A_tab_docs:hover, .A_tab_docs.A_tab_active {
+  background-color: var(--base-docs-200);
 }
 
-.A_tab_lifestyle {
-  background-color: var(--base-lifestyle-100);
-  color: var(--base-lifestyle-500);
+.A_tab_life {
+  background-color: var(--base-life-100);
+  color: var(--base-life-500);
 }
 
-.A_tab_lifestyle:hover, .A_tab_lifestyle.A_tab_active {
-  background-color: var(--base-lifestyle-200);
+.A_tab_life:hover, .A_tab_life.A_tab_active {
+  background-color: var(--base-life-200);
 }
 
 .A_tab_career {
@@ -308,19 +309,19 @@
   color: var(--base-finance-500);
 }
 
-.A_tag_chores {
-  background-color: var(--base-chores-100);
-  color: var(--base-chores-500);
+.A_tag_home {
+  background-color: var(--base-home-100);
+  color: var(--base-home-500);
 }
 
-.A_tag_documents {
-  background-color: var(--base-documents-100);
-  color: var(--base-documents-500);
+.A_tag_docs {
+  background-color: var(--base-docs-100);
+  color: var(--base-docs-500);
 }
 
-.A_tag_lifestyle {
-  background-color: var(--base-lifestyle-100);
-  color: var(--base-lifestyle-500);
+.A_tag_life {
+  background-color: var(--base-life-100);
+  color: var(--base-life-500);
 }
 
 .A_tag_career {
@@ -410,6 +411,12 @@
 
 .A_tg_icon:hover {
   background-image: url(../../images/icons/tg_light.svg);
+}
+
+@media (max-width: 1024px) {
+  .A_input {
+    width: 350rem;
+}
 }
 
 @media (max-width: 768px) {

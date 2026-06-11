@@ -3,6 +3,14 @@
   margin-top: 96rem;
 }
 
+body.career {
+  background-color: var(--base-career-500);
+}
+
+.C_filtered_articles {
+  display: none;
+}
+
 .title_h1 {
   color: var(--base-500);
   max-width: 1440rem;
@@ -140,14 +148,22 @@
 .W_article_wrapper.finance {
   background-color: var(--base-finance-50);
 }
-.W_article_wrapper.lifestyle {
-  background-color: var(--base-lifestyle-50);
+.W_article_wrapper.life {
+  background-color: var(--base-life-50);
 }
-.W_article_wrapper.documents {
-  background-color: var(--base-documents-50);
+.W_article_wrapper.docs {
+  background-color: var(--base-docs-50);
 }
-.W_article_wrapper.chores {
-  background-color: var(--base-chores-50);
+.W_article_wrapper.home {
+  background-color: var(--base-home-50);
+}
+
+.title_h1.career {
+  color: var(--base-career-500);
+}
+
+.text_m_medium.career, .text_l_medium.career, .text_s.career, .text_m.career {
+  color: var(--base-career-500);
 }
 
 .M_article_info {
@@ -255,6 +271,26 @@ ol {
   100% { transform: rotate(0deg); }
 }
 
+@media (max-width: 1024px) {
+  .W_article_wrapper {
+    width: 90vw;
+    padding: 28rem;
+  }
+  .A_article_block_img {
+    width: 100%;
+    height: 300rem;
+  }
+  .C_answer_options {
+    flex-direction: column;
+  }
+  .A_answer {
+    width: 100%;
+  }
+  .O_question_block {
+    width: 100%;
+    height: min-content;
+  }
+}
 
 @media (max-width: 768px) {
   .title_h1 {
@@ -272,7 +308,7 @@ ol {
   }
   .A_article_block_img,
   .O_question_block {
-    width: 92.9vw;
+    width: 100%;
   }
   .M_article_menu {
     display: none;

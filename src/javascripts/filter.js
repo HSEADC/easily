@@ -1,8 +1,9 @@
 'use strict';
 
 const tags = document.querySelectorAll(".A_tab_categorie");
-const contentCards = document.querySelectorAll(".W_content_card");
+// const contentCards = document.querySelectorAll(".W_content_card");
 const articlesHeaders = document.querySelectorAll('.article_selection_header');
+const loadMoreBtn = document.getElementById('loadMore');
 
 filter();
 
@@ -27,7 +28,8 @@ function updateVisibleCards() {
     articlesHeaders.forEach(header => {
       header.style.display = 'block';
     });
-    contentCards.forEach(card => {
+    const articleCards = getAllCards();
+    articleCards.forEach(card => {
       card.style.display = "flex";
     });
     tags.forEach(tag => {
@@ -39,13 +41,13 @@ function updateVisibleCards() {
     articlesHeaders.forEach(header => {
       header.style.display = 'none';
     });
-
-    contentCards.forEach(card => {
+    const articleCards = getAllCards();
+    articleCards.forEach(card => {
       card.style.display = "none";
     });
 
     taglist.forEach(tag => {
-      contentCards.forEach(card => {
+      articleCards.forEach(card => {
         if (card.classList.contains(tag)) {
           card.style.display = "flex";
         }
@@ -57,21 +59,45 @@ function updateVisibleCards() {
 }
 
 function showAllCards() {
-  contentCards.forEach(card => {
+  const articleCards = getAllCards();
+  articleCards.forEach(card => {
     card.style.display = "flex";
   });
 }
 
-let healthCounter = document.querySelectorAll('.W_content_card.health').length;
-let careerCounter = document.querySelectorAll('.W_content_card.career').length;
-let documentsCounter = document.querySelectorAll('.W_content_card.docs').length;
-let choresCounter = document.querySelectorAll('.W_content_card.home').length;
-let financeCounter = document.querySelectorAll('.W_content_card.finance').length;
-let lifestyleCounter = document.querySelectorAll('.W_content_card.life').length;
+let currentCardCount = 0;
 
-document.querySelector('.A_tab_health').innerText = `Здоровье ${healthCounter}`;
-document.querySelector('.A_tab_career').innerText = `Карьера ${careerCounter}`;
-document.querySelector('.A_tab_documents').innerText = `Документы ${documentsCounter}`;
-document.querySelector('.A_tab_chores').innerText = `Быт ${choresCounter}`;
-document.querySelector('.A_tab_finance').innerText = `Финансы ${financeCounter}`;
-document.querySelector('.A_tab_lifestyle').innerText = `Лайфстайл ${lifestyleCounter}`;
+function getAllCards() {
+  return document.querySelectorAll(".W_content_card");
+}
+
+function updateCounters() {
+  const allCards = getAllCards();
+
+  const counters = {
+    health: 0,
+    career: 0,
+    docs: 0,
+    home: 0,
+    finance: 0,
+    life: 0
+  };
+
+  allCards.forEach(card => {
+    if (card.classList.contains('health')) counters.health++;
+    if (card.classList.contains('career')) counters.career++;
+    if (card.classList.contains('docs')) counters.docs++;
+    if (card.classList.contains('home')) counters.home++;
+    if (card.classList.contains('finance')) counters.finance++;
+    if (card.classList.contains('life')) counters.life++;
+  });
+
+  document.querySelector('.A_tab_health').innerText = `Здоровье ${counters.health}`;
+  document.querySelector('.A_tab_career').innerText = `Карьера ${counters.career}`;
+  document.querySelector('.A_tab_docs').innerText = `Документы ${counters.docs}`;
+  document.querySelector('.A_tab_home').innerText = `Быт ${counters.home}`;
+  document.querySelector('.A_tab_finance').innerText = `Финансы ${counters.finance}`;
+  document.querySelector('.A_tab_life').innerText = `Лайфстайл ${counters.life}`;
+}
+
+updateCounters();

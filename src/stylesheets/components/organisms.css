@@ -6,6 +6,12 @@
   margin-bottom: 96rem;
 }
 
+.O_search_container {
+  z-index: 1000;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
 .O_menu {
   margin-top: 40rem;
   display: flex;
@@ -49,7 +55,7 @@
   border-radius: 24rem;
   padding: 40rem;
   width: 74.722vw;
-  background-image: url(../../images/bg_chores.svg);
+  background-image: url(../../images/bg_home.svg);
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: center;
@@ -65,16 +71,6 @@
   flex-wrap: wrap;
 }
 
-.O_guides_list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 24rem;
-  padding: 0rem 72rem;
-  width: 100%;
-}
 
 /* END OF THE GUIDES */
 
@@ -136,6 +132,17 @@
 
 /* END OF THE DICTIONARY */
 
+@media (max-width: 1024px) {
+  .O_menu {
+    padding: 0 36rem;
+  }
+  .O_footer {
+    flex-direction: column;
+    gap: 40rem;
+    padding: 56rem 16rem;
+  }
+}
+
 @media (max-width: 768px) {
   .O_main {
     gap: 60rem;
@@ -166,5 +173,8 @@
   }
   .O_articles_collection {
     width: 100%;
+  }
+  .O_question_block {
+    padding: 20rem;
   }
 }

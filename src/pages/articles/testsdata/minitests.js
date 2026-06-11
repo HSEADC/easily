@@ -1,6 +1,5 @@
-// data/mini-tests.js
 export const miniTests = {
-  'probation': {
+  'ispytatelnyj-srok-ne-daj-sebya-obmanut': {
     questions: [
       {
         text: 'Где обязательно должно быть прописано условие об&nbsp;испытательном сроке?',

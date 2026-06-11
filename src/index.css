@@ -115,15 +115,15 @@
 }
 
 .life_span {
-  color: var(--base-lifestyle-500);
+  color: var(--base-life-500);
 }
 
 .home_span {
-  color: var(--base-chores-500);
+  color: var(--base-home-500);
 }
 
 .docs_span {
-  color: var(--base-documents-500);
+  color: var(--base-docs-500);
 }
 
 .health_span {
