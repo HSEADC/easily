@@ -41,8 +41,8 @@ class GuideCard {
   }
 }
 
-let currentCount = 8;
-const step = 8;
+let currentCount = 12;
+const step = 12;
 let allCards = [];
 
 const guidesContainer = document.querySelector('.C_guides_list');

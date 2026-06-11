@@ -1,8 +1,9 @@
 'use strict';
 
 const tags = document.querySelectorAll(".A_tab_categorie");
-const contentCards = document.querySelectorAll(".W_content_card");
+// const contentCards = document.querySelectorAll(".W_content_card");
 const articlesHeaders = document.querySelectorAll('.article_selection_header');
+const loadMoreBtn = document.getElementById('loadMore');
 
 filter();
 
@@ -27,7 +28,8 @@ function updateVisibleCards() {
     articlesHeaders.forEach(header => {
       header.style.display = 'block';
     });
-    contentCards.forEach(card => {
+    const articleCards = getAllCards();
+    articleCards.forEach(card => {
       card.style.display = "flex";
     });
     tags.forEach(tag => {
@@ -39,13 +41,13 @@ function updateVisibleCards() {
     articlesHeaders.forEach(header => {
       header.style.display = 'none';
     });
-
-    contentCards.forEach(card => {
+    const articleCards = getAllCards();
+    articleCards.forEach(card => {
       card.style.display = "none";
     });
 
     taglist.forEach(tag => {
-      contentCards.forEach(card => {
+      articleCards.forEach(card => {
         if (card.classList.contains(tag)) {
           card.style.display = "flex";
         }
@@ -57,7 +59,8 @@ function updateVisibleCards() {
 }
 
 function showAllCards() {
-  contentCards.forEach(card => {
+  const articleCards = getAllCards();
+  articleCards.forEach(card => {
     card.style.display = "flex";
   });
 }
