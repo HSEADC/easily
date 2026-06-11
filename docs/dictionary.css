@@ -1,0 +1,59 @@
+.W_content_card {
+  display: block;
+  transform-style: preserve-3d;
+  transition: .6s .1s;
+}
+
+.card_back {
+  transform: rotateY(180deg);
+  display: none;
+}
+
+.docs .card_back {
+  border-radius: 24rem;
+  padding: 16rem;
+  width: 416rem;
+  height: 356rem;
+  justify-content: flex-end;
+  background-color: var(--base-docs-100);
+}
+
+.W_content_card.flipped {
+  transform: rotateY(-180deg);
+}
+
+.W_content_card.flipped .card_back {
+  display: flex;
+}
+
+.W_content_card.flipped .card_front {
+  display: none;
+}
+
+.O_main {
+  gap: 96rem;
+  margin-top: 96rem;
+}
+
+.dictionary_main.title_h1 {
+  max-width: 911rem;
+  text-align: center;
+  color: var(--base-500);
+}
+
+.glossary_card_img {
+  border-radius: 20rem;
+  width: 100%;
+  height: 351rem;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+a.docs p {
+  color: var(--base-docs-500);
+}
+.glossary_docs {
+  background-image: url(images/02ef054f12e990c49056.png);
+}
