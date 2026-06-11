@@ -3,6 +3,10 @@
   margin-top: 96rem;
 }
 
+.C_filtered_articles {
+  display: none;
+}
+
 .title_h1 {
   color: var(--base-500);
   max-width: 1440rem;

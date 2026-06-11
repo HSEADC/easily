@@ -1,67 +1,59 @@
 .article_finance {
   box-shadow: inset 8px 8px 40px 0 rgba(255, 174, 0, 0.6), inset -8px -8px 40px 0 rgba(255, 174, 0, 0.6);
-  background-image: url(../../images/articles/finance_1.png);
-  background-position: center 25%;
 }
 
 .article_life {
   box-shadow: inset 8px 8px 40px 0 var(--base-life-300), inset -8px -8px 40px 0 var(--base-life-300);
-  /* background-image: url(../../images/articles/life_1.png); */
 }
 
 .article_career {
   box-shadow: inset 8px 8px 40px 0 var(--base-career-300), inset -8px -8px 40px 0 var(--base-career-300);
-  background-image: url(../../images/articles/career_1.png);
 }
 
 .article_health {
   box-shadow: inset 8px 8px 40px 0 var(--base-health-300), inset -8px -8px 40px 0 var(--base-health-300);
-  /* background-image: url(../../images/articles/health_1.png); */
 }
 
 .article_home {
   box-shadow: inset 8px 8px 40px 0 var(--base-home-300), inset -8px -8px 40px 0 var(--base-home-300);
-  background-image: url(../../images/articles/home_1.png);
 }
 
-.article_documents {
-  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
-  background-image: url(../../images/articles/docs_1.png);
+.article_docs {
+  box-shadow: inset 8px 8px 40px 0 var(--base-docs-300), inset -8px -8px 40px 0 var(--base-docs-300);
 }
 
-.article_documents_2 {
-  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
-  background-image: url(../../images/articles/docs_2.png);
+.pochemu-rabotodateli-ne-lyubyat-novichkov {
+  /* background-image: url(../../images/articles/pochemu-rabotodateli-ne-lyubyat-novichkov.png); */
 }
 
-.article_documents_3 {
-  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
-  background-image: url(../../images/articles/docs_3.png);
+.kak-ustroena-adaptaciya-na-pervoj-rabote {
+  /* background-image: url(../../images/articles/kak-ustroena-adaptaciya-na-pervoj-rabote.png); */
 }
 
-.article_documents_4 {
-  box-shadow: inset 8px 8px 40px 0 var(--base-documents-300), inset -8px -8px 40px 0 var(--base-documents-300);
-  background-image: url(../../images/articles/docs_4.png);
+.ispytatelnyj-srok-ne-daj-sebya-obmanut {
+  /* background-image: url(../../images/articles/ispytatelnyj-srok-ne-daj-sebya-obmanut.png); */
 }
 
-.article_home_2 {
-  box-shadow: inset 8px 8px 40px 0 var(--base-home-300), inset -8px -8px 40px 0 var(--base-home-300);
-  background-image: url(../../images/articles/home_2.png);
+.pochemu-novichki-za-rulem-chashche-popadayut-v-dtp {
+  /* background-image: url(../../images/articles/pochemu-novichki-za-rulem-chashche-popadayut-v-dtp.png); */
 }
 
-.article_home_3 {
-  box-shadow: inset 8px 8px 40px 0 var(--base-home-300), inset -8px -8px 40px 0 var(--base-home-300);
-  background-image: url(../../images/articles/home_3.png);
+.pervaya-mashina-kak-ne-popast-na-dengi {
+  /* background-image: url(../../images/articles/pervaya-mashina-kak-ne-popast-na-dengi.png); */
 }
 
-.A_article_block_img#article_1_1 {
-  background-image: url(../../images/articles/article_1_1.png);
+.strahovka-nalog-to-obyazatelnye-platezhi-avtovladelca {
+  /* background-image: url(../../images/articles/strahovka-nalog-to-obyazatelnye-platezhi-avtovladelca.png); */
 }
 
-.A_article_block_img#article_1_2 {
-  background-image: url(../../images/articles/article_1_2.png);
+.pochemu-byt-zhret-vremya-i-kak-ustroena-mentalnaya-nagruzka {
+/* background-image: url(../../images/articles/pochemu-byt-zhret-vremya-i-kak-ustroena-mentalnaya-nagruzka.png); */
 }
 
-.A_article_block_img#article_1_3 {
-  background-image: url(../../images/articles/article_1_3.png);
+.kommunalka-kak-nakruchivayut-pochemu-my-platim-za-soseda-i-chto-takoe-odn {
+/* background-image: url(../../images/articles/kommunalka-kak-nakruchivayut-pochemu-my-platim-za-soseda-i-chto-takoe-odn.png); */
+}
+
+.minimalnyj-nabor-dlya-zhizni {
+/* background-image: url(../../images/articles/minimalnyj-nabor-dlya-zhizni.png); */
 }
