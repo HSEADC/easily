@@ -3,6 +3,10 @@
   margin-top: 96rem;
 }
 
+body.career {
+  background-color: var(--base-career-500);
+}
+
 .C_filtered_articles {
   display: none;
 }
@@ -152,6 +156,14 @@
 }
 .W_article_wrapper.home {
   background-color: var(--base-home-50);
+}
+
+.title_h1.career {
+  color: var(--base-career-500);
+}
+
+.text_m_medium.career, .text_l_medium.career, .text_s.career, .text_m.career {
+  color: var(--base-career-500);
 }
 
 .M_article_info {

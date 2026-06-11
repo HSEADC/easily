@@ -28,12 +28,22 @@
 
 .kak-ustroena-adaptaciya-na-pervoj-rabote {
   background-image: url(../../images/articles/kak-ustroena-adaptaciya-na-pervoj-rabote.png);
-}
+} */
 
 .ispytatelnyj-srok-ne-daj-sebya-obmanut {
-  background-image: url(../../images/articles/ispytatelnyj-srok-ne-daj-sebya-obmanut.png);
+  background-image: url(../../images/articles/ispytatelnyj-srok/ispytatelnyj_cover.png);
 }
 
+#ispytatelnyj-1 {
+  background-image: url(../../images/articles/ispytatelnyj-srok/ispytatelnyj_1.png);
+}
+#ispytatelnyj-2 {
+  background-image: url(../../images/articles/ispytatelnyj-srok/ispytatelnyj_2.png);
+}
+#ispytatelnyj-3 {
+  background-image: url(../../images/articles/ispytatelnyj-srok/ispytatelnyj_3.png);
+}
+/*
 .pochemu-novichki-za-rulem-chashche-popadayut-v-dtp {
   background-image: url(../../images/articles/pochemu-novichki-za-rulem-chashche-popadayut-v-dtp.png);
 }
