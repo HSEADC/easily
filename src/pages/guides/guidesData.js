@@ -7,15 +7,15 @@ export const guidesData = [
   },
   {
     id: 2,
-    title: "Что спросить на собеседовании, чтобы не попасть в болото",
-    category: "career",
-    link: "/pages/guides/guides_pages/chto-sprosit-na-sobesedovanii.html",
-  },
-  {
-    id: 3,
     title: "Получение водительских прав",
     category: "docs",
     link: "/pages/guides/guides_pages/driver-license.html",
+  },
+  {
+    id: 3,
+    title: "Как завести питомца, если ты живешь один (реалии vs мечты)",
+    category: "home",
+    link: "/pages/guides/guides_pages/zavesti-pitomca.html",
   },
   {
     id: 4,
@@ -26,15 +26,15 @@ export const guidesData = [
 
   {
     id: 5,
-    title: "Как искать работу, когда у тебя вообще нет опыта",
-    category: "career",
-    link: "/pages/guides/guides_pages/kak-iskat-rabotu-kogda-u-tebya-net-opyta.html",
+    title: "Как пользоваться кредиткой без процентов",
+    category: "finance",
+    link: "/pages/guides/guides_pages/kreditka-bez-procentov.html",
   },
   {
     id: 6,
-    title: "Как написать резюме, чтобы тебя заметили среди 500 других",
-    category: "career",
-    link: "/pages/guides/guides_pages/kak-napisat-rezyume-chtoby-tebya-zametili.html",
+    title: "Как экономить на бытовой химии (и не отравиться)",
+    category: "home",
+    link: "/pages/guides/guides_pages/bytovaya-himiya.html",
   },
   {
     id: 7,
@@ -44,9 +44,9 @@ export const guidesData = [
   },
   {
     id: 8,
-    title: "Как отвечать на вопрос «расскажите о себе»",
-    category: "career",
-    link: "/pages/guides/guides_pages/kak-ne-sdohnut-ot-allergii-v-sezon.html",
+    title: "Как пользоваться Notion/Trello/любым планером без фанатизма",
+    category: "life",
+    link: "/pages/guides/guides_pages/kak-polzovatsya-lyubym-planerom-bez-fanatizma.html",
   },
   {
     id: 9,
@@ -56,15 +56,16 @@ export const guidesData = [
   },
   {
     id: 10,
-    title: "Как подготовиться к приему врача, чтобы не забыть спросить важное",
-    category: "health",
-    link: "/pages/guides/guides_pages/kak-podgotovitsya-k-priemu-vracha-chtoby-ne-zabyt-sprosit-vazhnoe.html",
+    title: "Как оформить ИНН, если ты фрилансер",
+    category: "docs",
+    link: "/pages/guides/guides_pages/oformlenie-inn.html",
   },
   {
     id: 11,
-    title: "Как понять, что у тебя депрессия (и куда идти)",
-    category: "health",
-    link: "/pages/guides/guides_pages/kak-ponyat-chto-u-tebya-depressiya.html",
+    title: "Тайм-менеджмент для тех, кто ненавидит планировать",
+    category: "life",
+    link: "/pages/guides/guides_pages/tajm-menedzhment-dlya-tekh-kto-nenavidit-planirovat.html",
+
   },
   {
     id: 12,
@@ -74,10 +75,9 @@ export const guidesData = [
   },
   {
     id: 13,
-    title:
-      "Как пробиться в креатив, если у тебя нет ни работы, ни портфолио, ни связей",
-    category: "career",
-    link: "/pages/guides/guides_pages/kak-probitsya-v-kreativ.html",
+    title: "Как начать откладывать, если в конце месяца всегда ноль",
+    category: "finance",
+    link: "/pages/guides/guides_pages/kak-nachat-otkladyvat.html",
   },
   {
     id: 14,
@@ -93,21 +93,22 @@ export const guidesData = [
   },
   {
     id: 16,
-    title: "Как пройти собеседование, если трясутся коленки",
-    category: "career",
-    link: "/pages/guides/guides_pages/kak-projti-sobesedovanie-esli-tryasutsya-kolenki.html",
+    title: "Как восстановить СНИЛС, если потерял",
+    category: "docs",
+    link: "/pages/guides/guides_pages/vosstanovlenie-snils.html",
   },
   {
     id: 17,
-    title: "Как пройти стажировку и получить оффер",
-    category: "career",
-    link: "/pages/guides/guides_pages/kak-projti-stazhirovku-i-poluchit-offer.html",
+    title: "Как не попасть на мошенников в интернете",
+    category: "finance",
+    link: "/pages/guides/guides_pages/moshenniki-v-internete.html",
+
   },
   {
     id: 18,
-    title: "Как просить обратную связь, если боишься критики",
-    category: "career",
-    link: "/pages/guides/guides_pages/kak-prosit-obratnuyu-svyaz.html",
+    title: "Как сдать квартиру, если ты собственник",
+    category: "home",
+    link: "/pages/guides/guides_pages/sdacha-kvartiry-v-arendu.html",
   },
   {
     id: 19,
@@ -129,15 +130,15 @@ export const guidesData = [
   },
   {
     id: 22,
-    title: "Как выбрать врача и не ошибиться",
-    category: "health",
-    link: "/pages/guides/guides_pages/kak-vybrat-vracha-i-ne-oshibitsya.html",
+    title: "Как выстраивать режим, когда работаешь из дома",
+    category: "life",
+    link: "/pages/guides/guides_pages/rezhim-kogda-rabotaesh-iz-doma.html",
   },
   {
     id: 23,
-    title: "Как выжить в поликлинике: лайфхаки по записи, талонам и очередям",
-    category: "health",
-    link: "/pages/guides/guides_pages/kak-vyzhit-v-poliklinike.html",
+    title: "Как получить справку 2-НДФЛ (и зачем она вообще нужна)",
+    category: "docs",
+    link: "/pages/guides/guides_pages/poluchenie-spravki-2-ndfl.html",
   },
   {
     id: 24,
@@ -147,22 +148,21 @@ export const guidesData = [
   },
   {
     id: 25,
-    title:
-      "Увольнение по собственному желанию: как уйти красиво, чтобы не жалеть",
-    category: "career",
-    link: "/pages/guides/guides_pages/uvolnenie-po-sobstvennomu-zhelaniyu.html",
+    title: "Как завести друзей во взрослом возрасте",
+    category: "life",
+    link: "/pages/guides/guides_pages/druzya-vo-vzroslom-vozraste.html",
   },
   {
     id: 26,
-    title: "Тайм-менеджмент для тех, кто ненавидит планировать",
-    category: "life",
-    link: "/pages/guides/guides_pages/tajm-menedzhment-dlya-tekh-kto-nenavidit-planirovat.html",
+    title: "Как вести бюджет, если ненавидишь таблицы",
+    category: "finance",
+    link: "/pages/guides/guides_pages/kak-vesti-byudzhet.html",
   },
   {
     id: 27,
-    title: "Как внедрить полезную привычку и не бросить через неделю",
-    category: "life",
-    link: "/pages/guides/guides_pages/kak-vnedrit-poleznuyu-privychku.html",
+    title: "Как просить обратную связь, если боишься критики",
+    category: "career",
+    link: "/pages/guides/guides_pages/kak-prosit-obratnuyu-svyaz.html",
   },
   {
     id: 28,
@@ -172,15 +172,16 @@ export const guidesData = [
   },
   {
     id: 29,
-    title: "Как выстраивать режим, когда работаешь из дома",
-    category: "life",
-    link: "/pages/guides/guides_pages/rezhim-kogda-rabotaesh-iz-doma.html",
+    title: "Как выбрать врача и не ошибиться",
+    category: "health",
+    link: "/pages/guides/guides_pages/kak-vybrat-vracha-i-ne-oshibitsya.html",
+
   },
   {
     id: 30,
-    title: "Как пользоваться Notion/Trello/любым планером без фанатизма",
-    category: "life",
-    link: "/pages/guides/guides_pages/kak-polzovatsya-lyubym-planerom-bez-fanatizma.html",
+    title: "Как искать работу, когда у тебя вообще нет опыта",
+    category: "career",
+    link: "/pages/guides/guides_pages/kak-iskat-rabotu-kogda-u-tebya-net-opyta.html",
   },
   {
     id: 31,
@@ -190,9 +191,10 @@ export const guidesData = [
   },
   {
     id: 32,
-    title: "Как завести друзей во взрослом возрасте",
-    category: "life",
-    link: "/pages/guides/guides_pages/druzya-vo-vzroslom-vozraste.html",
+    title: "Увольнение по собственному желанию: как уйти красиво, чтобы не жалеть",
+    category: "career",
+    link: "/pages/guides/guides_pages/uvolnenie-po-sobstvennomu-zhelaniyu.html",
+
   },
   {
     id: 33,
@@ -202,9 +204,9 @@ export const guidesData = [
   },
   {
     id: 34,
-    title: "Рецепты выживания для тех, кто ненавидит готовить",
-    category: "life",
-    link: "/pages/guides/guides_pages/recepty-vyzhivaniya.html",
+    title: "Как собрать документы на вычет",
+    category: "docs",
+    link: "/pages/guides/guides_pages/dokumenty-na-nalogovyj-vychet.html",
   },
   {
     id: 35,
@@ -214,21 +216,21 @@ export const guidesData = [
   },
   {
     id: 36,
-    title: "Как вести бюджет, если ненавидишь таблицы",
-    category: "finance",
-    link: "/pages/guides/guides_pages/kak-vesti-byudzhet.html",
+    title: "Как понять, что у тебя депрессия (и куда идти)",
+    category: "health",
+    link: "/pages/guides/guides_pages/kak-ponyat-chto-u-tebya-depressiya.html",
   },
   {
     id: 37,
-    title: "Как пользоваться кредиткой без процентов",
-    category: "finance",
-    link: "/pages/guides/guides_pages/kreditka-bez-procentov.html",
+    title: "Как отвечать на вопрос «расскажите о себе»",
+    category: "career",
+    link: "/pages/guides/guides_pages/kak-ne-sdohnut-ot-allergii-v-sezon.html",
   },
   {
     id: 38,
-    title: "Как не попасть на мошенников в интернете",
-    category: "finance",
-    link: "/pages/guides/guides_pages/moshenniki-v-internete.html",
+    title: "Как пройти стажировку и получить оффер",
+    category: "career",
+    link: "/pages/guides/guides_pages/kak-projti-stazhirovku-i-poluchit-offer.html",
   },
   {
     id: 39,
@@ -238,9 +240,10 @@ export const guidesData = [
   },
   {
     id: 40,
-    title: "Как начать откладывать, если в конце месяца всегда ноль",
-    category: "finance",
-    link: "/pages/guides/guides_pages/kak-nachat-otkladyvat.html",
+    title: "Как пробиться в креатив, если у тебя нет ни работы, ни портфолио, ни связей",
+    category: "career",
+    link: "/pages/guides/guides_pages/kak-probitsya-v-kreativ.html",
+
   },
   {
     id: 41,
@@ -256,9 +259,9 @@ export const guidesData = [
   },
   {
     id: 43,
-    title: "Как экономить на бытовой химии (и не отравиться)",
-    category: "home",
-    link: "/pages/guides/guides_pages/bytovaya-himiya.html",
+    title: "Как написать резюме, чтобы тебя заметили среди 500 других",
+    category: "career",
+    link: "/pages/guides/guides_pages/kak-napisat-rezyume-chtoby-tebya-zametili.html",
   },
   {
     id: 44,
@@ -268,21 +271,21 @@ export const guidesData = [
   },
   {
     id: 45,
-    title: "Как завести питомца, если ты живешь один (реалии vs мечты)",
-    category: "home",
-    link: "/pages/guides/guides_pages/zavesti-pitomca.html",
+    title: "Что спросить на собеседовании, чтобы не попасть в болото",
+    category: "career",
+    link: "/pages/guides/guides_pages/chto-sprosit-na-sobesedovanii.html",
   },
   {
     id: 46,
-    title: "Как сдать квартиру, если ты собственник",
-    category: "home",
-    link: "/pages/guides/guides_pages/sdacha-kvartiry-v-arendu.html",
+    title: "Как внедрить полезную привычку и не бросить через неделю",
+    category: "life",
+    link: "/pages/guides/guides_pages/kak-vnedrit-poleznuyu-privychku.html",
   },
   {
     id: 47,
-    title: "Как получить загранпаспорт в 2026",
-    category: "docs",
-    link: "/pages/guides/guides_pages/poluchenie-zagranpasporta.html",
+    title: "Как подготовиться к приему врача, чтобы не забыть спросить важное",
+    category: "health",
+    link: "/pages/guides/guides_pages/kak-podgotovitsya-k-priemu-vracha-chtoby-ne-zabyt-sprosit-vazhnoe.html",
   },
   {
     id: 48,
@@ -292,15 +295,16 @@ export const guidesData = [
   },
   {
     id: 49,
-    title: "Как оформить ИНН, если ты фрилансер",
+    title: "Как получить загранпаспорт в 2026",
     category: "docs",
-    link: "/pages/guides/guides_pages/oformlenie-inn.html",
+    link: "/pages/guides/guides_pages/poluchenie-zagranpasporta.html",
   },
   {
     id: 50,
-    title: "Как получить справку 2-НДФЛ (и зачем она вообще нужна)",
-    category: "docs",
-    link: "/pages/guides/guides_pages/poluchenie-spravki-2-ndfl.html",
+    title: "Как выжить в поликлинике: лайфхаки по записи, талонам и очередям",
+    category: "health",
+    link: "/pages/guides/guides_pages/kak-vyzhit-v-poliklinike.html",
+
   },
   {
     id: 51,
@@ -310,15 +314,15 @@ export const guidesData = [
   },
   {
     id: 52,
-    title: "Как восстановить СНИЛС, если потерял",
-    category: "docs",
-    link: "/pages/guides/guides_pages/vosstanovlenie-snils.html",
+    title: "Как пройти собеседование, если трясутся коленки",
+    category: "career",
+    link: "/pages/guides/guides_pages/kak-projti-sobesedovanie-esli-tryasutsya-kolenki.html",
   },
   {
     id: 53,
-    title: "Как собрать документы на вычет",
-    category: "docs",
-    link: "/pages/guides/guides_pages/dokumenty-na-nalogovyj-vychet.html",
+    title: "Рецепты выживания для тех, кто ненавидит готовить",
+    category: "home",
+    link: "/pages/guides/guides_pages/recepty-vyzhivaniya.html",
   },
   {
     id: 54,
