@@ -413,6 +413,12 @@
   background-image: url(../../images/icons/tg_light.svg);
 }
 
+@media (max-width: 1024px) {
+  .A_input {
+    width: 350rem;
+}
+}
+
 @media (max-width: 768px) {
   .A_button {
     font-size: 18rem;

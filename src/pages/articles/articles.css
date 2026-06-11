@@ -308,7 +308,7 @@ ol {
   }
   .A_article_block_img,
   .O_question_block {
-    width: 92.9vw;
+    width: 100%;
   }
   .M_article_menu {
     display: none;

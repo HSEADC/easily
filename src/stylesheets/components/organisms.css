@@ -136,6 +136,11 @@
   .O_menu {
     padding: 0 36rem;
   }
+  .O_footer {
+    flex-direction: column;
+    gap: 40rem;
+    padding: 56rem 16rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -168,5 +173,8 @@
   }
   .O_articles_collection {
     width: 100%;
+  }
+  .O_question_block {
+    padding: 20rem;
   }
 }
