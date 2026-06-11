@@ -4,9 +4,9 @@
   background-position: center 25%;
 }
 
-.article_lifestyle {
-  box-shadow: inset 8px 8px 40px 0 var(--base-lifestyle-300), inset -8px -8px 40px 0 var(--base-lifestyle-300);
-  /* background-image: url(../../images/articles/lifestyle_1.png); */
+.article_life {
+  box-shadow: inset 8px 8px 40px 0 var(--base-life-300), inset -8px -8px 40px 0 var(--base-life-300);
+  /* background-image: url(../../images/articles/life_1.png); */
 }
 
 .article_career {

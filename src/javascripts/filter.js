@@ -97,7 +97,7 @@ function updateCounters() {
   document.querySelector('.A_tab_docs').innerText = `Документы ${counters.docs}`;
   document.querySelector('.A_tab_home').innerText = `Быт ${counters.home}`;
   document.querySelector('.A_tab_finance').innerText = `Финансы ${counters.finance}`;
-  document.querySelector('.A_tab_lifestyle').innerText = `Лайфстайл ${counters.life}`;
+  document.querySelector('.A_tab_life').innerText = `Лайфстайл ${counters.life}`;
 }
 
 updateCounters();
