@@ -132,6 +132,12 @@
 
 /* END OF THE DICTIONARY */
 
+@media (max-width: 1024px) {
+  .O_menu {
+    padding: 0 36rem;
+  }
+}
+
 @media (max-width: 768px) {
   .O_main {
     gap: 60rem;

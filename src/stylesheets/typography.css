@@ -82,6 +82,15 @@
   text-align: center;
 }
 
+@media (max-width: 1024px) {
+  .title_h1 {
+    font-size: 40rem;
+  }
+  .title_h2 {
+    font-size: 36rem;
+  }
+}
+
 @media (max-width: 768px) {
   .title_h1 {
     font-size: 28rem;

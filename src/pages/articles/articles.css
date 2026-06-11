@@ -271,6 +271,26 @@ ol {
   100% { transform: rotate(0deg); }
 }
 
+@media (max-width: 1024px) {
+  .W_article_wrapper {
+    width: 90vw;
+    padding: 28rem;
+  }
+  .A_article_block_img {
+    width: 100%;
+    height: 300rem;
+  }
+  .C_answer_options {
+    flex-direction: column;
+  }
+  .A_answer {
+    width: 100%;
+  }
+  .O_question_block {
+    width: 100%;
+    height: min-content;
+  }
+}
 
 @media (max-width: 768px) {
   .title_h1 {

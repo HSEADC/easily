@@ -259,6 +259,11 @@ ul {
 }
 
 /* END OF THE ARTICLES */
+@media (max-width: 1024px) {
+  .M_article_content {
+    width: 90vw;
+  }
+}
 
 @media (max-width: 768px) {
   .M_navigation_menu, .O_menu .A_input_search {
