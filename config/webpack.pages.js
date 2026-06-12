@@ -13,7 +13,7 @@ const htmlPages = [
 
   createPage('./src/pages/articles/articles.html',
     './pages/articles/articles.html',
-    ['main', 'articles', 'filter', 'dropdown', 'searchReact']),
+    ['main', 'articles', 'filter', 'dropdown', 'searchReact', 'articlesReact']),
   createPage('./src/pages/articles/articles_pages/kvartira-v-novom-gorode.html',
     './pages/articles/articles_pages/kvartira-v-novom-gorode.html',
     ['main', 'articles', 'dropdown', 'searchReact']),
