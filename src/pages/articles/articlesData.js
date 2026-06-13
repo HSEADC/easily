@@ -79,5 +79,59 @@ export const articlesData = [
         image: 'minimalnyj-nabor-dlya-zhizni'
       }
     ]
-  }
+  },
+  {
+    id: 'uni-live',
+    title: 'Выживание в университете',
+    articles: [
+      {
+        id: 10,
+        title: 'Почему прокрастинация побеждает в сессию — и как работает стресс на экзаменах',
+        category: 'life',
+        link: './articles_pages/pochemu-prokrastinaciya-pobezhdaet-v-sessiyu.html',
+        image: 'pochemu-prokrastinaciya-pobezhdaet-v-sessiyu'
+      },
+      {
+        id: 11,
+        title: 'Как подготовиться к защите диплома и не поседеть за месяц до',
+        category: 'life',
+        link: './articles_pages/kak-podgotovitsya-k-zashchite-diploma-i-ne-posedet-za-mesyac-do.html',
+        image: 'kak-podgotovitsya-k-zashchite-diploma-i-ne-posedet-za-mesyac-do'
+      },
+      {
+        id: 12,
+        title: '«Работа и учёба одновременно: как не вылететь из вуза и не уволиться через месяц»',
+        category: 'career',
+        link: './articles_pages/rabota-i-uchyoba-odnovremenno.html',
+        image: 'rabota-i-uchyoba-odnovremenno'
+      }
+    ]
+  },
+  {
+    id: 'going-abroad',
+    title: 'Первая самостоятельная поездка за границу',
+    articles: [
+      {
+        id: 13,
+        title: 'Как спланировать первую поездку за границу: от выбора страны до посадки в самолёт',
+        category: 'life',
+        link: './articles_pages/kak-splanirovat-pervuyu-poezdku-za-granicu.html',
+        image: 'kak-splanirovat-pervuyu-poezdku-za-granicu'
+      },
+      {
+        id: 14,
+        title: 'Как не потерять деньги на картах и обменниках в другой стране',
+        category: 'life',
+        link: './articles_pages/kak-ne-poteryat-dengi-na-kartah-i-obmennikah-v-drugoj-strane.html',
+        image: 'kak-ne-poteryat-dengi-na-kartah-i-obmennikah-v-drugoj-strane'
+      },
+      {
+        id: 15,
+        title: 'Просроченная виза и потерянный загранпаспорт: инструкция по выживанию в чужой стране',
+        category: 'career',
+        link: './articles_pages/prosrochennaya-viza-i-poteryannyj-zagranpasport.html',
+        image: 'prosrochennaya-viza-i-poteryannyj-zagranpasport'
+      }
+    ]
+  },
 ]
