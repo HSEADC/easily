@@ -134,4 +134,112 @@ export const articlesData = [
       }
     ]
   },
+  {
+    id: 'lost-docs',
+    title: 'Потеря документов',
+    articles: [
+      {
+        id: 16,
+        title: 'Как устроен черный рынок документов — почему не надо постить паспорт в интернет',
+        category: 'life',
+        link: './articles_pages/kak-ustroen-chernyj-rynok-dokumentov.html',
+        image: 'kak-ustroen-chernyj-rynok-dokumentov'
+      },
+      {
+        id: 17,
+        title: 'Что происходит с вашими данными, если телефон украли (и при чем тут SIM-карта)',
+        category: 'life',
+        link: './articles_pages/chto-proiskhodit-s-vashimi-dannymi-esli-telefon-ukrali.html',
+        image: 'chto-proiskhodit-s-vashimi-dannymi-esli-telefon-ukrali'
+      },
+      {
+        id: 18,
+        title: 'Квест по восстановлению паспорта',
+        category: 'docs',
+        link: './articles_pages/kvest-po-vosstanovleniyu-pasporta.html',
+        image: 'kvest-po-vosstanovleniyu-pasporta'
+      }
+    ]
+  },
+  {
+    id: 'getting-fired',
+    title: 'Увольнение (по своей воле или не очень)',
+    articles: [
+      {
+        id: 19,
+        title: 'Почему нас увольняют: юридические и психологические причины',
+        category: 'career',
+        link: './articles_pages/pochemu-nas-uvolnyayut-yuridicheskie-i-psihologicheskie-prichiny.html',
+        image: 'pochemu-nas-uvolnyayut-yuridicheskie-i-psihologicheskie-prichiny'
+      },
+      {
+        id: 20,
+        title: 'Что такое «выходное пособие» и кто его получает',
+        category: 'finance',
+        link: './articles_pages/chto-takoe-vyhodnoe-posobie-i-kto-ego-poluchaet.html',
+        image: 'chto-takoe-vyhodnoe-posobie-i-kto-ego-poluchaet'
+      },
+      {
+        id: 21,
+        title: 'Сокращение, ликвидация, по собственному: чем различаются ситуации с точки зрения закона',
+        category: 'career',
+        link: './articles_pages/sokrashchenie-likvidaciya-po-sobstvennomu.html',
+        image: 'sokrashchenie-likvidaciya-po-sobstvennomu'
+      }
+    ]
+  },
+  {
+    id: 'rent-apartment',
+    title: 'Съемная квартира — права и обязанности',
+    articles: [
+      {
+        id: 22,
+        title: 'Кто должен платить за ремонт, если сломалась техника — арендатор или собственник?',
+        category: 'finance',
+        link: './articles_pages/kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika.html',
+        image: 'kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika'
+      },
+      {
+        id: 23,
+        title: 'Почему собственники не возвращают депозит — 5 самых частых схем',
+        category: 'finance',
+        link: './articles_pages/pochemu-sobstvenniki-ne-vozvrashchayut-depozit-5-samyh-chastyh-skhem.html',
+        image: 'pochemu-sobstvenniki-ne-vozvrashchayut-depozit-5-samyh-chastyh-skhem'
+      },
+      {
+        id: 24,
+        title: 'Что такое договор найма и почему «договоренности на словах» всегда заканчиваются плохо',
+        category: 'docs',
+        link: './articles_pages/chto-takoe-dogovor-najma.html',
+        image: 'chto-takoe-dogovor-najma'
+      }
+    ]
+  },
+  {
+    id: 'freelance',
+    title: 'Выход на фриланс / самозанятость',
+    articles: [
+      {
+        id: 25,
+        title: 'Почему фриланс кажется легким, но выживают не все',
+        category: 'career',
+        link: './articles_pages/nestabilnost-na-frilanse.html',
+        image: 'nestabilnost-na-frilanse'
+      },
+      {
+        id: 26,
+        title: 'Как устроены налоги для самозанятых: что будет, если не платить, и кто за вами следит',
+        category: 'finance',
+        link: './articles_pages/nalogi-dlya-samozanyatyh.html',
+        image: 'nalogi-dlya-samozanyatyh'
+      },
+      {
+        id: 27,
+        title: 'Фриланс vs офис: что теряешь и что получаешь на удаленке',
+        category: 'docs',
+        link: './articles_pages/frilans-vs-ofis.html',
+        image: 'frilans-vs-ofis'
+      }
+    ]
+  },
 ]
