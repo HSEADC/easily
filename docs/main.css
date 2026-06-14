@@ -830,6 +830,14 @@ input {
   height: 240rem;
 }
 
+.O_ArticlesCollection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+}
+
 /* END OF THE ARTICLES */
 
 /* DICTIONARY */

@@ -3,12 +3,27 @@
   margin-top: 96rem;
 }
 
+.O_question_block {
+  height: 267rem;
+}
+
 body.career {
   background-color: var(--base-career-500);
 }
-
-.C_filtered_articles {
-  display: none;
+body.home {
+  background-color: var(--base-home-500);
+}
+body.health {
+  background-color: var(--base-health-500);
+}
+body.docs {
+  background-color: var(--base-docs-500);
+}
+body.finance {
+  background-color: var(--base-finance-500);
+}
+body.life {
+  background-color: var(--base-life-500);
 }
 
 .title_h1 {
@@ -30,16 +45,44 @@ body.career {
   background-position: center;
 }
 
-.career_article {
-  background-color: var(--base-career-500);
-}
-
 .career_article p, .career_article h1{
   color: var(--base-career-500);
 }
 
 .W_article_wrapper.career h2, .W_article_wrapper.career li {
   color: var(--base-career-500);
+}
+
+.health_article p, .health_article h1{
+  color: var(--base-health-500);
+}
+
+.W_article_wrapper.health h2, .W_article_wrapper.health li {
+  color: var(--base-health-500);
+}
+
+.docs_article p, .docs_article h1{
+  color: var(--base-docs-500);
+}
+
+.W_article_wrapper.docs h2, .W_article_wrapper.docs li {
+  color: var(--base-docs-500);
+}
+
+.finance_article p, .finance_article h1{
+  color: var(--base-finance-500);
+}
+
+.W_article_wrapper.finance h2, .W_article_wrapper.finance li {
+  color: var(--base-finance-500);
+}
+
+.life_article p, .life_article h1{
+  color: var(--base-life-500);
+}
+
+.W_article_wrapper.life h2, .W_article_wrapper.life li {
+  color: var(--base-life-500);
 }
 
 .article_header h1 {
@@ -161,6 +204,21 @@ body.career {
 .title_h1.career {
   color: var(--base-career-500);
 }
+.title_h1.health {
+  color: var(--base-health-500);
+}
+.title_h1.docs {
+  color: var(--base-docs-500);
+}
+.title_h1.life {
+  color: var(--base-life-500);
+}
+.title_h1.finance {
+  color: var(--base-finance-500);
+}
+.title_h1.home {
+  color: var(--base-home-500);
+}
 
 .text_m_medium.career, .text_l_medium.career, .text_s.career, .text_m.career {
   color: var(--base-career-500);
@@ -214,9 +272,138 @@ ol {
   background-color: var(--base-career-100);
 }
 
-.O_question_block.career .A_answer:hover,
-.O_question_block.career.A_answer:active {
-  background-color: var(--base-career-200);
+.O_question_block.health .A_answer:hover,
+.O_question_block.health.A_answer:active {
+  background-color: var(--base-health-200);
+  cursor: pointer;
+}
+.O_question_block.health {
+  background-color: var(--base-health-500);
+}
+
+.O_question_block.health .text_l_medium {
+  color: var(--base-health-50);
+}
+
+.O_question_block.health .title_h5 {
+  color: var(--base-health-50);
+}
+
+.O_question_block.health .text_m_medium {
+  color: var(--base-health-500);
+}
+
+.O_question_block.health .A_answer {
+  background-color: var(--base-health-100);
+}
+
+.O_question_block.health .A_answer:hover,
+.O_question_block.health.A_answer:active {
+  background-color: var(--base-health-200);
+  cursor: pointer;
+}
+
+.O_question_block.docs {
+  background-color: var(--base-docs-500);
+}
+
+.O_question_block.docs .text_l_medium {
+  color: var(--base-docs-50);
+}
+
+.O_question_block.docs .title_h5 {
+  color: var(--base-docs-50);
+}
+
+.O_question_block.docs .text_m_medium {
+  color: var(--base-docs-500);
+}
+
+.O_question_block.docs .A_answer {
+  background-color: var(--base-docs-100);
+}
+
+.O_question_block.docs .A_answer:hover,
+.O_question_block.docs.A_answer:active {
+  background-color: var(--base-docs-200);
+  cursor: pointer;
+}
+
+.O_question_block.docs {
+  background-color: var(--base-docs-500);
+}
+
+.O_question_block.docs .text_l_medium {
+  color: var(--base-docs-50);
+}
+
+.O_question_block.docs .title_h5 {
+  color: var(--base-docs-50);
+}
+
+.O_question_block.docs .text_m_medium {
+  color: var(--base-docs-500);
+}
+
+.O_question_block.docs .A_answer {
+  background-color: var(--base-docs-100);
+}
+
+.O_question_block.docs .A_answer:hover,
+.O_question_block.docs.A_answer:active {
+  background-color: var(--base-docs-200);
+  cursor: pointer;
+}
+
+.O_question_block.finance {
+  background-color: var(--base-finance-500);
+}
+
+.O_question_block.finance .text_l_medium {
+  color: var(--base-finance-50);
+}
+
+.O_question_block.finance .title_h5 {
+  color: var(--base-finance-50);
+}
+
+.O_question_block.finance .text_m_medium {
+  color: var(--base-finance-500);
+}
+
+.O_question_block.finance .A_answer {
+  background-color: var(--base-finance-100);
+}
+
+.O_question_block.finance .A_answer:hover,
+.O_question_block.finance.A_answer:active {
+  background-color: var(--base-finance-200);
+  cursor: pointer;
+}
+
+.O_question_block.life {
+  background-color: var(--base-life-500);
+}
+
+.O_question_block.life .text_l_medium {
+  color: var(--base-life-50);
+}
+
+.O_question_block.life .title_h5 {
+  color: var(--base-life-50);
+}
+
+.O_question_block.life .text_m_medium {
+  color: var(--base-life-500);
+}
+
+.O_question_block.life .A_answer {
+  background-color: var(--base-life-100);
+}
+
+.O_question_block.life .A_answer:hover,
+.O_question_block.life.A_answer:active {
+  background-color: var(--base-life-200);
   cursor: pointer;
 }
 
@@ -232,7 +419,7 @@ ol {
   border-radius: 16rem;
   padding: 16rem;
   width: 290rem;
-  height: 92rem;
+  height: 118rem;
   max-width: 380rem;
   min-height: 72rem;
 }
