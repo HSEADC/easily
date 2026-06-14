@@ -14,6 +14,8 @@ const paths = [
   '/pages/articles/articles.html',
   '/pages/articles/articles_pages/probation.html',
   '/pages/articles/articles_pages/kvartira-v-novom-gorode.html',
+  '/pages/articles/articles_pages/pervyj-mesyac-v-novom-gorode.html',
+  '/pages/articles/articles_pages/propiska-voenkomat-polis.html',
   '/pages/articles/articles_pages/pochemu-rabotodateli-ne-lyubyat-novichkov.html',
   '/pages/articles/articles_pages/kak-ustroena-adaptaciya-na-pervoj-rabote.html',
   '/pages/articles/articles_pages/ispytatelnyj-srok-ne-daj-sebya-obmanut.html',
@@ -132,7 +134,8 @@ module.exports = {
     filter: './src/javascripts/filter.js',
     dropdown: './src/javascripts/dropdown.js',
     searchReact: './src/javascripts/searchReact.jsx',
-    guidesReact: './src/javascripts/guidesReact.jsx'
+    guidesReact: './src/javascripts/guidesReact.jsx',
+    articlesReact: './src/javascripts/articlesReact.jsx'
   },
   output: {
     path: path.resolve('.', "docs"),
