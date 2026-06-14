@@ -244,7 +244,7 @@ export const articlesData = [
   },
   {
     id: 'freelance',
-    title: 'Выход на фриланс / самозанятость',
+    title: 'Выход на фриланс',
     articles: [
       {
         id: 28,
@@ -270,7 +270,7 @@ export const articlesData = [
     ]
   },
   {
-    id: 'freelance',
+    id: 'parents-need-help',
     title: 'Когда родители болеют и нуждаются в помощи',
     articles: [
       {
