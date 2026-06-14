@@ -130,6 +130,16 @@ export const articles = [
     url: 'https://easily.adc.ac/pages/articles/articles_pages/chto-takoe-dogovor-najma.html'
   },
   {
+    title: 'Первый месяц в новом городе: на чем вы незаметно потеряете деньги',
+    description: 'Первый месяц в новом городе — это не только «ура, новая жизнь», но и «куда ушло еще 20 тысяч, я же ничего не покупал»',
+    url: 'https://easily.adc.ac/pages/articles/articles_pages/pervyj-mesyac-v-novom-gorode.html'
+  },
+  {
+    title: 'Прописка, военкомат, полис: зачем они вообще нужны и что будет, если забить',
+    description: 'разберемся, зачем нужны эти три страшных слова, что будет, если забить, и почему лучше не забивать',
+    url: 'https://easily.adc.ac/pages/articles/articles_pages/propiska-voenkomat-polis.html'
+  },
+  {
     title: 'Почему собственники не возвращают депозит — 5 самых частых схем',
     description: 'Разберём 5 самых популярных способов не возвращать депозит — и как на них не попасться',
     url: 'https://easily.adc.ac/pages/articles/articles_pages/pochemu-sobstvenniki-ne-vozvrashchayut-depozit-5-samyh-chastyh-skhem.html'
