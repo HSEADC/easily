@@ -94,7 +94,7 @@ export const articlesData = [
       {
         id: 11,
         title: 'Коммуналка: как накручивают, почему мы платим за соседа и что такое ОДН',
-        category: 'docs',
+        category: 'home',
         link: './articles_pages/kommunalka-kak-nakruchivayut-pochemu-my-platim-za-soseda-i-chto-takoe-odn.html',
         image: 'kommunalka-kak-nakruchivayut-pochemu-my-platim-za-soseda-i-chto-takoe-odn'
       },
@@ -148,14 +148,14 @@ export const articlesData = [
       {
         id: 17,
         title: 'Как не потерять деньги на картах и обменниках в другой стране',
-        category: 'life',
+        category: 'finance',
         link: './articles_pages/kak-ne-poteryat-dengi-na-kartah-i-obmennikah-v-drugoj-strane.html',
         image: 'kak-ne-poteryat-dengi-na-kartah-i-obmennikah-v-drugoj-strane'
       },
       {
         id: 18,
         title: 'Просроченная виза и потерянный загранпаспорт: инструкция по выживанию в чужой стране',
-        category: 'career',
+        category: 'docs',
         link: './articles_pages/prosrochennaya-viza-i-poteryannyj-zagranpasport.html',
         image: 'prosrochennaya-viza-i-poteryannyj-zagranpasport'
       }
@@ -168,14 +168,14 @@ export const articlesData = [
       {
         id: 19,
         title: 'Как устроен черный рынок документов — почему не надо постить паспорт в интернет',
-        category: 'life',
+        category: 'docs',
         link: './articles_pages/kak-ustroen-chernyj-rynok-dokumentov.html',
         image: 'kak-ustroen-chernyj-rynok-dokumentov'
       },
       {
         id: 20,
         title: 'Что происходит с вашими данными, если телефон украли (и при чем тут SIM-карта)',
-        category: 'life',
+        category: 'docs',
         link: './articles_pages/chto-proiskhodit-s-vashimi-dannymi-esli-telefon-ukrali.html',
         image: 'chto-proiskhodit-s-vashimi-dannymi-esli-telefon-ukrali'
       },
@@ -222,7 +222,7 @@ export const articlesData = [
       {
         id: 25,
         title: 'Кто должен платить за ремонт, если сломалась техника — арендатор или собственник?',
-        category: 'finance',
+        category: 'home',
         link: './articles_pages/kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika.html',
         image: 'kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika'
       },
@@ -263,7 +263,7 @@ export const articlesData = [
       {
         id: 30,
         title: 'Фриланс vs офис: что теряешь и что получаешь на удаленке',
-        category: 'docs',
+        category: 'career',
         link: './articles_pages/frilans-vs-ofis.html',
         image: 'frilans-vs-ofis'
       }
@@ -317,7 +317,7 @@ export const articlesData = [
       {
         id: 36,
         title: 'Новостройка vs вторичка: как устроены риски каждой',
-        category: 'health',
+        category: 'home',
         link: './articles_pages/novostrojka-vs-vtorichka.html',
         image: 'novostrojka-vs-vtorichka'
       }
