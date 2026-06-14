@@ -25,6 +25,7 @@ function ArticleCard({ article }) {
 export default function ArticlesPage() {
   const [activeTags, setActiveTags] = useState([]);
   const [visibleCount, setVisibleCount] = useState(9);
+  const [visibleCollections, setVisibleCollections] = useState(3);
 
   const categories = {
     health: 'Здоровье',
@@ -46,10 +47,15 @@ export default function ArticlesPage() {
     career: allArticles.filter(a => a.category === 'career').length
   };
 
-  const filteredArticles = (activeTags.length === 0 || activeTags.length === 6) ? allArticles : allArticles.filter(article => activeTags.includes(article.category));
+  const filteredArticles = (activeTags.length === 0 || activeTags.length === 6)
+    ? allArticles
+    : allArticles.filter(article => activeTags.includes(article.category));
 
   const visibleArticles = filteredArticles.slice(0, visibleCount);
-  const hasMore = visibleCount < filteredArticles.length;
+  const hasMoreArticles = visibleCount < filteredArticles.length;
+
+  const visibleCollectionsData = articlesData.slice(0, visibleCollections);
+  const hasMoreCollections = visibleCollections < articlesData.length;
 
   const toggleTag = (tagId) => {
     let newActiveTags;
@@ -66,10 +72,15 @@ export default function ArticlesPage() {
 
     setActiveTags(newActiveTags);
     setVisibleCount(9);
+    setVisibleCollections(3);
   };
 
-  const loadMore = () => {
+  const loadMoreArticles = () => {
     setVisibleCount(prev => prev + 9);
+  };
+
+  const loadMoreCollections = () => {
+    setVisibleCollections(prev => prev + 3);
   };
 
   const isFilterActive = activeTags.length > 0 && activeTags.length !== 6;
@@ -92,31 +103,40 @@ export default function ArticlesPage() {
           ))}
         </div>
       </section>
+
       {isFilterActive ? (
-        <div className="C_filtered_articles">
-          <div className="M_articles_list" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
-            {visibleArticles.map(article => (
-              <ArticleCard key={article.id} article={article} />
-            ))}
-          </div>
-        </div>
-      ) : (
-        articlesData.slice(0, Math.ceil(visibleCount / 3)).map(collection => (
-          <div key={collection.id} className="O_ArticlesCollection">
-            <h4 className="title_h4 article_selection_header">{collection.title}</h4>
-            <div className="M_articles_list">
-              {collection.articles.map(article => (
+        <>
+          <div className="C_filtered_articles">
+            <div className="M_articles_list" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
+              {visibleArticles.map(article => (
                 <ArticleCard key={article.id} article={article} />
               ))}
             </div>
           </div>
-        ))
-      )}
-
-      {hasMore && isFilterActive && (
-        <button className="A_button accent" onClick={loadMore}>
-          Показать еще
-        </button>
+          {hasMoreArticles && (
+            <button className="A_button accent" onClick={loadMoreArticles}>
+              Показать еще
+            </button>
+          )}
+        </>
+      ) : (
+        <>
+          {visibleCollectionsData.map(collection => (
+            <div key={collection.id} className="O_ArticlesCollection">
+              <h4 className="title_h4 article_selection_header">{collection.title}</h4>
+              <div className="M_articles_list">
+                {collection.articles.map(article => (
+                  <ArticleCard key={article.id} article={article} />
+                ))}
+              </div>
+            </div>
+          ))}
+          {hasMoreCollections && (
+            <button className="A_button accent" onClick={loadMoreCollections}>
+              Показать еще
+            </button>
+          )}
+        </>
       )}
     </main>
   );
