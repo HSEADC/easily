@@ -204,6 +204,21 @@ body.life {
 .title_h1.career {
   color: var(--base-career-500);
 }
+.title_h1.health {
+  color: var(--base-health-500);
+}
+.title_h1.docs {
+  color: var(--base-docs-500);
+}
+.title_h1.life {
+  color: var(--base-life-500);
+}
+.title_h1.finance {
+  color: var(--base-finance-500);
+}
+.title_h1.home {
+  color: var(--base-home-500);
+}
 
 .text_m_medium.career, .text_l_medium.career, .text_s.career, .text_m.career {
   color: var(--base-career-500);
