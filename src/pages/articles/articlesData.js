@@ -242,4 +242,112 @@ export const articlesData = [
       }
     ]
   },
+  {
+    id: 'freelance',
+    title: 'Когда родители болеют и нуждаются в помощи',
+    articles: [
+      {
+        id: 28,
+        title: 'Почему пожилые скрывают свои болезни — стыд, страх и как устроено старение',
+        category: 'health',
+        link: './articles_pages/kak-ustroeno-starenie.html',
+        image: 'kak-ustroeno-starenie'
+      },
+      {
+        id: 29,
+        title: 'Что дает государство тем, кто ухаживает за родственником (пособия, стаж, льготы)',
+        category: 'docs',
+        link: './articles_pages/posobiya-po-uhodu.html',
+        image: 'posobiya-po-uhodu'
+      },
+      {
+        id: 30,
+        title: 'Как устроена бесплатная помощь пенсионерам: соцработники, сиделки, паллиатив',
+        category: 'health',
+        link: './articles_pages/besplatnaya-pomoshch-pensioneram.html',
+        image: 'besplatnaya-pomoshch-pensioneram'
+      }
+    ]
+  },
+  {
+    id: 'first-property',
+    title: 'Покупка первого жилья (или ипотека)',
+    articles: [
+      {
+        id: 31,
+        title: 'Почему ипотека на 20 лет — это не страшно, если понимать математику',
+        category: 'finance',
+        link: './articles_pages/ipoteka.html',
+        image: 'ipoteka'
+      },
+      {
+        id: 32,
+        title: 'Скрытые расходы при покупке квартиры: оценка, нотариус, страховка — на чем теряют деньги',
+        category: 'finance',
+        link: './articles_pages/skrytye-raskhody-pri-pokupke-kvartiry.html',
+        image: 'skrytye-raskhody-pri-pokupke-kvartiry'
+      },
+      {
+        id: 33,
+        title: 'Новостройка vs вторичка: как устроены риски каждой',
+        category: 'health',
+        link: './articles_pages/novostrojka-vs-vtorichka.html',
+        image: 'novostrojka-vs-vtorichka'
+      }
+    ]
+  },
+  {
+    id: 'relationship-finance',
+    title: 'Отношения и общие финансы',
+    articles: [
+      {
+        id: 34,
+        title: 'Раздельный, общий или частично общий бюджет: какие схемы реально работают в парах',
+        category: 'finance',
+        link: './articles_pages/razdelnyj-ili-obshchij-byudzhet.html',
+        image: 'razdelnyj-ili-obshchij-byudzhet'
+      },
+      {
+        id: 35,
+        title: 'Почему деньги — главная причина разводов и как устроена «финансовая неверность»',
+        category: 'finance',
+        link: './articles_pages/prichina-razvodov.html',
+        image: 'prichina-razvodov'
+      },
+      {
+        id: 36,
+        title: 'Кредиты и долги в паре: кто платит, если расстались (как устроено юридически)',
+        category: 'finance',
+        link: './articles_pages/oplata-dolgov-posle-rasstavaniya.html',
+        image: 'oplata-dolgov-posle-rasstavaniya'
+      }
+    ]
+  },
+  {
+    id: 'taxes',
+    title: 'Налоги и взносы — когда ты уже работаешь',
+    articles: [
+      {
+        id: 37,
+        title: 'Самозанятость, ИП, физлицо: чем отличаются и кто кому сколько платит',
+        category: 'finance',
+        link: './articles_pages/samozanyatost-ip-fizlico.html',
+        image: 'samozanyatost-ip-fizlico'
+      },
+      {
+        id: 38,
+        title: 'Почему налоговая присылает письма с долгами даже тем, кто все заплатил — как устроены ошибки и сверки',
+        category: 'docs',
+        link: './articles_pages/oshibki-nalogovoj.html',
+        image: 'oshibki-nalogovoj'
+      },
+      {
+        id: 39,
+        title: 'Куда на самом деле идут 13% НДФЛ — и почему мы почти не видим, куда они ушли',
+        category: 'finance',
+        link: './articles_pages/kak-rabotaet-ndfl.html',
+        image: 'kak-rabotaet-ndfl'
+      }
+    ]
+  },
 ]
