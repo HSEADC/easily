@@ -45,52 +45,8 @@ body.life {
   background-position: center;
 }
 
-.career_article p, .career_article h1{
-  color: var(--base-career-500);
-}
-
-.W_article_wrapper.career h2, .W_article_wrapper.career li {
-  color: var(--base-career-500);
-}
-
-.health_article p, .health_article h1{
-  color: var(--base-health-500);
-}
-
-.W_article_wrapper.health h2, .W_article_wrapper.health li {
-  color: var(--base-health-500);
-}
-
-.docs_article p, .docs_article h1{
-  color: var(--base-docs-500);
-}
-
-.W_article_wrapper.docs h2, .W_article_wrapper.docs li {
-  color: var(--base-docs-500);
-}
-
-.finance_article p, .finance_article h1{
-  color: var(--base-finance-500);
-}
-
-.W_article_wrapper.finance h2, .W_article_wrapper.finance li {
-  color: var(--base-finance-500);
-}
-
-.life_article p, .life_article h1{
-  color: var(--base-life-500);
-}
-
-.W_article_wrapper.life h2, .W_article_wrapper.life li {
-  color: var(--base-life-500);
-}
-
 .article_header h1 {
   text-align: left;
-}
-
-.career_article .text_s {
-  color: var(--base-career-400);
 }
 
 .article_main {
@@ -103,10 +59,6 @@ body.life {
   height: 460rem;
   background-position: center;
   background-size: cover;
-}
-
-.A_article_block_img.career {
-  box-shadow: inset -8px -8px 40px 0 rgba(244, 88, 63, 0.6), inset 8px 8px 40px 0 rgba(244, 88, 63, 0.6);
 }
 
 .W_article_wrapper {
@@ -201,27 +153,28 @@ body.life {
   background-color: var(--base-home-50);
 }
 
-.title_h1.career {
+.W_article_wrapper.career, .title_h1.career {
   color: var(--base-career-500);
 }
-.title_h1.health {
-  color: var(--base-health-500);
-}
-.title_h1.docs {
-  color: var(--base-docs-500);
-}
-.title_h1.life {
-  color: var(--base-life-500);
-}
-.title_h1.finance {
-  color: var(--base-finance-500);
-}
-.title_h1.home {
+
+.W_article_wrapper.home, .title_h1.home {
   color: var(--base-home-500);
 }
 
-.text_m_medium.career, .text_l_medium.career, .text_s.career, .text_m.career {
-  color: var(--base-career-500);
+.W_article_wrapper.health, .title_h1.health {
+  color: var(--base-health-500);
+}
+
+.W_article_wrapper.finance, .title_h1.finance {
+  color: var(--base-finance-500);
+}
+
+.W_article_wrapper.docs, .title_h1.docs {
+  color: var(--base-docs-500);
+}
+
+.W_article_wrapper.life, .title_h1.life {
+  color: var(--base-life-500);
 }
 
 .M_article_info {
@@ -245,6 +198,76 @@ body.life {
 .M_article_menu.career a.active {
   cursor: pointer;
   color: var(--base-career-500);
+}
+
+.M_article_menu.home a {
+  color: var(--base-home-400);
+}
+
+.M_article_menu.home a:hover {
+  cursor: pointer;
+  color: var(--base-home-500);
+}
+
+.M_article_menu.home a.active {
+  cursor: pointer;
+  color: var(--base-home-500);
+}
+
+.M_article_menu.life a {
+  color: var(--base-life-400);
+}
+
+.M_article_menu.life a:hover {
+  cursor: pointer;
+  color: var(--base-life-500);
+}
+
+.M_article_menu.life a.active {
+  cursor: pointer;
+  color: var(--base-life-500);
+}
+
+.M_article_menu.health a {
+  color: var(--base-health-400);
+}
+
+.M_article_menu.health a:hover {
+  cursor: pointer;
+  color: var(--base-health-500);
+}
+
+.M_article_menu.health a.active {
+  cursor: pointer;
+  color: var(--base-health-500);
+}
+
+.M_article_menu.docs a {
+  color: var(--base-docs-400);
+}
+
+.M_article_menu.docs a:hover {
+  cursor: pointer;
+  color: var(--base-docs-500);
+}
+
+.M_article_menu.docs a.active {
+  cursor: pointer;
+  color: var(--base-docs-500);
+}
+
+.M_article_menu.finance a {
+  color: var(--base-finance-400);
+}
+
+.M_article_menu.finance a:hover {
+  cursor: pointer;
+  color: var(--base-finance-500);
+}
+
+.M_article_menu.finance a.active {
+  cursor: pointer;
+  color: var(--base-finance-500);
 }
 
 ol {
@@ -329,29 +352,29 @@ ol {
   cursor: pointer;
 }
 
-.O_question_block.docs {
-  background-color: var(--base-docs-500);
+.O_question_block.home {
+  background-color: var(--base-home-500);
 }
 
-.O_question_block.docs .text_l_medium {
-  color: var(--base-docs-50);
+.O_question_block.home .text_l_medium {
+  color: var(--base-home-50);
 }
 
-.O_question_block.docs .title_h5 {
-  color: var(--base-docs-50);
+.O_question_block.home .title_h5 {
+  color: var(--base-home-50);
 }
 
-.O_question_block.docs .text_m_medium {
-  color: var(--base-docs-500);
+.O_question_block.home .text_m_medium {
+  color: var(--base-home-500);
 }
 
-.O_question_block.docs .A_answer {
-  background-color: var(--base-docs-100);
+.O_question_block.home .A_answer {
+  background-color: var(--base-home-100);
 }
 
-.O_question_block.docs .A_answer:hover,
-.O_question_block.docs.A_answer:active {
-  background-color: var(--base-docs-200);
+.O_question_block.home .A_answer:hover,
+.O_question_block.home.A_answer:active {
+  background-color: var(--base-home-200);
   cursor: pointer;
 }
 

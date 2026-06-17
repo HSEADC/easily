@@ -405,6 +405,46 @@
   background-color: var(--base-career-500);
 }
 
+.A_social_media_icon.docs {
+  background-color: var(--base-docs-400);
+}
+
+.A_social_media_icon.docs:hover {
+  background-color: var(--base-docs-500);
+}
+
+.A_social_media_icon.home {
+  background-color: var(--base-home-400);
+}
+
+.A_social_media_icon.home:hover {
+  background-color: var(--base-home-500);
+}
+
+.A_social_media_icon.finance {
+  background-color: var(--base-finance-400);
+}
+
+.A_social_media_icon.finance:hover {
+  background-color: var(--base-finance-500);
+}
+
+.A_social_media_icon.life {
+  background-color: var(--base-life-400);
+}
+
+.A_social_media_icon.life:hover {
+  background-color: var(--base-life-500);
+}
+
+.A_social_media_icon.health {
+  background-color: var(--base-health-400);
+}
+
+.A_social_media_icon.health:hover {
+  background-color: var(--base-health-500);
+}
+
 .A_vk_icon:hover {
   background-image: url(../../images/icons/vk_light.svg);
 }
