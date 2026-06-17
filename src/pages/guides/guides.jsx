@@ -66,7 +66,7 @@ export default function GuidesPage() {
               id={cat}
               onClick={() => toggleTag(cat)}
             >
-              {categories[cat]} ({counts[cat]})
+              {categories[cat]} {counts[cat]}
             </div>
           ))}
         </div>

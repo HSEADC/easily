@@ -47,9 +47,7 @@ export default function ArticlesPage() {
     career: allArticles.filter(a => a.category === 'career').length
   };
 
-  const filteredArticles = (activeTags.length === 0 || activeTags.length === 6)
-    ? allArticles
-    : allArticles.filter(article => activeTags.includes(article.category));
+  const filteredArticles = (activeTags.length === 0 || activeTags.length === 6) ? allArticles : allArticles.filter(article => activeTags.includes(article.category));
 
   const visibleArticles = filteredArticles.slice(0, visibleCount);
   const hasMoreArticles = visibleCount < filteredArticles.length;
@@ -98,7 +96,7 @@ export default function ArticlesPage() {
               id={cat}
               onClick={() => toggleTag(cat)}
             >
-              {categories[cat]} ({counts[cat]})
+              {categories[cat]} {counts[cat]}
             </div>
           ))}
         </div>
@@ -107,16 +105,14 @@ export default function ArticlesPage() {
       {isFilterActive ? (
         <>
           <div className="C_filtered_articles">
-            <div className="M_articles_list" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
+            <div className="M_articles_list">
               {visibleArticles.map(article => (
                 <ArticleCard key={article.id} article={article} />
               ))}
             </div>
           </div>
           {hasMoreArticles && (
-            <button className="A_button accent" onClick={loadMoreArticles}>
-              Показать еще
-            </button>
+            <button className="A_button accent" onClick={loadMoreArticles}>Показать еще</button>
           )}
         </>
       ) : (
