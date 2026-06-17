@@ -295,9 +295,9 @@ ol {
   background-color: var(--base-career-100);
 }
 
-.O_question_block.health .A_answer:hover,
-.O_question_block.health.A_answer:active {
-  background-color: var(--base-health-200);
+.O_question_block.career .A_answer:hover,
+.O_question_block.career.A_answer:active {
+  background-color: var(--base-career-200);
   cursor: pointer;
 }
 .O_question_block.health {
