@@ -1,6 +1,21 @@
 .A_article_block_img.career {
   box-shadow: inset -8px -8px 40px 0 rgba(244, 88, 63, 0.6), inset 8px 8px 40px 0 rgba(244, 88, 63, 0.6);
 }
+.A_article_block_img.life {
+  box-shadow: inset -8px -8px 40px 0 rgba(9, 160, 238, 0.6), inset 8px 8px 40px 0 rgba(9, 160, 238, 0.6);
+}
+.A_article_block_img.health {
+  box-shadow: inset -8px -8px 40px 0 rgba(100, 176, 50, 0.6), inset 8px 8px 40px 0 rgba(100, 176, 50, 0.6);
+}
+.A_article_block_img.home {
+  box-shadow: inset -8px -8px 40px 0 rgba(233, 75, 152, 0.6), inset 8px 8px 40px 0 rgba(233, 75, 152, 0.6);
+}
+.A_article_block_img.finance {
+  box-shadow: inset -8px -8px 40px 0 #ffe146, inset 8px 8px 40px 0 rgba(255, 225, 70, 0.6);
+}
+.A_article_block_img.docs {
+  box-shadow: inset -8px -8px 40px 0 rgba(72, 75, 231, 0.6), inset 8px 8px 40px 0 rgba(72, 75, 231, 0.6);
+}
 
 .article_finance {
   box-shadow: inset 8px 8px 40px 0 rgba(255, 174, 0, 0.6), inset -8px -8px 40px 0 rgba(255, 174, 0, 0.6);
@@ -60,6 +75,19 @@
   background-image: url(../../images/articles/pervaya-mashina/pervaya-mashina_3.png);
 }
 
+.kak-ustroena-adaptaciya-na-pervoj-rabote {
+  background-image: url(../../images/articles/adaptaciya/kak-ustroena-adaptaciya-na-pervoj-rabote.png);
+}
+#adaptaciya_1 {
+  background-image: url(../../images/articles/adaptaciya/adaptaciya_1.png);
+}
+#adaptaciya_2 {
+  background-image: url(../../images/articles/adaptaciya/adaptaciya_2.png);
+}
+#adaptaciya_3 {
+  background-image: url(../../images/articles/adaptaciya/adaptaciya_3.png);
+}
+
 .pochemu-novichki-za-rulem-chashche-popadayut-v-dtp {
   background-image: url(../../images/articles/novichki-za-rulem/novichki-za-rulem.png);
 }
@@ -68,6 +96,16 @@
 }
 #novichki-za-rulem-2 {
   background-image: url(../../images/articles/novichki-za-rulem/novichki-za-rulem_2.png);
+}
+
+.pochemu-byt-zhret-vremya-i-kak-ustroena-mentalnaya-nagruzka {
+  background-image: url(../../images/articles/mentalnaya-nagruzka/pochemu-byt-zhret-vremya-i-kak-ustroena-mentalnaya-nagruzka.png);
+}
+#mentalnaya-nagruzka-1 {
+  background-image: url(../../images/articles/mentalnaya-nagruzka/mentalnaya-nagruzka_1.png);
+}
+#mentalnaya-nagruzka-2 {
+  background-image: url(../../images/articles/mentalnaya-nagruzka/mentalnaya-nagruzka_2.png);
 }
 
 .strahovka-nalog-to-obyazatelnye-platezhi-avtovladelca {
