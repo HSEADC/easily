@@ -41,14 +41,6 @@
   box-shadow: inset 8px 8px 40px 0 var(--base-docs-300), inset -8px -8px 40px 0 var(--base-docs-300);
 }
 
-/* .pochemu-rabotodateli-ne-lyubyat-novichkov {
-  background-image: url(../../images/articles/pochemu-rabotodateli-ne-lyubyat-novichkov.png);
-}
-
-.kak-ustroena-adaptaciya-na-pervoj-rabote {
-  background-image: url(../../images/articles/kak-ustroena-adaptaciya-na-pervoj-rabote.png);
-} */
-
 .ispytatelnyj-srok-ne-daj-sebya-obmanut {
   background-image: url(../../images/articles/ispytatelnyj-srok/ispytatelnyj_cover.png);
 }
@@ -127,27 +119,13 @@
 #pochemu-rabotodateli_2 {
   background-image: url(../../images/articles/pochemu-rabotodateli/pochemu-rabotodateli_2.png);
 }
-/*
-.pochemu-novichki-za-rulem-chashche-popadayut-v-dtp {
-  background-image: url(../../images/articles/pochemu-novichki-za-rulem-chashche-popadayut-v-dtp.png);
-}
 
-.pervaya-mashina-kak-ne-popast-na-dengi {
-  background-image: url(../../images/articles/pervaya-mashina-kak-ne-popast-na-dengi.png);
+.pochemu-sobstvenniki-ne-vozvrashchayut-depozit-5-samyh-chastyh-skhem {
+  background-image: url(../../images/articles/sobstvenniki-depozit/pochemu-sobstvenniki-ne-vozvrashchayut-depozit-5-samyh-chastyh-skhem.png);
 }
-
-.strahovka-nalog-to-obyazatelnye-platezhi-avtovladelca {
-  background-image: url(../../images/articles/strahovka-nalog-to-obyazatelnye-platezhi-avtovladelca.png);
+#sobstvenniki-depozit-1 {
+  background-image: url(../../images/articles/sobstvenniki-depozit/sobstvenniki-depozit_1.png);
 }
-
-.pochemu-byt-zhret-vremya-i-kak-ustroena-mentalnaya-nagruzka {
-background-image: url(../../images/articles/pochemu-byt-zhret-vremya-i-kak-ustroena-mentalnaya-nagruzka.png);
+#sobstvenniki-depozit-2 {
+  background-image: url(../../images/articles/sobstvenniki-depozit/sobstvenniki-depozit_2.png);
 }
-
-.kommunalka-kak-nakruchivayut-pochemu-my-platim-za-soseda-i-chto-takoe-odn {
-background-image: url(../../images/articles/kommunalka-kak-nakruchivayut-pochemu-my-platim-za-soseda-i-chto-takoe-odn.png);
-}
-
-.minimalnyj-nabor-dlya-zhizni {
-background-image: url(../../images/articles/pminimalnyj-nabor-dlya-zhizni.png);
-} */
