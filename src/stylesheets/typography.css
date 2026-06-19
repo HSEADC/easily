@@ -89,6 +89,9 @@
   .title_h2 {
     font-size: 36rem;
   }
+  .title_h3 {
+    font-size: 28rem;
+  }
 }
 
 @media (max-width: 768px) {
