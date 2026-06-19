@@ -1,3 +1,22 @@
+.A_article_block_img.career {
+  box-shadow: inset -8px -8px 40px 0 rgba(244, 88, 63, 0.6), inset 8px 8px 40px 0 rgba(244, 88, 63, 0.6);
+}
+.A_article_block_img.life {
+  box-shadow: inset -8px -8px 40px 0 rgba(9, 160, 238, 0.6), inset 8px 8px 40px 0 rgba(9, 160, 238, 0.6);
+}
+.A_article_block_img.health {
+  box-shadow: inset -8px -8px 40px 0 rgba(100, 176, 50, 0.6), inset 8px 8px 40px 0 rgba(100, 176, 50, 0.6);
+}
+.A_article_block_img.home {
+  box-shadow: inset -8px -8px 40px 0 rgba(233, 75, 152, 0.6), inset 8px 8px 40px 0 rgba(233, 75, 152, 0.6);
+}
+.A_article_block_img.finance {
+  box-shadow: inset -8px -8px 40px 0 #ffe146, inset 8px 8px 40px 0 rgba(255, 225, 70, 0.6);
+}
+.A_article_block_img.docs {
+  box-shadow: inset -8px -8px 40px 0 rgba(72, 75, 231, 0.6), inset 8px 8px 40px 0 rgba(72, 75, 231, 0.6);
+}
+
 .article_finance {
   box-shadow: inset 8px 8px 40px 0 rgba(255, 174, 0, 0.6), inset -8px -8px 40px 0 rgba(255, 174, 0, 0.6);
 }
@@ -22,14 +41,6 @@
   box-shadow: inset 8px 8px 40px 0 var(--base-docs-300), inset -8px -8px 40px 0 var(--base-docs-300);
 }
 
-/* .pochemu-rabotodateli-ne-lyubyat-novichkov {
-  background-image: url(../../images/articles/pochemu-rabotodateli-ne-lyubyat-novichkov.png);
-}
-
-.kak-ustroena-adaptaciya-na-pervoj-rabote {
-  background-image: url(../../images/articles/kak-ustroena-adaptaciya-na-pervoj-rabote.png);
-} */
-
 .ispytatelnyj-srok-ne-daj-sebya-obmanut {
   background-image: url(../../images/articles/ispytatelnyj-srok/ispytatelnyj_cover.png);
 }
@@ -42,27 +53,102 @@
 #ispytatelnyj-3 {
   background-image: url(../../images/articles/ispytatelnyj-srok/ispytatelnyj_3.png);
 }
-/*
-.pochemu-novichki-za-rulem-chashche-popadayut-v-dtp {
-  background-image: url(../../images/articles/pochemu-novichki-za-rulem-chashche-popadayut-v-dtp.png);
-}
 
 .pervaya-mashina-kak-ne-popast-na-dengi {
-  background-image: url(../../images/articles/pervaya-mashina-kak-ne-popast-na-dengi.png);
+  background-image: url(../../images/articles/pervaya-mashina/pervaya-mashina-kak-ne-popast-na-dengi.png);
+}
+#pervaya-mashina-1 {
+  background-image: url(../../images/articles/pervaya-mashina/pervaya-mashina_1.png);
+}
+#pervaya-mashina-2 {
+  background-image: url(../../images/articles/pervaya-mashina/pervaya-mashina_2.png);
+}
+#pervaya-mashina-3 {
+  background-image: url(../../images/articles/pervaya-mashina/pervaya-mashina_3.png);
 }
 
-.strahovka-nalog-to-obyazatelnye-platezhi-avtovladelca {
-  background-image: url(../../images/articles/strahovka-nalog-to-obyazatelnye-platezhi-avtovladelca.png);
+.pochemu-prokrastinaciya-pobezhdaet-v-sessiyu {
+  background-image: url(../../images/articles/prokrastinaciya/pochemu-prokrastinaciya-pobezhdaet-v-sessiyu.png);
+}
+#prokrastinaciya-1 {
+  background-image: url(../../images/articles/prokrastinaciya/prokrastinaciya_1.png);
+}
+#prokrastinaciya-2 {
+  background-image: url(../../images/articles/prokrastinaciya/prokrastinaciya_2.png);
+}
+#prokrastinaciya-3 {
+  background-image: url(../../images/articles/prokrastinaciya/prokrastinaciya_3.png);
+}
+
+.kak-ustroena-adaptaciya-na-pervoj-rabote {
+  background-image: url(../../images/articles/adaptaciya/kak-ustroena-adaptaciya-na-pervoj-rabote.png);
+}
+#adaptaciya_1 {
+  background-image: url(../../images/articles/adaptaciya/adaptaciya_1.png);
+}
+#adaptaciya_2 {
+  background-image: url(../../images/articles/adaptaciya/adaptaciya_2.png);
+}
+#adaptaciya_3 {
+  background-image: url(../../images/articles/adaptaciya/adaptaciya_3.png);
+}
+
+.pochemu-novichki-za-rulem-chashche-popadayut-v-dtp {
+  background-image: url(../../images/articles/novichki-za-rulem/novichki-za-rulem.png);
+}
+#novichki-za-rulem-1 {
+  background-image: url(../../images/articles/novichki-za-rulem/novichki-za-rulem_1.png);
+}
+#novichki-za-rulem-2 {
+  background-image: url(../../images/articles/novichki-za-rulem/novichki-za-rulem_2.png);
 }
 
 .pochemu-byt-zhret-vremya-i-kak-ustroena-mentalnaya-nagruzka {
-background-image: url(../../images/articles/pochemu-byt-zhret-vremya-i-kak-ustroena-mentalnaya-nagruzka.png);
+  background-image: url(../../images/articles/mentalnaya-nagruzka/pochemu-byt-zhret-vremya-i-kak-ustroena-mentalnaya-nagruzka.png);
+}
+#mentalnaya-nagruzka-1 {
+  background-image: url(../../images/articles/mentalnaya-nagruzka/mentalnaya-nagruzka_1.png);
+}
+#mentalnaya-nagruzka-2 {
+  background-image: url(../../images/articles/mentalnaya-nagruzka/mentalnaya-nagruzka_2.png);
 }
 
-.kommunalka-kak-nakruchivayut-pochemu-my-platim-za-soseda-i-chto-takoe-odn {
-background-image: url(../../images/articles/kommunalka-kak-nakruchivayut-pochemu-my-platim-za-soseda-i-chto-takoe-odn.png);
+.strahovka-nalog-to-obyazatelnye-platezhi-avtovladelca {
+  background-image: url(../../images/articles/platezhi-avtovladelca/platezhi-avtovladelca.png);
+}
+#platezhi-avtovladelca_1 {
+  background-image: url(../../images/articles/platezhi-avtovladelca/platezhi-avtovladelca_1.png);
+}
+#platezhi-avtovladelca_2 {
+  background-image: url(../../images/articles/platezhi-avtovladelca/platezhi-avtovladelca_2.png);
 }
 
-.minimalnyj-nabor-dlya-zhizni {
-background-image: url(../../images/articles/pminimalnyj-nabor-dlya-zhizni.png);
-} */
+.pochemu-rabotodateli-ne-lyubyat-novichkov {
+  background-image: url(../../images/articles/pochemu-rabotodateli/pochemu-rabotodateli-ne-lyubyat-novichkov.png);
+}
+#pochemu-rabotodateli_1 {
+  background-image: url(../../images/articles/pochemu-rabotodateli/pochemu-rabotodateli_1.png);
+}
+#pochemu-rabotodateli_2 {
+  background-image: url(../../images/articles/pochemu-rabotodateli/pochemu-rabotodateli_2.png);
+}
+
+.pochemu-sobstvenniki-ne-vozvrashchayut-depozit-5-samyh-chastyh-skhem {
+  background-image: url(../../images/articles/sobstvenniki-depozit/pochemu-sobstvenniki-ne-vozvrashchayut-depozit-5-samyh-chastyh-skhem.png);
+}
+#sobstvenniki-depozit-1 {
+  background-image: url(../../images/articles/sobstvenniki-depozit/sobstvenniki-depozit_1.png);
+}
+#sobstvenniki-depozit-2 {
+  background-image: url(../../images/articles/sobstvenniki-depozit/sobstvenniki-depozit_2.png);
+}
+
+.kvest-po-vosstanovleniyu-pasporta {
+  background-image: url(../../images/articles/kvest-pasport/kvest-po-vosstanovleniyu-pasporta.png);
+}
+#kvest-pasport-1 {
+  background-image: url(../../images/articles/kvest-pasport/kvest-pasport_1.png);
+}
+#kvest-pasport-2 {
+  background-image: url(../../images/articles/kvest-pasport/kvest-pasport_2.png);
+}
