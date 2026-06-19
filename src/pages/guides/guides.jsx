@@ -53,9 +53,7 @@ export default function GuidesPage() {
 
   return (
     <main className="O_main">
-      <h1 className="title_h1 guides_main_page">
-        Мы собрали пошаговые гайды на все случаи жизни
-      </h1>
+      <h1 className="title_h1 guides_main_page">Мы собрали пошаговые гайды на все случаи жизни</h1>
 
       <section className="O_guides_block">
         <div className="M_tab_group">
