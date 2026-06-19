@@ -70,6 +70,16 @@
   background-image: url(../../images/articles/kommunalka/kommunalka_2.png);
 }
 
+.prosrochennaya-viza-i-poteryannyj-zagranpasport {
+  background-image: url(../../images/articles/prosrochennaya-viza-i-poteryannyj-zagranpasport/prosrochennaya-viza-i-poteryannyj-zagranpasport.png);
+}
+#prosroch-1 {
+  background-image: url(../../images/articles/prosrochennaya-viza-i-poteryannyj-zagranpasport/docs_1.png);
+}
+#prosroch-2 {
+  background-image: url(../../images/articles/prosrochennaya-viza-i-poteryannyj-zagranpasport/docs_2.png);
+}
+
 .kvartira-v-novom-gorode {
   background-image: url(../../images/articles/kvartira-v-novom-gorode/kvartira-v-novom-gorode.png);
 }
