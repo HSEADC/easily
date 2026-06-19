@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function M_guide_card({title, category, link}) {
+export default function M_guide_card({title, category, image, link}) {
   const categories = {
     health: 'здоровье',
     finance: 'финансы',

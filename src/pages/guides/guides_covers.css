@@ -1,38 +1,31 @@
 .guide_finance {
   box-shadow: inset 20px 20px 40px 0 var(--base-finance-300), inset -20px -20px 40px 0 var(--base-finance-300);
-  background-image: url(../../images/guides/finance_1.png);
-  background-position: center 25%;
 }
 
 .guide_life {
   box-shadow: inset 8px 8px 40px 0 var(--base-life-300), inset -8px -8px 40px 0 var(--base-life-300);
-  background-image: url(../../images/guides/life_1.png);
 }
 
 .guide_career {
   box-shadow: inset 8px 8px 40px 0 var(--base-career-300), inset -8px -8px 40px 0 var(--base-career-300);
-  background-image: url(../../images/guides/career_1.png);
 }
 
 .guide_health {
   box-shadow: inset 8px 8px 40px 0 var(--base-health-300), inset -8px -8px 40px 0 var(--base-health-300);
-  background-image: url(../../images/guides/health_1.png);
 }
 
 .guide_home {
   box-shadow: inset 8px 8px 40px 0 var(--base-home-300), inset -8px -8px 40px 0 var(--base-home-300);
-  background-image: url(../../images/guides/home_1.png);
 }
 
 .guide_docs {
   box-shadow: inset 8px 8px 40px 0 var(--base-docs-300), inset -8px -8px 40px 0 var(--base-docs-300);
-  background-image: url(../../images/guides/docs_1.png);
 }
 
-.home_1_guide {
-  background-image: url(../../images/guides/home_1.png);
+.batteries {
+  background-image: url(../../images/guides/batteries.png);
 }
 
-.docs_1_guide {
-  background-image: url(../../images/guides/docs_1.png);
+.driver-license {
+  background-image: url(../../images/guides/driver-license.png);
 }

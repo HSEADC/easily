@@ -75,6 +75,7 @@ export default function GuidesPage() {
               key={guide.id}
               title={guide.title}
               category={guide.category}
+              image={guide.image}
               link={guide.link}
             />
           ))}
