@@ -59,7 +59,7 @@ export const guidesData = [
   {
     id: 9,
     title: "Как пережить больничный без потери денег и нервов",
-    category: "career",
+    category: "health",
     image: 'kak-perezhit-bolnichnyj-bez-poteri-deneg-i-nervov',
     link: "/pages/guides/guides_pages/kak-perezhit-bolnichnyj-bez-poteri-deneg-i-nervov.html",
   },
@@ -256,13 +256,13 @@ export const guidesData = [
     image: 'kak-ponyat-chto-u-tebya-depressiya',
     link: "/pages/guides/guides_pages/kak-ponyat-chto-u-tebya-depressiya.html",
   },
-  {
-    id: 37,
-    title: "Как отвечать на вопрос «расскажите о себе»",
-    category: "career",
-    image: 'kak-ne-sdohnut-ot-allergii-v-sezon',
-    link: "/pages/guides/guides_pages/kak-ne-sdohnut-ot-allergii-v-sezon.html",
-  },
+  // {
+  //   id: 37,
+  //   title: "Как отвечать на вопрос «расскажите о себе»",
+  //   category: "career",
+  //   image: 'kak-ne-sdohnut-ot-allergii-v-sezon',
+  //   link: "/pages/guides/guides_pages/kak-ne-sdohnut-ot-allergii-v-sezon.html",
+  // },
   {
     id: 38,
     title: "Как пройти стажировку и получить оффер",
@@ -382,5 +382,12 @@ export const guidesData = [
     category: "docs",
     image: 'proverka-dogovora',
     link: "/pages/guides/guides_pages/proverka-dogovora.html",
+  },
+  {
+    id: 37,
+    title: "Как отвечать на вопрос «расскажите о себе»",
+    category: "career",
+    image: 'kak-otvechat-na-vopros-rasskazhite-o-sebe',
+    link: "/pages/guides/guides_pages/kak-otvechat-na-vopros-rasskazhite-o-sebe.html",
   },
 ];

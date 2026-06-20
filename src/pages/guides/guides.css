@@ -136,7 +136,22 @@
 }
 
 .docs .text_m_medium.summary {
+color: var(--base-docs-50);
+}
+.home .text_m_medium.summary {
 color: var(--base-home-50);
+}
+.finance .text_m_medium.summary {
+color: var(--base-finance-50);
+}
+.life .text_m_medium.summary {
+color: var(--base-life-50);
+}
+.career .text_m_medium.summary {
+color: var(--base-career-50);
+}
+.health .text_m_medium.summary {
+color: var(--base-health-50);
 }
 
 .home_guide h5 {
