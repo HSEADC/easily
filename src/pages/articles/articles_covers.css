@@ -418,11 +418,18 @@
   background-image: url(../../images/articles/razdelnyj-ili-obshchij-byudzhet/razdelnyj-ili-obshchij-byudzhet_3.png);
 }
 
-.prichina-razvodov {
-  background-image: url(../../images/articles/prichina-razvodov.png);
+.oshibki-nalogovoj {
+  background-image: url(../../images/articles/oshibki-nalogovoj.png);
 }
-#prichina-razvodov-1 {
-  background-image: url(../../images/articles/prichina-razvodov-1.png);
+#oshibki-nalogovoj-1 {
+  background-image: url(../../images/articles/oshibki-nalogovoj-1.png);
+}
+
+.oshibki-nalogovoj {
+  background-image: url(../../images/articles/oshibki-nalogovoj.png);
+}
+#oshibki-nalogovoj-1 {
+  background-image: url(../../images/articles/oshibki-nalogovoj-1.png);
 }
 
 .oplata-dolgov-posle-rasstavaniya {
