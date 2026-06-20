@@ -256,13 +256,6 @@ export const guidesData = [
     image: 'kak-ponyat-chto-u-tebya-depressiya',
     link: "/pages/guides/guides_pages/kak-ponyat-chto-u-tebya-depressiya.html",
   },
-  // {
-  //   id: 37,
-  //   title: "Как отвечать на вопрос «расскажите о себе»",
-  //   category: "career",
-  //   image: 'kak-ne-sdohnut-ot-allergii-v-sezon',
-  //   link: "/pages/guides/guides_pages/kak-ne-sdohnut-ot-allergii-v-sezon.html",
-  // },
   {
     id: 38,
     title: "Как пройти стажировку и получить оффер",
