@@ -425,11 +425,11 @@
   background-image: url(../../images/articles/oshibki-nalogovoj-1.png);
 }
 
-.oshibki-nalogovoj {
-  background-image: url(../../images/articles/oshibki-nalogovoj.png);
+.prichina-razvodov {
+  background-image: url(../../images/articles/prichina-razvodov.png);
 }
-#oshibki-nalogovoj-1 {
-  background-image: url(../../images/articles/oshibki-nalogovoj-1.png);
+#prichina-razvodov-1 {
+  background-image: url(../../images/articles/prichina-razvodov-1.png);
 }
 
 .oplata-dolgov-posle-rasstavaniya {
@@ -447,4 +447,12 @@
 }
 #samozanyatost-ip-fizlico-3 {
   background-image: url(../../images/articles/samozanyatost-ip-fizlico/samozanyatost-ip-fizlico_3.png);
+}
+
+.kak-rabotaet-ndfl {
+  background-image: url(../../images/articles/kak-rabotaet-ndfl/kak-rabotaet-ndfl_1.png);
+}
+
+#kak-rabotaet-ndfl-1 {
+  background-image: url(../../images/articles/kak-rabotaet-ndfl/kak-rabotaet-ndfl_2.png);
 }
