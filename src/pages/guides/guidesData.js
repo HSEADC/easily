@@ -279,7 +279,7 @@ export const guidesData = [
   },
   {
     id: 40,
-    title: "Как пробиться в креатив, если у тебя нет ни работы, ни портфолио, ни связей",
+    title: "Как пробиться в креатив, если у тебя нет ни портфолио, ни связей",
     category: "career",
     image: 'kak-probitsya-v-kreativ',
     link: "/pages/guides/guides_pages/kak-probitsya-v-kreativ.html",
