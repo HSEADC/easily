@@ -1,23 +1,18 @@
 .guide_finance {
   box-shadow: inset 20px 20px 40px 0 var(--base-finance-300), inset -20px -20px 40px 0 var(--base-finance-300);
 }
-
 .guide_life {
   box-shadow: inset 8px 8px 40px 0 var(--base-life-300), inset -8px -8px 40px 0 var(--base-life-300);
 }
-
 .guide_career {
   box-shadow: inset 8px 8px 40px 0 var(--base-career-300), inset -8px -8px 40px 0 var(--base-career-300);
 }
-
 .guide_health {
   box-shadow: inset 8px 8px 40px 0 var(--base-health-300), inset -8px -8px 40px 0 var(--base-health-300);
 }
-
 .guide_home {
   box-shadow: inset 8px 8px 40px 0 var(--base-home-300), inset -8px -8px 40px 0 var(--base-home-300);
 }
-
 .guide_docs {
   box-shadow: inset 8px 8px 40px 0 var(--base-docs-300), inset -8px -8px 40px 0 var(--base-docs-300);
 }
@@ -25,23 +20,85 @@
 .batteries {
   background-image: url(../../images/guides/batteries.png);
 }
-
 .driver-license {
   background-image: url(../../images/guides/driver-license.png);
 }
-
 .kak-projti-dispanserizaciyu-ot-zapisi-do-rezultatov {
   background-image: url(../../images/guides/kak-projti-dispanserizaciyu-ot-zapisi-do-rezultatov.png);
 }
-
 .chto-sprosit-na-sobesedovanii {
   background-image: url(../../images/guides/chto-sprosit-na-sobesedovanii.png);
 }
-
 .tajm-menedzhment-dlya-tekh-kto-nenavidit-planirovat {
   background-image: url(../../images/guides/tajm-menedzhment-dlya-tekh-kto-nenavidit-planirovat.png);
 }
-
 .poluchenie-zagranpasporta {
   background-image: url(../../images/guides/poluchenie-zagranpasporta.png);
+}
+.zamena-pasporta {
+  background-image: url(../../images/guides/zamena-pasporta.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.vosstanovlenie-snils {
+  background-image: url(../../images/guides/vosstanovlenie-snils.png);
+}
+.poluchenie-spravki-2-ndfl {
+  background-image: url(../../images/guides/poluchenie-spravki-2-ndfl.png);
+}
+.dokumenty-na-nalogovyj-vychet {
+  background-image: url(../../images/guides/dokumenty-na-nalogovyj-vychet.png);
+}
+.oformlenie-vremennoj-registracii {
+  background-image: url(../../images/guides/oformlenie-vremennoj-registracii.png);
+}
+.proverka-dogovora {
+  background-image: url(../../images/guides/proverka-dogovora.png);
+}
+/* @######################### */
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
 }
