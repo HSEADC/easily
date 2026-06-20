@@ -70,6 +70,53 @@
   background-image: url(../../images/articles/kommunalka/kommunalka_2.png);
 }
 
+.chto-takoe-vyhodnoe-posobie-i-kto-ego-poluchaet {
+  background-image: url(../../images/articles/vyhodnoe-posobie/chto-takoe-vyhodnoe-posobie-i-kto-ego-poluchaet.png);
+}
+#vyhodnoe-posobie {
+  background-image: url(../../images/articles/vyhodnoe-posobie/vyhodnoe-posobie.png);
+}
+
+.pochemu-nas-uvolnyayut-yuridicheskie-i-psihologicheskie-prichiny {
+  background-image: url(../../images/articles/pochemu-nas-uvolnyayut/pochemu-nas-uvolnyayut-yuridicheskie-i-psihologicheskie-prichiny.png);
+}
+#pochemu-nas-uvolnyayut-1 {
+  background-image: url(../../images/articles/pochemu-nas-uvolnyayut/pochemu-nas-uvolnyayut_1.png);
+}
+#pochemu-nas-uvolnyayut-2 {
+  background-image: url(../../images/articles/pochemu-nas-uvolnyayut/pochemu-nas-uvolnyayut_2.png);
+}
+
+.chto-proiskhodit-s-vashimi-dannymi-esli-telefon-ukrali {
+  background-image: url(../../images/articles/telefon-ukrali/chto-proiskhodit-s-vashimi-dannymi-esli-telefon-ukrali.png);
+}
+#telefon-ukrali-1 {
+  background-image: url(../../images/articles/telefon-ukrali/telefon-ukrali_1.png);
+}
+#telefon-ukrali-2 {
+  background-image: url(../../images/articles/telefon-ukrali/telefon-ukrali_2.png);
+}
+
+.kak-ustroen-chernyj-rynok-dokumentov {
+  background-image: url(../../images/articles/chernyj-rynok-dokumentov/kak-ustroen-chernyj-rynok-dokumentov.png);
+}
+#chernyj-rynok-dokumentov-1 {
+  background-image: url(../../images/articles/chernyj-rynok-dokumentov/chernyj-rynok-dokumentov_1.png);
+}
+#chernyj-rynok-dokumentov-2 {
+  background-image: url(../../images/articles/chernyj-rynok-dokumentov/chernyj-rynok-dokumentov_2.png);
+}
+
+.prosrochennaya-viza-i-poteryannyj-zagranpasport {
+  background-image: url(../../images/articles/prosrochennaya-viza-i-poteryannyj-zagranpasport/prosrochennaya-viza-i-poteryannyj-zagranpasport.png);
+}
+#prosroch-1 {
+  background-image: url(../../images/articles/prosrochennaya-viza-i-poteryannyj-zagranpasport/docs_1.png);
+}
+#prosroch-2 {
+  background-image: url(../../images/articles/prosrochennaya-viza-i-poteryannyj-zagranpasport/docs_2.png);
+}
+
 .kvartira-v-novom-gorode {
   background-image: url(../../images/articles/kvartira-v-novom-gorode/kvartira-v-novom-gorode.png);
 }
@@ -128,6 +175,19 @@
 }
 #adaptaciya_3 {
   background-image: url(../../images/articles/adaptaciya/adaptaciya_3.png);
+}
+
+.sokrashchenie-likvidaciya-po-sobstvennomu {
+  background-image: url(../../images/articles/sokrashchenie/sokrashchenie-likvidaciya-po-sobstvennomu.png);
+}
+#sokrashchenie_1 {
+  background-image: url(../../images/articles/sokrashchenie/sokrashchenie_1.png);
+}
+#sokrashchenie_2 {
+  background-image: url(../../images/articles/sokrashchenie/sokrashchenie_2.png);
+}
+#sokrashchenie_3 {
+  background-image: url(../../images/articles/sokrashchenie/sokrashchenie_3.png);
 }
 
 .minimalnyj-nabor-dlya-zhizni {
@@ -216,6 +276,26 @@
   background-image: url(../../images/articles/kvest-pasport/kvest-pasport_2.png);
 }
 
+.kak-ne-poteryat-dengi-na-kartah-i-obmennikah-v-drugoj-strane {
+  background-image: url(../../images/articles/kak-ne-poteryat-dengi-na-kartah-i-obmennikah-v-drugoj-strane/kak-ne-poteryat-dengi-na-kartah-i-obmennikah-v-drugoj-strane.png);
+}
+#dengi-1 {
+  background-image: url(../../images/articles/kak-ne-poteryat-dengi-na-kartah-i-obmennikah-v-drugoj-strane/dengi_1.png);
+}
+#dengi-2 {
+  background-image: url(../../images/articles/kak-ne-poteryat-dengi-na-kartah-i-obmennikah-v-drugoj-strane/dengi_2.png);
+}
+
+.kak-splanirovat-pervuyu-poezdku-za-granicu {
+  background-image: url(../../images/articles/kak-splanirovat-pervuyu-poezdku-za-granicu/kak-splanirovat-pervuyu-poezdku-za-granicu.png);
+}
+#splanirovat-poezdku_1 {
+  background-image: url(../../images/articles/kak-splanirovat-pervuyu-poezdku-za-granicu/splanirovat-poezdku_1.png);
+}
+#splanirovat-poezdku_2 {
+  background-image: url(../../images/articles/kak-splanirovat-pervuyu-poezdku-za-granicu/splanirovat-poezdku_2.png);
+}
+
 .kak-podgotovitsya-k-zashchite-diploma-i-ne-posedet-za-mesyac-do {
   background-image: url(../../images/articles/zashchit-diploma/kak-podgotovitsya-k-zashchite-diploma-i-ne-posedet-za-mesyac-do.png);
 }
@@ -234,4 +314,191 @@
 }
 #rabota-i-uchyoba-odnovremenno-2 {
   background-image: url(../../images/articles/rabota-i-uchyoba-odnovremenno/rabota-i-uchyoba-odnovremenno_2.png);
+}
+
+.kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika {
+  background-image: url(../../images/articles/kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika/kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika.png);
+}
+#kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika_1 {
+  background-image: url(../../images/articles/kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika/kto-dolzhen-platit-za-remont_1.png);
+}
+#kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika_2 {
+  background-image: url(../../images/articles/kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika/kto-dolzhen-platit-za-remont_2.png);
+}
+
+.chto-takoe-dogovor-najma {
+  background-image: url(../../images/articles/chto-takoe-dogovor-najma/chto-takoe-dogovor-najma.png);
+}
+#chto-takoe-dogovor-najma_1 {
+  background-image: url(../../images/articles/chto-takoe-dogovor-najma/chto-takoe-dogovor-najma_1.png);
+}
+
+.nalogi-dlya-samozanyatyh {
+  background-image: url(../../images/articles/nalogi-dlya-samozanyatyh/nalogi-dlya-samozanyatyh.png);
+}
+#nalogi-dlya-samozanyatyh_1 {
+  background-image: url(../../images/articles/nalogi-dlya-samozanyatyh/nalogi-dlya-samozanyatyh_1.png);
+}
+
+.frilans-vs-ofis {
+  background-image: url(../../images/articles/frilans-vs-ofis/frilans-vs-ofis.png);
+}
+#frilans-vs-ofis_1 {
+  background-image: url(../../images/articles/frilans-vs-ofis/frilans-vs-ofis_1.png);
+}
+#frilans-vs-ofis_2 {
+  background-image: url(../../images/articles/frilans-vs-ofis/frilans-vs-ofis_2.png);
+}
+
+.kak-ustroeno-starenie {
+  background-image: url(../../images/articles/kak-ustroeno-starenie/kak-ustroeno-starenie.png);
+}
+#kak-ustroeno-starenie_1 {
+  background-image: url(../../images/articles/kak-ustroeno-starenie/kak-ustroeno-starenie_1.png);
+}
+#kak-ustroeno-starenie_2 {
+  background-image: url(../../images/articles/kak-ustroeno-starenie/kak-ustroeno-starenie_2.png);
+}
+
+.posobiya-po-uhodu {
+  background-image: url(../../images/articles/posobiya-po-uhodu.png);
+}
+
+.besplatnaya-pomoshch-pensioneram {
+  background-image: url(../../images/articles/besplatnaya-pomoshch-pensioneram/besplatnaya-pomoshch-pensioneram.png);
+}
+#besplatnaya-pomoshch-pensioneram_1 {
+  background-image: url(../../images/articles/besplatnaya-pomoshch-pensioneram/besplatnaya-pomoshch-pensioneram_1.png);
+}
+
+.ipoteka {
+  background-image: url(../../images/articles/ipoteka/ipoteka.png);
+}
+#ipoteka-1 {
+  background-image: url(../../images/articles/ipoteka/ipoteka_1.png);
+}
+#ipoteka-2 {
+  background-image: url(../../images/articles/ipoteka/ipoteka_2.png);
+}
+
+.skrytye-raskhody-pri-pokupke-kvartiry {
+  background-image: url(../../images/articles/skrytye-raskhody-pri-pokupke-kvartiry.png);
+}
+
+#skrytye-raskhody-pri-pokupke-kvartiry_1 {
+  background-image: url(../../images/articles/skrytye-raskhody-pri-pokupke-kvartiry_1.png);
+}
+
+.novostrojka-vs-vtorichka {
+  background-image: url(../../images/articles/novostrojka-vs-vtorichka/novostrojka-vs-vtorichka.png);
+}
+#novostrojka-vs-vtorichka-1 {
+  background-image: url(../../images/articles/novostrojka-vs-vtorichka/novostrojka-vs-vtorichka_1.png);
+}
+#novostrojka-vs-vtorichka-2 {
+  background-image: url(../../images/articles/novostrojka-vs-vtorichka/novostrojka-vs-vtorichka_2.png);
+}
+#novostrojka-vs-vtorichka-3 {
+  background-image: url(../../images/articles/novostrojka-vs-vtorichka/novostrojka-vs-vtorichka_3.png);
+}
+#novostrojka-vs-vtorichka-4 {
+  background-image: url(../../images/articles/novostrojka-vs-vtorichka/novostrojka-vs-vtorichka_4.png);
+}
+
+.razdelnyj-ili-obshchij-byudzhet {
+  background-image: url(../../images/articles/razdelnyj-ili-obshchij-byudzhet/razdelnyj-ili-obshchij-byudzhet.png);
+}
+#razdelnyj-ili-obshchij-byudzhet-1 {
+  background-image: url(../../images/articles/razdelnyj-ili-obshchij-byudzhet/razdelnyj-ili-obshchij-byudzhet_1.png);
+}
+#razdelnyj-ili-obshchij-byudzhet-2 {
+  background-image: url(../../images/articles/razdelnyj-ili-obshchij-byudzhet/razdelnyj-ili-obshchij-byudzhet_2.png);
+}
+#razdelnyj-ili-obshchij-byudzhet-3 {
+  background-image: url(../../images/articles/razdelnyj-ili-obshchij-byudzhet/razdelnyj-ili-obshchij-byudzhet_3.png);
+}
+
+.oshibki-nalogovoj {
+  background-image: url(../../images/articles/oshibki-nalogovoj.png);
+}
+#oshibki-nalogovoj-1 {
+  background-image: url(../../images/articles/oshibki-nalogovoj-1.png);
+}
+
+.prichina-razvodov {
+  background-image: url(../../images/articles/prichina-razvodov.png);
+}
+#prichina-razvodov-1 {
+  background-image: url(../../images/articles/prichina-razvodov-1.png);
+}
+
+.oplata-dolgov-posle-rasstavaniya {
+  background-image: url(../../images/articles/oplata-dolgov-posle-rasstavaniya.png);
+}
+
+.samozanyatost-ip-fizlico {
+  background-image: url(../../images/articles/samozanyatost-ip-fizlico/samozanyatost-ip-fizlico.png);
+}
+#samozanyatost-ip-fizlico-1 {
+  background-image: url(../../images/articles/samozanyatost-ip-fizlico/samozanyatost-ip-fizlico_1.png);
+}
+#samozanyatost-ip-fizlico-2 {
+  background-image: url(../../images/articles/samozanyatost-ip-fizlico/samozanyatost-ip-fizlico_2.png);
+}
+#samozanyatost-ip-fizlico-3 {
+  background-image: url(../../images/articles/samozanyatost-ip-fizlico/samozanyatost-ip-fizlico_3.png);
+}
+
+.kak-rabotaet-ndfl {
+  background-image: url(../../images/articles/kak-rabotaet-ndfl/kak-rabotaet-ndfl_1.png);
+}
+
+#kak-rabotaet-ndfl-1 {
+  background-image: url(../../images/articles/kak-rabotaet-ndfl/kak-rabotaet-ndfl_2.png);
+}
+
+.kak-ustroena-sistema-oms {
+  background-image: url(../../images/articles/kak-ustroena-sistema-oms/kak-ustroena-sistema-oms.png);
+
+}
+#kak-ustroena-sistema-oms-1 {
+  background-image: url(../../images/articles/kak-ustroena-sistema-oms/kak-ustroena-sistema-oms-1.png);
+}
+#kak-ustroena-sistema-oms-2 {
+  background-image: url(../../images/articles/kak-ustroena-sistema-oms/kak-ustroena-sistema-oms-2.png);
+}
+
+.informirovannoe-soglasie {
+  background-image: url(../../images/articles/informirovannoe-soglasie.png);
+}
+
+.platnaya-vs-besplatnaya-medicina{
+  background-image: url(../../images/articles/platnaya-vs-besplatnaya-medicina/platnaya-vs-besplatnaya-medicina.png);
+}
+#platnaya-vs-besplatnaya-medicina-1{
+  background-image: url(../../images/articles/platnaya-vs-besplatnaya-medicina/platnaya-vs-besplatnaya-medicina-1.png);
+}
+#platnaya-vs-besplatnaya-medicina-2{
+  background-image: url(../../images/articles/platnaya-vs-besplatnaya-medicina/platnaya-vs-besplatnaya-medicina-2.png);
+}
+
+.rassrochka-vs-kredit {
+  background-image: url(../../images/articles/rassrochka-vs-kredit.png);
+}
+#rassrochka-vs-kredit-1 {
+  background-image: url(../../images/articles/rassrochka-vs-kredit_1.png);
+}
+
+.kreditnaya-istoriya {
+  background-image: url(../../images/articles/kreditnaya-istoriya.png);
+}
+#kreditnaya-istoriya-1 {
+  background-image: url(../../images/articles/kreditnaya-istoriya-1.png);
+}
+
+.komu-banki-odobryayut-kredity {
+  background-image: url(../../images/articles/komu-banki-odobryayut-kredity.png);
+}
+#komu-banki-odobryayut-kredity-1 {
+  background-image: url(../../images/articles/komu-banki-odobryayut-kredity_1.png);
 }

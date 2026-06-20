@@ -492,6 +492,7 @@ ol {
   }
   .C_answer_options {
     flex-direction: column;
+    width: 100%;
   }
   .A_answer {
     width: 100%;

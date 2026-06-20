@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function M_guide_card({title, category, link}) {
+export default function M_guide_card({title, category, image, link}) {
   const categories = {
     health: 'здоровье',
     finance: 'финансы',
@@ -13,7 +13,7 @@ export default function M_guide_card({title, category, link}) {
   return (
     <a href={link} className={`W_content_card ${category}`}>
       <article className="M_guide_card">
-        <div className={`guide_card_img guide_${category}`}></div>
+        <div className={`guide_card_img guide_${category} ${image}`}></div>
         <div className={`A_tag A_tag_${category} text_m`}>
           #{categories[category]}
         </div>

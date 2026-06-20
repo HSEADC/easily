@@ -12,6 +12,7 @@
 .title_h1 {
   color: var(--base-500);
   max-width: 1440rem;
+  text-align: left;
 }
 
 .guides_main_page.title_h1 {
@@ -28,8 +29,8 @@
   background-position: center;
 }
 
-.M_guide_summary_container.chores {
-  background: var(--base-chores-500);
+.M_guide_summary_container.home {
+  background: var(--base-home-500);
 }
 
 .M_guide_summary_container.docs {
@@ -56,8 +57,8 @@
   margin-top: -120rem;
 }
 
-.chores_guide {
-  background-color: var(--base-chores-50);
+.home_guide {
+  background-color: var(--base-home-50);
 }
 
 .docs_guide {
@@ -80,12 +81,12 @@
   background-color: var(--base-health-50);
 }
 
-.chores_guide h1,
-.chores_guide p,
-.chores_guide h3,
-.chores_guide li,
-.chores_guide a {
-  color: var(--base-chores-500);
+.home_guide h1,
+.home_guide p,
+.home_guide h3,
+.home_guide li,
+.home_guide a {
+  color: var(--base-home-500);
   max-width: 996rem;
 }
 
@@ -134,8 +135,8 @@
   max-width: 996rem;
 }
 
-.chores_guide h5 {
-  color: var(--base-chores-50);
+.home_guide h5 {
+  color: var(--base-home-50);
   max-width: 964rem;
 }
 
@@ -191,7 +192,7 @@
   margin-top: 20rem;
 }
 
-.chores_cover {
+.home_cover {
   box-shadow: inset -10rem -10rem 40rem 0 rgba(253, 242, 248, 0.6), inset 10rem 10rem 40rem 0 rgba(253, 242, 248, 0.6);
 }
 
