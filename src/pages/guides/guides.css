@@ -135,6 +135,10 @@
   max-width: 996rem;
 }
 
+.docs .text_m_medium.summary {
+color: var(--base-home-50);
+}
+
 .home_guide h5 {
   color: var(--base-home-50);
   max-width: 964rem;
