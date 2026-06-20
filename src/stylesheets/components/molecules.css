@@ -284,6 +284,9 @@ ul {
     order: 3;
     gap: 16rem;
   }
+  .M_articles_list {
+    gap: 20rem;
+  }
 }
 
 @media (max-width: 768px) {
