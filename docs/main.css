@@ -151,6 +151,9 @@ input {
   .title_h2 {
     font-size: 36rem;
   }
+  .title_h3 {
+    font-size: 28rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1235,6 +1238,9 @@ ul {
   .M_social_media_block {
     order: 3;
     gap: 16rem;
+  }
+  .M_articles_list {
+    gap: 20rem;
   }
 }
 

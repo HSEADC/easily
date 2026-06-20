@@ -492,6 +492,7 @@ ol {
   }
   .C_answer_options {
     flex-direction: column;
+    width: 100%;
   }
   .A_answer {
     width: 100%;
@@ -608,6 +609,53 @@ ol {
   background-image: url(images/9ba3b243dff8f1d4d163.png);
 }
 
+.chto-takoe-vyhodnoe-posobie-i-kto-ego-poluchaet {
+  background-image: url(images/d4d9743f761ba796e13e.png);
+}
+#vyhodnoe-posobie {
+  background-image: url(images/5537b0425b6388eb5cd5.png);
+}
+
+.pochemu-nas-uvolnyayut-yuridicheskie-i-psihologicheskie-prichiny {
+  background-image: url(images/ffcca6fec3dadd9893e2.png);
+}
+#pochemu-nas-uvolnyayut-1 {
+  background-image: url(images/82a018cfa77003340229.png);
+}
+#pochemu-nas-uvolnyayut-2 {
+  background-image: url(images/3eee858aaf9f8ec542de.png);
+}
+
+.chto-proiskhodit-s-vashimi-dannymi-esli-telefon-ukrali {
+  background-image: url(images/19024be1269c7c93a4c2.png);
+}
+#telefon-ukrali-1 {
+  background-image: url(images/ff01b2b9eca1fb991b0a.png);
+}
+#telefon-ukrali-2 {
+  background-image: url(images/a9b9e55f968025cbd0b1.png);
+}
+
+.kak-ustroen-chernyj-rynok-dokumentov {
+  background-image: url(images/0ae52a96d8fd49b3ed2e.png);
+}
+#chernyj-rynok-dokumentov-1 {
+  background-image: url(images/8967bd9a879651c5e3a6.png);
+}
+#chernyj-rynok-dokumentov-2 {
+  background-image: url(images/d639ff781e473ea2421c.png);
+}
+
+.prosrochennaya-viza-i-poteryannyj-zagranpasport {
+  background-image: url(images/a212160d2bf1d712ff7d.png);
+}
+#prosroch-1 {
+  background-image: url(images/8f6c4d66609dc3418ced.png);
+}
+#prosroch-2 {
+  background-image: url(images/b2f0b6337378eab3105f.png);
+}
+
 .kvartira-v-novom-gorode {
   background-image: url(images/2375f450ffd329394ac1.png);
 }
@@ -666,6 +714,19 @@ ol {
 }
 #adaptaciya_3 {
   background-image: url(images/9009a4915f4aa638e2d0.png);
+}
+
+.sokrashchenie-likvidaciya-po-sobstvennomu {
+  background-image: url(images/9763ed2b28c2b57a487c.png);
+}
+#sokrashchenie_1 {
+  background-image: url(images/9848b17df112fcbbe37e.png);
+}
+#sokrashchenie_2 {
+  background-image: url(images/86282ae3be55b4f6d6a2.png);
+}
+#sokrashchenie_3 {
+  background-image: url(images/09d363fbb9c49ea80e8f.png);
 }
 
 .minimalnyj-nabor-dlya-zhizni {
@@ -754,6 +815,26 @@ ol {
   background-image: url(images/1622fb6fa076d639e4aa.png);
 }
 
+.kak-ne-poteryat-dengi-na-kartah-i-obmennikah-v-drugoj-strane {
+  background-image: url(images/b5a37a6bd6f5c44fefba.png);
+}
+#dengi-1 {
+  background-image: url(images/5fb9b500c6f6ab07a302.png);
+}
+#dengi-2 {
+  background-image: url(images/f3bf9200de2ec4765a15.png);
+}
+
+.kak-splanirovat-pervuyu-poezdku-za-granicu {
+  background-image: url(images/ce6e66952fa88b2b5251.png);
+}
+#splanirovat-poezdku_1 {
+  background-image: url(images/9a5234118daf35f05d59.png);
+}
+#splanirovat-poezdku_2 {
+  background-image: url(images/3b660eb0107890df0a13.png);
+}
+
 .kak-podgotovitsya-k-zashchite-diploma-i-ne-posedet-za-mesyac-do {
   background-image: url(images/91303a7004659cbb443d.png);
 }
@@ -772,4 +853,191 @@ ol {
 }
 #rabota-i-uchyoba-odnovremenno-2 {
   background-image: url(images/890405303c7b94bbb402.png);
+}
+
+.kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika {
+  background-image: url(images/b82ca480ee2479077b87.png);
+}
+#kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika_1 {
+  background-image: url(images/93474d8aaa467b2b6704.png);
+}
+#kto-dolzhen-platit-za-remont-esli-slomalas-tekhnika_2 {
+  background-image: url(images/d8af8eede08dde93b845.png);
+}
+
+.chto-takoe-dogovor-najma {
+  background-image: url(images/5cb8c40a5bd2cf47730e.png);
+}
+#chto-takoe-dogovor-najma_1 {
+  background-image: url(images/fc231ec646ac89c01961.png);
+}
+
+.nalogi-dlya-samozanyatyh {
+  background-image: url(images/138f7c527d708f00c75c.png);
+}
+#nalogi-dlya-samozanyatyh_1 {
+  background-image: url(images/de729081a1e8525402fd.png);
+}
+
+.frilans-vs-ofis {
+  background-image: url(images/33868080449da1b3723c.png);
+}
+#frilans-vs-ofis_1 {
+  background-image: url(images/717ea5745d8550ad8cc5.png);
+}
+#frilans-vs-ofis_2 {
+  background-image: url(images/f35fd863ed64a930d7a5.png);
+}
+
+.kak-ustroeno-starenie {
+  background-image: url(images/648741387f5b28f5510a.png);
+}
+#kak-ustroeno-starenie_1 {
+  background-image: url(images/d0e735d11dd7bb435ba4.png);
+}
+#kak-ustroeno-starenie_2 {
+  background-image: url(images/13ffd18e9490bd713180.png);
+}
+
+.posobiya-po-uhodu {
+  background-image: url(images/f266e51cbe49509ae901.png);
+}
+
+.besplatnaya-pomoshch-pensioneram {
+  background-image: url(images/0c404e1a3c6bcbb831e3.png);
+}
+#besplatnaya-pomoshch-pensioneram_1 {
+  background-image: url(images/ff1706496600bac4acd9.png);
+}
+
+.ipoteka {
+  background-image: url(images/1906a2cedca2ab246dd3.png);
+}
+#ipoteka-1 {
+  background-image: url(images/2980efd03581b7a97624.png);
+}
+#ipoteka-2 {
+  background-image: url(images/cf4dd74a720509400ac4.png);
+}
+
+.skrytye-raskhody-pri-pokupke-kvartiry {
+  background-image: url(images/c0c84811583f1cfd9d0d.png);
+}
+
+#skrytye-raskhody-pri-pokupke-kvartiry_1 {
+  background-image: url(images/ef135331ace4a9944fc3.png);
+}
+
+.novostrojka-vs-vtorichka {
+  background-image: url(images/c1c9b2898967eaa8f0b7.png);
+}
+#novostrojka-vs-vtorichka-1 {
+  background-image: url(images/106a522958c3eac7eaa6.png);
+}
+#novostrojka-vs-vtorichka-2 {
+  background-image: url(images/c6bf18a40dacd83b2f2b.png);
+}
+#novostrojka-vs-vtorichka-3 {
+  background-image: url(images/2b0b9253a63a1d05c5f9.png);
+}
+#novostrojka-vs-vtorichka-4 {
+  background-image: url(images/ad6d283f8e632718072b.png);
+}
+
+.razdelnyj-ili-obshchij-byudzhet {
+  background-image: url(images/94c31bb3b1ae094ed8b8.png);
+}
+#razdelnyj-ili-obshchij-byudzhet-1 {
+  background-image: url(images/8963fc6f30468c2270ef.png);
+}
+#razdelnyj-ili-obshchij-byudzhet-2 {
+  background-image: url(images/d2ad2813a09758ed5e75.png);
+}
+#razdelnyj-ili-obshchij-byudzhet-3 {
+  background-image: url(images/9aac4320605252cc471e.png);
+}
+
+.oshibki-nalogovoj {
+  background-image: url(images/b5c8f8a1074c2331ddec.png);
+}
+#oshibki-nalogovoj-1 {
+  background-image: url(images/64d6f0540a1d9881333f.png);
+}
+
+.prichina-razvodov {
+  background-image: url(images/3a60dca79e3e7f8e22a8.png);
+}
+#prichina-razvodov-1 {
+  background-image: url(images/08c337e963b303d465d3.png);
+}
+
+.oplata-dolgov-posle-rasstavaniya {
+  background-image: url(images/a3f848cd4b5be0f078de.png);
+}
+
+.samozanyatost-ip-fizlico {
+  background-image: url(images/587971a26b0562db8455.png);
+}
+#samozanyatost-ip-fizlico-1 {
+  background-image: url(images/10373f906529c6ef9124.png);
+}
+#samozanyatost-ip-fizlico-2 {
+  background-image: url(images/d69157ba5f54079d9261.png);
+}
+#samozanyatost-ip-fizlico-3 {
+  background-image: url(images/2bb8d0b596d4d5ccce26.png);
+}
+
+.kak-rabotaet-ndfl {
+  background-image: url(images/e024c8dfad2988f878cb.png);
+}
+
+#kak-rabotaet-ndfl-1 {
+  background-image: url(images/85c78fcd1952661a50d3.png);
+}
+
+.kak-ustroena-sistema-oms {
+  background-image: url(images/948d25b1366885ee3f9c.png);
+
+}
+#kak-ustroena-sistema-oms-1 {
+  background-image: url(images/defb47e91ac21c335643.png);
+}
+#kak-ustroena-sistema-oms-2 {
+  background-image: url(images/3adc093d5a8d892ef9ee.png);
+}
+
+.informirovannoe-soglasie {
+  background-image: url(images/a361b5fbc411704c7fd4.png);
+}
+
+.platnaya-vs-besplatnaya-medicina{
+  background-image: url(images/b561047238b285ab28d2.png);
+}
+#platnaya-vs-besplatnaya-medicina-1{
+  background-image: url(images/9e9170767e2954fbb62b.png);
+}
+#platnaya-vs-besplatnaya-medicina-2{
+  background-image: url(images/08b5f910ebc855c933c7.png);
+}
+
+.rassrochka-vs-kredit {
+  background-image: url(images/17a0e403f3fb5a76f517.png);
+}
+#rassrochka-vs-kredit-1 {
+  background-image: url(images/f0a656246c29e6ddb292.png);
+}
+
+.kreditnaya-istoriya {
+  background-image: url(images/823eca04f921fe5013d1.png);
+}
+#kreditnaya-istoriya-1 {
+  background-image: url(images/09263b93c083f82cf12c.png);
+}
+
+.komu-banki-odobryayut-kredity {
+  background-image: url(images/3256b0b14eb53a407cfe.png);
+}
+#komu-banki-odobryayut-kredity-1 {
+  background-image: url(images/f750e9fd504aa8740b35.png);
 }
