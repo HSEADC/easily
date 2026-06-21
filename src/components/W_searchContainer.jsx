@@ -27,5 +27,4 @@ export function W_searchContainer() {
       <C_searchResults items={filteredArticles} isVisible={isVisible}/>
     </div>
   )
-
 }
