@@ -1,3 +1,40 @@
-.glossary_docs {
-  background-image: url(../../images/dictionary/docs_1.png);
+.card_back.docs {
+  background-color: var(--base-docs-100);
+  color: var(--base-docs-500);
+}
+.card_back.career {
+  background-color: var(--base-career-100);
+  color: var(--base-career-500);
+}
+.card_back.finance {
+  background-color: var(--base-finance-100);
+  color: var(--base-finance-500);
+}
+.card_back.health {
+  background-color: var(--base-health-100);
+  color: var(--base-health-500);
+}
+.card_back.life {
+  background-color: var(--base-life-100);
+  color: var(--base-life-500);
+}
+.card_back.home {
+  background-color: var(--base-home-100);
+  color: var(--base-home-500);
+}
+
+.oms {
+  background-image: url(../../images/dictionary/oms.png);
+}
+.ndfl {
+  background-image: url(../../images/dictionary/ndfl.png);
+}
+.ispytatelnyj {
+  background-image: url(../../images/dictionary/ispytatelnyj.png);
+}
+.mrot {
+  background-image: url(../../images/dictionary/mrot.png);
+}
+.snils {
+  background-image: url(../../images/dictionary/snils.png);
 }

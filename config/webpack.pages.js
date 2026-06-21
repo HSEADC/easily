@@ -13,7 +13,7 @@ const htmlPages = [
 
   createPage('./src/pages/articles/articles.html',
     './pages/articles/articles.html',
-    ['main', 'articles', 'filter', 'dropdown', 'searchReact', 'articlesReact']),
+    ['main', 'articles', 'dropdown', 'searchReact', 'articlesReact']),
   createPage('./src/pages/articles/articles_pages/kvartira-v-novom-gorode.html',
     './pages/articles/articles_pages/kvartira-v-novom-gorode.html',
     ['main', 'articles', 'dropdown', 'searchReact']),
@@ -329,7 +329,7 @@ createPage('./src/pages/articles/articles_pages/propiska-voenkomat-polis.html',
 
   createPage('./src/pages/dictionary/dictionary.html',
     './pages/dictionary/dictionary.html',
-    ['main', 'dictionary', 'dropdown', 'filter', 'searchReact']),
+    ['main', 'dictionary', 'dropdown', 'searchReact', 'glossaryReact']),
 
   createPage('./src/pages/styleguide/styleguide.html',
     './pages/styleguide/styleguide.html',

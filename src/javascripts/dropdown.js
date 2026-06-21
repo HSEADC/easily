@@ -1,26 +1,48 @@
-const menuTrigger = document.querySelector('.A_menu_button'); // если кнопка одна
-const dropDown = document.querySelector('.M_nav_items');
-const icon = document.querySelector('.dropdown_icon');
+'use strict';
+
+const menuTrigger = document.querySelectorAll('.A_menu_button');
+const dropDown = document.querySelectorAll('.M_nav_items');
+const icon = document.querySelectorAll('.dropdown_icon');
 
 function closeMenu() {
-  dropDown?.classList.remove('active');
-  icon?.classList.remove('active');
+  dropDown.forEach(item => {
+    item.classList.remove('active');
+  });
+  icon.forEach(i => {
+    i.classList.remove('active');
+  });
 }
 
-menuTrigger?.addEventListener('click', (e) => {
-  e.stopPropagation();
-  dropDown?.classList.toggle('active');
-  icon?.classList.toggle('active');
+function openMenu() {
+  dropDown.forEach(item => {
+    item.classList.add('active');
+  });
+  icon.forEach(i => {
+    i.classList.add('active');
+  });
+}
+
+function toggleMenu() {
+  const isOpen = dropDown[0]?.classList.contains('active');
+  if (isOpen) {
+    closeMenu();
+  } else {
+    openMenu();
+  }
+}
+
+menuTrigger.forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    toggleMenu();
+  });
 });
 
 document.addEventListener('click', (e) => {
-  if (!menuTrigger?.contains(e.target) && !dropDown?.contains(e.target)) {
-    closeMenu();
-  }
-});
+  const isClickOnTrigger = Array.from(menuTrigger).some(btn => btn.contains(e.target));
+  const isClickOnDropdown = Array.from(dropDown).some(menu => menu.contains(e.target));
 
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') {
+  if (!isClickOnTrigger && !isClickOnDropdown) {
     closeMenu();
   }
 });
