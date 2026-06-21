@@ -1,35 +1,3 @@
-.W_content_card {
-  display: block;
-  transform-style: preserve-3d;
-  transition: .6s .1s;
-}
-
-.card_back {
-  transform: rotateY(180deg);
-  display: none;
-}
-
-.docs .card_back {
-  border-radius: 24rem;
-  padding: 16rem;
-  width: 416rem;
-  height: 356rem;
-  justify-content: flex-end;
-  background-color: var(--base-docs-100);
-}
-
-.W_content_card.flipped {
-  transform: rotateY(-180deg);
-}
-
-.W_content_card.flipped .card_back {
-  display: flex;
-}
-
-.W_content_card.flipped .card_front {
-  display: none;
-}
-
 .O_main {
   gap: 96rem;
   margin-top: 96rem;
@@ -54,6 +22,91 @@
 a.docs p {
   color: var(--base-docs-500);
 }
-.glossary_docs {
+
+.M_glossary_card {
+  perspective: 1000px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card_front,
+.card_back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_back {
+  transform: rotateY(180deg);
+  justify-content: flex-end;
+  border-radius: 24rem;
+  padding: 16rem;
+}
+
+.card_front.hidden {
+  transform: rotateY(180deg);
+}
+
+.card_back.visible {
+  transform: rotateY(0deg);
+}
+
+
+.M_glossary_card:hover .A_flip_icon {
+  opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+
+  .M_glossary_card {
+    height: 220px;
+  }
+}
+.card_back.docs {
+  background-color: var(--base-docs-100);
+  color: var(--base-docs-500);
+}
+.card_back.career {
+  background-color: var(--base-career-100);
+  color: var(--base-career-500);
+}
+.card_back.finance {
+  background-color: var(--base-finance-100);
+  color: var(--base-finance-500);
+}
+.card_back.health {
+  background-color: var(--base-health-100);
+  color: var(--base-health-500);
+}
+.card_back.life {
+  background-color: var(--base-life-100);
+  color: var(--base-life-500);
+}
+.card_back.home {
+  background-color: var(--base-home-100);
+  color: var(--base-home-500);
+}
+
+.oms {
   background-image: url(images/02ef054f12e990c49056.png);
 }
+.ndfl {
+  background-image: url(images/4d8ae3cf217cef5a9313.png);
+}
+.ispytatelnyj {
+  background-image: url(images/fea5a20fd3456dfdbb3b.png);
+}
+.mrot {
+  background-image: url(images/1d972f0c652b5b84445b.png);
+}
+.snils {
+  background-image: url(images/cadae744073714c09984.png);
+}
+
