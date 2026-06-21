@@ -132,7 +132,6 @@ module.exports = {
     errors: './src/pages/errors/errors.js',
     guides: './src/pages/guides/guides.js',
     dictionary: './src/pages/dictionary/dictionary.js',
-    filter: './src/javascripts/filter.js',
     dropdown: './src/javascripts/dropdown.js',
     searchReact: './src/javascripts/searchReact.jsx',
     guidesReact: './src/javascripts/guidesReact.jsx',
