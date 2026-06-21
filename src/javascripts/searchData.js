@@ -105,11 +105,6 @@ export const articles = [
     url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-projti-dispanserizaciyu-ot-zapisi-do-rezultatov.html'
   },
   {
-    title: 'Как выбрать врача и не ошибиться',
-    description: 'Идеального способа нет. Но есть несколько критериев, которые помогут отделить хорошего специалиста от шарлатана',
-    url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-vybrat-vracha-i-ne-oshibitsya.html'
-  },
-  {
     title: 'Как понять, что у тебя депрессия (и куда идти)',
     description: 'Как отличить депрессию от обычной грусти, что делать, если вы узнали себя, и куда идти за бесплатной помощью',
     url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-ponyat-chto-u-tebya-depressiya.html'
@@ -383,11 +378,6 @@ export const articles = [
     title: 'Тайм-менеджмент для тех, кто ненавидит планировать',
     description: 'Планирование «по часам» — это ловушка. Мы не роботы, и жизнь — не табличка в Excel. Рассказываем про живые системы, которые реально работают',
     url: 'https://easily.adc.ac/pages/guides/guides_pages/tajm-menedzhment-dlya-tekh-kto-nenavidit-planirovat.html'
-  },
-  {
-    title: 'Как внедрить полезную привычку и не бросить через неделю',
-    description: 'По шагам разберем, как внедрить привычку так, чтобы она прижилась',
-    url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-vnedrit-poleznuyu-privychku.html'
   },
   {
     title: 'Как найти хобби, если кажется, что ничего не нравится',

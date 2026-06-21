@@ -57,7 +57,7 @@ export const guidesData = [
     link: "/pages/guides/guides_pages/kak-polzovatsya-lyubym-planerom-bez-fanatizma.html",
   },
   {
-    id: 57,
+    id: 46,
     title: "Как выбрать квартиру и не пожалеть через месяц",
     category: "home",
     image: 'kak-vybrat-kvartiru-i-ne-pozhalet-cherez-mesyac',
@@ -206,14 +206,6 @@ export const guidesData = [
     link: "/pages/guides/guides_pages/kak-najti-hobbi.html",
   },
   {
-    id: 29,
-    title: "Как выбрать врача и не ошибиться",
-    category: "health",
-    image: 'kak-vybrat-vracha-i-ne-oshibitsya',
-    link: "/pages/guides/guides_pages/kak-vybrat-vracha-i-ne-oshibitsya.html",
-
-  },
-  {
     id: 30,
     title: "Как искать работу, когда у тебя вообще нет опыта",
     category: "career",
@@ -318,13 +310,6 @@ export const guidesData = [
     category: "career",
     image: 'chto-sprosit-na-sobesedovanii',
     link: "/pages/guides/guides_pages/chto-sprosit-na-sobesedovanii.html",
-  },
-  {
-    id: 46,
-    title: "Как внедрить полезную привычку и не бросить через неделю",
-    category: "life",
-    image: 'kak-vnedrit-poleznuyu-privychku',
-    link: "/pages/guides/guides_pages/kak-vnedrit-poleznuyu-privychku.html",
   },
   {
     id: 47,

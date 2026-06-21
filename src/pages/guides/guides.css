@@ -99,12 +99,12 @@
   max-width: 996rem;
 }
 
-.lyfestyle_guide h1,
-.lyfestyle_guide p,
-.lyfestyle_guide h3,
-.lyfestyle_guide li,
-.lyfestyle_guide a {
-  color: var(--base-lyfestyle-500);
+.life_guide h1,
+.life_guide p,
+.life_guide h3,
+.life_guide li,
+.life_guide a {
+  color: var(--base-life-500);
   max-width: 996rem;
 }
 
