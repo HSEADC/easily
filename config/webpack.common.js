@@ -116,6 +116,9 @@ const paths = [
   '/pages/guides/guides_pages/vosstanovlenie-snils.html',
   '/pages/guides/guides_pages/dokumenty-na-nalogovyj-vychet.html',
   '/pages/guides/guides_pages/proverka-dogovora.html',
+  '/pages/guides/guides_pages/byudzhet-na-pereezd-puteshestvie-ili-krupnuyu-pokupku.html',
+  '/pages/guides/guides_pages/kak-poschitat-svoj-realnyj-dohod-v-chas.html',
+  '/pages/guides/guides_pages/kak-vybrat-kvartiru-i-ne-pozhalet-cherez-mesyac.html',
 
   '/pages/dictionary/dictionary.html',
   '/pages/styleguide/styleguide.html'

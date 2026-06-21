@@ -57,6 +57,13 @@ export const guidesData = [
     link: "/pages/guides/guides_pages/kak-polzovatsya-lyubym-planerom-bez-fanatizma.html",
   },
   {
+    id: 57,
+    title: "Как выбрать квартиру и не пожалеть через месяц",
+    category: "home",
+    image: 'kak-vybrat-kvartiru-i-ne-pozhalet-cherez-mesyac',
+    link: "/pages/guides/guides_pages/kak-vybrat-kvartiru-i-ne-pozhalet-cherez-mesyac.html",
+  },
+  {
     id: 9,
     title: "Как пережить больничный без потери денег и нервов",
     category: "health",
@@ -370,6 +377,13 @@ export const guidesData = [
     link: "/pages/guides/guides_pages/recepty-vyzhivaniya.html",
   },
   {
+    id: 56,
+    title: "Как посчитать свой реальный доход в час",
+    category: "finance",
+    image: 'kak-poschitat-svoj-realnyj-dohod-v-chas',
+    link: "/pages/guides/guides_pages/kak-poschitat-svoj-realnyj-dohod-v-chas.html",
+  },
+  {
     id: 54,
     title: "Как проверить договор на типичные ловушки (без юриста)",
     category: "docs",
@@ -382,5 +396,12 @@ export const guidesData = [
     category: "career",
     image: 'kak-otvechat-na-vopros-rasskazhite-o-sebe',
     link: "/pages/guides/guides_pages/kak-otvechat-na-vopros-rasskazhite-o-sebe.html",
+  },
+  {
+    id: 55,
+    title: "Бюджет на переезд, путешествие или крупную покупку",
+    category: "finance",
+    image: 'byudzhet-na-pereezd-puteshestvie-ili-krupnuyu-pokupku',
+    link: "/pages/guides/guides_pages/byudzhet-na-pereezd-puteshestvie-ili-krupnuyu-pokupku.html",
   },
 ];

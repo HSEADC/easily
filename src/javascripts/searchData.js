@@ -65,6 +65,21 @@ export const articles = [
     url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-otvechat-na-vopros-rasskazhite-o-sebe.html'
   },
   {
+    title: 'Как выбрать квартиру и не пожалеть через месяц',
+    description: 'От транспортной доступности до следов тараканов — чек-лист для тех, кто хочет спать спокойно',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-vybrat-kvartiru-i-ne-pozhalet-cherez-mesyac.html'
+  },
+  {
+    title: 'Как посчитать свой реальный доход в час',
+    description: 'Вы думаете, что зарабатываете 60 000? А давайте проверим. Посчитайте свой реальный доход в час с учётом всех скрытых трат времени и поймите, сколько вы на самом деле стоите.',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-poschitat-svoj-realnyj-dohod-v-chas.html'
+  },
+  {
+    title: 'Бюджет на переезд, путешествие или крупную покупку',
+    description: 'Разберем на примерах, как считать правильно, на чем можно сэкономить без ущерба и как вообще подружить финансовую подушку с конкретной целью.',
+    url: 'https://easily.adc.ac/pages/guides/guides_pages/byudzhet-na-pereezd-puteshestvie-ili-krupnuyu-pokupku.html'
+  },
+  {
     title: 'Как пройти собеседование, если трясутся коленки',
     description: 'Задача гайда — дать пошаговый план, как не развалиться в самый ответственный момент',
     url: 'https://easily.adc.ac/pages/guides/guides_pages/kak-projti-sobesedovanie-esli-tryasutsya-kolenki.html'
