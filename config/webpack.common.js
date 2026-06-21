@@ -81,7 +81,6 @@ const paths = [
   '/pages/guides/guides_pages/chto-sprosit-na-sobesedovanii.html',
   '/pages/guides/guides_pages/pervaya-pomoshch-pri-rasprostranennyh-situaciyah.html',
   '/pages/guides/guides_pages/kak-projti-dispanserizaciyu-ot-zapisi-do-rezultatov.html',
-  '/pages/guides/guides_pages/kak-vybrat-vracha-i-ne-oshibitsya.html',
   '/pages/guides/guides_pages/kak-ponyat-chto-u-tebya-depressiya.html',
   '/pages/guides/guides_pages/kak-perezhit-bolnichnyj-bez-poteri-deneg-i-nervov.html',
   '/pages/guides/guides_pages/kak-podgotovitsya-k-priemu-vracha-chtoby-ne-zabyt-sprosit-vazhnoe.html',
@@ -89,7 +88,6 @@ const paths = [
   '/pages/guides/guides_pages/kak-razobratsya-v-receptah-i-ne-kupit-lishnego-v-apteke.html',
   '/pages/guides/guides_pages/kak-ne-sdohnut-ot-allergii-v-sezon.html',
   '/pages/guides/guides_pages/tajm-menedzhment-dlya-tekh-kto-nenavidit-planirovat.html',
-  '/pages/guides/guides_pages/kak-vnedrit-poleznuyu-privychku.html',
   '/pages/guides/guides_pages/kak-najti-hobbi.html',
   '/pages/guides/guides_pages/rezhim-kogda-rabotaesh-iz-doma.html',
   '/pages/guides/guides_pages/kak-polzovatsya-lyubym-planerom-bez-fanatizma.html',
@@ -116,6 +114,9 @@ const paths = [
   '/pages/guides/guides_pages/vosstanovlenie-snils.html',
   '/pages/guides/guides_pages/dokumenty-na-nalogovyj-vychet.html',
   '/pages/guides/guides_pages/proverka-dogovora.html',
+  '/pages/guides/guides_pages/byudzhet-na-pereezd-puteshestvie-ili-krupnuyu-pokupku.html',
+  '/pages/guides/guides_pages/kak-poschitat-svoj-realnyj-dohod-v-chas.html',
+  '/pages/guides/guides_pages/kak-vybrat-kvartiru-i-ne-pozhalet-cherez-mesyac.html',
 
   '/pages/dictionary/dictionary.html',
   '/pages/styleguide/styleguide.html'

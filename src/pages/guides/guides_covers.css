@@ -1,23 +1,18 @@
 .guide_finance {
   box-shadow: inset 20px 20px 40px 0 var(--base-finance-300), inset -20px -20px 40px 0 var(--base-finance-300);
 }
-
 .guide_life {
   box-shadow: inset 8px 8px 40px 0 var(--base-life-300), inset -8px -8px 40px 0 var(--base-life-300);
 }
-
 .guide_career {
   box-shadow: inset 8px 8px 40px 0 var(--base-career-300), inset -8px -8px 40px 0 var(--base-career-300);
 }
-
 .guide_health {
   box-shadow: inset 8px 8px 40px 0 var(--base-health-300), inset -8px -8px 40px 0 var(--base-health-300);
 }
-
 .guide_home {
   box-shadow: inset 8px 8px 40px 0 var(--base-home-300), inset -8px -8px 40px 0 var(--base-home-300);
 }
-
 .guide_docs {
   box-shadow: inset 8px 8px 40px 0 var(--base-docs-300), inset -8px -8px 40px 0 var(--base-docs-300);
 }
@@ -25,19 +20,169 @@
 .batteries {
   background-image: url(../../images/guides/batteries.png);
 }
-
 .driver-license {
   background-image: url(../../images/guides/driver-license.png);
 }
-
 .kak-projti-dispanserizaciyu-ot-zapisi-do-rezultatov {
   background-image: url(../../images/guides/kak-projti-dispanserizaciyu-ot-zapisi-do-rezultatov.png);
 }
-
 .chto-sprosit-na-sobesedovanii {
   background-image: url(../../images/guides/chto-sprosit-na-sobesedovanii.png);
 }
-
 .tajm-menedzhment-dlya-tekh-kto-nenavidit-planirovat {
   background-image: url(../../images/guides/tajm-menedzhment-dlya-tekh-kto-nenavidit-planirovat.png);
+}
+.poluchenie-zagranpasporta {
+  background-image: url(../../images/guides/poluchenie-zagranpasporta.png);
+}
+.zamena-pasporta {
+  background-image: url(../../images/guides/zamena-pasporta.png);
+}
+.kak-najti-hobbi {
+  background-image: url(../../images/guides/kak-najti-hobbi.png);
+}
+.oformlenie-inn {
+  background-image: url(../../images/guides/oformlenie-inn.png);
+}
+.rezhim-kogda-rabotaesh-iz-doma {
+  background-image: url(../../images/guides/rezhim-kogda-rabotaesh-iz-doma.png);
+}
+.vosstanovlenie-snils {
+  background-image: url(../../images/guides/vosstanovlenie-snils.png);
+}
+.poluchenie-spravki-2-ndfl {
+  background-image: url(../../images/guides/poluchenie-spravki-2-ndfl.png);
+}
+.dokumenty-na-nalogovyj-vychet {
+  background-image: url(../../images/guides/dokumenty-na-nalogovyj-vychet.png);
+}
+.oformlenie-vremennoj-registracii {
+  background-image: url(../../images/guides/oformlenie-vremennoj-registracii.png);
+}
+.proverka-dogovora {
+  background-image: url(../../images/guides/proverka-dogovora.png);
+}
+.chto-sprosit-na-sobesedovanii {
+  background-image: url(../../images/guides/chto-sprosit-na-sobesedovanii.png);
+}
+.uvolnenie-po-sobstvennomu-zhelaniyu {
+  background-image: url(../../images/guides/uvolnenie-po-sobstvennomu-zhelaniyu.png);
+}
+.kak-napisat-rezyume-chtoby-tebya-zametili {
+  background-image: url(../../images/guides/kak-napisat-rezyume-chtoby-tebya-zametili.png);
+}
+.kak-projti-sobesedovanie-esli-tryasutsya-kolenki {
+  background-image: url(../../images/guides/kak-projti-sobesedovanie-esli-tryasutsya-kolenki.png);
+}
+.kak-dogovoritsya-o-zarplate {
+  background-image: url(../../images/guides/kak-dogovoritsya-o-zarplate.png);
+}
+.kak-iskat-rabotu-kogda-u-tebya-net-opyta {
+  background-image: url(../../images/guides/kak-iskat-rabotu-kogda-u-tebya-net-opyta.png);
+}
+.kak-vesti-peregovory-s-klientom-ili-partnerom {
+  background-image: url(../../images/guides/kak-vesti-peregovory-s-klientom-ili-partnerom.png);
+}
+.kak-projti-assessment-i-ne-vyletet-na-pervom-zhe-teste {
+  background-image: url(../../images/guides/kak-projti-assessment-i-ne-vyletet-na-pervom-zhe-teste.png);
+}
+.kak-vesti-sebya-v-pervyj-mesyac-na-novoj-rabote {
+  background-image: url(../../images/guides/kak-vesti-sebya-v-pervyj-mesyac-na-novoj-rabote.png);
+}
+.kak-prosit-obratnuyu-svyaz {
+  background-image: url(../../images/guides/kak-prosit-obratnuyu-svyaz.png);
+}
+.kak-prevratit-frilans-v-postoyannyj-dohod {
+  background-image: url(../../images/guides/kak-prevratit-frilans-v-postoyannyj-dohod.png);
+}
+.kak-probitsya-v-kreativ {
+  background-image: url(../../images/guides/kak-probitsya-v-kreativ.png);
+}
+.kak-projti-stazhirovku-i-poluchit-offer {
+  background-image: url(../../images/guides/kak-projti-stazhirovku-i-poluchit-offer.png);
+}
+.kak-otvechat-na-vopros-rasskazhite-o-sebe {
+  background-image: url(../../images/guides/kak-otvechat-na-vopros-rasskazhite-o-sebe.png);
+}
+/* @######################### */
+.pervaya-pomoshch-pri-rasprostranennyh-situaciyah {
+  background-image: url(../../images/guides/pervaya-pomoshch-pri-rasprostranennyh-situaciyah.png);
+}
+.kak-ponyat-chto-u-tebya-depressiya {
+  background-image: url(../../images/guides/kak-ponyat-chto-u-tebya-depressiya.png);
+}
+.kak-perezhit-bolnichnyj-bez-poteri-deneg-i-nervov {
+  background-image: url(../../images/guides/kak-perezhit-bolnichnyj-bez-poteri-deneg-i-nervov.png);
+}
+.kak-podgotovitsya-k-priemu-vracha-chtoby-ne-zabyt-sprosit-vazhnoe {
+  background-image: url(../../images/guides/kak-podgotovitsya-k-priemu-vracha-chtoby-ne-zabyt-sprosit-vazhnoe.png);
+}
+.kak-vyzhit-v-poliklinike {
+  background-image: url(../../images/guides/kak-vyzhit-v-poliklinike.png);
+}
+.kak-razobratsya-v-receptah-i-ne-kupit-lishnego-v-apteke {
+  background-image: url(../../images/guides/kak-razobratsya-v-receptah-i-ne-kupit-lishnego-v-apteke.png);
+}
+.kak-ne-sdohnut-ot-allergii-v-sezon {
+  background-image: url(../../images/guides/kak-ne-sdohnut-ot-allergii-v-sezon.png);
+}
+.kak-polzovatsya-lyubym-planerom-bez-fanatizma {
+  background-image: url(../../images/guides/kak-polzovatsya-lyubym-planerom-bez-fanatizma.png);
+}
+.kak-perezhit-rasstavanie {
+  background-image: url(../../images/guides/kak-perezhit-rasstavanie.png);
+}
+.perestat-zavisat-v-telefone-pered-snom {
+  background-image: url(../../images/guides/perestat-zavisat-v-telefone-pered-snom.png);
+}
+.recepty-vyzhivaniya {
+  background-image: url(../../images/guides/recepty-vyzhivaniya.png);
+}
+.perestat-stesnyatsya-sebya {
+  background-image: url(../../images/guides/perestat-stesnyatsya-sebya.png);
+}
+.druzya-vo-vzroslom-vozraste {
+  background-image: url(../../images/guides/druzya-vo-vzroslom-vozraste.png);
+}
+.byudzhet-na-pereezd-puteshestvie-ili-krupnuyu-pokupku {
+  background-image: url(../../images/guides/byudzhet-na-pereezd-puteshestvie-ili-krupnuyu-pokupku.png);
+}
+.kak-vesti-byudzhet {
+  background-image: url(../../images/guides/kak-vesti-byudzhet.png);
+}
+.kreditka-bez-procentov {
+  background-image: url(../../images/guides/kreditka-bez-procentov.png);
+}
+.moshenniki-v-internete {
+  background-image: url(../../images/guides/moshenniki-v-internete.png);
+}
+.chitaem-vypisku-po-karte {
+  background-image: url(../../images/guides/chitaem-vypisku-po-karte.png);
+}
+.kak-nachat-otkladyvat {
+  background-image: url(../../images/guides/kak-nachat-otkladyvat.png);
+}
+.pervaya-debetovaya-karta {
+  background-image: url(../../images/guides/pervaya-debetovaya-karta.png);
+}
+.kak-poschitat-svoj-realnyj-dohod-v-chas {
+  background-image: url(../../images/guides/kak-poschitat-svoj-realnyj-dohod-v-chas.png);
+}
+.kak-vybrat-kvartiru-i-ne-pozhalet-cherez-mesyac {
+  background-image: url(../../images/guides/kak-vybrat-kvartiru-i-ne-pozhalet-cherez-mesyac.png);
+}
+.oplachivaem-kommunalku-onlajn {
+  background-image: url(../../images/guides/oplachivaem-kommunalku-onlajn.png);
+}
+.bytovaya-himiya {
+  background-image: url(../../images/guides/bytovaya-himiya.png);
+}
+.zima-v-kvartire {
+  background-image: url(../../images/guides/zima-v-kvartire.png);
+}
+.zavesti-pitomca {
+  background-image: url(../../images/guides/zavesti-pitomca.png);
+}
+.sdacha-kvartiry-v-arendu {
+  background-image: url(../../images/guides/sdacha-kvartiry-v-arendu.png);
 }

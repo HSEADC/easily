@@ -99,12 +99,12 @@
   max-width: 996rem;
 }
 
-.lyfestyle_guide h1,
-.lyfestyle_guide p,
-.lyfestyle_guide h3,
-.lyfestyle_guide li,
-.lyfestyle_guide a {
-  color: var(--base-lyfestyle-500);
+.life_guide h1,
+.life_guide p,
+.life_guide h3,
+.life_guide li,
+.life_guide a {
+  color: var(--base-life-500);
   max-width: 996rem;
 }
 
@@ -133,6 +133,25 @@
 .health_guide a {
   color: var(--base-health-500);
   max-width: 996rem;
+}
+
+.docs .text_m_medium.summary {
+color: var(--base-docs-50);
+}
+.home .text_m_medium.summary {
+color: var(--base-home-50);
+}
+.finance .text_m_medium.summary {
+color: var(--base-finance-50);
+}
+.life .text_m_medium.summary {
+color: var(--base-life-50);
+}
+.career .text_m_medium.summary {
+color: var(--base-career-50);
+}
+.health .text_m_medium.summary {
+color: var(--base-health-50);
 }
 
 .home_guide h5 {

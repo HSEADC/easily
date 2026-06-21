@@ -177,6 +177,7 @@
 .M_guide_summary_container {
   border-radius: 12rem;
   padding: 16rem;
+  width: 996rem;
 }
 
 .M_guide_header {
@@ -286,6 +287,9 @@ ul {
   }
   .M_articles_list {
     gap: 20rem;
+  }
+  .M_guide_summary_container {
+    width: auto;
   }
 }
 

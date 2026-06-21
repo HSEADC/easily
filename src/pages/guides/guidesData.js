@@ -57,9 +57,16 @@ export const guidesData = [
     link: "/pages/guides/guides_pages/kak-polzovatsya-lyubym-planerom-bez-fanatizma.html",
   },
   {
+    id: 46,
+    title: "Как выбрать квартиру и не пожалеть через месяц",
+    category: "home",
+    image: 'kak-vybrat-kvartiru-i-ne-pozhalet-cherez-mesyac',
+    link: "/pages/guides/guides_pages/kak-vybrat-kvartiru-i-ne-pozhalet-cherez-mesyac.html",
+  },
+  {
     id: 9,
     title: "Как пережить больничный без потери денег и нервов",
-    category: "career",
+    category: "health",
     image: 'kak-perezhit-bolnichnyj-bez-poteri-deneg-i-nervov',
     link: "/pages/guides/guides_pages/kak-perezhit-bolnichnyj-bez-poteri-deneg-i-nervov.html",
   },
@@ -199,14 +206,6 @@ export const guidesData = [
     link: "/pages/guides/guides_pages/kak-najti-hobbi.html",
   },
   {
-    id: 29,
-    title: "Как выбрать врача и не ошибиться",
-    category: "health",
-    image: 'kak-vybrat-vracha-i-ne-oshibitsya',
-    link: "/pages/guides/guides_pages/kak-vybrat-vracha-i-ne-oshibitsya.html",
-
-  },
-  {
     id: 30,
     title: "Как искать работу, когда у тебя вообще нет опыта",
     category: "career",
@@ -257,13 +256,6 @@ export const guidesData = [
     link: "/pages/guides/guides_pages/kak-ponyat-chto-u-tebya-depressiya.html",
   },
   {
-    id: 37,
-    title: "Как отвечать на вопрос «расскажите о себе»",
-    category: "career",
-    image: 'kak-ne-sdohnut-ot-allergii-v-sezon',
-    link: "/pages/guides/guides_pages/kak-ne-sdohnut-ot-allergii-v-sezon.html",
-  },
-  {
     id: 38,
     title: "Как пройти стажировку и получить оффер",
     category: "career",
@@ -279,7 +271,7 @@ export const guidesData = [
   },
   {
     id: 40,
-    title: "Как пробиться в креатив, если у тебя нет ни работы, ни портфолио, ни связей",
+    title: "Как пробиться в креатив, если у тебя нет ни портфолио, ни связей",
     category: "career",
     image: 'kak-probitsya-v-kreativ',
     link: "/pages/guides/guides_pages/kak-probitsya-v-kreativ.html",
@@ -318,13 +310,6 @@ export const guidesData = [
     category: "career",
     image: 'chto-sprosit-na-sobesedovanii',
     link: "/pages/guides/guides_pages/chto-sprosit-na-sobesedovanii.html",
-  },
-  {
-    id: 46,
-    title: "Как внедрить полезную привычку и не бросить через неделю",
-    category: "life",
-    image: 'kak-vnedrit-poleznuyu-privychku',
-    link: "/pages/guides/guides_pages/kak-vnedrit-poleznuyu-privychku.html",
   },
   {
     id: 47,
@@ -377,10 +362,31 @@ export const guidesData = [
     link: "/pages/guides/guides_pages/recepty-vyzhivaniya.html",
   },
   {
+    id: 56,
+    title: "Как посчитать свой реальный доход в час",
+    category: "finance",
+    image: 'kak-poschitat-svoj-realnyj-dohod-v-chas',
+    link: "/pages/guides/guides_pages/kak-poschitat-svoj-realnyj-dohod-v-chas.html",
+  },
+  {
     id: 54,
     title: "Как проверить договор на типичные ловушки (без юриста)",
     category: "docs",
     image: 'proverka-dogovora',
     link: "/pages/guides/guides_pages/proverka-dogovora.html",
+  },
+  {
+    id: 37,
+    title: "Как отвечать на вопрос «расскажите о себе»",
+    category: "career",
+    image: 'kak-otvechat-na-vopros-rasskazhite-o-sebe',
+    link: "/pages/guides/guides_pages/kak-otvechat-na-vopros-rasskazhite-o-sebe.html",
+  },
+  {
+    id: 55,
+    title: "Бюджет на переезд, путешествие или крупную покупку",
+    category: "finance",
+    image: 'byudzhet-na-pereezd-puteshestvie-ili-krupnuyu-pokupku',
+    link: "/pages/guides/guides_pages/byudzhet-na-pereezd-puteshestvie-ili-krupnuyu-pokupku.html",
   },
 ];
