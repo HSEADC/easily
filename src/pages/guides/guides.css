@@ -240,6 +240,7 @@ color: var(--base-health-50);
   }
   .guide_cover {
     width: 80vw;
+    height: 85vw;
   }
   .title_h1 {
     text-align: left;
@@ -249,7 +250,7 @@ color: var(--base-health-50);
   }
   .O_main {
     gap: 60rem;
-    margin-top: 60rem;
+    margin-top: 30rem;
   }
   .guide_description {
     margin-top: 0;
