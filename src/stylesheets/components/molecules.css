@@ -398,6 +398,9 @@ ul {
     width: 100%;
   }
   .M_glossary_card {
-  width: 90vw;
-}
+    width: 90vw;
+  }
+  .M_index_card {
+    width: 100%;
+  }
 }

@@ -213,23 +213,18 @@ color: var(--base-health-50);
 .home_cover {
   box-shadow: inset -10rem -10rem 40rem 0 rgba(253, 242, 248, 0.6), inset 10rem 10rem 40rem 0 rgba(253, 242, 248, 0.6);
 }
-
 .docs_cover {
   box-shadow: inset -10rem -10rem 40rem 0 rgba(237, 237, 253, 0.6), inset 10rem 10rem 40rem 0 rgba(237, 237, 253, 0.6);
 }
-
 .life_cover {
   box-shadow: inset -10px -10px 40px 0 rgba(240, 249, 255, 0.6), inset 10px 10px 40px 0 rgba(240, 249, 255, 0.6);
 }
-
 .career_cover {
   box-shadow: inset -10px -10px 40px 0 rgba(254, 244, 242, 0.6), inset 10px 10px 40px 0 rgba(254, 244, 242, 0.6);
 }
-
 .health_cover {
   box-shadow: inset -10px -10px 40px 0 rgba(243, 250, 235, 0.6), inset 10px 10px 40px 0 rgba(243, 250, 235, 0.6);
 }
-
 .finance_cover {
   box-shadow: inset -10px -10px 40px 0  rgba(255, 253, 234, 0.6), inset 10px 10px 40px 0  rgba(255, 253, 234, 0.6);
 }
