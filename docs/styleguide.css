@@ -184,6 +184,9 @@ input {
     font-size: 16rem;
     line-height: 113%;
   }
+  .article_card_title {
+    font-weight: 500;
+  }
 }
 :root {
   /* palette */
@@ -747,6 +750,7 @@ input {
 }
 
 .M_mobile_search .A_close_button {
+  position: absolute;
   top: 50rem;
   left: 84%;
 }
@@ -767,7 +771,13 @@ input {
   }
   .A_input {
     width: 343rem;
-    padding: 20rem 16rem 20rem 20rem;
+  }
+  .A_input_search {
+    padding: 20rem 16rem 20rem 40rem;
+  }
+  .A_flip_icon {
+    top: 62%;
+    left: 87%;
   }
 }
 .O_main {
@@ -957,6 +967,9 @@ input {
   }
   .O_question_block {
     padding: 20rem;
+  }
+  .O_glossary_collection {
+    padding: 0;
   }
 }
 .M_search_result {
@@ -1326,6 +1339,9 @@ ul {
   .M_article_content {
     width: 100%;
   }
+  .M_glossary_card {
+  width: 90vw;
+}
 }
 /* SEARCH */
 
