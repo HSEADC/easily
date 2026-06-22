@@ -44,6 +44,31 @@
   border-top: 1px solid var(--wb-50);
 }
 
+/* INDEX */
+
+.O_index_banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20rem;
+  border-radius: 24rem;
+  padding: 40rem;
+  width: 1296rem;
+  height: 424rem;
+  background-color: var(--base-500);
+  background-repeat: no-repeat;
+  background-size: cover, cover;
+  background-position: center, center;
+}
+
+.O_index_banner.test {
+  background-image: url(../../images/bg_pattern_2.svg), url(../../images/index_graph_1.png);}
+
+.O_index_banner.sub {
+  background-image: url(../../images/bg_pattern_2.svg), url(../../images/index_graph.png);
+}
+
 /* GUIDES */
 
 .O_guide_body {

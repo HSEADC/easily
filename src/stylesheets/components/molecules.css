@@ -1,3 +1,35 @@
+/* INDEX */
+
+.M_index_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 8rem;
+  border-radius: 24rem;
+  padding: 16rem;
+  width: 416rem;
+  height: 324rem;
+  background-position: center;
+  background-image: url(../../images/bg_pattern_2.svg);
+}
+
+.M_index_cards {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20rem;
+}
+
+.M_index_form {
+  display: flex;
+  gap: 8rem;
+}
+
+
+/* SEARCH */
+
 .M_search_result {
   display: flex;
   align-items: flex-start;
@@ -87,7 +119,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 4rem;
-  margin-top: 6rem;
+  margin-top: 11rem;
 }
 
 .M_category_scores {
