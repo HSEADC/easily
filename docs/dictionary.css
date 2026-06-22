@@ -1,0 +1,258 @@
+.O_main {
+  gap: 96rem;
+  margin-top: 96rem;
+}
+
+.dictionary_main.title_h1 {
+  max-width: 911rem;
+  text-align: center;
+  color: var(--base-500);
+}
+
+.glossary_card_img {
+  border-radius: 20rem;
+  width: 100%;
+  height: 351rem;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+a.docs p {
+  color: var(--base-docs-500);
+}
+
+.M_glossary_card {
+  perspective: 1000px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card_front,
+.card_back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_back {
+  transform: rotateY(180deg);
+  justify-content: flex-end;
+  border-radius: 24rem;
+  padding: 16rem;
+}
+
+.card_front.hidden {
+  transform: rotateY(180deg);
+}
+
+.card_back.visible {
+  transform: rotateY(0deg);
+}
+
+
+.M_glossary_card:hover .A_flip_icon {
+  opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+
+  .M_glossary_card {
+    height: 220px;
+  }
+}
+.card_back.docs {
+  background-color: var(--base-docs-100);
+  color: var(--base-docs-500);
+}
+.card_back.career {
+  background-color: var(--base-career-100);
+  color: var(--base-career-500);
+}
+.card_back.finance {
+  background-color: var(--base-finance-100);
+  color: var(--base-finance-500);
+}
+.card_back.health {
+  background-color: var(--base-health-100);
+  color: var(--base-health-500);
+}
+.card_back.life {
+  background-color: var(--base-life-100);
+  color: var(--base-life-500);
+}
+.card_back.home {
+  background-color: var(--base-home-100);
+  color: var(--base-home-500);
+}
+
+.oms {
+  background-image: url(images/02ef054f12e990c49056.png);
+}
+.ndfl {
+  background-image: url(images/4d8ae3cf217cef5a9313.png);
+}
+.ispytatelnyj {
+  background-image: url(images/fea5a20fd3456dfdbb3b.png);
+}
+.mrot {
+  background-image: url(images/1d972f0c652b5b84445b.png);
+}
+.snils {
+  background-image: url(images/cadae744073714c09984.png);
+}
+.resume {
+  background-image: url(images/752881a186305f700c3d.png);
+}
+.budzet {
+  background-image: url(images/a9b1b324e5f4f2a53c49.png);
+}
+.hardskills {
+  background-image: url(images/7dc68eb6f173c18ec395.png);
+}
+.softskills {
+  background-image: url(images/b7c8e34489898a50f603.png);
+}
+.dolzh-instrk {
+  background-image: url(images/4f8ddb9fd4fa1f222690.png);
+}
+.internship {
+  background-image: url(images/758c3308af1fbd9fd1f1.png);
+}
+.sobes {
+  background-image: url(images/a049412bd2609872d98b.png);
+}
+.offer {
+  background-image: url(images/b15f7b3ca8ff269101fa.png);
+}
+.trud-dog {
+  background-image: url(images/7a99e4c896692a5b0bce.png);
+}
+.freelance {
+  background-image: url(images/bb2e32f022bea86fa07b.png);
+}
+.outsource {
+  background-image: url(images/c6db7bac3bb33c8e1fa2.png);
+}
+.kommunalka {
+  background-image: url(images/81228719907a5cb18ade.png);
+}
+.debet-card {
+  background-image: url(images/9ae2b3eed597027e1de5.png);
+}
+.credit-card {
+  background-image: url(images/ea73f1c5a5b1c1742567.png);
+}
+.safety-pillow {
+  background-image: url(images/4c350523706c53cc19a2.png);
+}
+.credit-history {
+  background-image: url(images/76aa856ddacf76172fcb.png);
+}
+.percent {
+  background-image: url(images/588723d2f4d8a2e98a2a.png);
+}
+.cashback {
+  background-image: url(images/180618df567c781e6334.png);
+}
+.ip {
+  background-image: url(images/00bbb2364e8c322f8882.png);
+}
+.gosuslugi {
+  background-image: url(images/ac27a33e10adbcf12ae6.png);
+}
+.doverennost {
+  background-image: url(images/a3a9f0508b600e025a9a.png);
+}
+.inn {
+  background-image: url(images/d3d9ce7715b51a1fdd5b.png);
+}
+.pass {
+  background-image: url(images/a9acbf9bfafdfd35416d.png);
+}
+.rent-dog {
+  background-image: url(images/e9344c5ad12817c8d85a.png);
+}
+.polis {
+  background-image: url(images/4781c996ff548e82f685.png);
+}
+.ecp {
+  background-image: url(images/4e903de7975c44db4e90.png);
+}
+.zagran {
+  background-image: url(images/c771650875adc53101b0.png);
+}
+.registration {
+  background-image: url(images/9c2c7d264bf0e41f723c.png);
+}
+.dms {
+  background-image: url(images/627f741a15aff99747e6.png);
+}
+.emergency {
+  background-image: url(images/b5872a5e6d5521fd02e5.png);
+}
+.zalog {
+  background-image: url(images/fe43085173b11f143d1e.png);
+}
+.tszh {
+  background-image: url(images/cfacf386e9ee3a1dd033.png);
+}
+.zhkh {
+  background-image: url(images/37fed31fe4c4770a62f1.png);
+}
+.techpass {
+  background-image: url(images/6136f147628fb37ac0f8.png);
+}
+.counter {
+  background-image: url(images/33428b51d7821857b68b.png);
+}
+.tarif {
+  background-image: url(images/e0c756677da6011e9385.png);
+}
+.work-life {
+  background-image: url(images/f39319caa714e1851cbe.png);
+}
+.network {
+  background-image: url(images/f5cd36fd1963dd53e484.png);
+}
+.procrast {
+  background-image: url(images/e04990cd77203ec9c307.png);
+}
+.burnout {
+  background-image: url(images/4ac95330c1d8d9e51b60.png);
+}
+.time {
+  background-image: url(images/df9e47bc9008173baa52.png);
+}
+.deadline {
+  background-image: url(images/11261f065c7acfcf1985.png);
+}
+.dophamin {
+  background-image: url(images/73fcb9583e09a9ecc90f.png);
+}
+.reflect {
+  background-image: url(images/3ccb92f269894de691a9.png);
+}
+.osoznannost {
+  background-image: url(images/12578e5b754df1fdc37b.png);
+}
+.subrent {
+  background-image: url(images/46466b47fe7dcf669313.png);
+}
+.portfolio {
+  background-image: url(images/0193409eb9a4330f28b4.png);
+}
+.nalog {
+  background-image: url(images/17878a74e5e76f6753f9.png);
+}
+.mental {
+  background-image: url(images/8f8096d12f26d37fb5a5.png);
+}
