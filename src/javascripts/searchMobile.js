@@ -7,12 +7,14 @@ const input = searchModal.querySelector('.A_input');
 
 searchIcon.addEventListener('click', () => {
   searchModal.classList.toggle('active');
+  document.body.style.overflow = 'hidden';
 });
 
 closeIcon.addEventListener('click', closeSearchModal);
 
 function closeSearchModal() {
   searchModal.classList.remove('active');
+  document.body.style.overflow = '';
 }
 
 initSearch(articles, input);

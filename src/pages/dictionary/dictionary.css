@@ -62,10 +62,15 @@ a.docs p {
   opacity: 1;
 }
 
-
 @media (max-width: 768px) {
-
+  .O_main {
+    gap: 40rem;
+    margin-top: 28rem;
+  }
   .M_glossary_card {
-    height: 220px;
+    height: 350rem;
+  }
+  .M_tab_group {
+    width: 105%;
   }
 }

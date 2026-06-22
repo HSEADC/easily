@@ -104,7 +104,7 @@ export default function DictionaryPage() {
   return (
     <main className="O_main">
       <h1 className="title_h1 dictionary_main">
-        Термины взрослой жизни, которые никто не объяснил
+        Термины взрослой жизни, которые&nbsp;никто не&nbsp;объяснил
       </h1>
 
       <section className="O_glossary_block">
