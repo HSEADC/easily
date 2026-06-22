@@ -322,8 +322,12 @@
   .O_map {
     width: 100%;
   }
-  .A_close_button, .O_test_result .A_close_button {
+  .O_test_result .A_close_button {
     top: 0;
+    left: 87%;
+  }
+  .A_close_button {
+    top: -70rem;
     left: 87%;
   }
   .radar_block {

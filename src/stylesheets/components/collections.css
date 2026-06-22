@@ -42,3 +42,10 @@
 }
 
 /* END OF GUIDES */
+@media (max-width: 768px) {
+  .C_search_results {
+    width: 90vw;
+    margin-top: 10rem;
+    overflow-y: auto
+  }
+}

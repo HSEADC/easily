@@ -260,6 +260,24 @@ ul {
 }
 
 /* END OF THE ARTICLES */
+
+.M_mobile_search {
+  display: none;
+  position: fixed;
+  backdrop-filter: blur(4px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 120rem;
+}
+.M_mobile_search.active {
+  display: flex;
+  flex-direction: column;
+}
 @media (max-width: 1024px) {
   .M_article_content {
     width: 90vw;

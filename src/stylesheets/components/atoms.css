@@ -453,6 +453,11 @@
   background-image: url(../../images/icons/tg_light.svg);
 }
 
+.M_mobile_search .A_close_button {
+  top: 50rem;
+  left: 84%;
+}
+
 @media (max-width: 1024px) {
   .A_input {
     width: 350rem;
