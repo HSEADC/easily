@@ -454,6 +454,7 @@
 }
 
 .M_mobile_search .A_close_button {
+  position: absolute;
   top: 50rem;
   left: 84%;
 }
@@ -474,6 +475,12 @@
   }
   .A_input {
     width: 343rem;
-    padding: 20rem 16rem 20rem 20rem;
+  }
+  .A_input_search {
+    padding: 20rem 16rem 20rem 40rem;
+  }
+  .A_flip_icon {
+    top: 62%;
+    left: 87%;
   }
 }

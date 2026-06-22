@@ -365,4 +365,7 @@ ul {
   .M_article_content {
     width: 100%;
   }
+  .M_glossary_card {
+  width: 90vw;
+}
 }
