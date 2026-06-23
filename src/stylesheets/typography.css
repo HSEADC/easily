@@ -80,6 +80,7 @@
   font-size: 76rem;
   line-height: 100%;
   text-align: center;
+  max-width: 1440rem;
 }
 
 @media (max-width: 1024px) {

@@ -213,25 +213,42 @@ color: var(--base-health-50);
 .home_cover {
   box-shadow: inset -10rem -10rem 40rem 0 rgba(253, 242, 248, 0.6), inset 10rem 10rem 40rem 0 rgba(253, 242, 248, 0.6);
 }
-
 .docs_cover {
   box-shadow: inset -10rem -10rem 40rem 0 rgba(237, 237, 253, 0.6), inset 10rem 10rem 40rem 0 rgba(237, 237, 253, 0.6);
 }
-
 .life_cover {
   box-shadow: inset -10px -10px 40px 0 rgba(240, 249, 255, 0.6), inset 10px 10px 40px 0 rgba(240, 249, 255, 0.6);
 }
-
 .career_cover {
   box-shadow: inset -10px -10px 40px 0 rgba(254, 244, 242, 0.6), inset 10px 10px 40px 0 rgba(254, 244, 242, 0.6);
 }
-
 .health_cover {
   box-shadow: inset -10px -10px 40px 0 rgba(243, 250, 235, 0.6), inset 10px 10px 40px 0 rgba(243, 250, 235, 0.6);
 }
-
 .finance_cover {
   box-shadow: inset -10px -10px 40px 0  rgba(255, 253, 234, 0.6), inset 10px 10px 40px 0  rgba(255, 253, 234, 0.6);
+}
+.W_content_card {
+  border-radius: 24rem;
+  transition: all ease 0.3s;
+}
+.W_content_card.health:hover {
+  box-shadow: 0 0 12rem 0 rgba(100, 176, 50, 0.6);
+}
+.W_content_card.career:hover {
+  box-shadow: 0 0 12rem 0 rgba(244, 88, 63, 0.6);
+}
+.W_content_card.life:hover {
+  box-shadow: 0 0 12rem 0 rgba(9, 160, 238, 0.6);
+}
+.W_content_card.finance:hover {
+  box-shadow: 0 0 12rem 0 rgba(226, 132, 0, 0.6);
+}
+.W_content_card.docs:hover {
+  box-shadow: 0 0 12rem 0 rgba(72, 75, 231, 0.6);
+}
+.W_content_card.home:hover {
+  box-shadow: 0 0 12rem 0 rgba(233, 75, 152, 0.6);
 }
 
 @media (max-width: 768px) {
