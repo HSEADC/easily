@@ -1,0 +1,462 @@
+.W_search_container {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.O_main {
+  gap: 96rem;
+  margin-top: 96rem;
+}
+
+.title_h1 {
+  color: var(--base-500);
+  text-align: left;
+}
+
+.guides_main_page.title_h1 {
+  text-align: center;
+}
+
+.guide_card_img {
+  border-radius: 20rem;
+  width: 378rem;
+  height: 260rem;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.M_guide_summary_container.home {
+  background: var(--base-home-500);
+}
+
+.M_guide_summary_container.docs {
+  background: var(--base-docs-500);
+}
+
+.M_guide_summary_container.life {
+  background: var(--base-life-500);
+}
+
+.M_guide_summary_container.finance {
+  background: var(--base-finance-500);
+}
+
+.M_guide_summary_container.health {
+  background: var(--base-health-500);
+}
+
+.M_guide_summary_container.career {
+  background: var(--base-career-500);
+}
+
+.doc_img {
+  margin-top: -120rem;
+}
+
+.home_guide {
+  background-color: var(--base-home-50);
+}
+
+.docs_guide {
+  background-color: var(--base-docs-50);
+}
+
+.life_guide {
+  background-color: var(--base-life-50);
+}
+
+.finance_guide {
+  background-color: var(--base-finance-50);
+}
+
+.career_guide {
+  background-color: var(--base-career-50);
+}
+
+.health_guide {
+  background-color: var(--base-health-50);
+}
+
+.home_guide h1,
+.home_guide p,
+.home_guide h3,
+.home_guide li,
+.home_guide a {
+  color: var(--base-home-500);
+  max-width: 996rem;
+}
+
+.docs_guide h1,
+.docs_guide p,
+.docs_guide h3,
+.docs_guide li,
+.docs_guide a {
+  color: var(--base-docs-500);
+  max-width: 996rem;
+}
+
+.life_guide h1,
+.life_guide p,
+.life_guide h3,
+.life_guide li,
+.life_guide a {
+  color: var(--base-life-500);
+  max-width: 996rem;
+}
+
+.career_guide h1,
+.career_guide p,
+.career_guide h3,
+.career_guide li,
+.career_guide a {
+  color: var(--base-career-500);
+  max-width: 996rem;
+}
+
+.finance_guide h1,
+.finance_guide p,
+.finance_guide h3,
+.finance_guide li,
+.finance_guide a {
+  color: var(--base-finance-500);
+  max-width: 996rem;
+}
+
+.health_guide h1,
+.health_guide p,
+.health_guide h3,
+.health_guide li,
+.health_guide a {
+  color: var(--base-health-500);
+  max-width: 996rem;
+}
+
+.docs .text_m_medium.summary {
+color: var(--base-docs-50);
+}
+.home .text_m_medium.summary {
+color: var(--base-home-50);
+}
+.finance .text_m_medium.summary {
+color: var(--base-finance-50);
+}
+.life .text_m_medium.summary {
+color: var(--base-life-50);
+}
+.career .text_m_medium.summary {
+color: var(--base-career-50);
+}
+.health .text_m_medium.summary {
+color: var(--base-health-50);
+}
+
+.home_guide h5 {
+  color: var(--base-home-50);
+  max-width: 964rem;
+}
+
+.docs_guide h5 {
+  color: var(--base-docs-50);
+  max-width: 964rem;
+}
+
+.finance_guide h5 {
+  color: var(--base-finance-50);
+  max-width: 964rem;
+}
+
+.career_guide h5 {
+  color: var(--base-career-50);
+  max-width: 964rem;
+}
+
+.health_guide h5 {
+  color: var(--base-health-50);
+  max-width: 964rem;
+}
+
+.life_guide h5 {
+  color: var(--base-life-50);
+  max-width: 964rem;
+}
+
+.O_guide_body a {
+  text-decoration: underline;
+}
+
+.O_guide_body ul {
+  list-style-type: disc;
+  margin-left: 20rem;
+}
+
+.O_guide_body ol {
+  list-style-type: decimal;
+  margin-left: 20rem;
+}
+
+.guide_cover {
+  width: 69.167vw;
+  height: 31.944vw;
+  border-radius: 12rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.guide_description {
+  margin-top: 20rem;
+}
+
+.home_cover {
+  box-shadow: inset -10rem -10rem 40rem 0 rgba(253, 242, 248, 0.6), inset 10rem 10rem 40rem 0 rgba(253, 242, 248, 0.6);
+}
+.docs_cover {
+  box-shadow: inset -10rem -10rem 40rem 0 rgba(237, 237, 253, 0.6), inset 10rem 10rem 40rem 0 rgba(237, 237, 253, 0.6);
+}
+.life_cover {
+  box-shadow: inset -10px -10px 40px 0 rgba(240, 249, 255, 0.6), inset 10px 10px 40px 0 rgba(240, 249, 255, 0.6);
+}
+.career_cover {
+  box-shadow: inset -10px -10px 40px 0 rgba(254, 244, 242, 0.6), inset 10px 10px 40px 0 rgba(254, 244, 242, 0.6);
+}
+.health_cover {
+  box-shadow: inset -10px -10px 40px 0 rgba(243, 250, 235, 0.6), inset 10px 10px 40px 0 rgba(243, 250, 235, 0.6);
+}
+.finance_cover {
+  box-shadow: inset -10px -10px 40px 0  rgba(255, 253, 234, 0.6), inset 10px 10px 40px 0  rgba(255, 253, 234, 0.6);
+}
+.W_content_card {
+  border-radius: 24rem;
+  transition: all ease 0.3s;
+}
+.W_content_card.health:hover {
+  box-shadow: 0 0 12rem 0 rgba(100, 176, 50, 0.6);
+}
+.W_content_card.career:hover {
+  box-shadow: 0 0 12rem 0 rgba(244, 88, 63, 0.6);
+}
+.W_content_card.life:hover {
+  box-shadow: 0 0 12rem 0 rgba(9, 160, 238, 0.6);
+}
+.W_content_card.finance:hover {
+  box-shadow: 0 0 12rem 0 rgba(226, 132, 0, 0.6);
+}
+.W_content_card.docs:hover {
+  box-shadow: 0 0 12rem 0 rgba(72, 75, 231, 0.6);
+}
+.W_content_card.home:hover {
+  box-shadow: 0 0 12rem 0 rgba(233, 75, 152, 0.6);
+}
+
+@media (max-width: 768px) {
+  .guide_card_img {
+    width: 311rem;
+  }
+  .guide_cover {
+    width: 80vw;
+    height: 85vw;
+  }
+  .title_h1 {
+    text-align: left;
+  }
+  .title_h5 {
+    font-size: 20rem;
+  }
+  .O_main {
+    gap: 60rem;
+    margin-top: 30rem;
+  }
+  .guide_description {
+    margin-top: 0;
+  }
+}
+.guide_finance {
+  box-shadow: inset 20px 20px 40px 0 var(--base-finance-300), inset -20px -20px 40px 0 var(--base-finance-300);
+}
+.guide_life {
+  box-shadow: inset 8px 8px 40px 0 var(--base-life-300), inset -8px -8px 40px 0 var(--base-life-300);
+}
+.guide_career {
+  box-shadow: inset 8px 8px 40px 0 var(--base-career-300), inset -8px -8px 40px 0 var(--base-career-300);
+}
+.guide_health {
+  box-shadow: inset 8px 8px 40px 0 var(--base-health-300), inset -8px -8px 40px 0 var(--base-health-300);
+}
+.guide_home {
+  box-shadow: inset 8px 8px 40px 0 var(--base-home-300), inset -8px -8px 40px 0 var(--base-home-300);
+}
+.guide_docs {
+  box-shadow: inset 8px 8px 40px 0 var(--base-docs-300), inset -8px -8px 40px 0 var(--base-docs-300);
+}
+
+.batteries {
+  background-image: url(images/143368629959a16b18cf.png);
+}
+.driver-license {
+  background-image: url(images/486f751f3a30a9395785.png);
+}
+.kak-projti-dispanserizaciyu-ot-zapisi-do-rezultatov {
+  background-image: url(images/315c61a1cceda6fb21db.png);
+}
+.chto-sprosit-na-sobesedovanii {
+  background-image: url(images/6a5396c4c9e82643c242.png);
+}
+.tajm-menedzhment-dlya-tekh-kto-nenavidit-planirovat {
+  background-image: url(images/aae652aae7a7d7365cd4.png);
+}
+.poluchenie-zagranpasporta {
+  background-image: url(images/93d56a9b274d216d53a7.png);
+}
+.zamena-pasporta {
+  background-image: url(images/6d243d4b514d7dd17f0e.png);
+}
+.kak-najti-hobbi {
+  background-image: url(images/a3e570516ef9b396bad1.png);
+}
+.oformlenie-inn {
+  background-image: url(images/f5b84638ec150643dcb1.png);
+}
+.rezhim-kogda-rabotaesh-iz-doma {
+  background-image: url(images/856ccd7dc521898e369d.png);
+}
+.vosstanovlenie-snils {
+  background-image: url(images/fc8ac6358df590746ded.png);
+}
+.poluchenie-spravki-2-ndfl {
+  background-image: url(images/f7666ed7f262df1d73d8.png);
+}
+.dokumenty-na-nalogovyj-vychet {
+  background-image: url(images/13531196b120ab884d65.png);
+}
+.oformlenie-vremennoj-registracii {
+  background-image: url(images/2fee48d0d77526c0edda.png);
+}
+.proverka-dogovora {
+  background-image: url(images/c964fcd59d4c7b068805.png);
+}
+.chto-sprosit-na-sobesedovanii {
+  background-image: url(images/6a5396c4c9e82643c242.png);
+}
+.uvolnenie-po-sobstvennomu-zhelaniyu {
+  background-image: url(images/6dc4d79ff5e00695d702.png);
+}
+.kak-napisat-rezyume-chtoby-tebya-zametili {
+  background-image: url(images/98081c1790a4417216d7.png);
+}
+.kak-projti-sobesedovanie-esli-tryasutsya-kolenki {
+  background-image: url(images/83ea705590cd52aebada.png);
+}
+.kak-dogovoritsya-o-zarplate {
+  background-image: url(images/3a99a3aabe0b632d4a2a.png);
+}
+.kak-iskat-rabotu-kogda-u-tebya-net-opyta {
+  background-image: url(images/c8b72b4bfe1b090ba1bd.png);
+}
+.kak-vesti-peregovory-s-klientom-ili-partnerom {
+  background-image: url(images/3618442d27cd288a250e.png);
+}
+.kak-projti-assessment-i-ne-vyletet-na-pervom-zhe-teste {
+  background-image: url(images/9bd72f0ae6c2e5d7c8ee.png);
+}
+.kak-vesti-sebya-v-pervyj-mesyac-na-novoj-rabote {
+  background-image: url(images/5ae642835c7a6760b496.png);
+}
+.kak-prosit-obratnuyu-svyaz {
+  background-image: url(images/341712e47baf59d1fbe7.png);
+}
+.kak-prevratit-frilans-v-postoyannyj-dohod {
+  background-image: url(images/965dc52f5de65166bbce.png);
+}
+.kak-probitsya-v-kreativ {
+  background-image: url(images/146d95c3c531fd49820f.png);
+}
+.kak-projti-stazhirovku-i-poluchit-offer {
+  background-image: url(images/e6fc4e709105a2f033db.png);
+}
+.kak-otvechat-na-vopros-rasskazhite-o-sebe {
+  background-image: url(images/b2bdb3597c93ce96c9d4.png);
+}
+.pervaya-pomoshch-pri-rasprostranennyh-situaciyah {
+  background-image: url(images/6dd5b27e15ad52c510f8.png);
+}
+.kak-ponyat-chto-u-tebya-depressiya {
+  background-image: url(images/7da3189f1be599e32aff.png);
+}
+.kak-perezhit-bolnichnyj-bez-poteri-deneg-i-nervov {
+  background-image: url(images/757e4a47cf5bb0fc340f.png);
+}
+.kak-podgotovitsya-k-priemu-vracha-chtoby-ne-zabyt-sprosit-vazhnoe {
+  background-image: url(images/cb91a61e53087dd58ce3.png);
+}
+.kak-vyzhit-v-poliklinike {
+  background-image: url(images/b4bebe900648d00c5697.png);
+}
+.kak-razobratsya-v-receptah-i-ne-kupit-lishnego-v-apteke {
+  background-image: url(images/e985d63f08cc60bffc0f.png);
+}
+.kak-ne-sdohnut-ot-allergii-v-sezon {
+  background-image: url(images/e5ac77b144e995109e92.png);
+}
+.kak-polzovatsya-lyubym-planerom-bez-fanatizma {
+  background-image: url(images/97e96534c6ec96d566cd.png);
+}
+.kak-perezhit-rasstavanie {
+  background-image: url(images/ff62499cb6a17cf65fb8.png);
+}
+.perestat-zavisat-v-telefone-pered-snom {
+  background-image: url(images/62d181c83e41ab603fad.png);
+}
+.recepty-vyzhivaniya {
+  background-image: url(images/2764b7e145aaaded9eee.png);
+}
+.perestat-stesnyatsya-sebya {
+  background-image: url(images/5c6b425bbc31d41b83b2.png);
+}
+.druzya-vo-vzroslom-vozraste {
+  background-image: url(images/6497dfec25bf45495201.png);
+}
+.byudzhet-na-pereezd-puteshestvie-ili-krupnuyu-pokupku {
+  background-image: url(images/7b930dedfc4b33b92ef8.png);
+}
+.kak-vesti-byudzhet {
+  background-image: url(images/d05d06e8f7491b99ea92.png);
+}
+.kreditka-bez-procentov {
+  background-image: url(images/bed24cc1330b27a39c50.png);
+}
+.moshenniki-v-internete {
+  background-image: url(images/1bffa043f5a08a82bad9.png);
+}
+.chitaem-vypisku-po-karte {
+  background-image: url(images/b061c6de12db0eeab540.png);
+}
+.kak-nachat-otkladyvat {
+  background-image: url(images/be68260bba56351270e2.png);
+}
+.pervaya-debetovaya-karta {
+  background-image: url(images/18a2c339f6d0ab418917.png);
+}
+.kak-poschitat-svoj-realnyj-dohod-v-chas {
+  background-image: url(images/201505762119abc09807.png);
+}
+.kak-vybrat-kvartiru-i-ne-pozhalet-cherez-mesyac {
+  background-image: url(images/86cf0a597e850ec429c0.png);
+}
+.oplachivaem-kommunalku-onlajn {
+  background-image: url(images/60fc04a1ffdfccc7b566.png);
+}
+.bytovaya-himiya {
+  background-image: url(images/f70654a197a158b61e22.png);
+}
+.zima-v-kvartire {
+  background-image: url(images/dc966452be55f3627b32.png);
+}
+.zavesti-pitomca {
+  background-image: url(images/17a26fd370750ab52ac0.png);
+}
+.sdacha-kvartiry-v-arendu {
+  background-image: url(images/69e9748b52ac7d24cd44.png);
+}
