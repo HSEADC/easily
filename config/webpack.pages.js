@@ -334,7 +334,7 @@ createPage('./src/pages/articles/articles_pages/propiska-voenkomat-polis.html',
 
   createPage('./src/pages/styleguide/styleguide.html',
     './pages/styleguide/styleguide.html',
-    ['styleguide', 'searchMobile']),
+    ['styleguide']),
 
   createPage('./src/pages/errors/404.html', './404.html', ['main', 'errors']),
   createPage('./src/pages/errors/500.html', './500.html', ['main', 'errors']),
