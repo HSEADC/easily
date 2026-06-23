@@ -34,7 +34,27 @@ body.life {
 .title_h4 {
   color: var(--base-500);
 }
-
+.W_content_card {
+  transition: all ease 0.3s;
+}
+.W_content_card.career:hover {
+  color: var(--base-career-500);
+}
+.W_content_card.docs:hover {
+  color: var(--base-docs-500);
+}
+.W_content_card.health:hover {
+  color: var(--base-health-500);
+}
+.W_content_card.life:hover {
+  color: var(--base-life-500);
+}
+.W_content_card.finance:hover {
+  color: var(--base-finance-500);
+}
+.W_content_card.home:hover {
+  color: var(--base-home-500);
+}
 .article_card_img {
   border-radius: 20rem;
   width: 100%;

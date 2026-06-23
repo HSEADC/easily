@@ -3,7 +3,7 @@ import './index.css';
 'use strict';
 
 const swiper = new Swiper('.swiper', {
-  loop: false,
+  loop: true,
   centeredSlides: true,
   speed: 1000,
   autoplay: {

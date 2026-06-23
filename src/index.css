@@ -206,7 +206,46 @@
 .kak-podgotovitsya-k-priemu-vracha-chtoby-ne-zabyt-sprosit-vazhnoe {
   background-image: url(./images/guides/kak-podgotovitsya-k-priemu-vracha-chtoby-ne-zabyt-sprosit-vazhnoe.png);
 }
-
+.W_content_card {
+  border-radius: 24rem;
+  transition: all ease 0.3s;
+}
+.W_content_card.guide.health:hover {
+  box-shadow: 0 0 12rem 0 rgba(100, 176, 50, 0.6);
+}
+.W_content_card.guide.career:hover {
+  box-shadow: 0 0 12rem 0 rgba(244, 88, 63, 0.6);
+}
+.W_content_card.guide.life:hover {
+  box-shadow: 0 0 12rem 0 rgba(9, 160, 238, 0.6);
+}
+.W_content_card.guide.finance:hover {
+  box-shadow: 0 0 12rem 0 rgba(226, 132, 0, 0.6);
+}
+.W_content_card.guide.docs:hover {
+  box-shadow: 0 0 12rem 0 rgba(72, 75, 231, 0.6);
+}
+.W_content_card.guide.home:hover {
+  box-shadow: 0 0 12rem 0 rgba(233, 75, 152, 0.6);
+}
+.W_content_card.article.career:hover {
+  color: var(--base-career-500);
+}
+.W_content_card.article.docs:hover {
+  color: var(--base-docs-500);
+}
+.W_content_card.article.health:hover {
+  color: var(--base-health-500);
+}
+.W_content_card.article.life:hover {
+  color: var(--base-life-500);
+}
+.W_content_card.article.finance:hover {
+  color: var(--base-finance-500);
+}
+.W_content_card.article.home:hover {
+  color: var(--base-home-500);
+}
 .O_question_block, .O_test_result {
   align-items: flex-start;
   justify-content: flex-start;
