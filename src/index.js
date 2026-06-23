@@ -3,12 +3,12 @@ import './index.css';
 'use strict';
 
 const swiper = new Swiper('.swiper', {
-  loop: true,
+  loop: false,
   centeredSlides: true,
   speed: 1000,
   autoplay: {
     delay: 3000,
-    disableOnInteraction: false
+    disableOnInteraction: true
   },
 
   pagination: {

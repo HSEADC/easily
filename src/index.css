@@ -39,6 +39,7 @@
   background-size: 100%;
   gap: 20rem;
   padding: 40rem;
+  background-repeat: no-repeat;
 }
 
 .swiper_container_1 .title_h1 {
@@ -449,6 +450,73 @@
 }
 
 @media (max-width: 1024px) {
+  .O_Swiper {
+    width: 100%;
+    height: 366rem;
+  }
+  .O_swiper_container {
+    width: 100%;
+    height: 366rem;
+    padding: 40rem 8rem;
+    background-size: cover;
+  }
+  .M_article_card, .M_guide_card {
+    width: 332rem;
+  }
+  .O_swiper_container {
+    padding: 20rem;
+  }
+  .index_article_card_3{
+    display: none;
+  }
+  .swiper_container_1 .text_l_medium {
+    max-width: 420rem;
+  }
+  .swiper_container_1 {
+    justify-content: center;
+  }
+  .swiper_container_2 {
+    justify-content: center;
+  }
+  .swiper_container_3 {
+    justify-content: center;
+  }
+  .swiper_container_4 {
+    justify-content: center;
+  }
+  .swiper_container_5 {
+    justify-content: center;
+  }
+  .swiper_container_2 .text_l_medium {
+    max-width: 260rem;
+  }
+  .swiper_container_3 .text_l_medium {
+    max-width: 390rem;
+  }
+  .swiper_container_3 .title_h1 {
+    max-width: 500rem;
+  }
+  .swiper_container_4 .text_l_medium {
+    max-width: 530rem;
+  }
+  .swiper_container_5 .title_h2 {
+    max-width: 410rem;
+  }
+  .swiper_container_5 p.text_l_medium {
+    max-width: 300rem;
+  }
+  .O_swiper_container .A_tab_categorie {
+    top: 20rem;
+    left: 20rem;
+  }
+  .guide_card_img {
+    width: 100%;
+  }
+  .O_main {
+    margin: 0 auto;
+    gap: 60rem;
+    padding: 40rem;
+  }
   .O_question_block {
     width: 80vw;
     height: auto;

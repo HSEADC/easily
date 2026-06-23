@@ -314,6 +314,9 @@ ul {
   .M_article_content {
     width: 90vw;
   }
+  .M_index_card {
+    width: 100%;
+  }
   .M_footer_menu {
     flex-direction: row;
     order: 1;
