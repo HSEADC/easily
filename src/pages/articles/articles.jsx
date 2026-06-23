@@ -85,7 +85,7 @@ export default function ArticlesPage() {
 
   return (
     <main className="O_main">
-      <h1 className="title_h1">Полезные статьи о&nbsp;взрослой жизни</h1>
+      <h1 className="title_h1">Разбираем взрослую жизнь по&nbsp;косточкам</h1>
 
       <section className="O_articles_block">
         <div className="M_tab_group">

@@ -5,77 +5,46 @@
   font-size: 20rem;
   transition: all 0.3s ease;
 }
-
 .A_button:hover {
   cursor: pointer;
 }
-/* .A_button_accent {
-  color: var(--wb-0);
-  background-color: var(--base-500);
-}
-.A_button_accent:hover {
-  box-shadow: 0 0 12rem 0 rgba(143, 88, 250, 0.6);
-}
-.A_button_accent:active {
-  background-color: var(--base-600);
-}
-.A_button_dark {
-  background-color: var(--wb-900);
-  color: var(--wb-0);
-}
-.A_button_dark:hover {
-  background-color: var(--wb-950);
-}
-.A_button_dark:active {
-  background-color: var(--wb-1000);
-}
-.A_button_light {
-  background-color: var(--wb-50);
-  color: var(--wb-1000);
-}
-.A_button_light:hover {
-  background-color: var(--wb-100);
-}
-.A_button_light:active {
-  background-color: var(--wb-200);
-} */
 .A_button.accent {
   color: var(--wb-0);
   background-color: var(--base-500);
 }
-
 .A_button.accent:hover {
   box-shadow: 0 0 12rem 0 rgba(143, 88, 250, 0.6);
 }
-
 .A_button.accent:active {
   background-color: var(--base-600);
 }
-
 .A_button.dark {
   background-color: var(--wb-900);
   color: var(--wb-0);
 }
-
 .A_button.dark:hover {
   background-color: var(--wb-950);
 }
-
 .A_button.dark:active {
   background-color: var(--wb-1000);
 }
-
 .A_button.light {
   background-color: var(--wb-50);
-  color: var(--wb-1000);
+  color: var(--base-500);
 }
-
 .A_button.light:hover {
   background-color: var(--wb-100);
+  box-shadow: 0 0 12rem 0 rgba(255, 255, 255, 0.6);
 }
-
 .A_button.light:active {
   background-color: var(--wb-200);
+}
+.A_button.pink {
+  color: var(--wb-0);
+  background-color: var(--base-home-500);
+}
+.A_button.pink:hover {
+  box-shadow: 0 0 12rem 0 rgba(233, 75, 152, 0.6);
 }
 
 .A_close_button {
@@ -90,7 +59,8 @@
   transition: all 0.3s ease;
 }
 
-.A_close_button:hover, .A_close_button:active {
+.A_close_button:hover,
+.A_close_button:active {
   cursor: pointer;
   background-color: var(--wb-900);
   background-image: url(../../images/icons/close_m_white.svg);
@@ -111,25 +81,20 @@
 .A_menu_button:hover {
   cursor: pointer;
 }
-
 .A_menu_item_header {
   color: var(--wb-900);
 }
-
 .A_menu_item_header:hover {
   color: var(--wb-850);
   cursor: pointer;
 }
-
 .A_menu_item_footer {
   color: var(--wb-900);
 }
-
 .A_menu_item_footer:hover {
   color: var(--wb-850);
   cursor: pointer;
 }
-
 .A_question_answer {
   border-radius: 16rem;
   padding: 16rem;
@@ -138,7 +103,6 @@
   background-color: var(--wb-50);
   color: var(--wb-900);
 }
-
 .A_question_answer:hover {
   cursor: pointer;
   box-shadow: 0 0 12px 0 rgba(143, 88, 250, 0.6);
@@ -228,7 +192,7 @@
   background-image: url(../../images/icons/search.svg);
   background-repeat: no-repeat;
   background-position: 16rem center;
-  margin-top: 6rem;
+  margin-top: 11rem;
 }
 
 .A_tab_categorie {
@@ -245,7 +209,8 @@
   color: var(--base-health-500);
 }
 
-.A_tab_health:hover, .A_tab_health.A_tab_active {
+.A_tab_health:hover,
+.A_tab_health.A_tab_active {
   background-color: var(--base-health-200);
 }
 
@@ -254,7 +219,8 @@
   color: var(--base-finance-500);
 }
 
-.A_tab_finance:hover, .A_tab_finance.A_tab_active {
+.A_tab_finance:hover,
+.A_tab_finance.A_tab_active {
   background-color: var(--base-finance-200);
 }
 
@@ -263,7 +229,8 @@
   color: var(--base-home-500);
 }
 
-.A_tab_home:hover, .A_tab_home.A_tab_active {
+.A_tab_home:hover,
+.A_tab_home.A_tab_active {
   background-color: var(--base-home-200);
 }
 
@@ -272,7 +239,8 @@
   color: var(--base-docs-500);
 }
 
-.A_tab_docs:hover, .A_tab_docs.A_tab_active {
+.A_tab_docs:hover,
+.A_tab_docs.A_tab_active {
   background-color: var(--base-docs-200);
 }
 
@@ -281,7 +249,8 @@
   color: var(--base-life-500);
 }
 
-.A_tab_life:hover, .A_tab_life.A_tab_active {
+.A_tab_life:hover,
+.A_tab_life.A_tab_active {
   background-color: var(--base-life-200);
 }
 
@@ -290,7 +259,8 @@
   color: var(--base-career-500);
 }
 
-.A_tab_career:hover, .A_tab_career.A_tab_active {
+.A_tab_career:hover,
+.A_tab_career.A_tab_active {
   background-color: var(--base-career-200);
 }
 
@@ -462,7 +432,7 @@
 @media (max-width: 1024px) {
   .A_input {
     width: 350rem;
-}
+  }
 }
 
 @media (max-width: 768px) {
