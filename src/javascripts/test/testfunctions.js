@@ -65,7 +65,7 @@ function showResult() {
   const docsBadge = document.querySelector('.A_badge_docs');
   const homeBadge = document.querySelector('.A_badge_home');
   const healthBadge = document.querySelector('.A_badge_health');
-  const lifestyleBadge = document.querySelector('.A_badge_lifestyle');
+  const lifestyleBadge = document.querySelector('.A_badge_life');
   const careerBadge = document.querySelector('.A_badge_career');
   const recsParagraph = document.querySelector('.recomendations');
 
